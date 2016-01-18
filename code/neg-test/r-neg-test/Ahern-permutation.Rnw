@@ -1,0 +1,77 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+%\SweaveOpts{concordance=TRUE}
+
+\author{Christopher Ahern}
+\title{Priming and permutation tests}
+
+\maketitle
+
+\section{}
+
+<<echo=FALSE>>=
+# Load libraries and scripts
+library(ggplot2)
+library(plyr)
+library(dplyr)
+library(reshape2)
+library(xtable)
+source("neg-data.R")
+source("binning.R")
+@
+
+<<>>=
+neg.data.full = cleanNegData("coding.cod.ooo")
+neg.data.full = tbl_df(neg.data.full)
+# Filter out tokens without do-support label, year, or type
+excluded.texts = c("CMBOETH", "CMORM", "CMNTEST","CMOTEST")
+# CMBOETH : translation of Boethius' "Consolation of Philosophy", which is notably stilted
+# CMORM   : Ormulum is very specific poetic format
+# CMOTEST, CMNTEST : Old and new testaments
+# Exclude tokens where 'ne' is contracted, appears in negative concord, or looks like predicate negation
+neg.data.full = 
+  neg.data.full %>% 
+  filter(! author %in% excluded.texts & exclude != "X")  %>%
+  filter(! exclude)
+@
+
+<<>>=
+# Plot individual documents
+neg.plot.auth = neg.data.full %>% group_by(year) %>% summarize(total=n(), ne=sum(neg.type=="ne", na.rm=TRUE)/total,not=sum(neg.type=="not", na.rm=TRUE)/total,ne.not=sum(neg.type=="both", na.rm=TRUE)/total)
+neg.plot.auth = melt(neg.plot.auth, id=c("year", "total"))
+@
+
+<<>>=
+# Plot points and smooth fits
+ggplot(aes(x = year, y = value, color = variable), data = neg.plot.auth) +
+  geom_point(aes(size = total), alpha = 0.5, position = position_jitter()) +
+  geom_smooth(aes(weight = total),method="loess", span=.5, se = FALSE, size=4) + # span=.5,
+  xlab("Year") +   ylab("Proportion forms") +   scale_size_area("N", max_size = 20) +
+  theme(text = element_text(size=30)) +   theme(legend.position="none") +
+  coord_cartesian(xlim = c(1090,1540)) +  coord_cartesian(ylim = c(-.1,1.1))
+ggsave('neg-plot-auth.pdf', width=8, height=4)
+@
+
+\begin{figure}
+  \includegraphics{neg-plot-auth}
+\end{figure}
+
+
+neg.data.full %>%
+  group_by(speaker) %>%
+  mutate(obs = as.numeric(word == "UM" | word == "AND_UM"), prev = lag(obs)) %>%
+  filter(prev != "NA")
+  
+
+fp.data =  fp.PNC %>% 
+  filter(word != "UM_UH") %>%
+  group_by(speaker) %>%
+  mutate(obs = as.numeric(word == "UM" | word == "AND_UM"), prev = lag(obs)) %>%
+  filter(prev != "NA")
+  
+  
+\section{}
+
+\end{document}

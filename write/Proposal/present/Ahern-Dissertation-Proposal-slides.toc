@@ -1,0 +1,17 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {english}
+\setcounter {tocdepth}{1}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Background}{16}{0}{2}
+\beamer@subsectionintoc {2}{1}{Jespersen's Cycle}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{Emphasis}{25}{0}{2}
+\beamer@sectionintoc {3}{Signaling}{33}{0}{3}
+\beamer@subsectionintoc {3}{1}{Signaling Games}{34}{0}{3}
+\beamer@subsectionintoc {3}{2}{Equilibria}{38}{0}{3}
+\beamer@sectionintoc {4}{Cycles}{44}{0}{4}
+\beamer@subsectionintoc {4}{1}{Game}{45}{0}{4}
+\beamer@subsectionintoc {4}{2}{Equilibria}{51}{0}{4}
+\beamer@sectionintoc {5}{Stability}{58}{0}{5}
+\beamer@subsectionintoc {5}{1}{Learning}{59}{0}{5}
+\beamer@subsectionintoc {5}{2}{Mechanisms}{62}{0}{5}
+\beamer@subsectionintoc {5}{3}{Data}{66}{0}{5}

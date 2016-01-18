@@ -1,0 +1,373 @@
+\begin{thebibliography}{46}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Aumann}(1985)}]{aumann1985}
+\bibinfo{author}{\bibnamefont{Aumann}, \bibfnamefont{Robert~J}}.
+  \bibinfo{year}{1985}.
+\newblock \bibinfo{title}{What is game theory trying to accomplish}.
+\newblock \emph{\bibinfo{journal}{Frontiers of economics}}
+  \bibinfo{volume}{35}.
+
+\bibitem[{\citenamefont{Bardsley et~al.}(2010)\citenamefont{Bardsley, Mehta,
+  Starmer, and Sugden}}]{bardsley-etal2010}
+\bibinfo{author}{\bibnamefont{Bardsley}, \bibfnamefont{Nicholas}},
+  \bibinfo{author}{\bibfnamefont{Judith} \bibnamefont{Mehta}},
+  \bibinfo{author}{\bibfnamefont{Chris} \bibnamefont{Starmer}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Robert}
+  \bibnamefont{Sugden}}. \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Explaining focal points: Cognitive hierarchy theory
+  versus team reasoning*}.
+\newblock \emph{\bibinfo{journal}{The Economic Journal}}
+  \bibinfo{volume}{120}(\bibinfo{number}{543}):\penalty0
+  \bibinfo{pages}{40--79}.
+
+\bibitem[{\citenamefont{Bj{\"o}rnerstedt and
+  Weibull}(1996)}]{bjornerstedt-weibull1996}
+\bibinfo{author}{\bibnamefont{Bj{\"o}rnerstedt}, \bibfnamefont{Jonas}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J{\"o}rgen~W}
+  \bibnamefont{Weibull}}. \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{{Nash equilibrium and evolution by imitation}}.
+\newblock In \emph{\bibinfo{booktitle}{{The Rational Foundations of Economic
+  Behaviour}}}, ed. \bibinfo{editor}{K.~J. Arrow},
+  \bibinfo{editor}{E.~Colombatto}, \bibinfo{editor}{M.~Perelman}, and
+  \bibinfo{editor}{C.~Schmidt}, \bibinfo{pages}{155--181}.
+  \bibinfo{publisher}{St. Martin's Press}.
+
+\bibitem[{\citenamefont{Blume et~al.}(2001)\citenamefont{Blume, DeJong, Kim,
+  and Sprinkle}}]{blume-etal:2001}
+\bibinfo{author}{\bibnamefont{Blume}, \bibfnamefont{Andreas}},
+  \bibinfo{author}{\bibfnamefont{Douglas~V} \bibnamefont{DeJong}},
+  \bibinfo{author}{\bibfnamefont{Yong-Gwan} \bibnamefont{Kim}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Geoffrey~B}
+  \bibnamefont{Sprinkle}}. \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{{Evolution of communication with partial common
+  interest}}.
+\newblock \emph{\bibinfo{journal}{Games and Economic Behavior}}
+  \bibinfo{volume}{37}(\bibinfo{number}{1}):\penalty0 \bibinfo{pages}{79--120}.
+
+\bibitem[{\citenamefont{B{\"o}rgers and Sarin}(1997)}]{borgers-sarin1997}
+\bibinfo{author}{\bibnamefont{B{\"o}rgers}, \bibfnamefont{Tilman}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Rajiv} \bibnamefont{Sarin}}.
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{Learning through reinforcement and replicator
+  dynamics}}.
+\newblock \emph{\bibinfo{journal}{Journal of Economic Theory}}
+  \bibinfo{volume}{77}(\bibinfo{number}{1}):\penalty0 \bibinfo{pages}{1--14}.
+
+\bibitem[{\citenamefont{Cressman}(2003)}]{cressman:2003}
+\bibinfo{author}{\bibnamefont{Cressman}, \bibfnamefont{Ross}}.
+  \bibinfo{year}{2003}.
+\newblock \emph{\bibinfo{title}{{Evolutionary dynamics and extensive form
+  games}}}, vol.~\bibinfo{volume}{5}.
+\newblock \bibinfo{publisher}{the MIT Press}.
+
+\bibitem[{\citenamefont{Dixit et~al.}(2004)\citenamefont{Dixit, Skeath, and
+  Reiley}}]{dixit-skeath2004}
+\bibinfo{author}{\bibnamefont{Dixit}, \bibfnamefont{Avinash}},
+  \bibinfo{author}{\bibfnamefont{Susan} \bibnamefont{Skeath}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{David~H}
+  \bibnamefont{Reiley}}. \bibinfo{year}{2004}.
+\newblock \emph{\bibinfo{title}{Games of strategy}}.
+\newblock \bibinfo{publisher}{WW Norton \& Company Inc., New York}.
+
+\bibitem[{\citenamefont{Eigen and Schuster}(1979)}]{eigen-schuster1979}
+\bibinfo{author}{\bibnamefont{Eigen}, \bibfnamefont{Manfred}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Peter}
+  \bibnamefont{Schuster}}. \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{The hypercycle}.
+\newblock \emph{\bibinfo{journal}{New York}}.
+
+\bibitem[{\citenamefont{Fudenberg and Levine}(1998)}]{fudenberg-levine:1998}
+\bibinfo{author}{\bibnamefont{Fudenberg}, \bibfnamefont{Drew}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{David~K.}
+  \bibnamefont{Levine}}. \bibinfo{year}{1998}.
+\newblock \emph{\bibinfo{title}{{The theory of learning in games}}}.
+\newblock \bibinfo{publisher}{MIT press}.
+
+\bibitem[{\citenamefont{Fudenberg and Tirole}(1991)}]{fudenberg-tirole1991}
+\bibinfo{author}{\bibnamefont{Fudenberg}, \bibfnamefont{Drew}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Jean} \bibnamefont{Tirole}}.
+  \bibinfo{year}{1991}.
+\newblock \emph{\bibinfo{title}{Game theory}}.
+\newblock \bibinfo{publisher}{MIT press}.
+
+\bibitem[{\citenamefont{Gintis}(2000)}]{gintis2000}
+\bibinfo{author}{\bibnamefont{Gintis}, \bibfnamefont{Herbert}}.
+  \bibinfo{year}{2000}.
+\newblock \emph{\bibinfo{title}{Game theory evolving}}.
+\newblock \bibinfo{publisher}{Princeton University Press}.
+
+\bibitem[{\citenamefont{Harsanyi}(1967)}]{harsanyi:1967}
+\bibinfo{author}{\bibnamefont{Harsanyi}, \bibfnamefont{John~C}}.
+  \bibinfo{year}{1967}.
+\newblock \bibinfo{title}{{Games with Incomplete Information Played by
+  ``Bayesian'' Players, I--III: Part I. The Basic Model}}.
+\newblock \emph{\bibinfo{journal}{Management Science}}
+  \bibinfo{volume}{14}(\bibinfo{number}{3}):\penalty0
+  \bibinfo{pages}{159--182}.
+
+\bibitem[{\citenamefont{Harsanyi}(1968{\natexlab{a}})}]{harsanyi:1968a}
+---------. \bibinfo{year}{1968}{\natexlab{a}}.
+\newblock \bibinfo{title}{{Games with Incomplete Information Played by
+  ``Bayesian'' Players Part II. Bayesian Equilibrium Points}}.
+\newblock \emph{\bibinfo{journal}{Management Science}}
+  \bibinfo{volume}{14}(\bibinfo{number}{5}):\penalty0
+  \bibinfo{pages}{320--334}.
+
+\bibitem[{\citenamefont{Harsanyi}(1968{\natexlab{b}})}]{harsanyi:1968b}
+---------. \bibinfo{year}{1968}{\natexlab{b}}.
+\newblock \bibinfo{title}{{Games with incomplete information played by
+  {lq}Bayesian{rq}players, part III. The basic probability distribution of the
+  game}}.
+\newblock \emph{\bibinfo{journal}{Management Science}}
+  \bibinfo{volume}{14}(\bibinfo{number}{7}):\penalty0
+  \bibinfo{pages}{486--502}.
+
+\bibitem[{\citenamefont{Hirsch and Smale}(1974)}]{hirsch-smale1974}
+\bibinfo{author}{\bibnamefont{Hirsch}, \bibfnamefont{Morris~W.}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Stephen}
+  \bibnamefont{Smale}}. \bibinfo{year}{1974}.
+\newblock \emph{\bibinfo{title}{{Difierential Equations, Dynamical Systems, and
+  Linear Algebra.}}}
+\newblock \bibinfo{publisher}{Academic Press}.
+
+\bibitem[{\citenamefont{Hofbauer and Huttegger}(2015)}]{hofbauer-huttegger2015}
+\bibinfo{author}{\bibnamefont{Hofbauer}, \bibfnamefont{Josef}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Simon~M}
+  \bibnamefont{Huttegger}}. \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Selection-mutation dynamics of signaling games}.
+\newblock \emph{\bibinfo{journal}{Games}}
+  \bibinfo{volume}{6}(\bibinfo{number}{1}):\penalty0 \bibinfo{pages}{2--31}.
+
+\bibitem[{\citenamefont{Hofbauer and Sigmund}(1998)}]{hofbauer-sigmund:1998}
+\bibinfo{author}{\bibnamefont{Hofbauer}, \bibfnamefont{Josef}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Karl}
+  \bibnamefont{Sigmund}}. \bibinfo{year}{1998}.
+\newblock \emph{\bibinfo{title}{{Evolutionary Games and Population Dynamics}}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Huttegger and Zollman}(2013)}]{huttegger-zollman2013}
+\bibinfo{author}{\bibnamefont{Huttegger}, \bibfnamefont{Simon~M.}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Kevin~J.S.}
+  \bibnamefont{Zollman}}. \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Methodology in biological game theory}}.
+\newblock \emph{\bibinfo{journal}{The British Journal for the Philosophy of
+  Science}}.
+
+\bibitem[{\citenamefont{Kuhn}(1953)}]{kuhn1953}
+\bibinfo{author}{\bibnamefont{Kuhn}, \bibfnamefont{Harry~Waldo}}.
+  \bibinfo{year}{1953}.
+\newblock \emph{\bibinfo{title}{Lectures on the theory of games}}.
+\newblock \bibinfo{publisher}{Princeton University Press}.
+
+\bibitem[{\citenamefont{Lewis}(1969)}]{lewis:1969}
+\bibinfo{author}{\bibnamefont{Lewis}, \bibfnamefont{David}}.
+  \bibinfo{year}{1969}.
+\newblock \emph{\bibinfo{title}{{Convention}}}.
+\newblock \bibinfo{address}{Cambridge}:\@ \bibinfo{publisher}{Harvard
+  University Press}.
+
+\bibitem[{\citenamefont{{{Maynard Smith}}}(1982)}]{maynard-smith1982}
+\bibinfo{author}{\bibnamefont{{{Maynard Smith}}}, \bibfnamefont{John}}.
+  \bibinfo{year}{1982}.
+\newblock \emph{\bibinfo{title}{{Evolution and the Theory of Games}}}.
+\newblock \bibinfo{publisher}{Cambridge university press}.
+
+\bibitem[{\citenamefont{{Maynard Smith} and
+  Price}(1973)}]{maynard-smith-price:1973}
+\bibinfo{author}{\bibnamefont{{Maynard Smith}}, \bibfnamefont{John}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{George}
+  \bibnamefont{Price}}. \bibinfo{year}{1973}.
+\newblock \bibinfo{title}{{The Logic of Animal Conflict}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \bibinfo{volume}{246}:\penalty0
+  \bibinfo{pages}{15}.
+
+\bibitem[{\citenamefont{McElreath and Boyd}(2008)}]{mcelreath-boyd2008}
+\bibinfo{author}{\bibnamefont{McElreath}, \bibfnamefont{Richard}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Robert} \bibnamefont{Boyd}}.
+  \bibinfo{year}{2008}.
+\newblock \emph{\bibinfo{title}{Mathematical models of social evolution}}.
+\newblock \bibinfo{publisher}{University of Chicago Press}.
+
+\bibitem[{\citenamefont{Mehta et~al.}(1994{\natexlab{a}})\citenamefont{Mehta,
+  Starmer, and Sugden}}]{mehta-etal1994}
+\bibinfo{author}{\bibnamefont{Mehta}, \bibfnamefont{Judith}},
+  \bibinfo{author}{\bibfnamefont{Chris} \bibnamefont{Starmer}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Robert}
+  \bibnamefont{Sugden}}. \bibinfo{year}{1994}{\natexlab{a}}.
+\newblock \bibinfo{title}{Focal points in pure coordination games: An
+  experimental investigation}.
+\newblock \emph{\bibinfo{journal}{Theory and Decision}}
+  \bibinfo{volume}{36}(\bibinfo{number}{2}):\penalty0
+  \bibinfo{pages}{163--185}.
+
+\bibitem[{\citenamefont{Mehta et~al.}(1994{\natexlab{b}})\citenamefont{Mehta,
+  Starmer, and Sugden}}]{mehta-etal1994b}
+---------. \bibinfo{year}{1994}{\natexlab{b}}.
+\newblock \bibinfo{title}{The nature of salience: An experimental investigation
+  of pure coordination games}.
+\newblock \emph{\bibinfo{journal}{The American Economic Review}}
+  \bibinfo{pages}{658--673}.
+
+\bibitem[{\citenamefont{Nash}(1950{\natexlab{a}})}]{nash:1950}
+\bibinfo{author}{\bibnamefont{Nash}, \bibfnamefont{John~F}}.
+  \bibinfo{year}{1950}{\natexlab{a}}.
+\newblock \bibinfo{title}{{Equilibrium points in n-person games}}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{36}(\bibinfo{number}{1}):\penalty0
+  \bibinfo{pages}{48--49}.
+
+\bibitem[{\citenamefont{Nash}(1950{\natexlab{b}})}]{nash1950}
+---------. \bibinfo{year}{1950}{\natexlab{b}}.
+\newblock \bibinfo{title}{Non-cooperative games}.
+\newblock Ph.D. thesis, \bibinfo{school}{Princeton University}.
+
+\bibitem[{\citenamefont{Nash}(1951)}]{nash:1951}
+---------. \bibinfo{year}{1951}.
+\newblock \bibinfo{title}{{Non-cooperative games}}.
+\newblock \emph{\bibinfo{journal}{The Annals of Mathematics}}
+  \bibinfo{volume}{54}(\bibinfo{number}{2}):\penalty0
+  \bibinfo{pages}{286--295}.
+
+\bibitem[{\citenamefont{Osborne and Rubinstein}(1994)}]{osborne-rubinstein1994}
+\bibinfo{author}{\bibnamefont{Osborne}, \bibfnamefont{Martin~J}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Ariel}
+  \bibnamefont{Rubinstein}}. \bibinfo{year}{1994}.
+\newblock \emph{\bibinfo{title}{A course in game theory}}.
+\newblock \bibinfo{publisher}{MIT press}.
+
+\bibitem[{\citenamefont{Rosenthal}(1979)}]{rosenthal1979}
+\bibinfo{author}{\bibnamefont{Rosenthal}, \bibfnamefont{Robert~W}}.
+  \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{Sequences of games with varying opponents}.
+\newblock \emph{\bibinfo{journal}{Econometrica: Journal of the Econometric
+  Society}} \bibinfo{pages}{1353--1366}.
+
+\bibitem[{\citenamefont{Samuelson}(1997)}]{samuelson:1997}
+\bibinfo{author}{\bibnamefont{Samuelson}, \bibfnamefont{Larry}}.
+  \bibinfo{year}{1997}.
+\newblock \emph{\bibinfo{title}{{Evolutionary games and equilibrium
+  selection}}}.
+\newblock \bibinfo{publisher}{The MIT Press}.
+
+\bibitem[{\citenamefont{Sandholm}(2010)}]{sandholm2010}
+\bibinfo{author}{\bibnamefont{Sandholm}, \bibfnamefont{William~H}}.
+  \bibinfo{year}{2010}.
+\newblock \emph{\bibinfo{title}{{Population games and evolutionary dynamics}}}.
+\newblock \bibinfo{publisher}{MIT press}.
+
+\bibitem[{\citenamefont{Sato et~al.}(2002)\citenamefont{Sato, Akiyama, and
+  Farmer}}]{sato-etal2002}
+\bibinfo{author}{\bibnamefont{Sato}, \bibfnamefont{Yuzuru}},
+  \bibinfo{author}{\bibfnamefont{Eizo} \bibnamefont{Akiyama}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J~Doyne}
+  \bibnamefont{Farmer}}. \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Chaos in learning a simple two-person game}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{99}(\bibinfo{number}{7}):\penalty0
+  \bibinfo{pages}{4748--4751}.
+
+\bibitem[{\citenamefont{Schelling}(1960)}]{schelling:1960}
+\bibinfo{author}{\bibnamefont{Schelling}, \bibfnamefont{Thomas~C}}.
+  \bibinfo{year}{1960}.
+\newblock \emph{\bibinfo{title}{{The Strategy of Conflict}}}.
+\newblock \bibinfo{publisher}{Harvard university press}.
+
+\bibitem[{\citenamefont{Schlag}(1998)}]{schlag1998}
+\bibinfo{author}{\bibnamefont{Schlag}, \bibfnamefont{Karl~H}}.
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{{Why imitate, and if so, how?: A boundedly rational
+  approach to multi-armed bandits}}.
+\newblock \emph{\bibinfo{journal}{Journal of Economic Theory}}
+  \bibinfo{volume}{78}(\bibinfo{number}{1}):\penalty0
+  \bibinfo{pages}{130--156}.
+
+\bibitem[{\citenamefont{Selten}(1980)}]{selten:1980}
+\bibinfo{author}{\bibnamefont{Selten}, \bibfnamefont{Reinhard}}.
+  \bibinfo{year}{1980}.
+\newblock \bibinfo{title}{{A note on evolutionarily stable strategies in
+  asymmetric animal conflicts}}.
+\newblock \emph{\bibinfo{journal}{Journal of Theoretical Biology}}
+  \bibinfo{volume}{84}(\bibinfo{number}{1}):\penalty0 \bibinfo{pages}{93--101}.
+
+\bibitem[{\citenamefont{Skyrms}(1996)}]{skyrms:1996}
+\bibinfo{author}{\bibnamefont{Skyrms}, \bibfnamefont{Brian}}.
+  \bibinfo{year}{1996}.
+\newblock \emph{\bibinfo{title}{{Evolution of the social contract}}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Skyrms}(2004)}]{skyrms:2004}
+---------. \bibinfo{year}{2004}.
+\newblock \emph{\bibinfo{title}{{The Stag Hunt and the Evolution of Social
+  Structure}}}.
+\newblock \bibinfo{address}{Cambridge}:\@ \bibinfo{publisher}{Cambridge
+  University Press}.
+
+\bibitem[{\citenamefont{Skyrms}(2010)}]{skyrms:2010}
+---------. \bibinfo{year}{2010}.
+\newblock \emph{\bibinfo{title}{{Signals: Evolution, learning, and
+  information}}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+
+\bibitem[{\citenamefont{Spence}(1973)}]{spence:1973}
+\bibinfo{author}{\bibnamefont{Spence}, \bibfnamefont{M.}} \bibinfo{year}{1973}.
+\newblock \bibinfo{title}{{Job market signaling}}.
+\newblock \emph{\bibinfo{journal}{The quarterly journal of Economics}}
+  \bibinfo{volume}{87}(\bibinfo{number}{3}):\penalty0
+  \bibinfo{pages}{355--374}.
+
+\bibitem[{\citenamefont{Strogatz}(2014)}]{strogatz2014}
+\bibinfo{author}{\bibnamefont{Strogatz}, \bibfnamefont{Steven~H}}.
+  \bibinfo{year}{2014}.
+\newblock \emph{\bibinfo{title}{Nonlinear dynamics and chaos: with applications
+  to physics, biology, chemistry, and engineering}}.
+\newblock \bibinfo{publisher}{Westview press}.
+
+\bibitem[{\citenamefont{Tadelis}(2013)}]{tadelis2013}
+\bibinfo{author}{\bibnamefont{Tadelis}, \bibfnamefont{Steven}}.
+  \bibinfo{year}{2013}.
+\newblock \emph{\bibinfo{title}{Game theory: an introduction}}.
+\newblock \bibinfo{publisher}{Princeton University Press}.
+
+\bibitem[{\citenamefont{Taylor and Jonker}(1978)}]{taylor-jonker:1978}
+\bibinfo{author}{\bibnamefont{Taylor}, \bibfnamefont{Peter~D.}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Leo~B.}
+  \bibnamefont{Jonker}}. \bibinfo{year}{1978}.
+\newblock \bibinfo{title}{{Evolutionary stable strategies and game dynamics}}.
+\newblock \emph{\bibinfo{journal}{Mathematical biosciences}}
+  \bibinfo{volume}{40}(\bibinfo{number}{1}):\penalty0
+  \bibinfo{pages}{145--156}.
+
+\bibitem[{\citenamefont{Von~Neumann and
+  Morgenstern}(1944)}]{von-neumann-morgenstern1944}
+\bibinfo{author}{\bibnamefont{Von~Neumann}, \bibfnamefont{John}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Oskar}
+  \bibnamefont{Morgenstern}}. \bibinfo{year}{1944}.
+\newblock \emph{\bibinfo{title}{Theory of games and economic behavior}}.
+\newblock \bibinfo{publisher}{Princeton university press}.
+
+\bibitem[{\citenamefont{Wagner}(2012)}]{wagner2012}
+\bibinfo{author}{\bibnamefont{Wagner}, \bibfnamefont{Elliott~O}}.
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Deterministic chaos and the evolution of meaning}.
+\newblock \emph{\bibinfo{journal}{The British Journal for the Philosophy of
+  Science}} \bibinfo{pages}{547--575}.
+
+\bibitem[{\citenamefont{Weibull}(1997)}]{weibull1997}
+\bibinfo{author}{\bibnamefont{Weibull}, \bibfnamefont{J{\"o}rgen~W}}.
+  \bibinfo{year}{1997}.
+\newblock \emph{\bibinfo{title}{Evolutionary game theory}}.
+\newblock \bibinfo{publisher}{MIT press}.
+
+\end{thebibliography}

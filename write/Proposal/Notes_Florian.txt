@@ -1,0 +1,21 @@
+Notes from meeting with Florian
+
+-Read Catherine Lai's dissertation, especially with regards to the formal semantic approaches (Davis, Potts Speas, Evidentials; von Fintel, Gillies, Must stay strong.)
+
+-On bullshit, Harry Frankfort
+
+
+-How do we map the emphatic negation approach to Jespersen's Cycle on to the game-theoretic model?
+	-Assume that by speaking, speakers want to add some proposition to the common ground
+	-The type of the speaker is the evidence they have for asserting the proposition
+	-The message is the choice between plain and emphatic negation (a la Eckardt, Krifka)
+	-The actions are inferring the degree of evidence that the speaker has to support the assertion
+
+-Why should speakers want to have hearers infer a higher degree of evidence than they actually have?
+	-Again, the assumption is that speakers are making an assertion for a reason
+	-How closely the proposition is incorporated into the common ground/the degree of inferred evidence
+		determines whether a proposition stays in the common ground or is kicked out (Kernel of vF+G)
+	-Speakers want the propositions they assert to be firmly wedged into the common ground so that any
+		change in the standard of evaluation does not dislodge them
+		
+

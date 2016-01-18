@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Ahern-Dissertation.aux
+A level-1 auxiliary file: Acknow.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
+A level-1 auxiliary file: chapter7.aux
+The style file: mcbride.bst
+Database file #1: diss.bib
+Repeated entry---line 1145 of file diss.bib
+ : @book{jager2008
+ :                ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing publisher in altmann-etal1983
+Warning--missing publisher in grice1989
+`booktitle' is a missing field, not a string, for entry jones2015
+while executing---line 1671 of file mcbride.bst
+Warning--empty booktitle in jones2015
+Warning--missing publisher in ppcme2
+Warning--can't use both volume and number fields in moran1958
+Warning--missing publisher in thompson1998
+You've used 168 entries,
+            3317 wiz_defined-function locations,
+            1526 strings with 25360 characters,
+and the built_in function-call counts, 102139 in all, are:
+= -- 7676
+> -- 2738
+< -- 242
++ -- 1001
+- -- 779
+* -- 11764
+:= -- 14245
+add.period$ -- 690
+call.type$ -- 168
+change.case$ -- 1332
+chr.to.int$ -- 164
+cite$ -- 174
+duplicate$ -- 8129
+empty$ -- 8691
+format.name$ -- 1468
+if$ -- 19647
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 1372
+newline$ -- 851
+num.names$ -- 690
+pop$ -- 1633
+preamble$ -- 1
+purify$ -- 920
+quote$ -- 0
+skip$ -- 2756
+stack$ -- 0
+substring$ -- 4167
+swap$ -- 6541
+text.length$ -- 92
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1317
+warning$ -- 6
+while$ -- 724
+width$ -- 0
+write$ -- 2155
+(There were 2 error messages)

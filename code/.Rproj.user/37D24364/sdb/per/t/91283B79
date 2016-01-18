@@ -1,0 +1,18 @@
+{
+    "contents" : "diag = function(x) 1 - x\nx0 = seq(0,1, .01)\ndiag(x0)\n\npar(mar=c(5,5.4,4.1,2.1))\nplot(x0, diag(x0), cex.lab=1.5, type='l', lty=1, fill='white', lwd=4, xlab=expression(x[0]), ylab=expression(x[1]), xaxt='n',yaxt='n')\naxis(1, at=c(0,1))\naxis(2, at=c(0,1))\npoints(0,0, pch=21, bg=\"black\")\npoints(0,1, pch=21, bg=\"black\")\npoints(1,0, pch=21, bg=\"black\")\npoints(1,1, pch=21, bg=\"black\")\n\npar(mar=c(5,5.4,4.1,2.1))\nplot(x0, diag(x0), cex.lab=1.52, type='l', lty=1, lwd=4, xlab=expression(y[0]), ylab=expression(y[1]), xaxt='n',yaxt='n')\naxis(1, at=c(0,1))\naxis(2, at=c(0,1))\npoints(0,0, pch=21, bg=\"white\")\npoints(0,1, pch=21, bg=\"white\")\npoints(1,0, pch=21, bg=\"white\")\npoints(1,1, pch=21, bg=\"white\")\n\n\nplot(r, upper(r), ylab=\"p\",xlim=c(0,1), ylim=c(0,1), type='l', lty=2)\nlines(r, interior(r), lty=1)\nlines(r, lower(r), lty=2)\n#segments(crucial, 0, crucial, 1, lty=3)\n#segments(crucial, 0.13, crucial, 0.87, lty=3)\nsegments(0, 1, 1, 1)\nsegments(0, 0, 1, 0, lty=2)\npoints(0,0, pch=21, bg=\"white\")\npoints(0,1, pch=21, bg=\"white\")\npoints(0,.5,pch=21, bg=\"black\")\n#points(crucial, other, pch=21,bg=\"white\")\n#points(crucial,1- other, pch=21,bg=\"white\")\n#points(1,1, pch=21, bg=\"black\")",
+    "created" : 1435111490250.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3563348102",
+    "id" : "91283B79",
+    "lastKnownWriteTime" : 1435116403,
+    "path" : "~/Dropbox/dissertation/code/lewis-phase-portraits.R",
+    "project_path" : "lewis-phase-portraits.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 0,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

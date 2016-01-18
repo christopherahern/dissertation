@@ -1,0 +1,846 @@
+\chapter{Jespersen's Cycle (20 pages)}
+\label{jespersens-cycle}
+
+\setlength{\epigraphwidth}{.9\textwidth}
+\epigraph{The history of negative expressions in various languages makes us witness the following curious fluctuation: the original negative adverb is first weakened, then found insufficient and therefore strengthened, generally through some additional word, and this in its turn may be felt as the negative proper and may then in course of time be subject to the same developments as the original word. \citep[4]{jespersen:1917}}
+
+Originally coined by \cite{dahl:1979}, the term \emph{Jespersen's Cycle} refers to the observation cited above regarding the expression of sentential negation over time for several European languages.\footnote{Sentential negation refers to the semantic property of negating an entire proposition, not just some subpart. It can be distinguished from morphological (e.g. \emph{un-}, \emph{non-}) and constituent negation (e.g. \emph{John might have not understood}) using several diagnostics such as tag questions \citep{klima1964}  and performative paraphrases \cite{payne1985}. Sentential negation is also distinct from but related to the syntactic notion of standard negation \citep{miestamo2005}, which are constructions that can reverse the truth value of a proposition.} In particular, Jespersen noted a pattern in both \emph{formal} and \emph{functional} aspects of negation over time. These two aspects of change can be conceived of as two cycles. Each cycle consists of three stages, connected by two transitions. The first and the last stage of both cycles are equivalent along some dimension, making the net effect of the two transitions cyclic.
+
+The formal cycle consists of two transitions. First, a single negative element is supplemented by additional material. Second, the original negative element is subsequently lost, leaving the added material as the only expression of negation. In the history of both English and French a pre-verbal negative element is supplemented by a post-verbal element, and the pre-verbal element is subsequently lost.  It should be emphasized that the transition from pre- to post-verbal negation is not the only path through the formal cycle. In the most general sense, the formal cycle is the addition and then loss of material. It is a contingent fact, arising from the syntax of  English and French and the source of new formal material, that gives rise to the transition from pre- to post-verbal negation. 
+
+The functional cycle also consists of two transitions. First, a single form of negation is supplemented by an additional form that expresses negation more strongly. Second, this new form weakens and comes to have the same strength as the original negative form. The stronger form of negation is often formed through the addition of another element to the original negative form. The combined elements are weakened over time and come to have the same force as the original negative element by itself. In the history of English and French a pre-verbal element is supplemented by a post-verbal element, which strengthens negation. The meaning of the combined pre- and post-verbal elements weakens over time, and the two elements come to have the same force as the original pre-verbal element in isolation.
+
+In the rest of this chapter we discuss in greater detail the two kinds of cycles stemming from Jespersen's observation. While Jespersen conceptualized the change he observed as a matter of both formal and functional weakening and strengthening, much subsequent work has emphasized only one dimension or the other. Ths is certainly understandable, given that the effect of one cycle has implications for the other. For example, the addition of material often comes with a more restricted and hence stronger meaning. Here we address both cycles individually and the relation between them. 
+
+First, we outline the formal aspects of how negation is expressed. We provide a historical description of the structural forms that express negation at different points in the history of English. We present two syntactic analyses of the structures that characterize the stages of the formal cycle. Second, we outline the function of those forms, describing the meaning of the different forms of negation at different points in time and their semantic and pragmatic content. Finally, we discuss how these two aspects of the cycle relate to change over time. In particular, we note the causal mechanics of each cycle and the conditions for change under both.
+
+Before moving on, we should note that recent work has established the cross-linguistic prevalence of formal cycles in various language families beyond Indo-European, including Uralic, Na-Dene, and Afro-Asiatic languages \textit{inter alia} \citep{vanGelderen2008negative,willis-etal2013}. The variety of patterns evidenced in these diverse languages has led some to suggest the broader term \emph{negative cycle} \citep{vanGelderen2008negative}, in lieu of Jespersen's cycle. This suggestion arguably stems from the conflation of the formal cycle with the particular path from pre- to post-verbal negation found in many of the languages Jespersen discussed. In what follows we will focus on the history of negation in English, however, we will distinguish between the formal cycle, which allows for various paths as the term negative cycle suggests, and the functional cycle.
+
+The reasons for focusing on English are twofold. First, we have historical records of sufficient time depth to track the history of negation. In fact, we have chronologically contiguous corpora from Old English (The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE), \citealt{ycoe}) through Middle English (The Penn-Helsinki Parsed Corpus of Middle English (PPCME2), \citealt{ppcme2})  and beyond (The Penn-Helsinki Parsed Corpus of Early Modern English (PPCEME) \citealt{ppceme}). Second, these corpora provide sufficient data to investigate both qualitative and quantitative aspects of change. This holds especially of negation which is one of the most frequent constructions in all languages. 
+
+The analyses presented in subsequent chapters will take advantage of the resources available for English to study aspects of both the formal and functional cycles. This does not preclude further applications to other languages. But, we should keep in mind that the processes underlying one path through the formal cycle might be distinct from others. That is, there might be multiple phenomena that give rise to similar diachronic forms of negation. Further resources will be required to test, refine, and improve our analyses. A promising route towards this end is the use of semi-automated methods for constructing historical corpora, along the lines of the Penn-York Computer-annotated Corpus of a Large amount of English based on the Text Creation Partnership (PYCCLE-TCP), \cite{pyccle}). Such methods will allow for further investigations into the historical development of both the form and function of negation in diverse languages. For now, we start with English.
+
+
+\section{The Formal Cycle}
+
+We begin by describing the formal stages of Jespersen's Cycle before turning to syntactic analyses of those structures. We see the first stage of the formal cycle in the history of English with the pre-verbal \emph{\textcolor{red}{ne}} in Old English, which expresses sentential negation alone.
+
+\exg. Ic \textcolor{red}{ne} secge\\
+      I \textsc{neg} say\\
+      (Old English)
+
+
+This is followed by a stage of embracing or bipartite negation where a post-verbal negative element is added. This is seen in Middle English, where \emph{\textcolor{blue}{ne}} is supplemented by \emph{\textcolor{blue}{not}}.
+
+
+\exg. I \textcolor{blue}{ne} seye \textcolor{blue}{not}\\
+      I \textsc{neg} say \textsc{neg}\\
+      (Middle English)
+
+There are several sources that these additional elements are drawn from. Most notably, they are drawn from \emph{negative polarity items}, overwhelmingly the set of \emph{minimizers} (e.g. ``not a drop'', ``not a hair'') and \emph{generalizers} (e.g. ``not ever'', ``not at all'', \citealt{horn:1989}). For example, in the case of English, ``not'' comes from Old English ``nawiht'' (\emph{literally} ``no thing, creature, being''). Other sources include, indefinite pronouns (e.g. ``no one''), negative adverbs (e.g. ``never'') (cf. \citealt{horn:1989,vanGelderen2008negative}), negative verbs (e.g. ``refuse", ``deny", ``reject", ``avoid", ``fail", and ``lack",  \citealt{givon1978}), and the concatenation of negative and existential verbs \citep{croft1991}.
+
+In light of this broad range of sources, it is important to note that the first transition need not consist of the addition of a post-verbal element. For example, in modern African American Vernacular English, negation can be supplemented by a pre-verbal element \emph{eem}, which comes from but is distinct from \emph{even} (cite Jones, 2014):
+
+\ex. You do\textcolor{blue}{n't eem} know.
+
+Given the range of sources for additional negative elements, this is not surprising.  But, again, we should note that the formal cycle is often treated as a transition from pre- to post-verbal negation, there are more paths that the formal cycle can take. This is a contingent fact of word order and negative element source: in the case of English and French, subject-verb-object word order and negative polarity noun phrase objects.
+
+The final stage in the formal cycle is a return to a single negative element. This is seen in Early Modern English, where the preverbal negator in \emph{\textcolor{blue}{ne...not}}  is lost, leaving the post-verbal \emph{\textcolor{green}{not}}  as the sole negator.
+
+\exg. I say \textcolor{green}{not}\\
+      I say \textsc{neg}\\
+      (Early Modern English)
+
+The emergence of  \emph{do}-support in Early Modern English yields a state parallel to Old English with a sole pre-verbal negator:
+
+\exg. I do \textcolor{red}{not} say\\
+      I do \textsc{neg} say\\
+      (Present-day English)
+
+The contraction of negation offers an even closer parallel to Old English where \emph{ne} contracted with several verbs (e.g. ``ne be'' $\rightarrow$ ``nis'').
+
+% \footnote{The increasing preference of n't over not in colloquial use is illustrated by the use of not contractions of American presidents from Kennedy to Bush. While Kennedy and Nixon still used the uncontracted form not in the majority of cases (during public debates), Bush Sr. and Clinton used this form in only in 14-17\% of all cases (Yaeger-Dror \& Hall-Lew (2002)}
+
+\exg. I do\textcolor{red}{n't} say\\
+      I do-\textsc{neg} say\\
+      (Present-day English)
+
+
+The stages of the formal cycle in the history of English are summarized in Figure \ref{english-timeline}. The horizontal axis represents years in the common era. Immediately above the horizontal axis are commonly-used terms for historical periods: Old English (\emph{ca.} 400-1175 CE), Middle English (\emph{ca.}1175-1450 CE), Early Modern English (\emph{ca.} 1450-1650 CE) ,and Modern English (\emph{ca.} 1650-Present CE). Above these general time periods are the spans of the different forms of negation.  From Old to Early Modern English we make a full formal cycle from and back to a single negative element. We also see the transition at the end of the formal cycle from post- back to pre-verbal negation in Modern English. 
+
+Below the axis are rough historical anchors that offer a general sense of the historical periods: Beouwulf, the Old English epic poem written some time between 700-1050 CE; Chaucer, the Late Middle English author who is widely-credited as the first to write in the vernacular language of his day, from 1350-1400 CE; and Shakespeare, the noted dramatist and playwright, from 1550-1650 CE.
+
+
+\begin{figure}
+\resizebox{\linewidth}{!}{% 
+     \begin{tikzpicture}
+%draw horizontal line
+\draw (0,0) -- (16,0);
+%draw ticks
+\foreach \x in {0, 2, 4, 6, 8, 10, 12, 14, 16}{
+   \draw (\x,3pt) -- (\x,-3pt);
+}
+%draw tick dates
+\draw (0,0) node[below=3pt] { 400 } node[above=10pt] { };
+\draw (4,0) node[below=3pt] { 800 } node[above=10pt] { };
+\draw (8,0) node[below=3pt] { 1200 } node[above=3pt] { };
+\draw (12,0) node[below=3pt] { 1600 } node[above=3pt] { };
+\draw (16,0) node[below=3pt] { 2000 } node[above=3pt] {  };
+% Historical examples
+\draw [ultra thick] (3,-1) to (6,-1);
+\draw (4.5, -1.5) node {Beowulf};
+\draw [ultra thick] (9,-1) to (10,-1);
+\draw (9.5, -1.5) node {Chaucer};
+\draw [ultra thick] (11.5,-1) to (12.5,-1);
+\draw (12, -1.5) node {Shakespeare};
+% Add historical languages
+% Old English : 400-1175
+% Middle English : 1175-1450
+% E. Modern English : 1450-1650
+% Modern English : 1650-Present
+\draw [ultra thick] (0,.5) to (7.4,.5);
+\draw (3.75, 1) node {Old English};
+\draw [ultra thick] (7.5,.5) to (10.4,.5);
+\draw (9, 1) node {Middle English};
+\draw [ultra thick] (10.5,.5) to (12.4,.5);
+\draw (11.5, 1.25) node[text width=2cm,align=center] {E. Modern English};
+\draw [ultra thick] (12.5,.5) to (16,.5);
+\draw (14.25, 1) node {Modern English};
+% draw ticks for historical examples
+% ne 		: 400-1300
+% ne..not	: 1100-1400
+% not		: 1350-1700
+% do not 	: 1500-2000
+\draw [ultra thick,red] (2,2) to (10,2);
+\draw (3.75, 2.5) node[red] {Ic ne secge};
+\draw [ultra thick,blue] (7,2.25) to (11,2.25);
+\draw (8.5, 2.75) node[blue] {I ne seye not};
+\draw [ultra thick,green] (9.75,2.5) to (13,2.5);
+\draw (10.75, 3) node[green] {I say not};
+\draw [ultra thick, red] (11.75,2.75) to (16,2.75);
+\draw (14, 3.25) node[red] {I do not say};
+% draw negative forms
+\draw (3.75,4) node [above] {\textsc{\color{red} neg V}};
+\draw (8.5,4) node [above] {\textsc{\color{blue} neg V neg}};
+\draw (10.75,4) node [above] {\textsc{\color{green} V neg}};
+\draw (14,4) node [above] {\textsc{\color{red} neg V}};
+\end{tikzpicture}
+}
+\caption{Timeline of negation in the history of English}
+\label{english-timeline}
+\end{figure}
+
+The history of negation in French offers a parallel to the formal cycle in English, although the exact timeline is disputed (cf. \citealt{martineau-mougeon2003}).  The Old French pre-verbal \emph{\textcolor{red}{ne}} becomes Middle French \emph{\textcolor{blue}{ne...pas}}, and subsequently Modern Colloquial French post-verbal \emph{\textcolor{green}{pas}}.
+
+\exg. Jeo \textcolor{red}{ne} dis\\
+      I \textsc{neg} say\\
+      (Old French)
+
+\exg. Je \textcolor{blue}{ne} dis \textcolor{blue}{pas}\\
+      I \textsc{neg} say \textsc{neg}\\
+      (Middle French)
+
+\exg. Je dis \textcolor{green}{pas}\\
+      I say \textsc{neg}\\
+      (Modern Colloquial French)
+
+%In the case of French, ``pas'' comes from ``step'', and in fact still has this separate meaning in non-negative contexts.  
+
+The stages of the formal cycle in the history of French are summarized in Figure \ref{french-timeline}. Immediately above the horizontal axis are commonly-used terms for historical periods: Old French (\emph{ca.} 900-1350 CE), Middle French (\emph{ca.}1350-1600 CE), Classical French (\emph{ca.} 1600-1700 CE) , and Modern French (\emph{ca.} 1700-Present CE). Above these general time periods are the spans of the different forms of negation.  From Old to Modern French we make a full formal cycle from and back to a single negative element.
+
+Below the axis are rough historical anchors that offer a general sense of the historical periods: Charlemagne, the first Holy Roman Emperor from 750-800 CE; the Hundred Years' War from roughly 1350-1450 CE; Voltaire, the Enlightenment author and satirist from roughly 1700-1800 CE.
+
+
+\begin{figure}
+\resizebox{\linewidth}{!}{% 
+     \begin{tikzpicture}
+%draw horizontal line
+\draw (0,0) -- (16,0);
+%draw ticks
+\foreach \x in {0, 2, 4, 6, 8, 10, 12, 14, 16}{
+   \draw (\x,3pt) -- (\x,-3pt);
+}
+%draw tick dates
+\draw (0,0) node[below=3pt] { 400 } node[above=10pt] { };
+\draw (4,0) node[below=3pt] { 800 } node[above=10pt] { };
+\draw (8,0) node[below=3pt] { 1200 } node[above=3pt] { };
+\draw (12,0) node[below=3pt] { 1600 } node[above=3pt] { };
+\draw (16,0) node[below=3pt] { 2000 } node[above=3pt] {  };
+% Add historical languages
+% Old Franconian : 400-900
+% Old French : 900-1350
+% Middle French : 1350-1600
+% Classical French : 1600-1700
+% Modern French : 1700-Present
+\draw [ultra thick] (0,.5) to (4.9,.5);
+\draw (2.5, 1) node {Old Franconian};
+\draw [ultra thick] (5,.5) to (9.4,.5);
+\draw (7.5, 1) node {Old French};
+\draw [ultra thick] (9.5,.5) to (11.9,.5);
+\draw (10.75, 1.25) node[text width=2cm,align=center] {Middle French};
+\draw [ultra thick] (12,.5) to (12.9,.5);
+\draw (12.5, 1.25) node[text width=2cm,align=center] {Classical French};
+\draw [ultra thick] (13,.5) to (16,.5);
+\draw (14.25, 1.25) node[text width=2cm,align=center] {Modern French};
+% draw ticks for historical examples
+% ne 		: 400-1300
+% ne..not	: 1100-1400
+% not		: 1350-1700
+% do not 	: 1500-2000
+\draw [ultra thick,red] (5,2) to (11,2);
+\draw (7.75, 2.5) node[red] {Jeo ne dis};
+\draw (7.75,4) node [above] {\textsc{\color{red} neg V}};
+\draw [ultra thick,blue] (9,2.25) to (15.5,2.25);
+\draw (11.5, 2.75) node[blue] {Je ne dis pas};
+\draw (11.5,4) node [above] {\textsc{\color{blue} neg V neg}};
+\draw [ultra thick,green] (13,2.5) to (16,2.5);
+\draw (14.5, 3) node[green] {Je dis pas};
+\draw (14.5,4) node [above] {\textsc{\color{green} V neg}};
+%\draw (14,4) node [above] {\textsc{\color{red} neg V}};
+% Historical examples
+\draw [ultra thick] (3.5,-1) to (4,-1);
+\draw (3.75, -1.5) node {Charlemagne};
+\draw [ultra thick] (9.5,-1) to (10.5,-1);
+\draw (10, -1.75) node[text width=2.2cm,align=center] {Hundred Years' War};
+%\draw [ultra thick] (11,-1) to (12,-1);
+%\draw (11.5, -1.5) node {Rabelais};
+\draw [ultra thick] (13,-1) to (14,-1);
+\draw (13.5, -1.5) node {Voltaire};
+\end{tikzpicture}
+}
+\caption{Timeline of negation in the history of French}
+\label{french-timeline}
+\end{figure}
+
+Interestingly, negation in Louisiana Creole French negation is purely pre-verbal \citep{hansen-visconti2009,hansen-visconti2012} . Of course, this comes with the caveat that no conclusions about the future of French can be drawn from this change. Although, \cite{hansen-visconti2009,hansen-visconti2012} also note that the post-verbal negator \emph{pas} appears pre-verbally in embedded infinitives \citep{martineau1994}
+
+\exg. Mo \textcolor{red}{pa} di \\
+      I \textsc{neg}  say\\
+      (Louisiana Creole French)
+
+      
+% The transition from purely post-verbal to purely pre-verbal negation is certainly not necessary. For example, German went through a formal cycle in (cf. CHECK \cite{jager2008}), but negation remains purely post-verbal.
+
+Thus, the crucial components of the formal cycle are a transition from one negative element to two and eventually back to one. For the specific case of English, as well as French, the formal cycle is instantiated as a transition from pre-verbal to embracing to post-verbal negation. We can represent these transitions schematically as follows.
+
+\begin{center}
+\begin{enumerate}
+     \item \textsc{\textcolor{red}{neg V}}
+    \item \textsc{\color{blue} neg V neg}
+    \item \textsc{\color{green} V neg}
+\end{enumerate}
+\end{center}
+
+Note that these stages are not mutually exclusive. That is, there are transitions between these stages \citep{vanderAuwera2009}.  This captures the theoretical intuition that diachronic change is rarely a dramatic shift, but rather a transition. Where parentheses are taken to indicate optionality, the stages can be represented schematically as the following.
+
+\begin{center}
+\begin{enumerate}
+     \item \textsc{\textcolor{red}{neg V}}
+    \item  \textsc{\textcolor{red}{neg V} \textcolor{blue}{(neg)}}
+    \item \textsc{\color{blue} neg V neg}
+    \item \textsc{\textcolor{blue}{(neg)}  \textcolor{green}{V neg}}    
+    \item \textsc{\color{green} V neg}
+\end{enumerate}
+\end{center}
+
+This more articulated model also comes closer to both diachronic and synchronic facts. For example, in Late Middle English, all there forms of negation are used contemporaneously: purely pre-verbal, embracing, and post-verbal negation co-occur for a brief period in time. This also occurs synchronically, as has been noted for Brazilian Portuguese \citep{schwenter2005, schwenter2006}.. 
+
+We might then, at least for the moment, consider this a schematic trajectory over time. Now that we have defined the stages of the formal cycle, and the particular instantiation in the history of English, we turn to two syntactic analyses of the structure of negation.
+
+
+\section{Syntactic Structure}
+
+There are a range of ways to analyze the syntactic structures underlying the formal cycle. Different analyses have suggested varying levels of detail in the number and realization of stages, ranging from three stages  \citep{burridge1983,bernini-ramat1996,haspelmath1997,frisch1997,zanuttini1997,horn:1989,hoeksma1997,horn2001,roberts-roussou2003,vanderAuwera-neuckermans2004,mazzon2004,willis2005,lucas2007,jager2008,wallage2008}, to four stages \citep{dahl:1979,schwegler1988,schwegler1990,schwenter2005,schwenter2006}, up to five stages \citep{honda2000,beukema1999,vanderAuwera-neuckermans2004,zeijlstra2004}.  
+
+Here we focus on two analyses of the formal cycle, broadly situated within the \emph{Principles and Parameters} framework \citep{chomsky1981,chomsky1995,chomsky-lasnik1993}. The first analysis is that of \cite{frisch1997}, which treats the formal cycle as the result of two independent morphological changes. The second is that of \cite{wallage2008}, which treats the formal cycle as the result of two interdependent morphosyntactic changes. Both accounts are parsimonious in invoking the minimal three stages to account for the formal cycle. Both also leverage these analyses to make strong predictions about the formal cycle in Middle English that have been tested against corpus evidence. Finally, the two analyses are theoretically comparable, insofar as they  take Pollock's \citeyearpar{pollock1989} seminal analysis of  negation as a starting point.  That is, negation constitutes its own phrase, with a structure like that in Figure \ref{negp}. The two analyses differ crucially in their assumptions about the nature of the different elements within the negative phrase and their relation to each other.
+
+
+\begin{figure}
+        \Tree [.NegP [. not ]
+        [.Neg$'$ \emph{ne}
+        XP ] ]
+
+\caption{The structure of the Negative Phrase} 
+\label{negp}
+\end{figure}
+
+\subsection{Morphological Change}
+
+\cite{frisch1997} treats the formal cycle as an instance of morphological change. The underlying syntactic structure is assumed to be constant throughout the change. This assumption rests on Haegeman's \citeyearpar{haegeman1995} \emph{Neg-criterion}.
+
+\begin{definition}
+The Neg-criterion
+\begin{enumerate}
+	\item Each Neg $X^0$ must be in a spec-head relationship with a Neg operator.
+	\item Each Neg operator must be in a spec-head relationship with a Neg $X^0$.
+	\item Neg-operator: a NEG phrase in a scope position
+	\item Scope position: a left-peripheral A -position (i.e. XP-adjoined or Spec).
+\end{enumerate}
+\end{definition}
+
+Intuitively, this criterion simply requires that the negative phrase always have the full structure as in Figure \ref{negp}, including a head and a specifier. The strongest form of this assumption posits a universal syntactic structure, where the locus of variation between languages lies in how those shared structures are expressed (cite cartographic approach).
+
+Thus, change in the structure of negation is a matter of how these individual locations are expressed. At the first stage of the formal cycle the negative head is expressed as \emph{ne} whereas the specifier is a phonologically null operator $\varnothing$. The syntactic structure according to the morphological analysis can be seen in Figure \ref{stage1morphology}. Sentential structure at stage one of the formal cycle in Old English is illustrated in Figure \ref{sentence1morphology}, where a strikethrough indicates successively upwards head movement. The result is purely pre-verbal negation.
+
+
+\begin{figure}
+        \Tree [.NegP$_{[+Neg]}$ [.XP $\varnothing$ ]
+        [.Neg$'$ [.Neg \emph{ne}
+        ] [.VP \edge[roof]; {...} ] ] ]
+
+\caption{Stage one of the formal cycle according to morphological analysis}
+\label{stage1morphology}        
+\end{figure}
+
+
+\begin{figure}
+        \Tree [.TP [.DP ic ] [.T$'$ [.V+Neg+T {ne secge} ] [.NegP$_{[+Neg]}$ $\varnothing$
+        [.Neg$'$ [.\sout{V+Neg}
+        ] [.VP \sout{V} ... ] ] ] ] ]
+
+\caption{Sentential structure at stage one of the formal cycle according to morphological analysis}
+\label{sentence1morphology}
+\end{figure}
+
+The transition to the second stage in the formal cycle stems from a change in the realization of the specifier of the negative phrase. Namely, the specifier is no longer expressed by a null operator, but instead by \emph{not}, as can be seen in Figure \ref{stage2morphology}. Sentential structure at the second stage of the formal cycle in Middle English is illustrated in Figure \ref{sentence2morphology}, which results in pre- and post-verbal negative elements.
+
+
+\begin{figure}
+        \Tree [.NegP$_{[+Neg]}$ [.XP \emph{not} ]
+        [.Neg$'$ [.Neg \emph{ne}
+        ] [.VP \edge[roof]; {...} ] ] ]
+
+\caption{Stage two of the formal cycle according to morphological analysis}
+\label{stage2morphology}        
+\end{figure}
+
+
+\begin{figure}
+        \Tree [.TP [.DP I ] [.T$'$ [.V+Neg+T {ne seye} ] [.NegP$_{[+Neg]}$ \emph{not}
+        [.Neg$'$ [.\sout{V+Neg}
+        ] [.VP \sout{V} ... ] ] ] ] ]
+
+\caption{Sentential structure at stage two of the formal cycle according to morphological analysis}
+\label{sentence2morphology}
+\end{figure}
+
+At this point in the formal cycle we might wonder whether the introduction of two negative elements is problematic. That is, if each element contributes semantic negation in its own right, then the two might cancel each other out. In classical terms, a doubly negated proposition is logically equivalent to the bare proposition: $\neg \neg p \leftrightarrow p$.\footnote{Of course, this equivalence ceases to hold in intuitionistic logic, which abandons the elimination of double negation $\neg \neg p \leftrightarrow p$ and the law of the excluded middle $p \vee \neg p$ in favor of a proof-theoretic approach.}  To circumvent this problem \cite{frisch1997} argues for an \emph{Economy of Project} principle \cite{speas1994}.
+
+\begin{definition}
+Economy of Projection principle
+\begin{enumerate}
+	\item Project a phrase XP only if XP has content
+\end{enumerate}
+\end{definition}
+
+This principle simply states that we can only posit syntactic structure where we have some evidence for it. In this case, the negative phrase is licensed if it contains material in either the head or the specifier. In other words, neither element is necessary for the phrase to occur, so neither can be responsible for the contribution of negative meaning by itself. Rather, it is the negative phrase as a whole that contributes semantic content of negation to the sentence. This can be seen in Figures \ref{stage1morphology} and \ref{stage2morphology} where it is the entire negative phrase that carries the $[+Neg]$ feature of semantic negation.
+
+The transition from the second stage to the third and final stage of the formal cycle is simply a a matter of whether the negative head is expressed via lexical content or by some null head $\varnothign$. The structure of the negative phrase at the third stage is shown in Figure \ref{stage3morpohology}, and sentential structure at this final stage is shown in Figure \ref{sentence3morphology}. Subsequent stages of negation can be derived by considering the loss of verb raising and the rise of \emph{do}-support.
+
+\begin{figure}
+        \Tree [.TP T [.NegP$_{[+Neg]}$ [.XP \emph{not} ]
+        [.Neg$'$ [.Neg $\varnothing$ ]
+        [.VP \edge[roof]; {...} ] ] ] ]
+
+\caption{Stage three of the formal cycle according to morphological analysis}
+\label{stage3morpohology}
+\end{figure}
+
+\begin{figure}
+        \Tree [.TP [.DP I ] [.T$'$ [.V+Neg+T {say} ] [.NegP$_{[+Neg]}$ \emph{not}
+        [.Neg$'$ [.\sout{V+Neg}
+        ] [.VP \sout{V} ... ] ] ] ] ]
+
+\caption{Sentential structure at stage three of the formal cycle according to morphological analysis}
+\label{sentence3morphology}
+\end{figure}
+
+Similar morphological approaches to the formal cycle are adopted by \cite{roberts-roussou2003} and \cite{zeijlstra2004}. The shared aspect of these morphological analyses is the assumption that the underlying syntactic structure remains stable, but the realizations of particular positions within that structure changes. Importantly, since this is the only locus of change, the transitions that constitute the cycle are independent of each other. In fact, the two transitions in the formal cycle are taken to to be independent morphological changes. That is, the fact that both \emph{ne} and \emph{not} show up in the embracing \emph{\textcolor{blue}{ne...not}} form is simply the coincidental product of two forms waxing and waning at the same time.
+
+\cite{frisch1997} tests this theoretical prediction using the trajectory of negation in Middle English in the Helsinki corpus of Middle English.\footnote{Portions of this corpus are included in PPCME2 \citep{ppcme2}. For more details see: \url{http://www.ling.upenn.edu/hist-corpora/PPCME2-RELEASE-3/index.html}} First, he notes that if the two transitions are independent of each other, then the co-occurrence of \emph{ne} and \emph{not} in the embracing form should be the product of the probabilities of each occurring. That is, the probability of \emph{\textcolor{blue}{ne...not}} is the probability of two independent events \emph{ne} and \emph{not}.
+
+\begin{equation}
+	P(ne...not) = P(ne)P(not)
+\end{equation}
+
+This works exactly as if we were to flip two independent and fair coins. The probability of both coming up heads would simply be the product of each of the individual coins coming up heads.
+
+\begin{equation}
+	P(H,H) = P(H)P(H) = \frac{1}{2}  \times \frac{1}{2}  = \frac{1}{4}
+\end{equation}
+
+To obtain these probabilities, Frisch counts the occurrences of \emph{ne} both by itself and as part of \emph{\textcolor{blue}{ne...not}}. Estimating the occurrences of \emph{not} requires a bit more work given that it is often ambiguous between an adverb, a specifier in the negative phrase, or the head of the negative phrase itself. The adverbial instances of \emph{not} can be estimated by noting that other adverbs such as \emph{never} occur pre-verbally around 16\% of the time. Assuming that adverbial \emph{not} is similarly distributed, the number of adverbial instances can be estimated with the appropriate scaling of pre-verbal. The instances where \emph{not} is the head of the negative phrase can be estimated by the occurrence of \emph{not} by itself in interrogatives, which 
+
+Frisch Table 12 p.52
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{@{}ccp{2.2cm}p{2.2cm}ccp{2.2cm}@{}}
+\hline
+Time Period & \emph{ne} & Estimated specifier \emph{not} & Estimated total & \% \emph{ne} & \% Specifier \emph{not} & Expected \%\emph{\textcolor{blue}{ne...not}} \\
+\hline
+1150-1220 & 150 & 0   & 150  & 100 \% & 0 \%  & 0 \%  \\
+1220-1290 & 135 & 23  & 135  & 100 \% & 17 \% & 17 \% \\
+1290-1360 & 358 & 191 & 377  & 95 \%  & 51 \% & 48 \% \\
+1360-1430 & 139 & 581 & 709  & 20 \%  & 82 \% & 16 \% \\
+\hline
+\end{tabular}
+  \caption{}
+\end{center}
+\end{table}
+
+% \begin{table}[ht]
+% \begin{center}
+% \begin{tabular}{@{}ccp{2.2cm}p{2.2cm}ccp{2.2cm}@{}}
+% \hline
+% Time Period & \emph{ne} & Estimated specifier \emph{not} & Estimated total & \% \emph{ne} & \% Specifier \emph{not} & Expected \% \emph{\textcolor{blue}{ne...not}} \\
+% \hline
+% 1150-1220 & 150 & 0   & 150  & 100 \% & 0 \%  & 0 \%  \\
+% 1220-1290 & 135 & 23  & 135  & 100 \% & 17 \% & 17 \% \\
+% 1290-1360 & 358 & 191 & 377  & 95 \%  & 51 \% & 48 \% \\
+% 1360-1430 & 139 & 581 & 709  & 20 \%  & 82 \% & 16 \% \\
+% \hline
+% \end{tabular}
+%   \caption{}
+% \end{center}
+% \end{table}
+
+
+The sample probabilities rest on the exclusion of adverbial \emph{not}. Frisch estimates this at around 16\% of the occurrences of \emph{not} in \emph{\textcolor{blue}{ne...not}}, which Frisch estimates by comparing the relative rate of \emph{never} in the appropriate syntactic position.
+
+ The sample probabilities rest on the exclusion of adverbial \emph{not}. Frisch estimates this at around 16\% of the occurrences of \emph{not} in \emph{\textcolor{blue}{ne...not}}, which Frisch estimates by comparing the relative rate of \emph{never} in the appropriate syntactic position.
+
+% Are there three grammars or two? Frisch: this change, which is seen throughout the history of the Indo-European languages (as one part of the ?Jespersen cycle?), is explained syntactically
+% as change from one method of licensing the NEGP under Economy of Projection to another.
+% 
+% 
+% 
+% There are three distinct grammars that are posited for the stages of the formal cycle. On the morphological analysis of \cite{frisch1997} these grammars can be specified as mappings from the head and specifier positions within the negative phrase to overt lexical elements or null negative operators.
+
+\subsection{Morphosyntactic Change}
+
+\begin{enumerate}
+	\item Morphosyntactic
+	\item Not just about how positions are expressed
+	\item Also matters about the nature/features of those lexical elements
+	\item Chomsky-borer conjecture? Baker (2008)
+	\item Meaning is not projected by the phrase, but is a feature
+	\item First stage: ne is the head and carries NEG feature
+	\item First transition: NEG moves from ne to not
+	\item Second stage: ne sticks around through negative concord
+	\item ne now has iNEG, not has uNEG: negative concord, and redundant negation
+	\item Second transition: ne is lost
+	\item predictions work better for main vs. embedded clauses
+	\item BUT makes a mistake in probability reasoning
+	\item Ecay and Tamminga add further evidence towards this end
+	\item Two transitions are not independent, the first is required? for the second
+	\item Weird causality: "Once ne is no longer associated with the semantic value ‘negative’, another negative element such as not must be introduced to the clause which has the semantic value ‘negative’. Hence the ne...not forms we find at stage two of the cycle."
+\end{enumerate}
+
+
+\begin{quote}
+ A second group of approaches proposes that Jespersen?s Cycle involves change in
+morphosyntactic features rather than simply changes in the lexical realisation of underlying
+syntactic positions. Principal amongst these approaches is Rowlett (1998). In this section, I will
+describe Rowlett?s analysis and show how his approach fits in to a Minimalist conception of
+morphosyntactic features and relations.
+Rowlett (1998) argues that the transition from stage one to two of Jespersen?s Cycle reflects a
+morphosyntactic feature change. At stage one, when ne negates a clause on its own, Rowlett
+argues that ne has a [+NEG] feature which contributes negation to the logical form of the clause.
+However, at stage two, he argues that ne does not have a [+NEG] feature. As ne loses its [+NEG]
+feature, another negative such as not must be present in the clause to contribute the feature
+[+NEG] at logical form. So, the introduction of not in spec,NegP is not independent in this model.
+It is a consequence of the loss of [+NEG] on ne.
+\end{quote}
+
+
+\begin{quote}
+Wallage holds that ne, ne ... not, and not are each stages of an instantiation of JC in English, and
+that all have a separate grammatical identity. In ne ... not constructions, the ne that appears does not have negative
+force, and is rather a manifestation of negative concord (or a similar process driven by formal agreement between
+negative features and Neg 0 ). The various structures needed for this analysis are illustrated in Figure 4.
+Wallage provides several pieces of evidence arguing against Frisch?s account. For example, Wallage shows that
+the distribution of ne appearing by itself differs between main and (several different types of) subordinate clauses.
+On the other hand, the distribution of ne ... not is identical across clause types. This distinction militates against the
+
+The second part of Wallage?s argument, that the ne of ne ... not constructions is generated by negative concord,
+is based on the comparison of different types of ?redundant ne? in ME. The two types of redundant ne are (A) that
+licensed by a higher negative (negating a verb of doubt) as in (5) and (B) that licensed by a verb of prohibition or
+denial as in (6).
+\end{quote}
+
+\begin{quote}
+ If all that is needed to mark sentential negation is the presence of the feature [+NEG] on a
+functional head, then transferring the feature to an operator in specifier position serves no
+purpose and should arguably not be allowed. Certainly, as an interpretable feature, the
+presence of [+NEG] on a functional head at LF should not in itself be problematic.
+Consequently, the presence of a suitable operator in Spec,NegP cannot be motivated for
+checking reasons. (Rowlett, 1998:112)
+\end{quote}
+
+\begin{quote}
+ This differs from the approaches discussed in the previous section, like the Neg-criterion
+(Haegeman, 1995). Recall that this approach requires a specifier?head configuration between a
+negative specifier and a negative head throughout all stages of Jespersen?s Cycle. For our
+purposes, the most important implication of Rowlett?s analysis is that he makes a distinction
+between two types of ne at stages one and two of Jespersen?s Cycle. At stage one of Jespersen?s
+Cycle ne has [+NEG] features. At stage two it does not. This contrasts with the Neg-criterion
+based approaches (section 2.1), which assume ne is a single lexical item throughout Jespersen?s
+Cycle.
+\end{quote}
+
+\begin{quote}
+ An account which has two forms of ne at successive stages of the cycle has important
+implications for the study of Jespersen?s Cycle as a diachronic change. The two forms of ne are
+distinct lexical items with different morphosyntactic feature specifications. If this analysis is
+correct, we should be able to distinguish the two forms of ne in historical data. They should be
+independent of each other in their distribution and subject to different patterns of change.
+\end{quote}
+
+
+
+\begin{figure}
+        \Tree [.TP T [.NegP [.Neg \emph{ne}$_{[+Neg]}$ ]
+        [.VP \edge[roof]; {...} ] ] ]
+
+\caption{Stage one of the formal cycle according to \cite{wallage2008}}
+\end{figure}
+
+
+\begin{figure}
+        \begin{tikzpicture}{every tree node/.style={align=center,anchor=north}}
+            \Tree [.TP T [.NegP [.XP
+            \node(not){\emph{not}$_{[+Neg]}$ };
+            ] [.Neg$'$ [.Neg \node(ne){};
+            ] [.VP \edge[roof]; {...} ] ] ] ]
+        \end{tikzpicture}
+        \hspace{1cm}
+        \begin{tikzpicture}{every tree node/.style={align=center,anchor=north}}
+            \Tree [.TP T [.NegP [.XP
+            \node(not){\emph{not}$_{[+Neg]}$ };
+            ] [.Neg$'$ [.Neg \node(ne){\emph{ne}};
+            ] [.VP \edge[roof]; {...} ] ] ] ]
+	    \draw[->] (not) to[out=-90, in=180] (ne);
+        \end{tikzpicture}        
+\caption{Stage two  of the formal cycle according to \cite{wallage2008}}
+\end{figure}
+
+
+\begin{figure}
+        \Tree [.TP T [.NegP [.XP
+        {\emph{not}$_{[+Neg]}$} ]
+        [.Neg$'$ [.Neg $\varnothing$ ] [.VP \edge[roof]; {...} ] ] ] ]
+
+\caption{Stage three  of the formal cycle according to \cite{wallage2008}}
+\end{figure}
+
+
+\section{The Function Cycle}
+
+\begin{itemize}
+	\item Jespersen basically provided a shotgun explanation
+	\item Gardiner and Meilet predate him wrt the functional explanation
+	\item How are we to interpret the causation of the cycle
+\end{itemize}
+
+
+
+\begin{quotation}
+Là où l’on avait besoin d’insister sur la négation [...] on a été conduit à renforcer la négation ne ... par quelque autre mot. [...] On sait comment pas a perdu, dans les phrases où il était un accessoire de la négation, tout sons sens propre—sens conservé parfaitement dans le mot isolé pas—, comme dès lors, pas est devenu à lui seul un mot négatif, servant à exprimer la négation 
+Where we needed to insist on negation [...] it was taken to strengthen the negation ... by any other word. [...] We know how not lost, in sentences where he was an accessory to the denial, all clean-sense meaning sounds perfectly preserved in the isolated word pas- as not therefore became in itself a negative word used to express negation
+(Meilet 1913: p.393)
+\end{quotation}
+
+\begin{quotation}
+Les langues suivent ainsi une sorte de développement en spirale : elles ajoutent des mots accessoires pour obtenir une expression intense : ces mots s’affaiblissent, se dégradent et tombent au niveau de simples outils grammaticaux ; on ajoute de nouveaux mots ou des mots différents en vue de l’expression ; l’affaiblissement recommence et ainsi sans fin.
+Thus, languages follow a sort of spiral development: they add extra words to intensify expression; these words fade; decay and fall to the level of simple grammatical tools; one adds new or different words on account of expressiveness; the fading begins again, and so on endlessly.
+(Meilet 1912: p394, translation McMahon 1994: p.165)
+
+\end{quotation}
+
+\begin{quotation}
+These words, from the Latin passum and punctum, were originally adverbial
+accusatives placed at the end of negative sentences for the purpose of emphasis; just
+like the English “not a jot”, “not a straw”. [...] Pas and point, and like them the
+Demotic B , Coptic AN, next lose their emphasizing force, and become mere adjuncts of F
+the negative words (French ne, Coptic 'N). Last of all, they come themselves to be looked upon as negative words. (Gardiner 1904: 134)
+\end{quotation}
+
+\section{Semantic and Pragmatic Meaning}
+
+Elements recruited to induce emphasis are by and large \emph{negative polarity items}, overwhelmingly drawn from the set of \emph{minimizers} (e.g. ``not a drop'', ``not a hair'') and \emph{generalizers} (e.g. ``not ever'', ``not at all'') \citep{horn:1989}. These can be seen in the examples of the cycle in English and French above. In the case of English, ``not'' comes from Old English ``nawiht'' (\emph{literally} ``no'' + ``thing, creature, being''). In the case of French, ``pas'' comes from ``step'', and in fact still has this separate meaning in non-negative contexts. Other sources include, but are not limited to indefinite pronouns (e.g. ``no one'') and negative adverbs (e.g. ``never'') (cf. \citealt{horn:1989,vanGelderen2008negative}).
+
+\subsection{Emphatic Negation}
+
+\cite{eckardt2006} draws on a variant of the analysis presented in \cite{krifka1995polarity} to give a particularly appealing account of how these NPIs are used to express emphatic negation. The basic intuition is that emphatic negation arises through the occurrence of NPIs under emphatic focus.  Theories of \emph{focus} draw on the notion of alternatives, incorporating what could have been said into the computation of focus sensitive construction \citep{rooth1992}. NPIs pick out extremal elements of the relevant set of alternatives, and emphasis indicates that this choice is in some sense surprising. This account recommends itself not only because it integrates the relevant material into the compositional machinery of the semantics, but it does so through independently motivated mechanisms. We present the two components of this account in turn, following Eckardt's exposition unless otherwise noted. We then offer a slightly simpler means of deriving the impact of emphatic negation.
+
+The first component of Eckardt's account draws on the notion of alternatives induced by focus. In addition to the ordinary semantic interpretation, an expression $E$ also has a focus driven semantic interpretation. We can represent the first by \inter{E}$^o$ and the second by \inter{E}$^f$. The ordinary interpretation of an expression is as would be expected given the usual semantic machinery. In contrast, the focus  driven interpretation is sensitive to the presence of an abstract focus feature $f$. The focus driven interpretation of the abstract focus feature yields a set consisting of the ordinary semantic value of the expression and the set of salient alternatives in the context: $\{F_1, F_2, F_3...\}$.  Thus, the presence or absence of a focus feature gives rise to the following possibilities.
+
+\ex. \inter{E}$^f$ $= \{\inter{E}^o\} $
+
+\ex. \inter{E_f}$^f$ $= \{\inter{E}^o, F_1, F_2, F_3...\} $
+
+The set of alternatives is restricted to be of the same logical type as the expression. So, for example, nouns evoke alternative entities, transitive verbs evoke binary relations between entities, and so forth. In essence, this simply captures the intuition that the realization of focus generates a set of alternatives when it occurs, but has no effect when it does not. Similarly, the abstract focus feature is, so to speak, invisible to the ordinary semantic interpretation.
+
+Computing the meaning of a complex expression $AB$, which contains a focus marked element, is accomplished by the following  rule of evaluation, where $\infty$ indicates a suitable method of semantic composition, 
+
+\ex. \inter{AB}$^f = \{ A_i \infty B_j | A_i \in \inter{A}^f, B_j \in \inter{B}^f \} $
+
+When no subexpression is focus marked, this simply results in ordinary semantic composition. That is, the focus driven interpretation simply yields the normal functional application, or predicate modification, of the two subexpressions. When a subexpression is focus marked this generates a set of alternatives, which then all undergo the appropriate semantic composition.
+
+As a simple example, consider the following sentence where $f$ indicates the abstract focus feature, which is reflected in English prosody via prominent stress.
+
+\ex. John$_f$ knows the number.
+
+The components of the sentence are then the following, supposing that the individuals in the context are John, Joe, and Jim.
+
+\ex. \inter{John_f}$^f = \{ \inter{John}^o, Joe, Jim \} = \{ John, Joe, Jim \}$
+
+\ex. \inter{\text{knows the number}}$^f = \{ \inter{\la x . know(x, \text{the number})}^o \} = \{ \la x . know(x, \text{the number}) \}$
+
+The composition that results yields the set of alternatives of all individuals that could know the number.
+
+\ex. \inter{\text{knows the number}}$^f$(\inter{John_f}$^f) = \{$ John knows the number, Joe knows the number, Jim knows the number $\}$
+
+
+The second component of Eckardt's account is the notion of emphatic assertion. In this case, the resulting effect of emphatic assertion is taken to be akin to a tacit ``even''.  For example, consider the following sentence.
+
+\ex. Even John$_f$ knows the number.
+
+In addition to the assertion that John indeed knows the number, it implicates that all of the alternatives are also true, and, most importantly, that the asserted proposition is the most surprising or striking of all the alternatives.
+
+It is this last aspect which is taken to be crucial in emphatic assertions. The effect of emphasis can be encoded as an operator, the application of which yields both the asserted content, the ordinary semantic interpretation of the sentence, along with an implicature regarding the relation between the asserted content and all its alternatives. Where $P$ is taken as some measure of expectation in a given context, the effect can be represented as the following.\footnote{This is a trivial reformulation of \cite{eckardt2006}, which is a slight departure from that of \cite{krifka1995polarity}. The latter requires that the asserted statement be more surprising than the conjunction of all other alternatives. Nothing hinges on this difference, but here we adopt the less stringent criterion.}
+
+\ex. \textbf{emph}(S) \\ asserts: \inter{S}$^o$ \\ implicates: $\forall S' \in \inter{S}^f . P(\inter{S}^o) \leq P(\inter{S'}^o)$
+
+That is, an emphatically asserted utterance carries with it the implicature that it is somehow surprising or unexpected in comparison to its alternatives.
+
+With both components, we can evaluate a sentence with an NPI.
+
+\ex. Anna did not drink [a single drop]$_f$
+
+This sentences gives rise to the set of alternative propositions.
+
+\ex. \inter{S}$^f$ = $\{$ `Anna did not drink a single drop', `Anna did not drink a glassful', `Anna did not drink a barrelful', `Anna did not drink a swimming pool-ful'...$\}$
+
+Emphatically asserting this sentence leads to the implication that, of these alternatives, the proposition that is actually asserted is the most striking or unexpected.
+
+\ex. \textbf{emph}(Anna did not drink [a single drop]$_f$) \\ asserts: Anna did not drink a single drop. \\ implicates: This is surprising or unexpected relative to what she could have drunk.
+
+NPIs generate alternatives through focus, and emphatic focus leads to the implication that the asserted proposition is surprising or unexpected in comparison to its alternatives. Taken together, these components allow for the effects of emphatic negation to be derived pragmatically.
+
+While these components together yield the desired effect of emphatic negation, a perhaps more parsimonious account lies in the nature of the alternatives generated by NPIs. That is, unlike the alternatives induced by focus marking of an individual, NPIs introduce alternatives that are ordered along a scale according to semantic entailment.
+
+Scales underpin our reasoning about the relationship between ordered sets of propositions. For example, imagine a set of puzzles ordered by degree of increasing difficulty: $y_1 < y_2 < ... < y_n$. Positive and negative claims regarding an individual's ability to solve a particular puzzle allow for inferences regarding that same individual's ability to solve other puzzles. For example, consider the following.
+
+\ex. John can solve puzzle $y_i$.
+
+\ex. John can't solve puzzle $y_i$.
+
+From the first, we can infer that John can solve all easier puzzles; he can solve $y_j$ for all $j \leq i$. From the second, we can infer that John cannot solve any harder puzzles; he cannot solve $y_j$ for any $j \geq i$. The latter contexts are \emph{scale-reversing} allowing inferences from low values on the scale to high values, whereas the former are \emph{scale-preserving} allowing inferences from high values on the scale to low values \citep{fauconnier1975}.
+
+NPIs pick out the low end of a particular scale and allow us to reason about propositions higher in the scale. In contrast with ordinary negation, emphatic negation signals two things \citep{kadmon-landman1993any}. First, there is a reduced tolerance to exceptions. For example, in the case of a cook making dinner for a large group of people, the amount of potatoes that would be relevant is quite large. We can imagine the following exchange.
+
+  \ex. \a. Will there be French fries tonight?
+       \b. No, I don't have potatoes.
+       \b. Maybe you have just a couple of potatoes that I could fry in my room.
+       \b. Sorry, I don't have \textsc{any} potatoes.
+
+Emphasis \emph{widens} the interpretation of potatoes from quantities relevant to a large group to quantities relevant to even a single person.
+ 
+Second, emphasis yields a stronger statement. For example, in the case of the following threats, the latter is clearly the stronger prohibition.
+
+  \ex. \a. If you move, I'll shoot.
+       \b. If you budge an inch, I'll shoot.
+
+It is clear that either form of the threat allows for a certain amount of pragmatic slack in interpretation: being shot for blinking would seem rather ungenerous. However, there is still a clear relationship between the two. While scratching an itch might not be advisable in either situation, it as at least less inadvisable under the former than the latter. In all those situations where the first threat would be carried out we would expect the second to be as well, but not vice versa. In this sense, emphasis \emph{strengthens} the interpretation of a given statement.
+
+The basic intuition that connects the two effects of NPIs is that they signal something about how strictly the meaning is to be interpreted (cf. \citealt{lewis1970,landman1991}). In the examples above, this determines what it means to have potatoes or what counts as moving. We will refer to this contextually determined value as the \emph{standard of precision}. Such standards of precision stand in a particular relation to each other \citep{krifka1995polarity}. Namely, for two standards of precision, $t_i$ and $t_j$, we might say that one is stricter than the other, $t_i \prec t_j$ just in case the extensions of a given property, $\alpha$, is preserved under a loosening of the standard. 
+
+\ex. $t_i \prec t_j$ if and only if $\alpha_j \subset \alpha_i$
+
+This simply means that anything that holds at a stricter standard holds at a looser standard, but not necessarily vice versa. So, not having potatoes for a single person means that you still do not have enough potatoes for fifty people. But, not having potatoes for fifty people does not mean that you do not have enough for just one person. Likewise, scratching an itch might not get you shot at the looser standard, but it certainly could at the stricter one.
+
+Intuitively, an NPI makes negation emphatic because it signals a stricter standard than might be normally expected. It suggests that the speaker has evidence for making the assertion even under some stricter standard of interpretation. While plain negation might be compatible with a wide range of standards, emphatic negation picks out a much narrower range standards. Namely, it picks out an extremely high standard, if not the highest. In this sense, emphatic negation is surprising because it is particularly informative relative to plain negation \citep{israel1998,israel2001}. This is, of course, not an immutable fact about emphatic negation. It is exactly the loss of informativity that is at the center of Jespersen's Cycle. The question is then why emphatic negation, and the information it conveys, are subject to this continual erosion. In the next section we will lay out a formal framework for exploring this question.
+
+\subsection{Information Structure}
+
+The motivation of this project stems from particular hypotheses about the conditioning factors of negation in Jespersen's Cycle \citeyearpar{jespersen:1917}, which can be characterized by the transition from pre-verbal to embracing to post-verbal negation: \textsc{\color{red} neg V} $\rightarrow$ \textsc{\color{blue} neg V neg} $\rightarrow$ \textsc{\color{green} V neg}. In particular, \cite{hansen2009, hansen-visconti2009,hansen-visconti2012} have used historical corpora of French and Italian to show that the embracing form (\textsc{\color{blue} neg V neg}) is sensitive to the discourse status of the proposition being negated. Namely, the embracing form is restricted to instances where the proposition being negated is either \textsc{discourse old} or \textsc{inferrable}.
+
+\cite{schwenter2005,schwenter2006} uses synchronic data from Brazilian Portuguese to demonstrate the sensitivity of negation to these distinctions. Consider the following scenario. Suppose that a husband and wife expect a plumber to come fix their leaky faucet while they are at work during the day. The husband arrives home before his wife to find a still leaky faucet. The wife arrives home shortly and the first thing her husband says is the following.
+
+\exg.  O bombeiro \textsc{\color{red} n{\~a}o} \textsc{\color{red} Veio}.\\
+         The plumber neg came\\
+         ``The plumber didn't come."\\
+
+\exg. \#O bombeiro \textsc{\color{blue}n{\~a}o} \textsc{\color{blue}Veio} \textsc{\color{blue}n{\~a}o}.\\
+	The plumber neg came neg\\
+	``The plumber didn't come."\\
+
+The reason that the embracing form is odd is that it comes out of the blue, so to speak. That is, the proposition ``The plumber came.'' is entirely \textsc{discourse new}. Even if the husband has some expectation that his wife has been thinking about whether or not the plumber came, the proposition has not been introduced into the \emph{discourse} yet. The embracing form cannot be used to negate \textsc{discourse new} propositions.
+
+However, how the proposition can be introduced into the discourse in several ways, both explicitly and implicitly. For example, if the wife walks in the door and says the following.
+
+\exg.  O bombeiro veio hoje?\\
+       The plumber came today\\
+         ``Did the plumber come today?"\\
+
+Asking the question has explicitly introduced the proposition into the discourse, making either form appropriate in the husband's response. In fact, the wife need not even explicitly ask the question. For example, if she arrives home and points quizzically at sink, then the embracing form is fine. This is because the proposition can be inferred from the discourse.
+
+Schwenter shows that even finer distinctions can be made in the sensitivity of different forms of negation to discourse context. For example, consider the following scenario. Suppose that two colleagues meet in a departmental hallway in the afternoon after a scheduled talk, and one asks the other the following question.
+
+\exg. Voc{\^e} gostou da palestra da Maria?\\
+	 you liked the talk of Maria\\
+	 ``Did you like Maria's talk?"
+
+\exg. \textsc{\color{blue}N{\~a}o} \textsc{\color{blue}Fui} \textsc{\color{blue}n{\~a}o}.\\
+	 neg went neg\\
+	 ``I didn't go."\\
+
+\exg. \#\textsc{\color{green}Fui} \textsc{\color{green}n{\~a}o}.\\
+	  went neg\\
+	 ``I didn't go."\\
+
+The reason that the post-verbal form is odd is that the proposition being negated ``I went (to Maria's talk).'' is only indirectly connected to the discourse. That is, liking a talk presumably requires having attended it, so the proposition is only \textsc{inferrable} from the discourse. The post-verbal form cannot be used where the proposition is discourse new or inferrable. This is made clear by altering the form of the response to the question of liking the talk.
+
+\exg. \textsc{\color{blue}N{\~a}o} \textsc{\color{blue}Gostei} \textsc{\color{blue}n{\~a}o}.\\
+	 neg liked neg\\
+	 ``I didn't like it."\\
+
+\exg. \textsc{\color{green}Gostei} \textsc{\color{green}n{\~a}o}.\\
+	  liked neg\\
+	 ``I didn't like it."\\
+
+In this case the post-verbal form is acceptable because the proposition ``I liked Maria's talk.'' has been introduced into the discourse by the original question. The conditions and restrictions on different forms can be summarized as in Table \ref{schwenter}. The pre-verbal form is acceptable in any context, but the other two forms are only acceptable in more and more restricted contexts,
+
+\begin{table}
+\begin{center}
+\begin{tabular}{@{}ccccc@{}}
+      \hline
+       & \textsc{discourse new} & \textsc{inferrable} & \textsc{discourse old}\\ \hline
+      \textsc{\color{red} neg V} & $\checkmark$ &  $\checkmark$ &  $\checkmark$ \\
+      \textsc{\color{blue} neg V neg} & \#  & $\checkmark$ & $\checkmark$ \\
+      \textsc{\color{green} V neg} & \#  & \#  & $\checkmark$ \\
+      \hline
+\end{tabular}     
+\end{center}
+\caption{Acceptability of forms in discourse contexts}     
+\label{schwenter}
+\end{table}
+
+
+It is not entirely clear if the forms of negation in Brazilian Portuguese should be treated differently than the canonical cases of embracing negation in Jespersen's Cycle (cf. \emph{ne...pas} in French, \emph{ne...not} in English). However, languages with only the pre-verbal and embracing form have been shown to exhibit this same sensitivity to discourse status (e.g. \cite{schwenter2006} for Catalan and Italian, \cite{hansen2009} for French). Namely, languages that only have two forms make the distinction between \textsc{discourse new} and everything else. This, of course raises the question of whether the post-verbal form is necessarily sensitive to discourse status or is the result of other processes, such as phonetic reduction. These are open empirical questions, which might also vary by the particular circumstances of a language.
+
+However, the general shape of the conditioning factors suggests an intuitive characterization Jespersen's Cycle. That is, the different forms of negation are sensitive to the scale of how closely the negated proposition is connected to the discourse. That is, if we take connection to the discourse as a continuous measure, then discourse new propositions are at the low end, discourse old propositions are at the high end, and inferrable propositions are somewhere in the middle. In fact, we can simply reduce this to a scale of degrees of inferrability: discourse new propositions are not inferrable since we can't read minds, and discourse old propositions are completely inferrable since they have just been explicitly introduced into the discourse. 
+
+We can represent this visually as in Figure \ref{continuum}, where we have simply taken the discrete categories used to construct Table \ref{schwenter} and treated them as a continuum. In fact, this wording is potentially misleading. If discourse status is about beliefs, then the underlying phenomenon is essentially gradient in nature. The discrete categories are useful because they correspond to portions of the continuum. While we have robust intuitions about the discrete categories, the varying strength of these intuitions suggests that the underlying phenomenon is essentially gradient in nature.
+
+\begin{figure}
+     \begin{center}
+\begin{tikzpicture}
+% \node (left) at (-1, 2)    {\includegraphics[width=.15\textwidth]{left.jpg}};
+% \node (left) at (7, 2)    {\includegraphics[width=.15\textwidth]{right.jpg}};
+%draw horizontal line
+\draw (0,0) -- (6,0);
+%draw ticks
+\draw (0,3pt) -- (0,-3pt);
+\draw (6,3pt) -- (6,-3pt);
+%draw tick labels
+\draw (0,0) node[below=3pt] {0} ;
+\draw (6,0) node[below=3pt] {1} ;
+\draw (0,-.5) node[below=3pt] {\textsc{discourse new} } ;
+\draw (6,-.5) node[below=3pt] {\textsc{discourse old} } ;
+%
+\draw [ultra thick,red] (0,1.5) to (6,1.5);
+\draw [ultra thick,blue] (2,.5) to (6,.5);
+\draw (3,2) node {\textsc{\color{red} neg V}};
+\draw (4,1) node {\textsc{\color{blue} neg V neg}};
+% \draw (2,.25) node {$a_{\text{\textsc{\color{red} neg V}}}$};
+% \draw (5,.25) node {$a_{\textsc{\color{blue} neg V neg}}$};
+
+\end{tikzpicture}     
+\end{center}
+  \caption{Forms of negation given degree of inferrability}
+  \label{continuum}
+\end{figure}
+
+
+
+The continuous representation also offers us some insight into \emph{why} Jespersen's Cycle occurs. The reasoning is as follows. First, keeping track of what is actually part of the discourse is difficult. In fact, this is the problem of \emph{common knowledge}\footnote{In epistemic logic \emph{mutual knowledge} only requires that everyone know that $p$, without any further steps. Thus anything that is common knowledge is also mutual knowledge, but not \emph{vice versa}. \cite{lewis:1969} introduced common knowledge in Philosophy. \cite{clark-marshall1981} use the term ``mutual knowledge'' to refer to common knowledge.}, that everyone knows that $p$, that everyone knows that everyone knows that $p$, \emph{ad infinitum}. \cite{clark-marshall1981} outline a set of reasonable heuristics for circumventing this infinite regress, including physical or linguistic co-presence and community membership. While these heuristics are made with reference to resolving the problem of common knowledge, they extend equally to 
+propositions. Namely, propositions can be introduced to the discourse either explicitly (linguistic co-presence) or implicitly (physical co-presence, community membership).
+
+%Second, we have ample experimental evidence that speakers have particular biases in communication. Speakers tend to overestimate how successful they are at communication. \cite{savitsky-etal:2011} had two pairs of friends participate in a simple communication task. All four participants sat back to back and were individually given lists of four-way ambiguous sentences to read out loud with a specified meaning. For example, the sentence ``It's getting hot in here.'' could be interpreted as an indirect request to open the window or an amorous advance. Participants were asked to do two things. They were asked to guess the intended meaning of the sentences spoken by the other participants. They were also asked to estimate how many of the sentences the friend they came with had guessed correctly, and how many sentences the strangers from the other pair had guessed correctly. 
+%
+%The results can be seen in Figure \ref{savitsky}. Listeners were reliably above chance at guessing the intended meaning out of the four potential meanings, but, friends and strangers did not differ significantly. However, speakers had much higher expectations  for listeners, significantly overestimating how many sentences listeners would accurately guess. This suggests that, as speakers, we often tend to overestimate how transparent our utterances actually are to our listeners.
+%
+%
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=.7\textwidth]{savitsky.pdf}          
+%\end{center}
+%  \caption{Results from \cite{savitsky-etal:2011}}
+%   \label{savitsky}
+%\end{figure}
+%
+%
+%\cite{lane-etal2006} offer evidence that is particular germane to the question of discourse status. The experimental design can be seen in Figure \ref{elephants-exp}. Participants were assigned the role of either the speaker or addressee in a communication game. Speakers were instructed to communicate information about a target shape to the addressee. One shape was visible to only the speaker, blocked from the view of the addressee by an occluder. In the target conditions, the item that was visible only to the speaker was the same shape, but varied along some relevant dimension (e.g. size, color). Figure \ref{elephants-results} shows the proportion of trials where speakers used a modifier in referring to the target item. Surprisingly, speakers' privileged information leaks into what is said. In fact, this happens to an even greater extent when speakers were explicitly instructed to conceal information about their privileged information.
+%
+%
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=.7\textwidth]{elephants-exp.png}          
+%\end{center}
+%  \caption{Experimental design of \cite{lane-etal2006}}
+%   \label{elephants-exp}
+%\end{figure}
+%
+%
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=.7\textwidth]{elephant-results.png}          
+%\end{center}
+%  \caption{Results for \cite{lane-etal2006}}
+%   \label{elephants-results}
+%\end{figure}
+
+Returning to Jespersen's Cycle, we note that these experimental findings suggest a potential explanation for \emph{why} change takes place. The embracing form is restricted to a particular set of contexts where the proposition being negated is discourse old, or highly inferrable. If speakers tend to overestimate how inferrable the proposition being negated is, if they fail to filter out their own privileged information, then they will tend to use the embracing form in less and less inferrable contexts. The result will be an increase in the frequency of the embracing form over time. \cite{ahern-clark2015} offer a formal model of the dynamics of this process. However, the predictions of the model, like the corpus work by \cite{hansen2009, hansen-visconti2009}, are largely qualitative. That is, they demonstrate that the different forms of negation are sensitive to different constraints at different points in time, and offer an explanation of why those constraints might change over time. However, they offer no 
+quantitative predictions about the shape of the change.
+
+In contrast, \cite{wallage2013} presents a quantitative analysis of the conditioning factors of Jesepersen's Cycle in Middle English, drawing on evidence from the Penn Parsed Corpus of Middle English \citep{ppcme2}. Wallage codes sentences containing sentential negation for the discourse status of the proposition being negated, according to the categories outlined above. From two separate statistical tests on binned data (1150-1250 and 1250-1350), Wallage argues that if we factor out the overall rate of the embracing form, the effect of discourse status is not different across the two time bins. While the argument is interesting and it has great merit in being quantitative, the methodology is not compelling. That is, Wallage uses a form of \href{http://en.wikipedia.org/wiki/Variable_rules_analysis}{VARBRUL} and claims that the coefficients across discourse contexts are similar enough. There are several problems with this approach. First, it doesn't offer any way of quantitatively specifying how similar is 
+similiar \emph{enough}. While regular practice may yield some insight, we want a statistical measure of how similar is similar enough to not reject the hypothesis that the conditioning of discourse status changes. Second, binning the data and not accounting for the potential effects of individual documents may yield misleading results. More appropriate methods, such as generalized linear mixed-effects models (GLMMs) would be more appropriate, and Wallage (p.c.) is moving towards the application of these new statistical techniques.
+
+As it stands though, we don't have a clear answer to whether Jespersen's Cycle is driven by a sensitivity to discourse functional constraints. There are at least two potential explanations that reconcile the findings of \cite{hansen2009, hansen-visconti2009}, the experimental evidence of \cite{lane-etal2006}, the formal model of \cite{ahern-clark2015}, and the null result of \cite{wallage2013}. First, the role of discourse stats in Jespersen's Cycle may differ across languages. That is, the fact that the negation is sensitive to information structure may be particular to Romance languages. In fact, these constraints have only been noted in Romance languages. This could be the result of the constraints only occurring in Romance languages or just a lack of investigation into other languages synchronically and diachronically. The fact that the discourse status conditions in English don't change over time could be explained by this. However, it's striking that, at the beginning of the change, the embracing form 
+in English is largely restricted to Inferrable and Discourse Old contexts. It would be surprising if this were a simple coincidence. Second, absent an explicit model of how and \emph{why} the discourse status constraints might be changing, the methodology employed by Wallage does not tell us much. That is, Wallage implicitly adopts the null hypothesis that the rate of change across discourse contexts is not different and argues that this null hypothesis cannot be rejected. However, it is not entirely clear what the null hypothesis ought to be, or if his method can actually tell us when we can reject it.
+
+While we are still left with a fair amount of uncertainty regarding the actual causes of the cycle, it's clear that answering it will require a quantitative analysis of the conditioning factors of different forms of negation. The downside in this regard is that discourse status is not necessarily a surface property of sentences. That is, we cannot simply take a sentence and read off its relation to the previous discourse. Coding for discourse status requires a careful consideration of the prior context, the potential interpretations of a sentence, and general knowledge about the world.  This task is not straightforward even when analyzing contemporary language equipped with modern intuitions. The difficulty is only exacerbated when we turn to historical corpora. This leads to a reliance on expertise in the historical forms of a language to even perform a qualitative analysis, and a substantial investment of time and expertise to hand-code a large enough set of data to perform a quantitative statistical 
+analysis. Unfortunately, this means that a comprehensive answer to the question of whether discourse constraints are important in Jespersen's Cycle is dependent on having experts in the history of multiple languages where the cycle has occurred invest a significant amount of time towards coding and evaluating the results. This is certainly possible, but also certainly a difficult task.
+
+The goal of this project will be to explore methods for circumventing the need for significant expertise in the history of a language and significant time to understand the role of discourse status in change. In particular, we will be searching for surface properties of sentences that correlated with discourse status. On the assumption that these other surface properties stand in a stable relation to discourse status, we can probabilistically predict the discourse status of particular forms over time. That is, we are trying to infer the surface proxies of discourse status so that we can at least partially automate the process of determining the role of discourse in change. In the next section we describe the methods and data we will use.
+
+
+\section{Causes of the cycles}
+
+
+The two approaches in the literature regarding the cause of the change can be summarized as \emph{push-chains} and \emph{pull-chains}.
+
+\subsection{Pull-Chain}
+In Jespersen's own words, the transition between the stages is a matter of \emph{weakening} and \emph{strengthening}.
+
+\begin{quotation}
+The history of negative expressions in various languages makes us witness the following curious fluctuation: the original negative adverb is first weakened, then found insufficient and therefore strengthened, generally through some additional word, and this in its turn may be felt as the negative proper and may then in course of time be subject to the same developments as the original word. \citep[4]{jespersen:1917} 
+\end{quotation}
+In the case of a pull-chain analysis, the preverbal negation has a tendency to not receive main stress and thus becomes a clitic. Given the importance of the distinction between affirmation and negation, some additional word is used ``to increase the phonetic bulk'' of the negative signal to bolster its perception \citep[14]{jespersen:1917}. That is, some new marker is \emph{pulled} into expressing negation because of the weakening of the original preverbal negator.
+
+The prevalence of phonetic weakening suggests we should be skeptical of its role in any particular morphosyntactic change. There is ample evidence of phonetic weakening not leading to morphosyntactic change, and morphosyntactic change in the absence of any precursory phonetic weakening. More pertinent to the case at hand, \cite{posner1985} argues from Italian dialect data that apparently weak preverbal negators are not necessarily supplemented by some additional element. If phonetic weakening is not sufficient for the cycle, then this suggest that a pull-chain scenario is unlikely.
+
+\subsection{Push-Chain}
+
+Perhaps unsurprisingly, Jespersen prefigured the other major conception of the cycle insofar as he took weakening and strengthening to be both phonetic and semantic in nature.  In the latter case, which Jespersen thought to be the more frequent, some additional word is used ``to make the negative more impressive as being more vivid or picturesque'' \citep[15]{jespersen:1917}. This intuition is exactly what more recent theories have referred to as emphasis (\citealt{detges-waltereit2002,hopper-traugottt2003,eckardt2006,kiparsky-condoravdi:2006}, \emph{inter alia}).  More precisely, the incoming form of embracing negation is emphatic in comparison to the original form of preverbal negation. 
+
+On this second account, the increasing use of the postverbal emphatic element eventually leads to its loss of emphatic force. As \cite{kiparsky-condoravdi:2006} so eloquently note, ``to emphasize everything is to emphasize nothing.'' The directionality of the change then proceeds from the introduction of the post verbal element and its transition towards being obligatory. The new element potentially takes over the expression of negation in its own right, \emph{pushing} the original negator out. While this approach to the cycle often takes the loss of the preverbal negator as a given, it should be noted that this is most definitely not guaranteed. That is, while the postverbal element may increase in frequency and lose its emphasis, it need not necessarily come to be the sole expression of negation and push the preverbal element out. As a case in point, \cite{kiparsky-condoravdi:2006} present evidence from the history of Greek for the stability of a single preverbal negator over multiple centuries alongside 
+several postverbal elements that first convey emphatic and then plain negation. This provides further evidence that a pull-chain scenario is untenable given that phonetic weakening is neither necessary nor sufficient for the cycle.
+
+The push-chain scenario, however, offers a new perspective on the pull-chain mechanism. That is, it suggests the phonetic reduction of the preverbal element not as the cause of the change, but rather as an effect of it. The phonetic bulk of the preverbal negator may be crucial in determining if and when the expression of negation is identified elsewhere. For example, a less substantial element might not be perceived, yielding evidence that it does not express negation, whereas a more substantial element might provide  sufficient evidence for its status as the expression of negation. It is unsurprising that the relevant preverbal negator in Greek constitutes a heavy syllable, which would arguably have enough phonetic heft to be identified.
+
+Additionally, the push-chain suggests a particular interpretation of what is being pushed. That is, the form of plain negation is being pushed out by the form of emphatic negation. The cycle can be thought of as  essentially semantico-pragmatic in nature. It stems from the loss and renewal of emphatic negation due to pragmatic pressures.  This is obviously not to say that the relevant morphosyntactic repercussions are unexpected; the surprising cross-linguistic regularity of occurrence is what prompted Jespersen's original observation. Rather, it suggests that the use of negation under pragmatic pressures can, and often does have morphosyntactic consequences. In what follows we will consider the implications of this characterization of the cycle. We start with a characterization of emphatic negation.
+

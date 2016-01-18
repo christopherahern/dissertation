@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Ahern-chapter2.aux
+The style file: mcbride.bst
+Database file #1: ahern.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+`booktitle' is a missing field, not a string, for entry jones2015
+while executing---line 1671 of file mcbride.bst
+Warning--empty booktitle in jones2015
+You've used 34 entries,
+            3317 wiz_defined-function locations,
+            875 strings with 9593 characters,
+and the built_in function-call counts, 19790 in all, are:
+= -- 1505
+> -- 460
+< -- 45
++ -- 172
+- -- 128
+* -- 2183
+:= -- 2809
+add.period$ -- 141
+call.type$ -- 34
+change.case$ -- 266
+chr.to.int$ -- 34
+cite$ -- 35
+duplicate$ -- 1582
+empty$ -- 1731
+format.name$ -- 234
+if$ -- 3830
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 275
+newline$ -- 184
+num.names$ -- 142
+pop$ -- 327
+preamble$ -- 1
+purify$ -- 176
+quote$ -- 0
+skip$ -- 549
+stack$ -- 0
+substring$ -- 820
+swap$ -- 1250
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 267
+warning$ -- 1
+while$ -- 146
+width$ -- 0
+write$ -- 450
+(There was 1 error message)

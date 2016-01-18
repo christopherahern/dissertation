@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+
+\usepackage[includeheadfoot,margin=1in]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\chead{\textbf{Ahern} -- Representative Publication One}
+
+\usepackage{natbib}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+% tables and figures
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{multirow}
+\usepackage{enumitem}
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+\setlist{noitemsep}
+
+% Add packages and definitions you want to use here:
+\usepackage{times}
+\usepackage{multirow,sectsty}
+\usepackage{setspace}
+\usepackage{subfigure,graphicx}
+\usepackage{amsmath,amsthm,amsfonts, amssymb}
+\theoremstyle{definition} \newtheorem{definition}{Definition} 
+\usepackage{linguex}
+\usepackage[english,greek]{betababel}
+\usepackage{tikz-qtree}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,chains,matrix,positioning,scopes}
+
+\usepackage[normalem]{ulem}
+
+\usepackage{pdfpages}
+
+
+\usepackage{epigraph}
+\usepackage{hyperref}
+
+ \usepackage[only, llbracket,rrbracket]{stmaryrd}
+ \newcommand{\sem}[1]{\ensuremath{\{ #1 \} }}
+ \newcommand{\pair}[1]{\ensuremath{\langle #1 \rangle}}
+ \newcommand{\la}{\ensuremath{\lambda}}
+ \newcommand{\inter}[1]{\ensuremath{\llbracket#1\rrbracket}}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+
+
+\usepackage{tipa}
+\usepackage{amsmath,amsthm,amsfonts, amssymb,graphicx}
+\usepackage{multirow}
+\usepackage{sectsty}
+\usepackage{pstricks}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,chains,matrix,positioning,scopes}
+\usepackage{subfigure}
+\usepackage{linguex}
+
+\usepackage{natbib}
+\usepackage[only, llbracket,rrbracket]{stmaryrd}
+
+\newcommand{\sem}[1]{\ensuremath{\{ #1 \} }}
+\newcommand{\pair}[1]{\ensuremath{\langle #1 \rangle}}
+\newcommand{\la}{\ensuremath{\lambda}}
+\newcommand{\inter}[1]{\ensuremath{\llbracket#1\rrbracket}}
+
+\theoremstyle{definition} \newtheorem{definition}{Definition} 
+
+%\bibliographystyle{mcbride}
+
+\begin{document}
+
+\title{Mergers, Migration, and Signaling}
+\author{Christopher Ahern}
+\date{$\;\;\;\;$}
+
+
+\maketitle
+\thispagestyle{empty}
+\fancypagestyle{empty}{%
+  \fancyhf{}% Clear header/footer
+  \fancyhead[C]{\textbf{Ahern} - Representative Publication One}% Your journal/note
+}
+
+
+\setcounter{chapter}{1}
+\chapter{Jespersen's Cycles}
+\label{jespersens-cycles}
+
+\setlength{\epigraphwidth}{.9\textwidth}
+\epigraph{The history of negative expressions in various languages makes us witness the following curious fluctuation: the original negative adverb is first weakened, then found insufficient and therefore strengthened, generally through some additional word, and this in its turn may be felt as the negative proper and may then in course of time be subject to the same developments as the original word. \citep[4]{jespersen:1917}}
+\bibliographystyle{mcbride}
+\bibliography{ahern}
+
+
+\end{document}

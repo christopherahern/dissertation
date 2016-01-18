@@ -1,0 +1,31 @@
+% My current research takes systematic shifts in meaning and structure as a window onto the interaction between use and acquisition. The phenomenon at the heart of my dissertation, entitled \emph{Cycles and Stability in Linguistic Signaling}, 
+
+\begin{singlespace}
+
+% This dissertation, which is situated in broad debates over the delineation of abstract
+% grammatical knowledge from the use of language in context, argues for distinct but inter-
+% acting contributions from grammatical, psychological, and social factors in the production
+% of intraspeaker linguistic variability. The phenomenon under investigation is the tendency
+% of speakers to repeat recently-used linguistic options in conversational speech, which I re-
+% fer to as
+% persistence
+% . I take up three major themes: the use of persistence as evidence on
+% the mental-representational unity of variable linguistic processes; the interaction of differ-
+% ent loci of variation with different cognitively-rooted facilitatory effects; and the contextual
+% sensitivity of persistence to both social and grammatical expectations
+
+% the statement of the problem; the procedure and methods used to investigate the problem; the results of the investigation; and the conclusions.
+
+
+This dissertation examines the role of pragmatics and syntax in a theory of language change, and demonstrates the necessity of 
+
+% examines the role of pragmatics and syntax in language change. In particular, we show that a theory of language change must 
+
+
+% is the cross-linguistic change from pre-verbal to embracing to post-verbal negation known as Jespersen's Cycle. Using tools from evolutionary game theory, I show that the first transition in the cycle, from pre-verbal to embracing negation, is driven by the difficulty speakers have in keeping track of privileged versus common information.  For example, in Middle English the incoming embracing form, \emph{ne...not}, is initially restricted to negating propositions that are common information because they have recently been introduced to or can be inferred from the preceding discourse. But, speakers use this form in more and more contexts that are less and less closely tied to the discourse. As the form increases in use it loses the information it carried, undergoing a kind of bleaching. In fact, as the embracing form becomes the only one in use it ceases to carry any additional information about the negated proposition and the previous discourse. The result is a semantico-pragmatic push chain where the incoming embracing form  displaces the pre-verbal form of negation as it increases in frequency.
+
+% The transition from pre-verbal to embracing negation has been argued to set the stage for the second transition in the cycle, from embracing to post-verbal negation. However, I show that acquisition cannot account for such a transition unless it is simply the result of the accumulation of small random changes.  Applying statistical methods developed in population genetics to a corpus of Middle English, I show that this is indeed a possibility. The second transition is not distinguishable from random drift observed in finite biological populations. In contrast, we can reject the possibility of drift in the first transition. 
+
+% % This result is surprising insofar as it demonstrates that the causes of linguistic change are not readily observed from their form. Our visual intuitions about \emph{S}-shaped curves should be treated with caution. However, the random nature of the second transition allows us to make sense of its varying length across languages, from a century or so in Middle English and Middle High German to several centuries and more in French and different dialects of Dutch. Indeed, this is exactly what we would expect if the second transition was the result of random drift.
+
+\end{singlespace}

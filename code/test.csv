@@ -1,0 +1,73 @@
+wals_code,Name,latitude,longitude
+fre,French,48.0,2.0
+eng,English,52.0,0.0
+dsh,Danish,56.0,10.0
+gba,German (Bavarian),49.0,11.5
+ger,German,52.0,10.0
+mup,Mupun,9.5,8.83333333333
+nav,Navajo,36.1666666667,-108.0
+hno,Haida (Northern),54.0,-132.5
+apw,Apache (Western),33.75,-110.0
+tnc,Tanacross,63.5,-143.5
+bch,Berber (Chaouia),35.0,7.0
+bfg,Berber (Figuig),32.5,-1.5
+bma,Berber (Middle Atlas),33.0,-5.0
+bmz,Berber (Mzab),32.5,3.5
+bou,Berber (Wargla),31.9166666667,5.33333333333
+brf,Berber (Rif),34.5,-4.0
+bse,Berber (Ayt Seghrouchen Middle Atlas),33.3333333333,-4.66666666667
+bsi,Berber (Siwa),29.1666666667,25.5
+sey,Seychelles Creole,-4.75,55.5
+hcr,Haitian Creole,19.0,-72.5
+jcr,Jamaican Creole,18.1666666667,-77.25
+sey,Seychelles Creole,-4.75,55.5
+mnd,Mandarin,34.0,110.0
+wec,Welsh (Colloquial),52.75,-3.5833
+wel,Welsh,52.0,-3.0
+nor,Norwegian,61.0,8.0
+dut,Dutch,52.5,6.0
+afr,Afrikaans,-31.0,22.0
+fin,Finnish,62.0,25.0
+kms,Kamass,52.0,92.0
+hun,Hungarian,47.0,20.0
+abe,Arabic (Beirut),33.9166666667,35.5
+aeg,Arabic (Egyptian),30.0,31.0
+ael,Arabic (Eastern Libyan),32.0,22.0
+amr,Arabic (Moroccan),34.0,-6.0
+ams,Arabic (Modern Standard),25.0,42.0
+anl,Arabic (North Levantine Spoken),33.75,36.0
+apa,Arabic (Palestinian),32.0,35.25
+arg,Arabic (Gulf),26.0,49.0
+arl,Arabic (Lebanese),34.0,36.0
+cop,Coptic,26.0,32.0
+tgh,Tuareg (Ghat),25.0,10.1666666667
+amh,Amharic,10.0,38.0
+eya,Eyak,60.5,-145.0
+tli,Tlingit,59.0,-135.0
+hai,Haida,53.0,-132.0
+aht,Ahtna,62.0,-145.0
+kyn,Koyukon,65.0,-155.0
+tnl,Tanana (Lower),65.0,-150.0
+chp,Chipewyan,59.0,-106.0
+apw,Apache (Western),33.75,-110.0
+hup,Hupa,41.0833333333,-123.666666667
+crq,Carrier,53.75,-123.5
+src,Sarcee,52.5,-116.0
+kjr,Koorete,5.83333333333,37.8333333333
+som,Somali,3.0,45.0
+bej,Beja,18.0,36.0
+jcr,Jamaican Creole,18.1666666667,-77.25
+ifi,Italian (Fiorentino),43.75,11.25
+ita,Italian,43.0,12.0
+itb,Italian (Bologna),44.5,11.3333333333
+itg,Italian (Genoa),44.4166666667,8.95
+itn,Italian (Napolitanian),40.9166666667,14.25
+itu,Italian (Turinese),45.0,7.66666666667
+lii,Lingua Italiana dei Segni,42.0,13.0
+bre,Breton,48.0,-3.0
+crn,Cornish,50.3333333333,-5.0
+gcy,Greek (Cypriot),34.75,33.0
+grk,Greek (Modern),39.0,22.0
+bul,Bulgarian,42.5,25.0
+hrr,Harari,9.25,42.1666666667
+orh,Oromo (Harar),9.0,42.0

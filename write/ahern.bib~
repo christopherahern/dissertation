@@ -1,0 +1,5053 @@
+@comment{x-kbibtex-personnameformatting=<%l><, %f>}
+@article{steinrucken-etal2014,
+  title={A novel spectral method for inferring general diploid selection from time series genetic data},
+  author={Steinr{\"u}cken, Matthias and Bhaskar, Anand and Song, Yun S},
+  journal={The annals of applied statistics},
+ volume={8},
+  number={4},
+  pages={2203},
+  year={2014},
+  publisher={NIH Public Access}
+}
+
+@book{chomsky-halle1968,
+  title={The sound pattern of English},
+  author={Chomsky, Noam and Halle, Morris},
+  year={1968},
+  publisher={Harper \& Row}
+}
+
+
+@book{chomsky1965,
+  title={Aspects of the Theory of Syntax},
+  author={Chomsky, Noam},
+  publisher={MIT Press},
+  year={1965}
+}
+
+
+@inproceedings{mikolov2013,
+  title={Distributed representations of words and phrases and their compositionality},
+  author={Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+  booktitle={Advances in neural information processing systems},
+  pages={3111--3119},
+  year={2013}
+}
+
+
+@article{embick2007,
+  title={Distributed morphology and the syntax/morphology interface},
+  author={Embick, David and Noyer, Rolf},
+  journal={The Oxford handbook of linguistic interfaces},
+  pages={289--324},
+  year={2007},
+  publisher={Oxford University Press Oxford}
+}
+
+
+@book{jager2008,
+  title={History of German negation},
+  author={J{\"a}ger, Agnes},
+  volume={118},
+  year={2008},
+  publisher={John Benjamins Publishing}
+}
+
+
+@article{wilks1938,
+  title={The large-sample distribution of the likelihood ratio for testing composite hypotheses},
+  author={Wilks, Samuel S},
+  journal={The Annals of Mathematical Statistics},
+  volume={9},
+  number={1},
+  pages={60--62},
+  year={1938}
+}
+
+
+@book{ewens2012,
+  title={Mathematical Population Genetics 1: Theoretical Introduction},
+  author={Ewens, Warren J},
+  volume={27},
+  year={2012},
+  publisher={Springer Science \& Business Media}
+}
+
+
+@inproceedings{kimura1955b,
+  title={Stochastic processes and distribution of gene frequencies under natural selection},
+  author={Kimura, Motoo},
+  booktitle={Cold Spring Harbor Symposia on Quantitative Biology},
+  volume={20},
+  pages={33--53},
+  year={1955},
+  organization={Cold Spring Harbor Laboratory Press}
+}
+
+
+@article{kimura1955a,
+  title={Solution of a process of random genetic drift with a continuous model},
+  author={Kimura, Motoo},
+  journal={Proceedings of the National Academy of Sciences of the United States of America},
+  volume={41},
+  number={3},
+  pages={144},
+  year={1955},
+  publisher={National Academy of Sciences}
+}
+
+@book{bailey1973,
+  title={Variation and linguistic theory.},
+  author={Bailey, Charles-James N},
+  year={1973},
+  publisher={Center for Applied Linguistics}
+}
+
+
+@inproceedings{moran1958,
+  title={Random processes in genetics},
+  author={Moran, Patrick Alfred Pierce},
+  booktitle={Mathematical Proceedings of the Cambridge Philosophical Society},
+  volume={54},
+  number={01},
+  pages={60--71},
+  year={1958},
+  organization={Cambridge Univ Press}
+}
+
+
+@article{fudenberg-etal2006,
+  title={Evolutionary game dynamics in finite populations with strong selection and weak mutation},
+  author={Fudenberg, Drew and Nowak, Martin A and Taylor, Christine and Imhof, Lorens A},
+  journal={Theoretical population biology},
+  volume={70},
+  number={3},
+  pages={352--363},
+  year={2006}
+}
+
+
+@article{kimura1968,
+  title={Evolutionary rate at the molecular level},
+  author={Kimura, Motoo},
+  journal={Nature},
+  volume={217},
+  number={5129},
+  pages={624--626},
+  year={1968}
+}
+
+
+@book{huxley1942,
+  title={Evolution. The Modern Synthesis.},
+  author={Huxley, Julian},
+  journal={Evolution. The Modern Synthesis.},
+  year={1942},
+  publisher={George Alien \& Unwin Ltd.}
+}
+
+
+@book{darwin1859,
+  title={On the origin of the species by natural selection},
+  author={Darwin, Charles},
+  year={1859},
+  publisher={Murray}
+}
+
+
+@book{niyogi2006,
+  title={The computational nature of language learning and evolution},
+  author={Niyogi, Partha},
+  year={2006},
+  publisher={MIT press Cambridge, MA:}
+}
+
+
+@book{kahneman2011,
+  title={Thinking, fast and slow},
+  author={Kahneman, Daniel},
+  year={2011},
+  publisher={Macmillan}
+}
+
+
+@article{keysar-etal2003,
+  title={Limits on theory of mind use in adults},
+  author={Keysar, Boaz and Lin, Shuhong and Barr, Dale J},
+  journal={Cognition},
+  volume={89},
+  number={1},
+  pages={25--41},
+  year={2003}
+}
+
+
+@phdthesis{ecay2015,
+  title={A Multi-Step Analysis of the Evolution of English Do-Support},
+  author={Ecay, Aaron},
+  school={University of Pennsylvania},
+  year={2015}
+}
+
+@book{bybee2003,
+  title={Phonology and language use},
+  author={Bybee, Joan},
+  volume={94},
+  year={2003},
+  publisher={Cambridge University Press}
+}
+
+
+@incollection{ecay-tamminga2015,
+  title={Persistence as a diagnostic of grammatical status: The case of Middle English negation},
+  author={Ecay, Aaron and Tamminga, Meredith},
+  pages={11},
+  booktitle={From Micro-change to Macro-change},
+  editor={Truswell, Rob and Mathieu F},
+  publisher={Oxford University Press},
+  year={2015}
+}
+
+
+
+@article{ingason-etal2013,
+  title={The evolutionary trajectory of the Icelandic new passive},
+  author={Ingason, Anton Karl and Legate, Julie Anne and Yang, Charles},
+  journal={University of Pennsylvania Working Papers in Linguistics},
+  volume={19},
+  number={2},
+  pages={11},
+  year={2013}
+}
+
+
+@incollection{altmann-etal1983,
+  title={A law of change in language},
+  author={Altmann, Gabriel and von Buttlar, Haro and Rott, Walter and Strauss, Udo},
+  booktitle={Historical linguistics},
+  pages={104--115},
+  editor={Brainard, Brian},
+  year={1983}
+}
+
+
+@phdthesis{tamminga2014,
+  title={Persistence in the production of linguistic variation},
+  author={Tamminga, Meredith Johanna},
+  year={2014},
+  school={University of Pennsylvania}
+}
+
+@article{embick2008,
+  title={Variation and morphosyntactic theory: Competition fractionated},
+  author={Embick, David},
+  journal={Language and Linguistics Compass},
+  volume={2},
+  number={1},
+  pages={59--78},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+
+
+@article{hyams-wexler1993,
+  title={On the grammatical basis of null subjects in child language},
+  author={Hyams, Nina and Wexler, Kenneth},
+  journal={Linguistic Inquiry},
+  pages={421--459},
+  year={1993},
+  publisher={JSTOR}
+}
+
+
+@article{gibson-wexler1994,
+  title={Triggers},
+  author={Gibson, Edward and Wexler, Kenneth},
+  journal={Linguistic Inquiry},
+  pages={407--454},
+  year={1994},
+  publisher={JSTOR}
+}
+
+
+@misc{stevens-etal2013,
+  title={The Pursuit of Word Meanings},
+  year={2013},
+  author={Stevens, Jon and Trueswell, John and Yang, Charles and Gleitman, Lila}
+}
+
+
+@article{yu-smith2007,
+  title={Rapid word learning under uncertainty via cross-situational statistics},
+  author={Yu, Chen and Smith, Linda B},
+  journal={Psychological Science},
+  volume={18},
+  number={5},
+  pages={414--420},
+  year={2007},
+  publisher={SAGE Publications}
+}
+
+
+@article{frank-etal2009,
+  title={Using speakers' referential intentions to model early cross-situational word learning},
+  author={Frank, Michael C and Goodman, Noah D and Tenenbaum, Joshua B},
+  journal={Psychological Science},
+  volume={20},
+  number={5},
+  pages={578--585},
+  year={2009},
+  publisher={SAGE Publications}
+}
+
+
+@article{fazly-etal2010,
+  title={A Probabilistic Computational Model of Cross-Situational Word Learning},
+  author={Fazly, Afsaneh and Alishahi, Afra and Stevenson, Suzanne},
+  journal={Cognitive Science},
+  volume={34},
+  number={6},
+  pages={1017--1063},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+
+@article{trueswell-etal2013,
+  title={Propose but verify: Fast mapping meets cross-situational word learning},
+  author={Trueswell, John C and Medina, Tamara Nicol and Hafri, Alon and Gleitman, Lila R},
+  journal={Cognitive psychology},
+  volume={66},
+  number={1},
+  pages={126--156},
+  year={2013},
+  publisher={Elsevier}
+}
+
+
+@article{smith-yu2008,
+  title={Infants rapidly learn word-referent mappings via cross-situational statistics},
+  author={Smith, Linda and Yu, Chen},
+  journal={Cognition},
+  volume={106},
+  number={3},
+  pages={1558--1568},
+  year={2008},
+  publisher={Elsevier}
+}
+
+
+@article{smith-etal2011,
+  title={Cross-situational learning: An experimental study of word-learning mechanisms},
+  author={Smith, Kenny and Smith, Andrew DM and Blythe, Richard A},
+  journal={Cognitive Science},
+  volume={35},
+  number={3},
+  pages={480--498},
+  year={2011},
+  publisher={Wiley Online Library}
+}
+
+
+@article{medina-etal2011,
+  title={How words can and cannot be learned by observation},
+  author={Medina, Tamara Nicole and Snedeker, Jesse and Trueswell, John C and Gleitman, Lila R},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={108},
+  number={22},
+  pages={9014--9019},
+  year={2011},
+  publisher={National Academy of Sciences}
+}
+
+
+@book{quine1960,
+  title={Word and object},
+  author={Quine, Willard V},
+  publisher={MIT Press},
+  year={1960}
+}
+
+
+@book{fodor1975,
+  title={The language of thought},
+  author={Fodor, Jerry A},
+  volume={5},
+  year={1975},
+  publisher={Harvard University Press}
+}
+
+
+@book{yang2002,
+  title={Knowledge and learning in natural language},
+  author={Yang, Charles},
+  year={2002},
+  publisher={Oxford University Press}
+}
+
+
+@article{bloomfield1927,
+  title={{Review of Jespersen's, The philosophy of grammar}},
+  author={Bloomfield, Leonard},
+  journal={Journal of English and Germanic Philology},
+  volume={26},
+  pages={444--446},
+  year={1927}
+}
+
+
+@incollection{thompson1998,
+  title={A discourse explanation for the cross-linguistic differences in the grammar of interrogation and negation},
+  author={Thompson, Sandra A},
+  booktitle={Case, typology and grammar: In honor of Barry J. Blake},
+  pages={309--341},
+  year={1998}
+}
+
+
+@phdthesis{maccartney2009natural,
+  title={Natural language inference},
+  author={MacCartney, William},
+  year={2009},
+  school={Stanford University}
+}
+
+
+@article{wu-keysar2007,
+  title={The effect of information overlap on communication effectiveness},
+  author={Wu, Shali and Keysar, Boaz},
+  journal={Cognitive Science},
+  volume={31},
+  number={1},
+  pages={169--181},
+  year={2007},
+  publisher={Wiley Online Library}
+}
+
+
+@article{heller-etal2012,
+  title={To name or to describe: Shared knowledge affects referential form},
+  author={Heller, Daphna and Gorman, Kristen S and Tanenhaus, Michael K},
+  journal={Topics in cognitive science},
+  volume={4},
+  number={2},
+  pages={290--305},
+  year={2012},
+  publisher={Wiley Online Library}
+}
+
+
+@article{stalnaker2002,
+  title={Common ground},
+  author={Stalnaker, Robert},
+  journal={Linguistics and philosophy},
+  volume={25},
+  number={5},
+  pages={701--721},
+  year={2002},
+  publisher={Springer}
+}
+
+
+@incollection{prince1981,
+  title={Toward a taxonomy of given-new information},
+  author={Prince, Ellen F},
+  booktitle={Radical pragmatics},
+  year={1981},
+  pages={223-255},
+  editor={Cole, Peter},
+  publisher={Academic Press}
+}
+
+
+@inproceedings{ladusaw1993,
+  title={Negation, indefinites, and the Jespersen Cycle},
+  author={Ladusaw, William A},
+  booktitle={Annual Meeting of the Berkeley Linguistics Society},
+  volume={19},
+  pages={437-46},
+  year={1993}
+}
+
+
+@article{chafe1974,
+  title={Language and consciousness},
+  author={Chafe, Wallace L},
+  journal={Language},
+  pages={111--133},
+  year={1974},
+  publisher={JSTOR}
+}
+
+@book{wittgenstein1953,
+	title={Philosophical Investigations},
+	author={Wittgenstein, Ludwig},
+	year={1953}
+}
+
+@book{bush-mosteller1955,
+	title={Stochastic models for learning},
+	author={Bush, Robert and Mosteller, Frederick},
+	year={1955},
+	publisher={Wiley}
+}
+
+
+
+@book{grice1989,
+  title={Studies in the way of words},
+  author={Grice, H.P.},
+  journal={Harvard University Press},
+  year={1989}
+}
+
+
+@article{wagner2012,
+  title={Deterministic chaos and the evolution of meaning},
+  author={Wagner, Elliott O},
+  journal={The British Journal for the Philosophy of Science},
+  pages={547-575},
+  year={2012},
+  publisher={Br Soc Philosophy Sci}
+}
+
+@article{sato-etal2002,
+  title={Chaos in learning a simple two-person game},
+  author={Sato, Yuzuru and Akiyama, Eizo and Farmer, J Doyne},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={99},
+  number={7},
+  pages={4748--4751},
+  year={2002},
+  publisher={National Acad Sciences}
+}
+
+@article{eigen-schuster1979,
+  title={The hypercycle},
+  author={Eigen, Manfred and Schuster, Peter},
+  journal={New York},
+  year={1979}
+}
+
+@article{rubinstein1991comments,
+  title={Comments on the interpretation of game theory},
+  author={Rubinstein, Ariel},
+  journal={Econometrica: Journal of the Econometric Society},
+  pages={909--924},
+  year={1991},
+  publisher={JSTOR}
+}
+
+@article{aumann1985,
+  title={What is game theory trying to accomplish},
+  author={Aumann, Robert J},
+  journal={Frontiers of economics},
+  volume={35},
+  year={1985},
+  publisher={Basil Blackwell Oxford, UK}
+}
+
+@article{rosenthal1979,
+  title={Sequences of games with varying opponents},
+  author={Rosenthal, Robert W},
+  journal={Econometrica: Journal of the Econometric Society},
+  pages={1353--1366},
+  year={1979},
+  publisher={JSTOR}
+}
+
+@book{kuhn1953,
+  title={Lectures on the Theory of Games},
+  author={Kuhn, Harry Waldo},
+  year={1953},
+  publisher={Princeton University Press}
+}
+
+@article{hofbauer-huttegger2015,
+  title={Selection-Mutation Dynamics of Signaling Games},
+  author={Hofbauer, Josef and Huttegger, Simon M},
+  journal={Games},
+  volume={6},
+  number={1},
+  pages={2--31},
+  year={2015},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{bardsley-etal2010,
+  title={Explaining Focal Points: Cognitive Hierarchy Theory versus Team Reasoning*},
+  author={Bardsley, Nicholas and Mehta, Judith and Starmer, Chris and Sugden, Robert},
+  journal={The Economic Journal},
+  volume={120},
+  number={543},
+  pages={40--79},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+@incollection{mehta-etal1992,
+  title={An experimental investigation of focal points in coordination and bargaining: some preliminary results},
+  author={Mehta, Judith and Starmer, Chris and Sugden, Robert},
+  booktitle={Decision Making under Risk and Uncertainty},
+  pages={211--219},
+  year={1992},
+  publisher={Springer}
+}
+
+@article{mehta-etal1994b,
+  title={The nature of salience: An experimental investigation of pure coordination games},
+  author={Mehta, Judith and Starmer, Chris and Sugden, Robert},
+  journal={The American Economic Review},
+  pages={658--673},
+  year={1994},
+  publisher={JSTOR}
+}
+
+@article{mehta-etal1994,
+  title={Focal points in pure coordination games: An experimental investigation},
+  author={Mehta, Judith and Starmer, Chris and Sugden, Robert},
+  journal={Theory and Decision},
+  volume={36},
+  number={2},
+  pages={163--185},
+  year={1994},
+  publisher={Springer}
+}
+
+@book{strogatz2014,
+  title={Nonlinear dynamics and chaos: with applications to physics, biology, chemistry, and engineering},
+  author={Strogatz, Steven H},
+  year={2014},
+  publisher={Westview press}
+}
+
+@book{hofbauer-sigmund1998,
+  title={Evolutionary games and population dynamics},
+  author={Hofbauer, Josef and Sigmund, Karl},
+  year={1998},
+  publisher={Cambridge University Press}
+}
+
+@book{weibull1997,
+  title={Evolutionary game theory},
+  author={Weibull, J{\"o}rgen W},
+  year={1997},
+  publisher={MIT press}
+}
+
+@book{gintis2000,
+  title={Game theory evolving},
+  author={Gintis, Herbert},
+  year={2000},
+  publisher={Princeton University Press}
+}
+
+@book{mcelreath-boyd2008,
+  title={Mathematical models of social evolution},
+  author={McElreath, Richard and Boyd, Robert},
+  year={2008},
+  publisher={University of Chicago Press}
+}
+
+@book{fudenberg-tirole1991,
+  title={Game theory},
+  author={Fudenberg, Drew and Tirole, Jean},
+  year={1991},
+  publisher={MIT press}
+}
+
+@book{tadelis2013,
+  title={Game theory: an introduction},
+  author={Tadelis, Steven},
+  year={2013},
+  publisher={Princeton University Press}
+}
+
+
+
+@book{dixit-skeath2004,
+  title={Games of strategy},
+  author={Dixit, Avinash and Skeath, Susan and Reiley, David H},
+  year={2004},
+  publisher={WW Norton \& Company Inc., New York}
+}
+
+@book{osborne-rubinstein1994,
+  title={A course in game theory},
+  author={Osborne, Martin J and Rubinstein, Ariel},
+  year={1994},
+  publisher={MIT press}
+}
+
+@book{burridge1993,
+  title={Syntactic change in Germanic: aspects of language change in Germanic with particular reference to Middle Dutch},
+  author={Burridge, Kate},
+  volume={89},
+  year={1993},
+  publisher={John Benjamins Publishing}
+}
+
+@book{israel2011,
+  title={The grammar of polarity: Pragmatics, sensitivity, and the logic of scales},
+  author={Israel, Michael},
+  year={2011},
+  publisher={Cambridge University Press}
+}
+
+@book{heim-kratzer1998,
+  title={Semantics in generative grammar},
+  author={Heim, Irene and Kratzer, Angelika},
+  volume={13},
+  year={1998},
+  publisher={Blackwell Oxford}
+}
+
+@article{palsgrave1530,
+  year={1530},
+  author={Palsgrave, John},
+  title={L'esclarcissement de la langue fran{\c{c}}oyse, compos{\'e} par maistre Jehan Palsgrave, Angloys, natyf de Londres et gradu{\'e} de Paris}
+}
+
+@misc{firth1957,
+  title={A synopsis of linguistic theory studies in linguistic analysis},
+  author={Firth, JR},
+  year={1957},
+  publisher={Oxford, UK: Blackwell}
+}
+
+@phdthesis{grieve-smith2009,
+  title={The spread of change in French negation},
+  author={Grieve-Smith, Angus},
+  year={2009},
+  school={University of New Mexico}
+}
+
+@incollection{baker2008,
+  title={The macroparameter in a microparametric world},
+  author={Baker, Mark},
+  booktitle={The limits of syntactic variation},
+  volume={132},
+  pages={351},
+  year={2008},
+  publisher={John Benjamins Publishing}
+}
+
+@book{chomsky2000,
+  title={Minimalist inquiries: The framework},
+  author={Chomsky, Noam},
+  number={15},
+  year={2000},
+  publisher={MIT Working Papers in Linguistics, MIT, Department of Linguistics}
+}
+
+@book{chomsky1986,
+  title={Barriers},
+  author={Chomsky, Noam},
+  volume={13},
+  year={1986},
+  publisher={MIT press}
+}
+
+@incollection{rizzi1997,
+  title={The fine structure of the left periphery},
+  author={Rizzi, Luigi},
+  booktitle={Elements of grammar},
+  pages={281--337},
+  year={1997},
+  publisher={Springer}
+}
+
+@book{von-neumann-morgenstern1944,
+  title={Theory of games and economic behavior},
+  author={Von Neumann, John and Morgenstern, Oskar},
+  year={1944},
+  publisher={Princeton university press}
+}
+
+@inproceedings{jones2015,
+	author = {Jones, Taylor},
+	title = {{Eem neagation in AAVE: A next step in Jespersen's Cycle}},
+	journal = {Proceedings of the 39th Annual Penn Linguistics Conference},
+	pages = {},
+	year = {2015}
+}
+
+
+@article{martineau-mougeon2003,
+  title={A sociolinguistic study of the origins of ne deletion in European and Quebec French},
+  author={Martineau, France and Mougeon, Raymond},
+  journal={Language},
+  volume={79},
+  number={1},
+  pages={118--152},
+  year={2003}
+}
+
+
+
+@incollection{chomsky-lasnik1993,
+  title={The theory of principles and parameters},
+  author={Chomsky, Noam and Lasnik, Howard},
+  booktitle={Syntax: An international handbook of contemporary research},
+  editor={Jacobs, Joachim and Von Stechow, Arnim and Sternefeld, Wolfgang},
+  pages={506--569},
+  publisher={Mouton de Gruyter},
+  year={1993}
+}
+
+
+@book{chomsky1995,
+  title={The minimalist program},
+  author={Chomsky, Noam},
+  year={1995},
+  publisher={Cambridge University Press}
+}
+
+
+@book{chomsky1981,
+  title={Lectures on government and binding: The Pisa lectures},
+  author={Chomsky, Noam},
+  number={9},
+  year={1981},
+  publisher={Walter de Gruyter}
+}
+
+
+@article{pollock1989,
+  title={Verb movement, universal grammar, and the structure of IP},
+  author={Pollock, Jean-Yves},
+  journal={Linguistic inquiry},
+  pages={365--424},
+  year={1989}
+}
+
+@article{speas1994,
+  title={Null arguments in a theory of economy of projection},
+  author={Speas, Peggy},
+  year={1994}
+}
+
+
+@book{haegeman1995,
+  title={The syntax of negation},
+  author={Haegeman, Liliane},
+  number={75},
+  year={1995},
+  publisher={Cambridge University Press}
+}
+
+
+@incollection{payne1985,
+  author={Payne, John R.},
+  booktitle = {Language typology and syntactic description},
+  editor = {Shopen, Timothy},
+  pages = {197-242},
+  title = {Negation},
+  year={1985},
+  publisher={Cambridge University Press}
+}
+
+
+
+
+
+@incollection{klima1964,
+  author={Klima, Edward S},
+  booktitle = {The structure of language},
+  editor = {Fodor, Jerry and Katz, Jerrold},
+  pages = {246-323},
+  title = {Negation in English},
+  year={1964},
+  publisher={na}
+}
+
+
+@book{miestamo2005,
+  title={Standard negation: The negation of declarative verbal main clauses in a typological perspective},
+  author={Miestamo, Matti},
+  volume={31},
+  year={2005},
+  publisher={Walter de Gruyter}
+}
+
+
+
+@article{kehler2004,
+  title={11 Discourse Coherence},
+  author={Kehler, Andrew},
+  journal={The handbook of pragmatics},
+  pages={241},
+  year={2004}
+}
+
+@article{lane-etal2006,
+	author = {{Wardlow Lane}, Liane and Groisman, Michelle and Ferreira, Victor S},
+	journal = {Psychological science},
+	number = {4},
+	pages = {273--277},
+	publisher = {SAGE Publications},
+	title = {{Don't talk about pink elephants! Speakers' control over leaking private information during language production}},
+	volume = {17},
+	year = {2006}
+}
+
+@book{visser1963,
+	author = {Visser, F Th},
+	publisher = {Brill Archive},
+	title = {{An historical syntax of the English language}},
+	year = {1963}
+}
+
+@book{rowlett1998,
+	author = {Rowlett, Paul},
+	publisher = {Oxford University Press},
+	title = {{Sentential negation in French}},
+	year = {1998}
+}
+
+@article{nachbar1990,
+	author = {Nachbar, John H},
+	journal = {International journal of game theory},
+	number = {1},
+	pages = {59--89},
+	title = {{`Evolutionary' selection dynamics in games: convergence and limit properties}},
+	volume = {19},
+	year = {1990}
+}
+
+@book{narendra2012,
+	author = {Narendra, Kumpati S and Thathachar, Mandayam AL},
+	publisher = {Dover},
+	title = {{Learning automata: an introduction}},
+	year = {2012}
+}
+
+@article{blythe-croft2012,
+	author = {Blythe, Richard A and Croft, William},
+	journal = {Language},
+	number = {2},
+	pages = {269--304},
+	publisher = {Linguistic Society of America},
+	title = {{S-curves and the mechanisms of propagation in language change}},
+	volume = {88},
+	year = {2012}
+}
+
+@article{castello-etal2006,
+	author = {Castell{\'o}, Xavier and Egu{\'i}luz, V{\'i}ctor M and Miguel, Maxi San},
+	journal = {New Journal of Physics},
+	number = {12},
+	pages = {308},
+	publisher = {IOP Publishing},
+	title = {{Ordering dynamics with two non-excluding options: bilingualism in language competition}},
+	volume = {8},
+	year = {2006}
+}
+
+@article{zhang-gong2013,
+	author = {Zhang, Menghan and Gong, Tao},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {24},
+	pages = {9698--9703},
+	publisher = {National Acad Sciences},
+	title = {{Principles of parametric estimation in modeling language competition}},
+	volume = {110},
+	year = {2013}
+}
+
+@article{cuskley-etal2014,
+	author = {Cuskley, Christine F and Pugliese, Martina and Castellano, Claudio and Colaiori, Francesca and Loreto, Vittorio and Tria, Francesca},
+	journal = {PloS one},
+	number = {8},
+	pages = {e102882},
+	publisher = {Public Library of Science},
+	title = {{Internal and external dynamics in language: evidence from verb regularity in a historical corpus of English}},
+	volume = {9},
+	year = {2014}
+}
+
+@article{karandikar-etal-1998,
+	author = {Karandikar, Rajeeva and Mookherjee, Dilip and Ray, Debraj and Vega-Redondo, Fernando},
+	journal = {Journal of Economic Theory},
+	number = {2},
+	pages = {292--331},
+	title = {{Evolving aspirations and cooperation}},
+	volume = {80},
+	year = {1998}
+}
+
+@article{lieberman-etal2007,
+	author = {Lieberman, Erez and Michel, Jean-Baptiste and Jackson, Joe and Tang, Tina and Nowak, Martin A},
+	journal = {Nature},
+	number = {7163},
+	pages = {713--716},
+	publisher = {Nature Publishing Group},
+	title = {{Quantifying the evolutionary dynamics of language}},
+	volume = {449},
+	year = {2007}
+}
+
+@article{wright1922,
+	author = {Wright, Sewall},
+	journal = {American Naturalist},
+	pages = {330--338},
+	publisher = {JSTOR},
+	title = {{Coefficients of inbreeding and relationship}},
+	year = {1922}
+}
+
+@book{gigerenzer-selten2001,
+	author = {Gigerenzer, Gerd and Selten, Reinhard},
+	publisher = {Mit Press},
+	title = {{Bounded rationality: The adaptive toolbox}},
+	year = {2001}
+}
+
+@book{hirsch-smale1974,
+	author = {Hirsch, Morris W. and Smale, Stephen},
+	location = {San Diego},
+	publisher = {Academic Press},
+	title = {{Difierential Equations, Dynamical Systems, and Linear Algebra.}},
+	year = {1974}
+}
+
+@book{hirsch-smale-devaney2004,
+	author = {Hirsch, Morris W and Smale, Stephen and Devaney, Robert L},
+	publisher = {Academic press},
+	title = {{Differential equations, dynamical systems, and an introduction to chaos}},
+	volume = {60},
+	year = {2004}
+}
+
+@unpublished{hofbauer1995,
+	author = {Hofbauer, Josef},
+	note = {Unpublished Manuscript},
+	school = {University of Vienna},
+	title = {{Imitation dynamics for games}},
+	year = {1995}
+}
+
+@article{milinski-wedekind1998,
+	author = {Milinski, Manfred and Wedekind, Claus},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {23},
+	pages = {13755--13758},
+	title = {{Working memory constrains human cooperation in the Prisoner{\rq}s Dilemma}},
+	volume = {95},
+	year = {1998}
+}
+
+@article{hofbauer-weibull1996,
+	author = {Hofbauer, Josef and Weibull, J{\"o}rgen W},
+	journal = {Journal of economic theory},
+	number = {2},
+	pages = {558--573},
+	title = {{Evolutionary selection against dominated strategies}},
+	volume = {71},
+	year = {1996}
+}
+
+@article{hofbauer-sandholm2011,
+	author = {Hofbauer, Josef and Sandholm, William H.},
+	journal = {Theoretical Economics},
+	number = {3},
+	pages = {341--377},
+	title = {{Survival of dominated strategies under evolutionary dynamics}},
+	volume = {6},
+	year = {2011}
+}
+
+@article{wedekind-milinski1996,
+	author = {Wedekind, Claus and Milinski, Manfred},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {7},
+	pages = {2686--2689},
+	publisher = {National Acad Sciences},
+	title = {{Human cooperation in the simultaneous and the alternating Prisoner's Dilemma: Pavlov versus Generous Tit-for-Tat}},
+	volume = {93},
+	year = {1996}
+}
+
+@article{samuelson-zhang1992,
+	author = {Samuelson, Larry and Zhang, Jianbo},
+	journal = {Journal of economic theory},
+	number = {2},
+	pages = {363--391},
+	title = {{Evolutionary stability in asymmetric games}},
+	volume = {57},
+	year = {1992}
+}
+
+@inproceedings{zeeman1980,
+	author = {Zeeman, E. Christopher},
+	booktitle = {{Global Theory of Dynamical Systems}},
+	journal = {Proceedings of the International Conference of the Global Theory of Dynamical Systems},
+	pages = {471--497},
+	series = {{Lecture Notes in Mathematics}},
+	title = {{Population dynamics from game theory}},
+	volume = {819},
+	year = {1980}
+}
+
+@inproceedings{sneller-fisher2014,
+	author = {Sneller, Betsy and Fisher, Sabriya},
+	journal = {Proceedings of the 38th annual Penn Linguistics Conference},
+	pages = {},
+	title = {{When GET got noticed: the emerging salience of get-passives}},
+	year = {2014}
+}
+
+@article{huttegger-zollman2013,
+	author = {Huttegger, Simon M. and Zollman, Kevin J.S.},
+	journal = {The British Journal for the Philosophy of Science},
+	title = {{Methodology in biological game theory}},
+	year = {2013}
+}
+
+@article{skyrms1994,
+	author = {Skyrms, Brian},
+	journal = {The Journal of philosophy},
+	pages = {305--320},
+	publisher = {JSTOR},
+	title = {{Sex and justice}},
+	year = {1994}
+}
+
+
+@book{mazzon2004,
+  title={A history of English negation},
+  author={Mazzon, Gabriella},
+  year={2004},
+  publisher={Pearson Longman}
+}
+
+@article{lucas2007,
+  title={Jespersen’s cycle in Arabic and Berber1},
+  author={Lucas, Christopher},
+  journal={Transactions of the Philological Society},
+  volume={105},
+  number={3},
+  pages={398--431},
+  year={2007},
+  publisher={Wiley Online Library}
+}
+
+@incollection{helbing1992,
+	author = {Helbing, Dirk},
+	booktitle = {{Economic evolution and demographic change: Formal Models in the Social Sciences}},
+	editor = {Haag, Gunter and Mueller, Ulrich and Troitzsch, Klaus G.},
+	pages = {330--348},
+	publisher = {Springer},
+	title = {{A mathematical model for behavioral changes by pair interactions}},
+	year = {1992}
+}
+
+@book{jager2008,
+  title={History of German negation},
+  author={J{\"a}ger, Agnes},
+  year={2008},
+  publisher={John Benjamins}
+}
+
+@phdthesis{zeijlstra2004,
+  title={Sentential negation and negative concord},
+  author={Zeijlstra, Hedde},
+  year={2004},
+  school={Netherlands Graduate School of Linguistics}
+}
+
+@article{croft1991,
+  title={The evolution of negation},
+  author={Croft, William},
+  journal={Journal of Linguistics},
+  volume={27},
+  number={01},
+  pages={1--27},
+  year={1991},
+}
+
+@incollection{beukema1999,
+	author = {Beukema, Frits},
+	booktitle = {{Negation in the history of English}},
+	editor = {van Ostade, Ingrid Tieken-Boon and Ostade, Gunnell Tottie and van der Wurff, Wim},
+	pages = {9--26},
+	publisher = {Mouton de Gruyter},
+	title = {{Five ways of saying no: the development of sentential negation in English in a Government and Binding perspective}},
+	year = {1999}
+}
+
+@incollection{givon1978,
+	author = {Giv{\'o}n, Talmy},
+	booktitle = {{Syntax and Semantics, Volume 9: Pragmatics}},
+	editor = {Cole, Peter},
+	pages = {69--112},
+	publisher = {Mouton de Gruyter},
+	title = {{Negation in language}},
+	year = {1978}
+}
+
+@incollection{willis2005,
+	author = {Willis, David},
+	booktitle = {{Grammatical Change: Origins, Nature, Outcomes}},
+	editor = {Jonas, Dianne and Whitman, John and Garrett, Andrew},
+	pages = {93--119},
+	publisher = {Oxford University Press},
+	title = {{A minimalist approach to Jespersen’s Cycle in Welsh}},
+	year = {2005}
+}
+
+
+@incollection{hoeksma1997,
+	author = {Hoeksma, Jacob},
+	booktitle = {{Negation and polarity: Syntax and Semantics}},
+	editor = {Forget, Danielle and Hirschbuller, Paul and Martineau, France and Rivero, Maria-Luisa},
+	pages = {139--156},
+	publisher = {John Benjamins},
+	title = {{Negation and negative concord in Middle Dutch}},
+	year = {1997}
+}
+
+@incollection{vanderAuwera-neuckermans2004,
+	author = {van der Auwera, Johan and Neuckermans, Annemie},
+	booktitle = {{Dialectology meets typology. Dialect grammar from a cross-linguistic perspective}},
+	editor = {Kortmann, Bernd},
+	pages = {453--478},
+	publisher = {Mouton de Gruyter},
+	title = {{Jespersen's cycle and the interaction of predicate and quantifier negation}},
+	year = {1997}
+}
+
+
+@incollection{horn2001,
+	author = {Horn, Laurence},
+	booktitle = {{Perspectives on negation and polarity items}},
+	editor = {Hoeksma, Jack and Rullmann, Hotze and Sanchez-Valencia, Victor and Van der Wouden, Ton},
+	pages = {173--200},
+	publisher = {John Benjamins},
+	title = {{Flaubert triggers, squatitive negation, and other quirks of grammar}},
+	year = {2001}
+}
+
+
+@incollection{burridge1983,
+	author = {Burridge, Kate},
+	booktitle = {{Linguistics in the Netherlands 1983}},
+	editor = {Bennis, Hans and van Lessen Kloeke, W.U.S.},
+	pages = {31--40},
+	publisher = {Dordrecht: Foris},
+	title = {{On the development of Dutch negation}},
+	year = {1983}
+}
+
+
+journal = {Differential Equations, Dynamical Systems, and Linear Algebra},
+
+location = {New York},
+
+publisher = {Academic Press},
+
+title = {{Difierential Equations, Dynamical Systems, and Linear Algebra}},
+
+year = {1974}
+}
+
+@article{simon1955,
+	author = {Simon, Herbert A},
+	journal = {The Quarterly Journal of Economics},
+	pages = {99--118},
+	title = {{A behavioral model of rational choice}},
+	year = {1955}
+}
+
+@book{simon1957,
+	author = {Simon, Herbert A},
+	location = {New York},
+	publisher = {Wiley},
+	title = {{Models of man; social and rational.}},
+	year = {1957}
+}
+
+@article{simon1959,
+	author = {Simon, Herbert A},
+	journal = {The American Economic Review},
+	pages = {253--283},
+	publisher = {JSTOR},
+	title = {{Theories of decision-making in economics and behavioral science}},
+	year = {1959}
+}
+
+@article{coleman-etal1990,
+	author = {Coleman, Andrew A and Colman, Andrew M and Thomas, Richard M},
+	journal = {Behavioral Science},
+	number = {2},
+	pages = {115--121},
+	title = {{Cooperation without awareness: A multiperson generalization of the minimal social situation}},
+	volume = {35},
+	year = {1990}
+}
+
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+@article{grafen1979,
+	author = {Grafen, Alan},
+	journal = {Animal Behaviour},
+	pages = {905--907},
+	title = {{The hawk-dove game played between relatives}},
+	volume = {27},
+	year = {1979}
+}
+
+%% Created for Christopher Ahern at 2014-06-11 09:19:13 -0400 
+
+@article{maynard-smith-parker1976,
+	author = {{Maynard Smith}, John and Parker, Geoffery A},
+	journal = {Animal behaviour},
+	number = {1},
+	pages = {159--175},
+	publisher = {Elsevier},
+	title = {{The logic of asymmetric contests}},
+	volume = {24},
+	year = {1976}
+}
+
+@article{schlag1998,
+	author = {Schlag, Karl H},
+	journal = {Journal of Economic Theory},
+	number = {1},
+	pages = {130--156},
+	title = {{Why imitate, and if so, how?: A boundedly rational approach to multi-armed bandits}},
+	volume = {78},
+	year = {1998}
+}
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+@book{skyrms1996,
+	author = {Skyrms, Brian},
+	date-added = {2014-06-11 13:18:59 +0000},
+	date-modified = {2014-06-11 13:19:08 +0000},
+	publisher = {Cambridge University Press},
+	title = {{Evolution of the social contract}},
+	year = {1996}
+}
+
+@article{frisch1997,
+	author = {Frisch, Stefan},
+	journal = {Lingua},
+	number = {1},
+	pages = {21--64},
+	publisher = {Elsevier},
+	title = {{The change in negation in Middle English: a NEGP licensing account}},
+	volume = {101},
+	year = {1997}
+}
+
+@article{hurford1990,
+	author = {Hurford, James R},
+	journal = {Logical issues in language acquisition},
+	pages = {85--136},
+	title = {{Nativist and functional explanations in language acquisition}},
+	year = {1990}
+}
+
+@book{austin1962,
+	author = {Austin, John},
+	location = {Oxford},
+	publisher = {Clarendon Press},
+	title = {{How to do things with words}},
+	year = {1962}
+}
+
+@book{landman1991,
+	author = {Landman, Fred},
+	publisher = {Springer},
+	title = {{Structures for semantics}},
+	year = {1991}
+}
+
+@article{wallage2008,
+	author = {Wallage, Phillip},
+	journal = {Lingua},
+	number = {5},
+	pages = {643--674},
+	publisher = {Elsevier},
+	title = {{Jespersen's cycle in Middle English: parametric variation and grammatical competition}},
+	volume = {118},
+	year = {2008}
+}
+
+@book{giannakidou1998,
+	author = {Giannakidou, Anastasia},
+	publisher = {John Benjamins Publishing},
+	title = {{Polarity sensitivity as (non)veridical dependency}},
+	volume = {23},
+	year = {1998}
+}
+
+@article{posner1985,
+	author = {Posner, Rebecca},
+	journal = {Romance Philology},
+	number = {2},
+	pages = {170--197},
+	title = {{Post-verbal Negation in Non-Standard French, a Historical and Comparative View}},
+	volume = {39},
+	year = {1985}
+}
+
+@book{zanuttini1997,
+  title={Negation and clausal structure},
+  author={Zanuttini, Raffaella},
+  year={1997},
+  publisher={Oxford University Press}
+}
+
+@book{haspelmath1997,
+	author = {Haspelmath, Martin},
+	publisher = {Clarendon Press},
+	title = {{Indefinite pronouns}},
+	year = {1997}
+}
+
+@phdthesis{horn1972,
+	author = {Horn, Laurence},
+	school = {University of California Los Angeles},
+	title = {{On the semantic properties of logical operators in English}},
+	year = {1972}
+}
+
+@phdthesis{elliott2000,
+	author = {Elliott, Nancy},
+	school = {Indiana University},
+	title = {{A Sociolinguistics Study of Rhoticity in American Film Speech from the 1930s to the 1970s}},
+	year = {2000}
+}
+
+@article{breitbarth2009,
+	author = {Breitbarth, Anne},
+	journal = {The Journal of Comparative Germanic Linguistics},
+	number = {2},
+	pages = {81--114},
+	title = {{A hybrid approach to Jespersen{rq}s cycle in West Germanic}},
+	volume = {12},
+	year = {2009}
+}
+
+@book{wals,
+	address = {Leipzig},
+	bdsk-url-1 = {http://wals.info},
+	editor = {Dryer, Matthew S. and Haspelmath, Martin},
+	publisher = {Max Planck Institute for Evolutionary Anthropology},
+	title = {{WALS Online}},
+	url = {http://wals.info},
+	year = {2013}
+}
+
+@book{meillet1912,
+  title={L'{\'e}volution des formes grammaticales},
+  author={Meillet, Antoine},
+  year={1912},
+  publisher={Nicola Zanichelli}
+}
+
+@article{gardiner1904,
+  title={The word},
+  author={Gardiner, Alan H},
+  journal={Zeitschrift f{\"u}r {\"A}gyptische Sprache},
+  volume={41},
+  number={JG},
+  pages={130--135},
+  year={1905}
+}
+
+@inproceedings{davis-etal2007,
+	author = {Davis, Christopher and Potts, Christopher and Speas, Margaret},
+	booktitle = {{Proceedings of SALT}},
+	pages = {71--88},
+	title = {{The pragmatic values of evidential sentences}},
+	volume = {17},
+	year = {2007}
+}
+
+@article{apicella-etal2012networks,
+	author = {Apicella, Coren L. and Marlowe, Frank W. and Fowler, James H. and Christakis, Nicholas A.},
+	journal = {Nature},
+	number = {7382},
+	pages = {497--501},
+	publisher = {Nature Publishing Group},
+	shortauthor = {Apicella et al.},
+	title = {{Social networks and cooperation in hunter-gatherers}},
+	volume = {481},
+	year = {2012}
+}
+
+@article{lewis1970,
+	author = {Lewis, David},
+	journal = {Synthese},
+	number = {1},
+	pages = {18--67},
+	title = {{General semantics}},
+	volume = {22},
+	year = {1970}
+}
+
+@article{borgers-sarin1997,
+	author = {B{\"o}rgers, Tilman and Sarin, Rajiv},
+	journal = {Journal of Economic Theory},
+	number = {1},
+	pages = {1--14},
+	title = {{Learning through reinforcement and replicator dynamics}},
+	volume = {77},
+	year = {1997}
+}
+
+@incollection{potts2007thresholds,
+	author = {Potts, Christopher},
+	booktitle = {{New Frontiers in Artificial Intelligence}},
+	pages = {205--218},
+	publisher = {Springer},
+	title = {{Conversational implicatures via general pragmatic pressures}},
+	year = {2007}
+}
+
+@article{kullback-leibler1951divergence,
+	author = {Kullback, Solomon and Leibler, Richard A},
+	journal = {The Annals of Mathematical Statistics},
+	pages = {79--86},
+	publisher = {JSTOR},
+	title = {{On information and sufficiency}},
+	year = {1951}
+}
+
+@article{dryer1996,
+	author = {Dryer, Matthew S},
+	journal = {Journal of pragmatics},
+	number = {4},
+	pages = {475--523},
+	publisher = {Elsevier},
+	title = {{Focus, pragmatic presupposition, and activated propositions}},
+	volume = {26},
+	year = {1996}
+}
+
+@article{gundel-etal1993,
+	author = {Gundel, Jeanette K and Hedberg, Nancy and Zacharski, Ron},
+	journal = {Language},
+	pages = {274--307},
+	publisher = {JSTOR},
+	title = {{Cognitive status and the form of referring expressions in discourse}},
+	year = {1993}
+}
+
+@article{vanGelderen2008negative,
+	author = {{Van Gelderen}, Elly},
+	journal = {Linguistic Typology},
+	number = {2},
+	pages = {195--243},
+	title = {{Negative cycles}},
+	volume = {12},
+	year = {2008}
+}
+
+@article{rooth1992,
+	author = {Rooth, Mats},
+	journal = {Natural language semantics},
+	number = {1},
+	pages = {75--116},
+	publisher = {Springer},
+	title = {{A theory of focus interpretation}},
+	volume = {1},
+	year = {1992}
+}
+
+@book{hopper-traugottt2003,
+	author = {Hopper, Paul J and Traugott, Elizabeth Closs},
+	publisher = {Cambridge University Press},
+	title = {{Grammaticalization}},
+	year = {2003}
+}
+
+@inproceedings{pdtb,
+  title={The Penn Discourse TreeBank 2.0.},
+  author={Prasad, Rashmi and Dinesh, Nikhil and Lee, Alan and Miltsakaki, Eleni and Robaldo, Livio and Joshi, Aravind K and Webber, Bonnie L},
+  booktitle={LREC},
+  year={2008},
+  organization={Citeseer}
+}
+
+@incollection{clark-marshall1981,
+  title={Definite reference and mutual knowledge},
+  author={Clark, Herbert H and Marshall, Catherine R},
+  year={1981},
+  booktitle={Psycholinguistics: Critical Concepts in Psychology},
+  publisher={Cambridge University Press}
+}
+
+@article{schwenter2005,
+	author = {Schwenter, Scott A},
+	journal = {Lingua},
+	number = {10},
+	pages = {1427--1456},
+	publisher = {Elsevier},
+	title = {{The pragmatics of negation in Brazilian Portuguese}},
+	volume = {115},
+	year = {2005}
+}
+
+@book{bernini-ramat1996,
+	author = {Bernini, Giuliano and Ramat, Paolo},
+	publisher = {Mouton de Gruyter},
+	title = {{Negative sentences in the languages of Europe: A typological approach}},
+	year = {1996}
+}
+
+@book{nowak:2006b,
+	author = {Nowak, Martin A},
+	publisher = {Harvard University Press},
+	title = {{Evolutionary dynamics: exploring the equations of life}},
+	year = {2006}
+}
+
+@article{page:2002,
+	author = {Page, Karen M and Nowak, Martin A},
+	journal = {Journal of theoretical biology},
+	number = {1},
+	pages = {93--98},
+	title = {{Unifying evolutionary dynamics}},
+	volume = {219},
+	year = {2002}
+}
+
+@book{schelling:1960,
+	author = {Schelling, Thomas C},
+	date-added = {2013-10-04 18:36:58 +0000},
+	date-modified = {2013-10-04 18:37:23 +0000},
+	publisher = {Harvard university press},
+	title = {{The Strategy of Conflict}},
+	year = {1960}
+}
+
+@article{nowak:2000,
+	author = {Nowak, Martin A},
+	journal = {Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences},
+	number = {1403},
+	pages = {1615--1622},
+	title = {{Evolutionary biology of language}},
+	volume = {355},
+	year = {2000}
+}
+
+@article{nowak:2002,
+	author = {Nowak, Martin A and Komarova, Natalia L and Niyogi, Partha},
+	journal = {Nature},
+	number = {6889},
+	pages = {611--617},
+	title = {{Computational and evolutionary aspects of language}},
+	volume = {417},
+	year = {2002}
+}
+
+@article{nowak-sigmund:1993,
+	author = {Nowak, Martin and Sigmund, Karl},
+	journal = {Nature},
+	number = {6432},
+	pages = {56--58},
+	title = {{A strategy of win-stay, lose-shift that outperforms tit-for-tat in the Prisoner's Dilemma game}},
+	volume = {364},
+	year = {1993}
+}
+
+@article{imhof-etal:2007,
+	author = {Imhof, Lorens A and Fudenberg, Drew and Nowak, Martin A},
+	journal = {Journal of theoretical biology},
+	number = {3},
+	pages = {574--580},
+	title = {{Tit-for-tat or win-stay, lose-shift?}},
+	volume = {247},
+	year = {2007}
+}
+
+@article{kripke:1977,
+	author = {Kripke, Saul},
+	journal = {Midwest studies in philosophy},
+	number = {1},
+	pages = {255--276},
+	publisher = {Wiley Online Library},
+	title = {{Speaker's Reference and Semantic Referencess}},
+	volume = {2},
+	year = {1977}
+}
+
+@article{lewis:1979,
+	author = {Lewis, David},
+	journal = {Journal of philosophical logic},
+	number = {1},
+	pages = {339--359},
+	publisher = {Springer},
+	title = {{Scorekeeping in a language game}},
+	volume = {8},
+	year = {1979}
+}
+
+@book{christophersen:1939,
+	author = {Christophersen, Paul},
+	publisher = {Einar Munksgaard},
+	title = {{The articles: A study of their theory and use in English}},
+	year = {1939}
+}
+
+@article{donnellan:1966,
+	author = {Donnellan, Keith S},
+	journal = {The philosophical review},
+	number = {3},
+	pages = {281--304},
+	publisher = {JSTOR},
+	title = {{Reference and definite descriptions}},
+	volume = {75},
+	year = {1966}
+}
+
+@book{clark:2012,
+	author = {Clark, Robin Lee},
+	publisher = {MIT Press},
+	title = {{Meaningful games: Exploring language with game theory}},
+	year = {2012}
+}
+
+@article{tanenhaus1995integration,
+	author = {Tanenhaus, Michael K and Spivey-Knowlton, Michael J and Eberhard, Kathleen M and Sedivy, Julie C and others},
+	journal = {Science},
+	number = {5217},
+	pages = {1632--1634},
+	title = {{Integration of visual and linguistic information in spoken language comprehension}},
+	volume = {268},
+	year = {1995}
+}
+
+@article{russell1905,
+	author = {Russell, Bertrand},
+	journal = {Mind},
+	number = {4},
+	pages = {479--493},
+	title = {{On Denoting}},
+	volume = {14},
+	year = {1905}
+}
+
+@article{strawson1950,
+	author = {Strawson, P.F.},
+	journal = {Mind},
+	number = {235},
+	pages = {320--344},
+	title = {{On Referring}},
+	volume = {59},
+	year = {1950}
+}
+
+@proceedings{ward:2010,
+	author = {WARD, GREGORY and AHERN, CHRISTOPHER and HAYDEN, TOM},
+	booktitle = {{Proceedings of the 36th annual meeting of the Berkely Linguistics Society}},
+	title = {{An Empirical Investigation of Typicality and Uniqueness Effects on Article Choice in Attributive-Possession NPs}},
+	year = {2010}
+}
+
+@book{roberts-roussou2003,
+  title={Syntactic change: A minimalist approach to grammaticalization},
+  author={Roberts, Ian and Roussou, Anna},
+  year={2003},
+  publisher={Cambridge University Press}
+}
+
+@article{roberts:2003,
+	author = {Roberts, Craige},
+	journal = {Linguistics and Philosophy},
+	number = {3},
+	pages = {287--350},
+	title = {{Uniqueness in definite noun phrases}},
+	volume = {26},
+	year = {2003}
+}
+
+@inproceedings{clark1975,
+	author = {Clark, Herbert H},
+	booktitle = {{Proceedings of the 1975 workshop on Theoretical issues in natural language processing}},
+	organization = {Association for Computational Linguistics},
+	pages = {169--174},
+	title = {{Bridging}},
+	year = {1975}
+}
+
+@article{kadmon1990,
+	author = {Kadmon, Nirit},
+	journal = {Linguistics and Philosophy},
+	number = {3},
+	pages = {273--324},
+	title = {{Uniqueness}},
+	volume = {13},
+	year = {1990}
+}
+
+@book{heim:1982,
+	author = {Heim, Irene},
+	publisher = {Ph.D Thesis, University of Massachusetts},
+	title = {{The semantics of definite and indefinite noun phrases}},
+	year = {1982}
+}
+
+@article{eberhard:1995,
+	author = {Eberhard, Kathleen M and Spivey-Knowlton, Michael J and Sedivy, Julie C and Tanenhaus, Michael K},
+	journal = {Journal of Psycholinguistic Research},
+	number = {6},
+	pages = {409--436},
+	title = {{Eye movements as a window into real-time spoken language comprehension in natural contexts}},
+	volume = {24},
+	year = {1995}
+}
+
+@article{kamp1981,
+	author = {Kamp, Hans},
+	journal = {Formal methods in the study of language},
+	pages = {277--322},
+	publisher = {Mathematisch Centrum},
+	title = {{A theory of truth and semantic representation}},
+	year = {1981}
+}
+
+@incollection{stalnaker1978,
+	address = {New York},
+	author = {Stalnaker, Robert},
+	booktitle = {{Syntax and Semantics}},
+	editor = {Cole, Peter},
+	pages = {315-32},
+	publisher = {New York University Press},
+	title = {{Assertion}},
+	year = {1978}
+}
+
+
+
+@incollection{stalnaker1974,
+	address = {New York},
+	author = {Stalnaker, Robert},
+	booktitle = {{Semantics and Philosophy}},
+	editor = {Unger, M. Munitz AND P.},
+	pages = {197--214},
+	publisher = {New York University Press},
+	title = {{Pragmatic presuppositions}},
+	year = {1974}
+}
+
+@book{tottie:1991,
+	author = {Tottie, Gunnel},
+	location = {New York},
+	publisher = {Academic Press},
+	title = {{Negation in English speech and writing: a study in variation}},
+	year = {1991}
+}
+
+@article{wallage2013,
+	author = {Wallage, Phillip},
+	journal = {Journal of Historical Syntax},
+	number = {1},
+	title = {{Functional differentiation and grammatical competition in the English Jespersen Cycle}},
+	volume = {2},
+	year = {2013}
+}
+
+@article{strawson1950,
+	author = {Strawson, P.F.},
+	journal = {Mind},
+	number = {235},
+	pages = {320--344},
+	title = {{On Referring}},
+	volume = {59},
+	year = {1950}
+}
+
+@phdthesis{honda2000,
+  title={Negation: a cross-linguistic study},
+  author={Honda, Isao},
+  year={2000},
+  school={State University of New York at Buffalo}
+}
+
+@incollection{schwenter2006,
+	author = {Schwenter, Scott A},
+	booktitle = {{Drawing the boundaries of meaning: Neo-Gricean studies in pragmatics and semantics in honour of Laurence R. Horn}},
+	editor = {Birner, Betty T. and Ward, Gregory},
+	location = {Philadelphia},
+	pages = {327--344},
+	publisher = {John Benjamins},
+	title = {{Fine-tuning Jespersen's cycle}},
+	year = {2006}
+}
+
+@article{huttegger:2007a,
+	author = {Huttegger, Simon M},
+	journal = {Philosophy of Science},
+	number = {1},
+	pages = {1--27},
+	title = {{Evolution and the Explanation of Meaning}},
+	volume = {74},
+	year = {2007}
+}
+
+@book{horn:1989,
+	author = {Horn, Laurence R},
+	location = {Chicago},
+	publisher = {University of Chicago Press},
+	title = {{A natural history of negation}},
+	year = {1989}
+}
+
+@article{nash:1951,
+	author = {Nash, John F},
+	journal = {The Annals of Mathematics},
+	number = {2},
+	pages = {286--295},
+	title = {{Non-cooperative games}},
+	volume = {54},
+	year = {1951}
+}
+
+@book{Clark:1996,
+	author = {Clark, H.H.},
+	date-added = {2012-10-31 19:56:50 +0000},
+	date-modified = {2012-10-31 19:57:54 +0000},
+	publisher = {Cambridge University Press},
+	title = {{Using Language}},
+	year = {1996}
+}
+
+@book{weinreich-labov-herzog1968,
+	author = {Weinreich, Uriel and Labov, William and Herzog, Marvin I.},
+	publisher = {University of Texas Press},
+	title = {{Empirical foundations for a theory of language change}},
+	year = {1968}
+}
+
+@article{Fiske:1992,
+	author = {Fiske, A.P.},
+	journal = {Psychological review},
+	number = {4},
+	pages = {689},
+	publisher = {American Psychological Association},
+	title = {{The four elementary forms of sociality: framework for a unified theory of social relations.}},
+	volume = {99},
+	year = {1992}
+}
+
+@techreport{Herzog:1965,
+	address = {Bloomington},
+	author = {Herzog, Marvin},
+	institution = {Indiana University Research Center in Anthropology, Folklore, and Linguistics},
+	number = {37},
+	title = {{The Yiddish language in Northern Poland}},
+	year = {1965}
+}
+
+@article{Garde:1961,
+	author = {Garde, Paul},
+	journal = {Word},
+	pages = {34--62},
+	title = {{Reflexions sur les differences phonetiques entres les langues slaves}},
+	volume = {17},
+	year = {1961}
+}
+
+@incollection{Grim:2011,
+	author = {Grim, Patrick},
+	booktitle = {{Language, games, and evolution}},
+	pages = {134--159},
+	publisher = {Springer},
+	title = {{Simulating Grice}},
+	year = {2011}
+}
+
+@book{Gintis:2000,
+	author = {Gintis, H.},
+	publisher = {Princeton University Press},
+	title = {{Game theory evolving: A problem-centered introduction to modeling strategic interaction}},
+	year = {2000}
+}
+
+@article{Wilson_etal:2000,
+	author = {Wilson, D.S. and Wilczynski, C. and Wells, A. and Weiser, L.},
+	journal = {The evolution of cognition},
+	pages = {347--365},
+	title = {{Gossip and other aspects of language as group-level adaptations}},
+	year = {2000}
+}
+
+@incollection{BrownLevinson:1978,
+	address = {New York},
+	author = {Brown, Penelope and Levinson, Stephen C.},
+	booktitle = {{Questions and Politeness}},
+	editor = {Goody, E.N.},
+	pages = {56--310},
+	publisher = {Cambridge University Press},
+	series = {{Cambridge papers in social anthropology; no. 8}},
+	title = {{Politeness: Some universals in language use}},
+	year = {1978}
+}
+
+@article{cooper1974control,
+	author = {Cooper, Roger M},
+	journal = {Cognitive Psychology},
+	number = {1},
+	pages = {84--107},
+	title = {{The control of eye fixation by the meaning of spoken language: A new methodology for the real-time investigation of speech perception, memory, and language processing}},
+	volume = {6},
+	year = {1974}
+}
+
+@book{Labov:1994,
+	address = {Oxford},
+	author = {Labov, William},
+	publisher = {Blackwell},
+	title = {{Principles of Linguistic Change: Internal Factors}},
+	year = {1994}
+}
+
+@book{Labov:2001,
+	address = {Oxford},
+	author = {Labov, William},
+	publisher = {Blackwell},
+	title = {{Principles of Linguistic Change: Social Factors}},
+	volume = {2},
+	year = {2001}
+}
+
+@book{Labov:2010,
+	address = {Oxford},
+	author = {Labov, William},
+	publisher = {Wiley-Blackwell},
+	title = {{Principles of Linguistic Change: Cognitive and Cultural Factors}},
+	volume = {3},
+	year = {2010}
+}
+
+@book{lewis:1969,
+	address = {Cambridge},
+	author = {Lewis, David},
+	publisher = {Harvard University Press},
+	title = {{Convention}},
+	year = {1969}
+}
+
+@book{Jackson:2008,
+	address = {Princeton},
+	author = {Jackson, Matthew O.},
+	publisher = {Princeton University Press},
+	title = {{Social and Economic Networks}},
+	year = {2008}
+}
+
+@manuscript{Yang:2009,
+	author = {Yang, Charles},
+	title = {{Population Structure and Language Change}},
+	year = {2009}
+}
+
+@article{skyrms2000,
+	author = {Skyrms, Brian},
+	journal = {Philosophy of Science},
+	pages = {94--113},
+	publisher = {JSTOR},
+	title = {{Stability and explanatory significance of some simple evolutionary models}},
+	year = {2000}
+}
+
+@book{Martinet:1955,
+	address = {Berne},
+	author = {Martinet, Andre},
+	publisher = {Francke},
+	title = {{Economie des changements phonetiques}},
+	year = {1955}
+}
+
+@phdthesis{fruehwald2013,
+	author = {Fruehwald, Josef},
+	school = {University of Pennsylvania},
+	title = {{Phonological Involvement in Phonetic Change}},
+	year = {2013}
+}
+
+@phdthesis{Poplack:1979,
+	author = {Poplack, Sheila},
+	school = {University of Pennsylvania},
+	title = {{Function and process in a variable phonology}},
+	year = {1979}
+}
+
+@inbook{Labov:1987,
+	address = {Philadelphia},
+	author = {Labov, William},
+	chapter = {12},
+	editor = {Dirven, Rene and Fried, Vilem},
+	pages = {311--332},
+	publisher = {John Benjamins},
+	title = {{The overestimation of functionalism}},
+	volume = {Functionalism in Linguistics},
+	year = {1987}
+}
+
+@phdthesis{Cedergreen:1973,
+	author = {Cedergreen, Henrietta},
+	school = {Cornell University},
+	title = {{The interplay of social and linguistic factors in Panama}},
+	year = {1973}
+}
+
+@book{Labov:1966,
+	address = {Washington D.C.},
+	author = {Labov, William},
+	publisher = {Center for Applied Linguistics},
+	title = {{The Social Stratification of English}},
+	year = {1966}
+}
+
+@book{Labov:1972,
+	author = {Labov, William},
+	publisher = {Philadelphia: University of Pennsylvania Press},
+	title = {{Sociolinguistic patterns}},
+	year = {1972}
+}
+
+@article{Hillenbrand_etal:1995,
+	author = {Hillenbrand, James and Getty, Laura A and Clark, Michael J and Wheeler, Kimberlee},
+	journal = {The Journal of the Acoustical society of America},
+	pages = {3099--3111},
+	title = {{Acoustic characteristics of American English vowels}},
+	volume = {97},
+	year = {1995}
+}
+
+@book{Trudgill:1974,
+	address = {Cambridge},
+	author = {Trudgill, Peter},
+	publisher = {Cambridge University Press},
+	title = {{The Social Differentiation of Englsih in Norwich}},
+	year = {1974}
+}
+
+@inbook{aumann1990,
+	author = {Aumann, Robert J.},
+	chapter = {34},
+	editor = {Gabszewicz, J.J. and Richard, J.F. and Wolsey, L.A.},
+	pages = {667--677},
+	publisher = {Elsevier},
+	title = {{Nash Equilibria Are Not Self-Enforcing}},
+	year = {1990}
+}
+
+@article{traulsen-etal:2012,
+	author = {Traulsen, Arne and Claussen, Jens Christian and Hauert, Christoph},
+	journal = {Physical Review E},
+	number = {4},
+	pages = {041901},
+	title = {{Stochastic differential equations for evolutionary dynamics with demographic noise and mutations}},
+	volume = {85},
+	year = {2012}
+}
+
+@article{harsanyi:1968a,
+	author = {Harsanyi, John C},
+	journal = {Management Science},
+	number = {5},
+	pages = {320--334},
+	title = {{Games with Incomplete Information Played by ``Bayesian'' Players Part II. Bayesian Equilibrium Points}},
+	volume = {14},
+	year = {1968}
+}
+
+@article{harsanyi:1968b,
+	author = {Harsanyi, John C},
+	journal = {Management Science},
+	number = {7},
+	pages = {486--502},
+	title = {{Games with incomplete information played by {lq}Bayesian{rq}players, part III. The basic probability distribution of the game}},
+	volume = {14},
+	year = {1968}
+}
+
+@book{Axelrod:1984,
+	address = {Cambridge},
+	author = {Axelrod, Robert},
+	publisher = {Perseus Books Group},
+	title = {{The Evolution of Cooperation}},
+	year = {1984}
+}
+
+@inproceedings{quasthoff2006corpus,
+	author = {Quasthoff, Uwe and Richter, Matthias and Biemann, Chris},
+	booktitle = {{Proceedings of the fifth international conference on language resources and evaluation}},
+	pages = {1799--1802},
+	title = {{Corpus portal for search in monolingual corpora}},
+	year = {2006}
+}
+
+@techreport{BaltagMossSolecki:1999,
+	address = {Bloomington},
+	author = {Baltag, Alexandru and Moss, Lawrence S. and Solecki, Slawomir},
+	institution = {Indiana University},
+	month = nov,
+	number = {TR534},
+	title = {{The Logic of Public Announcements, Common Knowledge and Private Suspicions}},
+	year = {1999}
+}
+
+@article{hawkins:1984,
+	author = {Hawkins, John A},
+	journal = {Journal of Pragmatics},
+	number = {5},
+	pages = {649--659},
+	title = {{A note on referent identifiability and co-presence}},
+	volume = {8},
+	year = {1984}
+}
+
+@inproceedings{biemann-etal:2007,
+	author = {Biemann, Chris and Heyer, Gerhard and Quasthoff, Uwe and Richter, Matthias},
+	booktitle = {{Proceedings of Corpus Linguistics 2007}},
+	title = {{The Leipzig corpora collection-monolingual corpora of standard size}},
+	year = {2007}
+}
+
+@article{huttegger:2007b,
+	author = {Huttegger, Simon M},
+	journal = {Philosophy of Science},
+	number = {5},
+	pages = {839--847},
+	title = {{Robustness in signaling games}},
+	volume = {74},
+	year = {2007}
+}
+
+@article{BergDickhautMcCabe:1995,
+	author = {Berg, Joyce and Dickhaut, John and McCabe, Kevin},
+	journal = {Games and Economic Behavior},
+	month = jul,
+	number = {1},
+	pages = {122--142},
+	title = {{Trust, Reciprocity, and Social History}},
+	volume = {10},
+	year = {1995}
+}
+
+@book{camerer:2003,
+	address = {Princeton},
+	author = {Camerer, Colin},
+	publisher = {Princeton University Press},
+	title = {{Behavioral Game Theory: Experiments in Strategic Interaction}},
+	year = {2003}
+}
+
+@article{Lindblom:1990,
+	author = {Lindblom, Bj{"o}rn},
+	journal = {Speech production and speech modeling},
+	pages = {403--439},
+	publisher = {Dordrecht: Kluwer},
+	title = {{Explaining phonetic variation: a sketch of the H\&H theory}},
+	volume = {55},
+	year = {1990}
+}
+
+@article{Caramazza_etal:2001,
+	author = {Caramazza, Alfonso and Costa, Albert and Miozzo, Michele and Bi, Yanchao},
+	journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
+	number = {6},
+	pages = {1430},
+	publisher = {American Psychological Association},
+	title = {{The specific-word frequency effect: Implications for the representation of homophones in speech production.}},
+	volume = {27},
+	year = {2001}
+}
+
+@incollection{Fehr:2008,
+	author = {Fehr, Ernst},
+	booktitle = {{Neuroeconomics: Decision Making and the Brain}},
+	chapter = {15},
+	editor = {Glimcher, Paul W. and Fehr, Ernst and Camerer, Colin and Poldrack, Russell Alan},
+	publisher = {Academic Press},
+	title = {{Social Preferences and the Brain}},
+	year = {2008}
+}
+
+@article{farrell-rabin:1996,
+	author = {Farrell, J. and Rabin, M.},
+	journal = {The Journal of Economic Perspectives},
+	number = {3},
+	pages = {103--118},
+	title = {{Cheap talk}},
+	volume = {10},
+	year = {1996}
+}
+
+@article{berg-etal1995,
+  title={Trust, reciprocity, and social history},
+  author={Berg, Joyce and Dickhaut, John and McCabe, Kevin},
+  journal={Games and economic behavior},
+  volume={10},
+  number={1},
+  pages={122--142},
+  year={1995},
+  publisher={Elsevier}
+}
+
+@book{fudenberg-levine:1998,
+	author = {Fudenberg, Drew and Levine, David K.},
+	publisher = {MIT press},
+	title = {{The theory of learning in games}},
+	year = {1998}
+}
+
+@book{FudenbergTirole:1991,
+	author = {Fudenberg, D. and Tirole, J.},
+	publisher = {MIT Press},
+	title = {{Game theory}},
+	year = {1991}
+}
+
+@article{FehrFischbacher:2004,
+	author = {Fehr, E. and Fischbacher, U.},
+	journal = {Evolution and human behavior},
+	keywords = {Punishment; Sanction; Social norm; Social preference; Strong reciprocity; Third party},
+	number = {2},
+	pages = {63--87},
+	publisher = {Elsevier},
+	title = {{Third-party punishment and social norms}},
+	volume = {25},
+	year = {2004}
+}
+
+@article{CampbellJanda:2000,
+	author = {Campbell, L. and Janda, R.},
+	journal = {Language sciences},
+	number = {2},
+	pages = {93--112},
+	publisher = {Elsevier},
+	title = {{Introduction: conceptions of grammaticalization and their problems}},
+	volume = {23},
+	year = {2000}
+}
+
+@techreport{FehrSchmidt:1998,
+	abstract = {There is strong evidence that people exploit their bargaining power in competitive markets but not in bilateral bargaining situations. There is also strong evidence that people exploit free-riding opportunities in voluntary cooperation games. Yet, when they are given the opportunity to punish free riders, stable cooperation is maintained although punishment is costly for those who punish. This paper asks whether there is a simple common principle that can explain this puzzling evidence. We show that if a fraction of the people exhibits inequality aversion the puzzles can be resolved.},
+	author = {Fehr, Ernst and Schmidt, Klaus M.},
+	bdsk-url-1 = {http://ideas.repec.org/p/cpr/ceprdp/1812.html},
+	institution = {C.E.P.R. Discussion Papers},
+	keywords = {Bargaining; experimental economics; Public Goods; Reciprocity; utility theory},
+	month = mar,
+	number = {1812},
+	title = {{A Theory of Fairness, Competition and Cooperation}},
+	type = {CEPR Discussion Papers},
+	url = {http://ideas.repec.org/p/cpr/ceprdp/1812.html},
+	year = 1998
+}
+
+@techreport{FehrSchmidt:2001,
+	abstract = {Most economic models are based on the self-interest hypothesis that assumes that all people are exclusively motivated by their material self-interest. In recent years experimental economists have gathered overwhelming evidence that systematically refutes the self-interest hypothesis and suggests that many people are strongly motivated by concerns for fairness and reciprocity. Moreover, several theoretical Papers have been written showing that the observed phenomena can be explained in a rigorous and tractable manner. These theories in turn induced a new wave of experimental research offering additional exciting insights into the nature of preferences and into the relative performance of competing theories of fairness. The purpose of this Paper is to review these recent developments, to point out open questions, and to suggest avenues for future research.},
+	author = {Fehr, Ernst and Schmidt, Klaus M.},
+	bdsk-url-1 = {http://ideas.repec.org/p/cpr/ceprdp/2703.html},
+	institution = {C.E.P.R. Discussion Papers},
+	keywords = {Altruism; Behavioural Economics; Competition; Contracts; Experiments; Fairness; Incentives; Reciproc},
+	month = feb,
+	number = {2703},
+	title = {{Theories of Fairness and Reciprocity - Evidence and Economic Applications}},
+	type = {CEPR Discussion Papers},
+	url = {http://ideas.repec.org/p/cpr/ceprdp/2703.html},
+	year = 2001
+}
+
+@book{Goffman:1967,
+	address = {New York},
+	author = {Goffman, Erving},
+	publisher = {Anchor Books},
+	title = {{Interaction Ritual: Essays on Face-to-Face Behavior}},
+	year = {1967}
+}
+
+@article{Levine:1998,
+	abstract = {We examine a simple theory of altruism in which players' payoffs are linear in their own monetary income and their opponents. The weight on the opponent's income is private information and varies in the population, depending, moreover, on what the opponent's coefficient is believed to be. Using results of ultimatum experiments and the final round of a centipede experiment, we are able to pin down relatively accurately what the distribution of altruism (and spite) in the population is. This distribution is then used with a reasonable degree of success to explain the results of the earlier rounds of centipede and the results of some public goods contribution games. In addition, we show that in a market game where the theory of selfish players does quite well, the theory of altruism makes exactly the same predictions as the theory of selfish players. (Copyright: Elsevier)},
+	author = {Levine, David K.},
+	bdsk-url-1 = {http://ideas.repec.org/a/red/issued/v1y1998i3p593-622.html},
+	journal = {Review of Economic Dynamics},
+	month = {July},
+	number = {3},
+	pages = {593--622},
+	title = {{Modeling Altruism and Spitefulness in Experiment}},
+	url = {http://ideas.repec.org/a/red/issued/v1y1998i3p593-622.html},
+	volume = {1},
+	year = 1998
+}
+
+@article{RobsonKaplan:2003,
+	author = {Robson, A.J. and Kaplan, H.S.},
+	journal = {American Economic Review},
+	pages = {150--169},
+	publisher = {JSTOR},
+	title = {{The evolution of human life expectancy and intelligence in hunter-gatherer economies}},
+	year = {2003}
+}
+
+@article{Kaplan_etal:2000,
+	author = {Kaplan, H. and Hill, K. and Lancaster, J. and Hurtado, A.M.},
+	journal = {Evolutionary Anthropology Issues News and Reviews},
+	number = {4},
+	pages = {156--185},
+	title = {{A theory of human life history evolution: diet, intelligence, and longevity}},
+	volume = {9},
+	year = {2000}
+}
+
+@article{King:1967,
+	author = {King, R.D.},
+	journal = {Studia Linguistica},
+	number = {1},
+	pages = {1--14},
+	publisher = {Wiley Online Library},
+	title = {{A measure for functional load}},
+	volume = {21},
+	year = {1967}
+}
+
+@article{BlevinsWedel:2009,
+	author = {Blevins, J. and Wedel, A.},
+	journal = {Diachronica},
+	number = {2},
+	pages = {143--183},
+	title = {{Inhibited sound change: An evolutionary approach to lexical competition}},
+	volume = {26},
+	year = {2009}
+}
+
+@misc{Weide:2005,
+	author = {Weide, R},
+	publisher = {Carnegie Mellon University: http://www. speech. cs. cmu. edu/cgi-bin/cmudict. Accessed},
+	title = {{The Carnegie mellon pronouncing dictionary [cmudict. 0.6]}},
+	year = {2005}
+}
+
+@unpublished{WedelJacksonKaplan:ta,
+	author = {Wedel, Andrew and Jackson, Scott and Kaplan, Abby},
+	note = {Unpublished Manuscript},
+	title = {{Functional load and the lexicon: Evidence that syntactic category and frequency relationships in minimal lemma pairs predict the loss of phoneme contrasts in language change}},
+	year = {2012}
+}
+
+@unpublished{WedelKaplanJackson:ta,
+	author = {Wedel, Andrew and Kaplan, Abby and Jackson, Scott},
+	note = {Unpublished Manuscript},
+	title = {{High functional load inhibits phonological contrast loss: A corpus study}}
+}
+
+@book{MailathSamuelson:2006,
+	address = {Oxford},
+	author = {Mailath, George J. and Samuelson, Larry},
+	publisher = {Oxford University Press},
+	title = {{Repeated games and reputations: long-run relationships}},
+	year = {2006}
+}
+
+@book{maynard-smith1982,
+	author = {{{Maynard Smith}}, John},
+	publisher = {Cambridge university press},
+	title = {{Evolution and the Theory of Games}},
+	year = {1982}
+}
+
+@unpublished{MialonMialon:2012,
+	author = {Mialon, H.M. and Mialon, S.H.},
+	note = {Unpublished Manuscript, Emory University},
+	title = {{Go Figure: The Strategy of Nonliteral Speech}},
+	year = {2012}
+}
+
+@article{PinkerNowakLee:2007,
+	author = {Pinker, Steven and Nowak, Martin A. and Lee, James J.},
+	journal = {Proceedings of the National Academy of Sciences},
+	month = {January},
+	organization = {The National Academy of Sciences of the United States of America},
+	pages = {833--838},
+	title = {{The logic of indirect speech}},
+	volume = {105},
+	year = {2007}
+}
+
+@article{Quinley:2012,
+	address = {Berlin},
+	author = {Quinley, Jason},
+	editor = {Lassiter, Daniel and Slavkovik, Marija},
+	journal = {ESSLLI 2010 and ESSLLI 2011 Student Sessions. Selected Papers},
+	pages = {221--233},
+	publisher = {Springer},
+	series = {{Lecture Notes in Computer Science}},
+	title = {{Trust Games as a Model for Requests}},
+	year = {2012}
+}
+
+@article{Rabin:1993,
+	abstract = {People like to help those who are helping them and to hurt those who are hurting them. Outcomes rejecting such motivations are called fairness equilibria. Outcomes are mutual-max when each person maximizes the other's material payoffs, and mutual-min when each person minimizes the other's payoffs. It is shown that every mutual-max or mutual-min Nash equilibrium is a fairness equilibrium. If payoffs are small, fairness equilibria are roughly the set of mutual-max and mutual-min outcomes; if payoffs are large, fairness equilibria are roughly the set of Nash equilibria. Several economic examples are considered and possible welfare implications of fairness are explored. Copyright 1993 by American Economic Association.},
+	author = {Rabin, Matthew},
+	bdsk-url-1 = {http://ideas.repec.org/a/aea/aecrev/v83y1993i5p1281-1302.html},
+	journal = {American Economic Review},
+	month = {December},
+	number = {5},
+	pages = {1281--1302},
+	title = {{Incorporating Fairness into Game Theory and Economics}},
+	url = {http://ideas.repec.org/a/aea/aecrev/v83y1993i5p1281-1302.html},
+	volume = {83},
+	year = 1993
+}
+
+@article{Sally:2000,
+	author = {Sally, David},
+	journal = {Social Science Information},
+	number = {4},
+	pages = {567--634},
+	title = {{A General Theory of Sympathy, Mind-Reading, and Social Inter- action, with an Application to the Prisoners' Dilemma}},
+	volume = {39},
+	year = {2000}
+}
+
+@article{Sally:2001,
+	author = {Sally, D.},
+	journal = {Journal of Economic Behavior \& Organization},
+	number = {1},
+	pages = {1--30},
+	publisher = {Elsevier},
+	title = {{On sympathy and games}},
+	volume = {44},
+	year = {2001}
+}
+
+@book{skyrms:2004,
+	address = {Cambridge},
+	author = {Skyrms, Brian},
+	publisher = {Cambridge University Press},
+	title = {{The Stag Hunt and the Evolution of Social Structure}},
+	year = {2004}
+}
+
+@article{SkyrmsPemantle:2000,
+	author = {Skyrms, B. and Pemantle, R.},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {16},
+	pages = {9340--9346},
+	publisher = {National Acad Sciences},
+	title = {{A dynamic model of social network formation}},
+	volume = {97},
+	year = {2000}
+}
+
+@article{bush-mosteller:1951,
+	author = {Bush, Robert R. and Mosteller, Frederick},
+	journal = {Psychological Review},
+	number = {5},
+	pages = {312--323},
+	publisher = {Springer},
+	title = {{A mathematical model for simple learning}},
+	volume = {58},
+	year = {1951}
+}
+
+@incollection{scott-phillips:2010,
+	address = {Berlin},
+	author = {Scott-Phillips, Thomas},
+	booktitle = {{Language, Games, and Evolution}},
+	editor = {Benz, Anton and Ebert, Christian and Jaeger, Gerhard and {van Rooij}, Robert},
+	pages = {117--133},
+	publisher = {Springer},
+	title = {{Evolutionarily Stable Communication and Pragmatics}},
+	year = {2010}
+}
+
+@article{Ringe:2011,
+	author = {Ringe, Don},
+	journal = {Linguistic Typology},
+	pages = {223--231},
+	title = {{A pilot study for an investigation into Atkinson's hypothesis}},
+	volume = {15},
+	year = {2011}
+}
+
+@article{Bell:1984,
+	author = {Bell, Allan},
+	journal = {Language in Society},
+	pages = {145--204},
+	title = {{Language style as audience design}},
+	volume = {13},
+	year = {1984}
+}
+
+@article{akcay-etal:2012,
+	author = {Akc{c}ay, Erol and Meirowitz, Adam and Ramsay, Kristopher W and Levin, Simon A},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {37},
+	pages = {14936--14941},
+	title = {{Evolution of cooperation and skew under imperfect information}},
+	volume = {109},
+	year = {2012}
+}
+
+@incollection{Ohala:1989,
+	author = {{O}hala, John J},
+	booktitle = {{Language Change: Contributions to the Study of Its Causes}},
+	editor = {Breivik, Leiv Egil and Jahr, Ernst Hakon},
+	journal = {Language change: Contributions to the study of its causes},
+	location = {Berlin},
+	pages = {173--198},
+	publisher = {Mouton de Gruyter},
+	series = {{Trends in}},
+	title = {{Sound change is drawn from a pool of synchronic variation}},
+	year = {1989}
+}
+
+@incollection{Sankoff:2006,
+	author = {Sankoff, Gillian},
+	booktitle = {{Elsevier Encyclopedia of Language and Linguistics}},
+	publisher = {Elsevier},
+	title = {{Age: Apparent time and real time.}},
+	year = {2006}
+}
+
+@book{schelling:1978,
+	author = {Schelling, T.C.},
+	publisher = {WW Norton},
+	title = {{Micromotives and Macrobehavior}},
+	year = {1978}
+}
+
+@book{LabovAshBoberg:2006,
+	address = {Berlin},
+	author = {Labov, William and Ash, Sharon and Boberg, Charles},
+	publisher = {Mouton de Gruyter},
+	title = {{Atlas of North American English: Phonology and Sound Change}},
+	year = {2006}
+}
+
+@article{Eckert:1988,
+	author = {Eckert, Penelope},
+	journal = {Language in Society},
+	number = {2},
+	pages = {183--207},
+	title = {{Adolescent Social Structure and the Spread of Linguistic Change}},
+	volume = {17},
+	year = {1988}
+}
+
+@inproceedings{DawkinsKrebs:1979,
+	author = {Dawkins, Richard and Krebs, John},
+	booktitle = {{The Evolution of Adaptation by Natural Selection}},
+	number = {1161},
+	pages = {489--511},
+	series = {{Proceedings of the Royal Society of London. Series B, Biological Sciences}},
+	title = {{Arms Races between and within Species}},
+	volume = {205},
+	year = {1979}
+}
+
+@incollection{DawkinsKrebs:1978,
+	author = {Dawkins, Richard and Krebs, John},
+	booktitle = {{Behavioural Ecology: an evolutionary approach}},
+	editor = {Krebs, John and Davies, Nick},
+	location = {Oxford},
+	pages = {282--309},
+	publisher = {Blackwell},
+	series = {{Behavioural Ecology: an evolutionary approach}},
+	title = {{Animal signals: information or manipulation?}},
+	year = {1978}
+}
+
+@book{ByrneWhiten:1989,
+	editor = {Byrne, Richard and Whiten, Andrew},
+	publisher = {Oxford University Press},
+	title = {{Machiavellian Intelligence: Social Expertise and the Evolution of Intellect in Monkeys, Apes, and Humans}},
+	year = {1989}
+}
+
+@book{Dunbar:1998,
+	author = {Dunbar, Robin},
+	publisher = {Harvard University Press},
+	title = {{Grooming, Gossip, and the Evolution of Language}},
+	year = {1998}
+}
+
+@article{Labov:1990,
+	author = {Labov, William},
+	journal = {Language Variation and Change},
+	pages = {205--254},
+	title = {{The intersection of sex and social class in the course of linguistic change}},
+	volume = {2},
+	year = {1990}
+}
+
+@incollection{Cheshire:2001,
+	author = {Cheshire, Jenny},
+	booktitle = {{The Handbook of Language Variation and Change}},
+	editor = {Chambers, J.K. and Trudgill, Peter and Schilling-Estes, Natalie},
+	location = {Oxford},
+	pages = {423--443},
+	publisher = {Blackwell},
+	title = {{Sex and gender in variationist research}},
+	year = {2001}
+}
+
+@article{Bernieri:1988,
+	author = {Bernieri, Frank J.},
+	journal = {Journal of Nonverbal Behavior},
+	pages = {120--138},
+	title = {{Coordinated movement and rapport in teacher-student interactions}},
+	volume = {12},
+	year = {1988}
+}
+
+@book{chomsky1986knowledge,
+	address = {New York},
+	author = {Chomsky, Noam},
+	publisher = {Praeger},
+	title = {{Knowledge of language: Its nature, origin, and use}},
+	year = {1986}
+}
+
+@incollection{SurendranNiyogi:2006,
+	author = {Surendran, D. and Niyogi, P.},
+	booktitle = {{Competing models of linguistic change: evolution and beyond}},
+	editor = {Thomsen, {O}.N.},
+	location = {Amsterdam},
+	pages = {43--58},
+	publisher = {John Benjamins},
+	title = {{Quantifying the functional load of phonemic oppositions, distinctive features, and suprasegmentals}},
+	volume = {279},
+	year = {2006}
+}
+
+@book{Hickey:2003,
+	editor = {Hickey, R.},
+	publisher = {Cambridge University Press},
+	title = {{Motives for language change}},
+	year = {2003}
+}
+
+@article{Lakoff:1973,
+	author = {Lakoff, G.},
+	journal = {Journal of philosophical logic},
+	number = {4},
+	pages = {458--508},
+	publisher = {Springer},
+	title = {{Hedges: A study in meaning criteria and the logic of fuzzy concepts}},
+	volume = {2},
+	year = {1973}
+}
+
+@incollection{BernieriRosenthal:1991,
+	author = {Bernieri, Frank J. and Rosenthal, Robert},
+	booktitle = {{Fundamentals of non-verbal behavior}},
+	editor = {Feldman, Robert and Rime, Bernard},
+	pages = {401--432},
+	publisher = {Cambridge University Press},
+	title = {{Interpersonal coordination: Be- havior matching and interactional synchrony}},
+	year = {1991}
+}
+
+@article{BarabasiAlbert:1999,
+	author = {Barab{\'a}si, Albert-L{\'a}szl{\'o} and Albert, R{\'e}ka},
+	journal = {Science},
+	number = {5439},
+	pages = {509--512},
+	publisher = {American Association for the Advancement of Science},
+	title = {{Emergence of scaling in random networks}},
+	volume = {286},
+	year = {1999}
+}
+
+@book{Niyogi:2006,
+	address = {Cambridge, MA},
+	author = {Niyogi, Partha},
+	publisher = {MIT Press},
+	title = {{The computational nature of language learning and evolution}},
+	year = {2006}
+}
+
+@article{ChartrandBargh:1999,
+	author = {Chartrand, Tanya and Bargh, John},
+	journal = {Journal of Personality and Social Psychology},
+	pages = {893--910},
+	title = {{The chameleon effect: The perception-behavior link and social interaction}},
+	volume = {76},
+	year = {1999}
+}
+
+@article{chambers:1992,
+	author = {Chambers, Jack K.},
+	journal = {Language},
+	pages = {673--705},
+	title = {{Dialect acquisition}},
+	year = {1992}
+}
+
+@article{BraniganPickeringCleland:2000,
+	author = {Branigan, Holly and Pickering, Martin and Cleland, Alexandra},
+	journal = {Cognition},
+	pages = {B12--25},
+	title = {{Syntactic co-ordination in dialogue}},
+	volume = {75},
+	year = {2000}
+}
+
+@article{Gregory:1990,
+	author = {Gregory, Stanford},
+	journal = {Journal of Nonverbal Behavior},
+	pages = {237--251},
+	title = {{Analysis of fundamental frequency reveals covariation in interview partner's speech}},
+	volume = {14},
+	year = {1990}
+}
+
+@article{Natale:1975,
+	author = {Natale, Michael},
+	journal = {Journal of Personality and Social Psychology},
+	pages = {790--804},
+	title = {{Convergence of mean vocal intensity in dyadic communication as a function of social desirability}},
+	volume = {32},
+	year = {1975}
+}
+
+@article{BrennanClark:1996,
+	author = {Brennan, Susan and Clark, Herb},
+	journal = {Journal of Experimental Psychology: Learning, Memory and Cognition},
+	pages = {1482--1493},
+	title = {{Conceptual pacts and lexical choice in conversation}},
+	volume = {22},
+	year = {1996}
+}
+
+@article{GarrodDoherty:1994,
+	author = {Garrod, Simon and Doherty, Gwyneth},
+	journal = {Cognition},
+	number = {3},
+	pages = {181--215},
+	title = {{Conversation, co-ordination and convention: An empirical investigation of how groups establish linguistic conventions}},
+	volume = {53},
+	year = {1994}
+}
+
+@article{Pardo:2006,
+	author = {Pardo, Jennifer},
+	journal = {Journal of the Acoustical Society of America},
+	pages = {2382--2393},
+	title = {{On phonetic convergence during conversational interaction}},
+	volume = {119},
+	year = {2006}
+}
+
+@phdthesis{Johnson:2007,
+	author = {Johnson, Daniel Ezra},
+	school = {University of Pennsylvania},
+	title = {{Stability and change along a dialect boundary: The low vowels of Southeastern New England}},
+	year = {2007}
+}
+
+@book{Johnson:2010,
+	author = {Johnson, Daniel Ezra},
+	publisher = {American Dialect Society},
+	title = {{Stability and Change Along a Dialect Boundary: The Low Vowels of Southeastern New England}},
+	year = {2010}
+}
+
+@article{Taylor:1994,
+	author = {Taylor, G.},
+	publisher = {University Press of Kansas},
+	title = {{Gossip as moral talk.}},
+	year = {1994}
+}
+
+@phdthesis{Herold:1990,
+	author = {Herold, Ruth},
+	school = {University of Pennsylvania},
+	title = {{Mechanisms of merger: The implementation and distribution of the low back merger in Eastern Pennsylvania}},
+	year = {1990}
+}
+
+@article{Herold:1997,
+	author = {Herold, Ruth},
+	journal = {Language Variation and Change},
+	pages = {165--189},
+	title = {{Solving the Actuation Problem: Merger and Immigration in Eastern Pennsylvania}},
+	volume = {9},
+	year = {1997}
+}
+
+@article{PetersonBarney:1952,
+	author = {Peterson, Gordon E. and Barney, Harold L.},
+	journal = {Journal of the Acoustical Society of America},
+	number = {2},
+	pages = {175--184},
+	title = {{Control methods used in a study of the vowels}},
+	volume = {24},
+	year = {1952}
+}
+
+@article{BoninFayol:2002,
+	author = {Bonin, Patrick and Fayol, Michel},
+	journal = {European Journal of Cognitive Psychology},
+	number = {3},
+	pages = {289--313},
+	title = {{Frequency effects in the written and spoken production of homophonic picture names}},
+	volume = {14},
+	year = {2002}
+}
+
+@article{Spiekermann:2009,
+	author = {Spiekermann, K.P.},
+	journal = {Synthese},
+	number = {2},
+	pages = {273--294},
+	publisher = {Springer},
+	title = {{Sort out your neighbourhood}},
+	volume = {168},
+	year = {2009}
+}
+
+@article{WattsStrogatz:1998,
+	author = {Watts, Duncan and Strogatz, Steven},
+	journal = {Nature},
+	pages = {440--442},
+	title = {{Collective Dynamics of small-world networks}},
+	volume = {393},
+	year = {1998}
+}
+
+@article{Zollmann:2005,
+	author = {Zollmann, Kevin},
+	journal = {Philosophy of Science},
+	number = {1},
+	pages = {69--85},
+	title = {{Talking to neighbors: The evolution of regional meaning}},
+	volume = {72},
+	year = {2005}
+}
+
+@article{Wagner:2009,
+	author = {Wagner, Elliott},
+	journal = {Erkenntnis},
+	pages = {377--393},
+	title = {{Communication and structured correlation}},
+	volume = {71},
+	year = {2009}
+}
+
+@book{Gillieron:1917,
+	author = {Gilli{'e}ron, J.},
+	publisher = {Champion},
+	title = {{G{'e}n{'e}alogie des mots qui ont d{'e}sign{'e} l'abeille}},
+	year = {1917}
+}
+
+@book{Trubetzkoy:1939,
+	author = {Trubetzkoy, N.S.},
+	publisher = {G{"o}ttingen: Vandenhoeck and Ruprecht},
+	title = {{Grundz{"u}ge der Phonologie}},
+	year = {1939}
+}
+
+@inproceedings{MuhlenberndFranke:2012,
+	author = {M{"u}hlenbernd, Roland and Franke, Michael},
+	booktitle = {{The Evolution of Language: Proceedings of 9th International Conference (EvoLang 9)}},
+	editor = {Scott-Phillips, Thomas},
+	pages = {242--249},
+	title = {{Signaling Conventions: Who Learns What Where and When in a Social Network}},
+	year = {2012}
+}
+
+@article{Muehlenbernd:2011,
+	author = {M{"u}hlenbernd, Roland},
+	journal = {Synthese},
+	pages = {87--109},
+	publisher = {Springer},
+	title = {{Learning with neighbours}},
+	volume = {183},
+	year = {2011}
+}
+
+
+@book{Tomasello:2003,
+	author = {Tomasello, M.},
+	publisher = {Harvard University Press},
+	title = {{Constructing a language: A usage-based theory of language acquisition}},
+	year = {2003}
+}
+
+@article{Marcus:1993,
+	author = {Marcus, G.F.},
+	journal = {Cognition},
+	number = {1},
+	pages = {53--85},
+	publisher = {Elsevier},
+	title = {{Negative evidence in language acquisition}},
+	volume = {46},
+	year = {1993}
+}
+
+@article{swinney:1979,
+	author = {Swinney, David A.},
+	journal = {Journal of verbal learning and verbal behavior},
+	number = {6},
+	pages = {645--659},
+	publisher = {Elsevier},
+	title = {{Lexical access during sentence comprehension:(Re) consideration of context effects}},
+	volume = {18},
+	year = {1979}
+}
+
+@book{maynard-smith-harper:2004,
+	address = {USA},
+	author = {{{Maynard Smith}}, John and Harper, David},
+	publisher = {Oxford University Press},
+	title = {{Animal Signals}},
+	year = {2004}
+}
+
+@book{searcy-nowicki:2005,
+	address = {Princeton},
+	author = {Searcy, William A. and Nowicki, Stephen},
+	publisher = {Princeton University Press},
+	title = {{The Evolution of Animal Communication: Reliability and Deception in Signaling Systems}},
+	year = {2005}
+}
+
+@book{BowlesGintis:2011,
+	address = {Princeton},
+	author = {Bowles, Samuel and Gintis, Herbert},
+	publisher = {Princeton University Press},
+	title = {{A Cooperative Species: Human Reciprocity and Its Evolution}},
+	year = {2011}
+}
+
+@article{Nowak:2006,
+	author = {Nowak, Martin A.},
+	journal = {Science},
+	number = {5805},
+	pages = {1560--1563},
+	title = {{Five Rules for the Evolution of Cooperation}},
+	volume = {314},
+	year = {2006}
+}
+
+@article{zahavi:1975,
+	author = {Zahavi, A.},
+	journal = {Journal of theoretical Biology},
+	number = {1},
+	pages = {205--214},
+	publisher = {Elsevier},
+	title = {{Mate selection--a selection for a handicap}},
+	volume = {53},
+	year = {1975}
+}
+
+@article{reby-mccomb:2003,
+	author = {Reby, D. and McComb, K.},
+	journal = {Animal behaviour},
+	number = {3},
+	pages = {519--530},
+	publisher = {Elsevier},
+	title = {{Anatomical constraints generate honesty: acoustic cues to age and weight in the roars of red deer stags}},
+	volume = {65},
+	year = {2003}
+}
+
+@article{zahavi:1993,
+	author = {Zahavi, A.},
+	journal = {Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences},
+	number = {1292},
+	pages = {227--230},
+	publisher = {The Royal Society},
+	title = {{The fallacy of conventional signalling}},
+	volume = {340},
+	year = {1993}
+}
+
+@article{Saussure:1916,
+	author = {Saussure, F.},
+	journal = {London: Peter Owen},
+	title = {{Course in general linguistics, trans}},
+	year = {1916}
+}
+
+@book{skyrms:2010,
+	author = {Skyrms, Brian},
+	publisher = {Oxford University Press},
+	title = {{Signals: Evolution, learning, and information}},
+	year = {2010}
+}
+
+@inproceedings{vanRooij:2003,
+	author = {{{van Rooij}}, Robert},
+	booktitle = {{Proceedings of the 9th conference on Theoretical aspects of rationality and knowledge}},
+	organization = {ACM},
+	pages = {45--58},
+	title = {{Being polite is a handicap: Towards a game theoretical analysis of polite linguistic behavior}},
+	year = {2003}
+}
+
+@article{lachmann-szmado-bergstrom:2001,
+	author = {Lachmann, M. and Szamado, S. and Bergstrom, C.T.},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {23},
+	pages = {13189},
+	publisher = {National Acad Sciences},
+	title = {{Cost and conflict in animal signals and human language}},
+	volume = {98},
+	year = {2001}
+}
+
+@incollection{grice1975,
+	author = {Grice, H.P.},
+	booktitle = {{Studies in the Way of Words}},
+	pages = {22--40},
+	publisher = {Harvard University Press},
+	title = {{Logic and conversation}},
+	year = {1975}
+}
+
+@incollection{Giles_et_al:1991,
+	author = {Giles, H. and Coupland, N. and Coupland, J.},
+	booktitle = {{Contexts of Accommodation: Developments in Applied Sociolinguistics}},
+	editor = {Giles, H. and Coupland, J. and Coupland, N.},
+	journal = {Contexts of accommodation: Developments in applied sociolinguistics},
+	pages = {1--68},
+	publisher = {Cambridge University Press},
+	title = {{Accommodation theory: Communication, context, and consequence}},
+	year = {1991}
+}
+
+@book{Ellickson:1991,
+	author = {Ellickson, R.C.},
+	publisher = {Harvard University Press},
+	title = {{Order without law: How neighbors settle disputes}},
+	year = {1991}
+}
+
+@inproceedings{Ahern:2012,
+	author = {Ahern, Christopher},
+	booktitle = {{Workshop on Formal Models of Communication, {ESSLLI} 2012}},
+	title = {{Mechanisms for Enforcing Honest Signaling}},
+	year = {2012}
+}
+
+@book{NarendraThathachar:1989,
+	author = {Narendra, K.S. and Thathachar, M.A.L.},
+	publisher = {Prentice-Hall, Inc.},
+	title = {{Learning automata: an introduction}},
+	year = {1989}
+}
+
+@article{SutterLindnerPlatsch:2009,
+	author = {Sutter, M. and Lindner, P. and Platsch, D.},
+	journal = {Working Papers},
+	publisher = {Faculty of Economics and Statistics, University of Innsbruck},
+	title = {{Social norms, third-party observation and third-party reward}},
+	year = {2009}
+}
+
+@book{Trudgill:1986,
+	address = {Oxford},
+	author = {Trudgill, P.},
+	publisher = {Blackwell},
+	title = {{Dialects in contact}},
+	year = {1986}
+}
+
+@article{Sally:2003,
+	author = {Sally, D.},
+	journal = {Journal of Pragmatics},
+	number = {8},
+	pages = {1223--1245},
+	publisher = {Elsevier},
+	title = {{Risky speech: behavioral game theory and pragmatics}},
+	volume = {35},
+	year = {2003}
+}
+
+@article{Sally:2002,
+	author = {Sally, D.},
+	journal = {Rationality and society},
+	number = {1},
+	pages = {78--108},
+	publisher = {Sage Publications},
+	title = {{What an Ugly Baby!}},
+	volume = {14},
+	year = {2002}
+}
+
+@article{Jager:2007,
+	author = {J{"a}ger, G.},
+	journal = {Game Theory and Linguistic Meaning},
+	pages = {89--102},
+	title = {{Game dynamics connects semantics and pragmatics}},
+	year = {2007}
+}
+
+@book{benz-jager-van-rooij:2006,
+	editor = {Benz, Anton and Jaeger, Gerhard and van Rooij, Robert},
+	location = {New York},
+	publisher = {Palgrave Macmillan},
+	title = {{Game Theory and Pragmatics}},
+	year = {2006}
+}
+
+@inproceedings{HalpernRego:2006,
+	author = {Halpern, J.Y. and R{^e}go, L.C.},
+	booktitle = {{Proceedings of the fifth international joint conference on Autonomous agents and multiagent systems}},
+	organization = {ACM},
+	pages = {744--751},
+	title = {{Extensive games with possibly unaware players}},
+	year = {2006}
+}
+
+@article{HeifetzMeierSchipper:2006,
+	author = {Heifetz, A. and Meier, M. and Schipper, B.C.},
+	journal = {Journal of Economic Theory},
+	number = {1},
+	pages = {78--94},
+	publisher = {Elsevier},
+	title = {{Interactive unawareness}},
+	volume = {130},
+	year = {2006}
+}
+
+@unpublished{Franke:2012,
+	author = {Franke, M.},
+	month = {May},
+	title = {{Pragmatic Reasoning about Unawareness}},
+	year = {2012}
+}
+
+@article{SeinenSchram:2006,
+	author = {Seinen, I. and Schram, A.},
+	journal = {European Economic Review},
+	number = {3},
+	pages = {581--602},
+	publisher = {Elsevier},
+	title = {{Social status and group norms: Indirect reciprocity in a repeated helping experiment}},
+	volume = {50},
+	year = {2006}
+}
+
+@article{NowakSigmund:2000,
+	author = {Nowak, M.A. and Sigmund, K.},
+	journal = {Science},
+	number = {5467},
+	pages = {819--820},
+	publisher = {American Association for the Advancement of Science},
+	title = {{Shrewd investments}},
+	volume = {288},
+	year = {2000}
+}
+
+@article{MilinskiSemmannKrambeck:2002,
+	author = {Milinski, M. and Semmann, D. and Krambeck, H.},
+	journal = {Proceedings of the Royal Society of London. Series B: Biological Sciences},
+	number = {1494},
+	pages = {881--883},
+	publisher = {The Royal Society},
+	title = {{Donors to charity gain in both indirect reciprocity and political reputation}},
+	volume = {269},
+	year = {2002}
+}
+
+@book{Epstein:2006,
+	author = {Epstein, J.M.},
+	publisher = {Princeton Univ Pr},
+	title = {{Generative social science: Studies in agent-based computational modeling}},
+	year = {2006}
+}
+
+@book{BrownLevinson:1987,
+	address = {Cambridge},
+	author = {Brown, Penelope and Levinson, Stephen C.},
+	edition = {2nd},
+	publisher = {Cambridge University Press},
+	title = {{Politeness: Some universals in language use}},
+	year = {1987}
+}
+
+@inproceedings{MuiMohtashemiHalberstadt:2002,
+	author = {Mui, L. and Mohtashemi, M. and Halberstadt, A.},
+	booktitle = {{Proceedings of the first international joint conference on Autonomous agents and multiagent systems: part 1}},
+	organization = {ACM},
+	pages = {280--287},
+	title = {{Notions of reputation in multi-agents systems: a review}},
+	year = {2002}
+}
+
+@inproceedings{MuiMohtashemiHalberstadt:2002-1,
+	author = {Mui, L. and Mohtashemi, M. and Halberstadt, A.},
+	booktitle = {{System Sciences, 2002. HICSS. Proceedings of the 35th Annual Hawaii International Conference on}},
+	organization = {IEEE},
+	pages = {2431--2439},
+	title = {{A computational model of trust and reputation}},
+	year = {2002}
+}
+
+@inproceedings{Mui_etal:2001,
+	author = {Mui, L. and Mohtashemi, M. and Ang, C. and Szolovits, P. and Halberstadt, A.},
+	booktitle = {{Proceedings of the Workshop on Information Technologies and Systems (WITS)}},
+	pages = {1--7},
+	title = {{Ratings in distributed systems: A bayesian approach}},
+	year = {2001}
+}
+
+@book{Goody:1978,
+	author = {Goody, E.N.},
+	publisher = {Cambridge University Press},
+	title = {{Questions and politeness: strategies in social interaction}},
+	volume = {8},
+	year = {1978}
+}
+
+@book{OsborneRubinstein:1994,
+	author = {{O}sborne, M.J. and Rubinstein, A.},
+	publisher = {MIT press},
+	title = {{A course in game theory}},
+	year = {1994}
+}
+
+@book{DixitSkeathReiley:1999,
+	author = {Dixit, A.K. and Skeath, S. and Reiley, D.H.},
+	publisher = {WW Norton New York},
+	title = {{Games of strategy}},
+	year = {1999}
+}
+
+@article{NowakSigmund:1998,
+	author = {Nowak, M.A. and Sigmund, K.},
+	journal = {Nature},
+	number = {6685},
+	pages = {573--577},
+	publisher = {Nature Publishing Group},
+	title = {{Evolution of indirect reciprocity by image scoring}},
+	volume = {393},
+	year = {1998}
+}
+
+@article{KurzbanDeScioliOBrien:2007,
+	author = {Kurzban, R. and DeScioli, P. and {O}'Brien, E.},
+	journal = {Evolution and Human behavior},
+	number = {2},
+	pages = {75--84},
+	publisher = {Elsevier},
+	title = {{Audience effects on moralistic punishment}},
+	volume = {28},
+	year = {2007}
+}
+
+@book{samuelson:1997,
+	author = {Samuelson, Larry},
+	publisher = {The MIT Press},
+	title = {{Evolutionary games and equilibrium selection}},
+	year = {1997}
+}
+
+@article{WedekindMilinski:2000,
+	author = {Wedekind, C. and Milinski, M.},
+	journal = {Science},
+	number = {5467},
+	pages = {850--852},
+	publisher = {American Association for the Advancement of Science},
+	title = {{Cooperation through image scoring in humans}},
+	volume = {288},
+	year = {2000}
+}
+
+@book{RapoportGuyer:1967,
+	author = {Rapoport, A. and Guyer, M.},
+	publisher = {Bobbs-Merrill},
+	title = {{A taxonomy of 2 x 2 games}},
+	year = {1967}
+}
+
+@book{Tomasello:2008,
+	author = {Tomasello, M.},
+	publisher = {MIT press},
+	title = {{Origins of human communication}},
+	year = {2008}
+}
+
+@book{Bicchieri:2006,
+	author = {Bicchieri, Cristina},
+	publisher = {Cambridge University Press},
+	title = {{The grammar of society: The nature and dynamics of social norms}},
+	year = {2006}
+}
+
+@article{Hauk:2001,
+	author = {Hauk, E.},
+	journal = {Computational Economics},
+	number = {1},
+	pages = {65--87},
+	publisher = {Springer},
+	title = {{Leaving the prison: permitting partner choice and refusal in prisoner's dilemma games}},
+	volume = {18},
+	year = {2001}
+}
+
+@article{SmuckerStanleyAshlock:1995,
+	author = {Smucker, M.D. and Stanley, E. and Ashlock, D.},
+	journal = {arXiv preprint adap-org/9501002},
+	title = {{Analyzing social network structures in the iterated prisoner's dilemma with choice and refusal}},
+	year = {1995}
+}
+
+@article{Sommerfeld_etal:2007,
+	author = {Sommerfeld, R.D. and Krambeck, H.J. and Semmann, D. and Milinski, M.},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {44},
+	pages = {17435--17440},
+	publisher = {National Acad Sciences},
+	title = {{Gossip as an alternative for direct observation in games of indirect reciprocity}},
+	volume = {104},
+	year = {2007}
+}
+
+@book{Aikhenvald:2004,
+	author = {Aikhenvald, A.Y.},
+	publisher = {Oxford University Press},
+	title = {{Evidentiality}},
+	year = {2004}
+}
+
+@incollection{bjornerstedt-weibull1996,
+	author = {Bj{\"o}rnerstedt, Jonas and Weibull, J{\"o}rgen W},
+	booktitle = {{The Rational Foundations of Economic Behaviour}},
+	editor = {Arrow, K. J. and Colombatto, E. and Perelman, M. and Schmidt, C.},
+	location = {New York},
+	pages = {155--181},
+	publisher = {St. Martin's Press},
+	title = {{Nash equilibrium and evolution by imitation}},
+	year = {1996}
+}
+
+@incollection{wals-2011-77,
+	address = {Munich},
+	author = {{de Haan}, Ferdinand},
+	bdsk-url-1 = {http://wals.info/chapter/77},
+	booktitle = {{The World Atlas of Language Structures Online}},
+	editor = {Dryer, Matthew S. and Haspelmath, Martin},
+	publisher = {Max Planck Digital Library},
+	title = {{Semantic Distinctions of Evidentiality}},
+	url = {http://wals.info/chapter/77},
+	year = {2011}
+}
+
+@incollection{BicchieriMuldoon:2011,
+	author = {Bicchieri, Cristina and Muldoon, Ryan},
+	booktitle = {{The Stanford Encyclopedia of Philosophy}},
+	edition = {Spring 2011},
+	editor = {Zalta, Edward N.},
+	howpublished = {url{http://plato.stanford.edu/archives/spr2011/entries/social-norms/}},
+	title = {{Social Norms}},
+	year = {2011}
+}
+
+@article{Irving:1994,
+	author = {Irving, R.W.},
+	journal = {Discrete Applied Mathematics},
+	number = {3},
+	pages = {261--272},
+	publisher = {Elsevier},
+	title = {{Stable marriage and indifference}},
+	volume = {48},
+	year = {1994}
+}
+
+@inproceedings{scott-phillips:2008,
+	address = {Singapore},
+	author = {Scott-Phillips, T.C.},
+	booktitle = {{The evolution of language: Proceedings of the 7th International Conference on the Evolution of Language}},
+	editor = {Smith, A. D. M. and Smith, K. and {Ferrer i Cancho}, R.},
+	pages = {275--282},
+	publisher = {World Scientific Press},
+	title = {{On the correct application of animal signalling theory to human communication}},
+	year = {2008}
+}
+
+@article{FitchReby:2001,
+	author = {Fitch, W.T. and Reby, D.},
+	journal = {Proceedings of the Royal Society of London. Series B: Biological Sciences},
+	number = {1477},
+	pages = {1669--1675},
+	publisher = {The Royal Society},
+	title = {{The descended larynx is not uniquely human}},
+	volume = {268},
+	year = {2001}
+}
+
+@article{grafen:1990,
+	author = {Grafen, A.},
+	journal = {Journal of theoretical biology},
+	number = {4},
+	pages = {517--546},
+	publisher = {Elsevier},
+	title = {{Biological signals as handicaps}},
+	volume = {144},
+	year = {1990}
+}
+
+@article{spence:1973,
+	author = {Spence, M.},
+	journal = {The quarterly journal of Economics},
+	number = {3},
+	pages = {355--374},
+	publisher = {Oxford University Press},
+	title = {{Job market signaling}},
+	volume = {87},
+	year = {1973}
+}
+
+@article{hauert-etal:2002a,
+	author = {Hauert, Christoph and {De Monte}, Silvia and Hofbauer, Josef and Sigmund, Karl},
+	journal = {Journal of Theoretical Biology},
+	number = {2},
+	pages = {187--194},
+	title = {{Replicator dynamics for optional public good games}},
+	volume = {218},
+	year = {2002}
+}
+
+@article{Johnstone:1995,
+	author = {Johnstone, R.A.},
+	journal = {Biological Reviews},
+	number = {1},
+	pages = {1--65},
+	publisher = {Wiley Online Library},
+	title = {{Sexual selection, honest advertisement and the handicap principle: reviewing the evidence}},
+	volume = {70},
+	year = {1995}
+}
+
+@incollection{deHaan:2011,
+	address = {Munich},
+	author = {{de Haan}, Ferdinand},
+	bdsk-url-1 = {http://wals.info/chapter/77},
+	booktitle = {{The World Atlas of Language Structures Online}},
+	editor = {Dryer, Matthew S. and Haspelmath, Martin},
+	publisher = {Max Planck Digital Library},
+	title = {{Semantic Distinctions of Evidentiality}},
+	url = {http://wals.info/chapter/77},
+	year = {2011}
+}
+
+@inproceedings{Givon:1971,
+	author = {Giv{'o}n, T.},
+	booktitle = {{Chicago Linguistic Society}},
+	pages = {394--415},
+	title = {{Historical syntax and synchronic morphology: an archaeologist's field trip}},
+	volume = {7},
+	year = {1971}
+}
+
+@article{FehrGachter:2000,
+	author = {Fehr, Ernst and Gachter, Simon},
+	journal = {American Economic Review},
+	number = {4},
+	pages = {980--994},
+	title = {{Cooperation and Punishment}},
+	volume = {90},
+	year = {2000}
+}
+
+@article{DunbarMarriottDuncan:1997,
+	author = {Dunbar, R.I.M. and Marriott, A. and Duncan, N.D.C.},
+	journal = {Human Nature},
+	number = {3},
+	pages = {231--246},
+	publisher = {Springer},
+	title = {{Human conversational behavior}},
+	volume = {8},
+	year = {1997}
+}
+
+@article{FehrGachter:2002,
+	author = {Fehr, Ernst and Gachter, Simon},
+	journal = {Nature},
+	pages = {137--140},
+	title = {{Altruistic Punishment in Humans}},
+	volume = {415},
+	year = {2002}
+}
+
+@incollection{Merry:1984,
+	author = {Merry, S.E.},
+	booktitle = {{Toward a general theory of social control: Fundamentals}},
+	editor = {Black, D.},
+	pages = {271--302},
+	publisher = {Academic Press},
+	title = {{Rethinking gossip and scandal}},
+	year = {1984}
+}
+
+@article{HirshliferRassmusen:1989,
+	author = {Hirshlifer, D. and Rassmusen, E.},
+	journal = {Journal of Economic Behavior \& Organization},
+	number = {1},
+	pages = {87--106},
+	publisher = {Elsevier},
+	title = {{Cooperation in a repeated prisoners' dilemma with ostracism}},
+	volume = {12},
+	year = {1989}
+}
+
+@article{BowlesGintis:2004,
+	author = {Bowles, S. and Gintis, H.},
+	journal = {Theoretical population biology},
+	number = {1},
+	pages = {17--28},
+	publisher = {Elsevier},
+	title = {{The evolution of strong reciprocity: cooperation in heterogeneous populations}},
+	volume = {65},
+	year = {2004}
+}
+
+@article{hamilton1963,
+	author = {Hamilton, William D},
+	journal = {American naturalist},
+	pages = {354--356},
+	publisher = {JSTOR},
+	title = {{The evolution of altruistic behavior}},
+	year = {1963}
+}
+
+@article{hamilton1964,
+	author = {Hamilton, William D},
+	journal = {Journal of theoretical biology},
+	number = {1},
+	pages = {1--16},
+	publisher = {Elsevier},
+	title = {{The genetical evolution of social behaviour.}},
+	volume = {7},
+	year = {1964}
+}
+
+@book{Goodman:1994,
+	author = {Goodman, R.F.},
+	publisher = {Univ Press of Kansas},
+	title = {{Good gossip}},
+	year = {1994}
+}
+
+@book{GilesCoupland:1991,
+	author = {Giles, H. and Coupland, N.},
+	publisher = {Thomson Brooks/Cole Publishing Co},
+	title = {{Language: Contexts and consequences.}},
+	year = {1991}
+}
+
+@article{trivers1971,
+	author = {Trivers, Robert L.},
+	journal = {Quarterly review of biology},
+	pages = {35--57},
+	publisher = {JSTOR},
+	title = {{The evolution of reciprocal altruism}},
+	year = {1971}
+}
+
+@article{SilkKaldorBoyd:2000,
+	author = {Silk, J.B. and Kaldor, E. and Boyd, R.},
+	journal = {Animal behaviour},
+	number = {2},
+	pages = {423--432},
+	publisher = {Elsevier},
+	title = {{Cheap talk when interests conflict}},
+	volume = {59},
+	year = {2000}
+}
+
+@book{Mencken:1949,
+	author = {Mencken, H.L.},
+	publisher = {Vintage},
+	title = {{A Mencken Chrestomathy}},
+	year = {1949}
+}
+
+@article{Ashlock_etal:1996,
+	author = {Ashlock, D. and Smucker, M.D. and Stanley, E. and Tesfatsion, L.},
+	journal = {BioSystems},
+	number = {1},
+	pages = {99--125},
+	publisher = {Elsevier},
+	title = {{Preferential partner selection in an evolutionary study of prisoner's dilemma}},
+	volume = {37},
+	year = {1996}
+}
+
+@article{AxelrodHamilton:1981,
+	author = {Axelrod, Robert and Hamilton, William D.},
+	journal = {Science},
+	number = {27},
+	pages = {1390--1396},
+	title = {{The evolution of cooperation}},
+	volume = {211},
+	year = {1981}
+}
+
+@book{sigmund2010,
+	author = {Sigmund, Karl},
+	publisher = {Princeton University Press},
+	title = {{The calculus of selfishness}},
+	year = {2010}
+}
+
+@book{McElreathBoyd:2007,
+	author = {McElreath, R. and Boyd, R.},
+	publisher = {University of Chicago Press},
+	title = {{Mathematical models of social evolution}},
+	year = {2007}
+}
+
+@article{Scott:1971,
+	author = {Scott, J.F.},
+	publisher = {Prentice-Hall},
+	title = {{Internalization of norms: A sociological theory of moral commitment.}},
+	year = {1971}
+}
+
+@article{Bicchieri:1990,
+	author = {Bicchieri, C.},
+	journal = {Ethics},
+	number = {4},
+	pages = {838--861},
+	publisher = {JSTOR},
+	title = {{Norms of cooperation}},
+	volume = {100},
+	year = {1990}
+}
+
+@book{Keller:1994,
+	author = {Keller, R.},
+	publisher = {Routledge},
+	title = {{On language change: The invisible hand in language}},
+	year = {1994}
+}
+
+@article{MohtashemiMui:2003,
+	author = {Mohtashemi, M. and Mui, L. and others},
+	journal = {Journal of Theoretical Biology},
+	number = {4},
+	pages = {523},
+	title = {{Evolution of indirect reciprocity by social information: the role of trust and reputation in evolution of altruism.}},
+	volume = {223},
+	year = {2003}
+}
+
+@incollection{Bicchieri:1997,
+	author = {Bicchieri, C.},
+	booktitle = {{The Dynamics of Norms}},
+	editor = {Bicchieri, C. and Jeffrey, R. and Skyrms, B.},
+	journal = {The Dynamics of Norms},
+	pages = {39},
+	publisher = {Cambridge, Cambridge University Press},
+	title = {{Learning to cooperate}},
+	volume = {17},
+	year = {1997}
+}
+
+@book{Milroy:1992,
+	author = {Milroy, James},
+	publisher = {Blackwell},
+	title = {{Linguistic variation and change: on the historical sociolinguistics of English}},
+	year = {1992}
+}
+
+@article{Dunbar:2004,
+	author = {Dunbar, Robin},
+	journal = {Review of general psychology},
+	number = {2},
+	pages = {100},
+	publisher = {Educational Publishing Foundation},
+	title = {{Gossip in evolutionary perspective.}},
+	volume = {8},
+	year = {2004}
+}
+
+@book{CheneySeyfarth:1992,
+	author = {Cheney, D.L. and Seyfarth, R.M.},
+	publisher = {University of Chicago Press},
+	title = {{How monkeys see the world: Inside the mind of another species}},
+	year = {1992}
+}
+
+@book{Sugden:1986,
+	author = {Sugden, R.},
+	publisher = {Blackwell Oxford},
+	title = {{The economics of rights, co-operation and welfare}},
+	year = {1986}
+}
+
+@book{ContePaolucci:2002,
+	author = {Conte, R. and Paolucci, M.},
+	publisher = {Springer},
+	title = {{Reputation in artificial societies: Social beliefs for social order}},
+	volume = {6},
+	year = {2002}
+}
+
+@article{GiardiniConte:2012,
+	author = {Giardini, F. and Conte, R.},
+	journal = {Simulation},
+	number = {1},
+	pages = {18--32},
+	publisher = {Sage Publications},
+	title = {{Gossip for social control in natural and artificial societies}},
+	volume = {88},
+	year = {2012}
+}
+
+@article{BolandBlodgett:2001,
+	author = {Boland, Julie E. and Blodgett, Allison},
+	journal = {Journal of Memory and Language},
+	number = {3},
+	pages = {391--411},
+	publisher = {Elsevier},
+	title = {{Understanding the constraints on syntactic generation: Lexical bias and discourse congruency effects on eye movements}},
+	volume = {45},
+	year = {2001}
+}
+
+@article{maynard-smith-price:1973,
+	author = {{Maynard Smith}, John and Price, George},
+	journal = {Nature},
+	pages = {15},
+	title = {{The Logic of Animal Conflict}},
+	volume = {246},
+	year = {1973}
+}
+
+@article{Tirole:1996,
+	author = {Tirole, J.},
+	journal = {The Review of Economic Studies},
+	number = {1},
+	pages = {1--22},
+	publisher = {Oxford University Press},
+	title = {{A theory of collective reputations (with applications to the persistence of corruption and to firm quality)}},
+	volume = {63},
+	year = {1996}
+}
+
+@article{KrepsWilson:1982,
+	author = {Kreps, D.M. and Wilson, R.},
+	journal = {Journal of economic theory},
+	number = {2},
+	pages = {253--279},
+	publisher = {Elsevier},
+	title = {{Reputation and imperfect information}},
+	volume = {27},
+	year = {1982}
+}
+
+@article{nowak2000evolutionary,
+	author = {Nowak, Martin A},
+	journal = {Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences},
+	number = {1403},
+	pages = {1615--1622},
+	publisher = {The Royal Society},
+	title = {{Evolutionary biology of language}},
+	volume = {355},
+	year = {2000}
+}
+
+@inproceedings{SabaterSierra:2001,
+	author = {Sabater, J. and Sierra, C.},
+	booktitle = {{Proceedings of the fifth international conference on Autonomous agents}},
+	organization = {ACM},
+	pages = {194--195},
+	title = {{REGRET: reputation in gregarious societies}},
+	year = {2001}
+}
+
+@article{Tesfatsion:1997,
+	author = {Tesfatsion, L.},
+	journal = {Advances in Computational Economics},
+	pages = {249--270},
+	publisher = {Citeseer},
+	title = {{A trade network game with endogenous partner selection}},
+	volume = {6},
+	year = {1997}
+}
+
+@article{StanleyAshlockSmucker:1995,
+	author = {Stanley, E. and Ashlock, D. and Smucker, M.},
+	journal = {Advances in Artificial Life},
+	pages = {490--502},
+	publisher = {Springer},
+	title = {{Iterated prisoner's dilemma with choice and refusal of partners: Evolutionary results}},
+	year = {1995}
+}
+
+@book{Trudgill:2004,
+	author = {Trudgill, P.},
+	publisher = {Edinburgh University Press},
+	title = {{New-dialect formation: The inevitability of colonial Englishes}},
+	year = {2004}
+}
+
+@article{Babel:2012,
+	author = {Babel, Molly},
+	journal = {Journal of Phonetics},
+	pages = {177--189},
+	title = {{Evidence for phonetic and social selectivity in spontaneous phonetic imitation}},
+	volume = {40},
+	year = {2012}
+}
+
+@article{gregory:1996,
+	author = {{Gregory Jr}, Stanford W and Webster, Stephen},
+	journal = {Journal of Personality and Social Psychology},
+	number = {6},
+	pages = {1231},
+	title = {{A nonverbal signal in voices of interview partners effectively predicts communication accommodation and social status perceptions.}},
+	volume = {70},
+	year = {1996}
+}
+
+@article{shockley:2004,
+	author = {Shockley, Kevin and Sabadini, Laura and Fowler, Carol A},
+	journal = {Perception \& Psychophysics},
+	number = {3},
+	pages = {422--429},
+	title = {{Imitation in shadowing words}},
+	volume = {66},
+	year = {2004}
+}
+
+@article{gregory:1993,
+	author = {Gregory, Stanford and Webster, Stephen and Huang, Gang},
+	journal = {Language \& Communication},
+	number = {3},
+	pages = {195--217},
+	title = {{Voice pitch and amplitude convergence as a metric of quality in dyadic interviews}},
+	volume = {13},
+	year = {1993}
+}
+
+@book{skyrms:1996,
+	author = {Skyrms, Brian},
+	publisher = {Cambridge University Press},
+	title = {{Evolution of the social contract}},
+	year = {1996}
+}
+
+@article{taylor-jonker:1978,
+	author = {Taylor, Peter D. and Jonker, Leo B.},
+	journal = {Mathematical biosciences},
+	number = {1},
+	pages = {145--156},
+	title = {{Evolutionary stable strategies and game dynamics}},
+	volume = {40},
+	year = {1978}
+}
+
+@article{labov-karen-miller:1991,
+	author = {Labov, William and Karen, Mark and Miller, Corey},
+	journal = {Language Variation and Change},
+	number = {01},
+	pages = {33--74},
+	title = {{Near-mergers and the suspension of phonemic contrast}},
+	volume = {3},
+	year = {1991}
+}
+
+@book{LYS:1972,
+	address = {Philadelphia},
+	author = {Labov, William and Yaeger, Malcah and Steiner, Richard},
+	publisher = {US Regional Survey},
+	title = {{A quantitative study of sound change in progress}},
+	year = {1972}
+}
+
+@incollection{Horn:1984,
+	author = {Horn, L.},
+	booktitle = {{Meaning, form, and use in context}},
+	editor = {Schiffrin, D.},
+	pages = {11--42},
+	publisher = {Washington: Georgetown University Press},
+	title = {{Towards a new taxonomy for pragmatic inference: Q-based and R-based implicature}},
+	volume = {42},
+	year = {1984}
+}
+
+@book{Levinson:1983,
+	author = {Levinson, S.C.},
+	publisher = {Cambridge University Press},
+	title = {{Pragmatics}},
+	year = {1983}
+}
+
+@article{Hardin:2009,
+	author = {Hardin, G.},
+	journal = {Journal of Natural Resources Policy Research},
+	number = {3},
+	pages = {243--253},
+	publisher = {Taylor \& Francis},
+	title = {{The Tragedy of the Commons}},
+	volume = {1},
+	year = {2009}
+}
+
+@book{SperberWilson:1996,
+	author = {Sperber, D. and Wilson, D.},
+	edition = {2nd},
+	publisher = {Wiley-Blackwell},
+	title = {{Relevance: Communication and cognition}},
+	year = {1996}
+}
+
+@article{SchilloFunkRovatsos:2000,
+	author = {Schillo, M. and Funk, P. and Rovatsos, M.},
+	journal = {Applied Artificial Intelligence},
+	number = {8},
+	pages = {825--848},
+	publisher = {Taylor \& Francis},
+	title = {{Using trust for detecting deceitful agents in artificial societies}},
+	volume = {14},
+	year = {2000}
+}
+
+@article{Hoeffding:1963,
+	author = {Hoeffding, W.},
+	journal = {Journal of the American Statistical Association},
+	number = {301},
+	pages = {13--30},
+	publisher = {Taylor \& Francis Group},
+	title = {{Probability inequalities for sums of bounded random variables}},
+	volume = {58},
+	year = {1963}
+}
+
+@article{Marlowe:2005,
+	author = {Marlowe, F.W.},
+	journal = {Evolutionary Anthropology: Issues, News, and Reviews},
+	number = {2},
+	pages = {54--67},
+	publisher = {Wiley Online Library},
+	title = {{Hunter-gatherers and human evolution}},
+	volume = {14},
+	year = {2005}
+}
+
+@unpublished{FrankevanRooij:2012,
+	author = {Franke, Michael and {van Rooij}, Robert},
+	month = {June},
+	note = {University of Amsterdam},
+	title = {{Strategies of Persuasion, Manipulation and Propaganda: Psychological and Social Aspects}},
+	year = {2012}
+}
+
+@article{Hardin:1968,
+	author = {Hardin, G.},
+	journal = {Science},
+	number = {3859},
+	pages = {1292--1297},
+	title = {{The Tragedy of the Commons}},
+	volume = {162},
+	year = {1968}
+}
+
+@article{Gluckman:1963,
+	author = {Gluckman, M.},
+	journal = {Current Anthropology},
+	pages = {307--316},
+	title = {{Gossip and Scandal}},
+	volume = {4},
+	year = {1963}
+}
+
+@article{Shannon:1948,
+	author = {Shannon, Claude},
+	journal = {Bell System Technical Journal},
+	pages = {379--423},
+	title = {{A Mathematical Theory of Communication}},
+	volume = {27},
+	year = {1948}
+}
+
+@book{chomsky1980rules,
+	address = {New York},
+	author = {Chomsky, Noam},
+	publisher = {Columbia University Press},
+	title = {{Rules and Representations}},
+	year = {1980}
+}
+
+@article{kraines-kraines1989,
+	author = {Kraines, David and Kraines, Vivian},
+	journal = {Theory and decision},
+	number = {1},
+	pages = {47--79},
+	title = {{Pavlov and the prisoner's dilemma}},
+	volume = {26},
+	year = {1989}
+}
+
+@article{Martinet:1952,
+	author = {Martinet, Andre},
+	journal = {Word},
+	pages = {1--32},
+	title = {{Function, Structure, and Sound Change}},
+	volume = {8},
+	year = {1952}
+}
+
+@article{Hockett:1967,
+	author = {Hockett, C.},
+	journal = {Word},
+	pages = {320--339},
+	title = {{The quantification of functional load}},
+	volume = {23},
+	year = {1967}
+}
+
+@inproceedings{Ohala:1981,
+	author = {{O}hala, John},
+	booktitle = {{Papers from the parasession on language and behavior (Chicago Linguistic Society)}},
+	editor = {Masek, Carrie and Hendrick, Roberta and {{Frances Miller}}, Mary},
+	journal = {Parasession on language and behavior (Chicago Linguistics Society)},
+	title = {{The listener as a source of sound change}},
+	year = {1981}
+}
+
+@book{Lass:1980,
+	author = {Lass, Roger},
+	publisher = {Cambridge University Press},
+	title = {{On explaining language change}},
+	year = {1980}
+}
+
+@incollection{Labov:1982,
+	author = {Labov, William},
+	booktitle = {{Perspectives on Historical Linguistics}},
+	editor = {Lehmann, Winfred P. and Malkiel, Yakov},
+	journal = {Perspectives on historical linguistics},
+	publisher = {John Benjamins Publishing Company},
+	title = {{Building on empirical foundations}},
+	volume = {24},
+	year = {1982}
+}
+
+@phdthesis{Babel:2009,
+	author = {Babel, Molly},
+	school = {University of California Berkely},
+	title = {{Phonetic and Social Selectivity in Speech Accommodation}},
+	year = {2009}
+}
+
+@book{hofbauer-sigmund:1998,
+	author = {Hofbauer, Josef and Sigmund, Karl},
+	publisher = {Cambridge University Press},
+	title = {{Evolutionary Games and Population Dynamics}},
+	year = {1998}
+}
+
+@incollection{Goldinger:1997,
+	author = {Goldinger, Stephen D.},
+	booktitle = {{Talker variability in speech processing}},
+	editor = {Johnson, K. and Mullenix, J. W.},
+	publisher = {Academic Press},
+	title = {{Words and voices: Perception and production in an episodic lexicon}},
+	year = 1997
+}
+
+@article{Goldinger:1998,
+	author = {Goldinger, Stephen D.},
+	journal = {Psychological review},
+	number = {2},
+	pages = {251},
+	publisher = {American Psychological Association},
+	title = {{Echoes of echoes? An episodic theory of lexical access}},
+	volume = 105,
+	year = 1998
+}
+
+@phdthesis{Sonderegger:2012,
+	author = {Sonderegger, Morgan},
+	school = {University of Chicago},
+	title = {{Phonetic and phonological dynamics on reality television}},
+	year = {2012}
+}
+
+@book{mielke:2008,
+	author = {Mielke, Jeff},
+	publisher = {OUP Oxford},
+	title = {{The emergence of distinctive features}},
+	year = {2008}
+}
+
+@article{akaike1974,
+	author = {Akaike, Hirotugu},
+	journal = {Automatic Control, IEEE Transactions},
+	number = {6},
+	pages = {716--723},
+	title = {{A new look at the statistical model identification}},
+	volume = {19},
+	year = {1974}
+}
+
+@article{grose:2011,
+	author = {Grose, Jonathan},
+	journal = {Biology and Philosophy},
+	number = {5},
+	pages = {677--696},
+	title = {{Modelling and the fall and rise of the handicap principle}},
+	volume = {26},
+	year = {2011}
+}
+
+@inbook{dahl:2001,
+	address = {Philadelphia},
+	author = {Dahl, Osten},
+	booktitle = {{Frequency and the Emergence of Linguistic Structure}},
+	pages = {471--480},
+	publisher = {John Benjamins Publishing Company},
+	title = {{Inflationary effects in language and elsewhere}},
+	year = {2001}
+}
+
+@article{crawford-sobel:1982,
+	author = {Crawford, Vincent P and Sobel, Joel},
+	journal = {Econometrica},
+	pages = {1431--1451},
+	title = {{Strategic information transmission}},
+	year = {1982}
+}
+
+@book{jespersen:1917,
+	author = {Jespersen, Otto},
+	location = {Copenhagen},
+	publisher = {Host},
+	title = {{Negation in English and other Languages}},
+	year = {1917}
+}
+
+@article{aronoff:1981,
+	author = {Aronoff, Mark},
+	journal = {Linguistic Inquiry},
+	number = {3},
+	pages = {329--347},
+	title = {{Automobile semantics}},
+	volume = {12},
+	year = {1981}
+}
+
+@article{bateson-etal:2006,
+	author = {Bateson, Melissa and Nettle, Daniel and Roberts, Gilbert},
+	journal = {Biology letters},
+	number = {3},
+	pages = {412--414},
+	title = {{Cues of being watched enhance cooperation in a real-world setting}},
+	volume = {2},
+	year = {2006}
+}
+
+@phdthesis{ansaldo:1999,
+	author = {Ansaldo, Umberto},
+	school = {Stockholm University},
+	title = {{Comparative constructions in Chinese: Areal Typology and Patterns of Grammaticalization}},
+	year = {1999}
+}
+
+@article{rabin-sobel:1996,
+	author = {Rabin, Matthew and Sobel, Joel},
+	journal = {Journal of Economic Theory},
+	pages = {1--25},
+	title = {{Deviations, Dynamics, and Equilibrium Refinements}},
+	volume = {68},
+	year = {1996}
+}
+
+@article{blume-etal:2001,
+	author = {Blume, Andreas and DeJong, Douglas V and Kim, Yong-Gwan and Sprinkle, Geoffrey B},
+	journal = {Games and Economic Behavior},
+	number = {1},
+	pages = {79--120},
+	publisher = {Elsevier},
+	title = {{Evolution of communication with partial common interest}},
+	volume = {37},
+	year = {2001}
+}
+
+@article{farrell:1993,
+	author = {Farrell, Joseph},
+	journal = {Games and Economic Behavior},
+	pages = {514--531},
+	title = {{Meaning and Credibility in Cheap-Talk Games}},
+	volume = {5},
+	year = {1993}
+}
+
+@book{schwegler1990,
+  title={Analyticity and syntheticity: A diachronic perspective with special reference to Romance languages},
+  author={Schwegler, Armin},
+  year={1990},
+  publisher={Mouton de Gruyter}
+}
+
+@article{schwegler1988,
+  title={Word-order changes in predicate negation strategies in Romance languages},
+  author={Schwegler, Armin},
+  journal={Diachronica},
+  volume={5},
+  number={1-2},
+  pages={21--58},
+  year={1988},
+}
+
+@article{dahl:1979,
+	author = {Dahl, Osten},
+	journal = {Linguistics},
+	number = {1-2},
+	pages = {79--106},
+	title = {{Typology of Sentence Negation}},
+	volume = {17},
+	year = {1979}
+}
+
+@article{tanenhaus:2000,
+	author = {Tanenhaus, Michael K and Magnuson, James S and Dahan, Delphine and Chambers, Craig},
+	journal = {Journal of Psycholinguistic Research},
+	number = {6},
+	pages = {557--580},
+	title = {{Eye movements and lexical access in spoken-language comprehension: Evaluating a linking hypothesis between fixations and linguistic processing}},
+	volume = {29},
+	year = {2000}
+}
+
+@inproceedings{kiparsky-condoravdi:2006,
+	author = {Kiparsky, Paul and Condoravdi, Cleo},
+	booktitle = {{ Proceedings of the 2nd International Conference of Modern Greek Dialects and Linguistic Theory}},
+	editor = {Janse, Mark},
+	location = {Myteline},
+	publisher = {University of Patras},
+	title = {{Tracking Jespersen's Cycle}},
+	year = {2006}
+}
+
+@article{franke-etal:2012,
+	author = {Franke, Michael and {de Jager}, Tikitu and {van Rooij}, Robert},
+	journal = {Journal of Logic and Computation},
+	number = {1},
+	pages = {23--54},
+	title = {{Relevance in Cooperation and Conflict}},
+	volume = {22},
+	year = {2012}
+}
+
+@inproceedings{franke:2008,
+	author = {Franke, Michael},
+	booktitle = {{Proceedings of the 13th ESSLLI Student Session}},
+	editor = {Balogh, Kata},
+	pages = {65--74},
+	title = {{Meaning and Inference in Case of Conflict}},
+	year = {2008}
+}
+
+@article{de-jaegher-van-rooij:2013,
+	author = {{{De Jaegher}}, Kris and {van Rooij}, Robert},
+	journal = {Erkenntnis},
+	pages = {1--52},
+	publisher = {Springer},
+	title = {{Game-theoretic pragmatics under conflicting and common interests}},
+	year = {2013}
+}
+
+@article{jager:2007a,
+	author = {J{"a}ger, Gerhard},
+	journal = {Language},
+	pages = {74--109},
+	publisher = {JSTOR},
+	title = {{Evolutionary game theory and typology: A case study}},
+	year = {2007}
+}
+
+@inbook{jager:2007b,
+	author = {J{"a}ger, Gerhard},
+	booktitle = {{Game Theory and Linguistic Meaning}},
+	editor = {Pietarinen, Ahti-Veikko},
+	pages = {103--118},
+	publisher = {Elsevier},
+	title = {{Game dynamics connects semantics and pragmatics}},
+	year = {2007}
+}
+
+@book{young:1998,
+	author = {Young, H. Peyton},
+	publisher = {Princeton University Press},
+	title = {{Individual strategy and social structure: An evolutionary theory of institutions}},
+	year = {1998}
+}
+
+@book{cressman:2003,
+	author = {Cressman, Ross},
+	publisher = {the MIT Press},
+	title = {{Evolutionary dynamics and extensive form games}},
+	volume = {5},
+	year = {2003}
+}
+
+@article{selten:1980,
+	author = {Selten, Reinhard},
+	journal = {Journal of Theoretical Biology},
+	number = {1},
+	pages = {93--101},
+	publisher = {Elsevier},
+	title = {{A note on evolutionarily stable strategies in asymmetric animal conflicts}},
+	volume = {84},
+	year = {1980}
+}
+
+@article{sperber-etal:2010,
+	author = {Sperber, Dan and Cl{'e}ment, Fabrice and Heintz, Christophe and Mascaro, Olivier and Mercier, Hugo and Origgi, Gloria and Wilson, Deirdre},
+	journal = {Mind \& Language},
+	number = {4},
+	pages = {359--393},
+	publisher = {Wiley Online Library},
+	title = {{Epistemic vigilance}},
+	volume = {25},
+	year = {2010}
+}
+
+@misc{dawkins:1976,
+	author = {Dawkins, Richard},
+	publisher = {Oxford University Press Oxford},
+	title = {{The selfish gene}},
+	year = {1976}
+}
+
+@phdthesis{nash1950,
+	author = {Nash, John F},
+	title = {Non-cooperative games},
+	year = {1950},
+	school = {Princeton University}
+}
+
+@article{nash:1950,
+	author = {Nash, John F},
+	journal = {Proceedings of the National Academy of Sciences},
+	number = {1},
+	pages = {48--49},
+	title = {{Equilibrium points in n-person games}},
+	volume = {36},
+	year = {1950}
+}
+
+@article{hauert-etal:2002b,
+	author = {Hauert, Christoph and Monte, Silvia De and Hofbauer, Josef and Sigmund, Karl},
+	journal = {Science},
+	number = {5570},
+	pages = {1129--1132},
+	title = {{Volunteering as red queen mechanism for cooperation in public goods games}},
+	volume = {296},
+	year = {2002}
+}
+
+@phdthesis{payne:1976,
+	author = {Payne, Arvilla},
+	school = {University of Pennsylvania},
+	title = {{The Acquisition of the Phonological System of a Second Dialect}},
+	year = {1976}
+}
+
+@article{hirsh-pasek-etal:1984,
+	author = {Hirsh-Pasek, Kathy and Treiman, Rebecca and Schneiderman, Maita},
+	journal = {Journal of child language},
+	number = {1},
+	pages = {81--88},
+	title = {{Brown and Hanlon revisited: Mothers{rq} sensitivity to ungrammatical forms}},
+	volume = {11},
+	year = {1984}
+}
+
+@inbook{brown-hanlon:1970,
+	author = {Brown, Roger and Hanlon, Camille},
+	booktitle = {{Cognition and the development of language}},
+	editor = {Hayes, John R.},
+	location = {New York},
+	pages = {11--53},
+	publisher = {Wiley Online Library},
+	title = {{Derivational complexity and order of acquisition in child speech}},
+	year = {1970}
+}
+
+@article{savitsky-etal:2011,
+	author = {Savitsky, Kenneth and Keysar, Boaz and Epley, Nicholas and Carter, Travis and Swanson, Ashley},
+	journal = {Journal of Experimental Social Psychology},
+	number = {1},
+	pages = {269--273},
+	publisher = {Elsevier},
+	title = {{The closeness-communication bias: Increased egocentrism among friends versus strangers}},
+	volume = {47},
+	year = {2011}
+}
+
+@article{keysar-etal:2000,
+	author = {Keysar, Boaz and Barr, Dale J and Balin, Jennifer A and Brauner, Jason S},
+	journal = {Psychological Science},
+	number = {1},
+	pages = {32--38},
+	publisher = {SAGE Publications},
+	title = {{Taking perspective in conversation: The role of mutual knowledge in comprehension}},
+	volume = {11},
+	year = {2000}
+}
+
+@article{birner:2006,
+	author = {Birner, Betty J},
+	journal = {Acta linguistica hafniensia},
+	number = {1},
+	pages = {14--32},
+	publisher = {Taylor \& Francis},
+	title = {{Semantic and pragmatic contributions to information status}},
+	volume = {38},
+	year = {2006}
+}
+
+@incollection{prince:1992,
+	author = {Prince, Ellen},
+	booktitle = {{Discourse Description: Diverse Linguistic Analyses of a Fund-raising Text}},
+	editor = {Mann, William C. and Thompson, Sandra A.},
+	pages = {295--325},
+	publisher = {Philadelphia: John Benjamins},
+	title = {{The ZPG Letter: Subjects, Definiteness, and Information-status. ,}},
+	year = {1992}
+}
+
+@article{tanenhaus1995integration,
+	author = {Tanenhaus, Michael K and Spivey-Knowlton, Michael J and Eberhard, Kathleen M and Sedivy, Julie C},
+	journal = {Science},
+	number = {5217},
+	pages = {1632--1634},
+	title = {{Integration of visual and linguistic information in spoken language comprehension}},
+	volume = {268},
+	year = {1995}
+}
+
+@article{dahan:2001,
+	author = {Dahan, Delphine and Magnuson, James S and Tanenhaus, Michael K},
+	journal = {Cognitive psychology},
+	number = {4},
+	pages = {317--367},
+	title = {{Time course of frequency effects in spoken-word recognition: Evidence from eye movements}},
+	volume = {42},
+	year = {2001}
+}
+
+@article{russell1905,
+	author = {Russell, Bertrand},
+	journal = {Mind},
+	number = {4},
+	pages = {479--493},
+	title = {{On Denoting}},
+	volume = {14},
+	year = {1905}
+}
+
+@book{beaney1997,
+	author = {Beaney, Michael},
+	location = {Oxford},
+	publisher = {Wiley-Blackwell},
+	title = {{The Frege Reader}},
+	year = {1997}
+}
+
+@article{kennedy:2005,
+	author = {Kennedy, Christopher and McNally, Louise},
+	journal = {Language},
+	pages = {345--381},
+	title = {{Scale structure, degree modification, and the semantics of gradable predicates}},
+	year = {2005}
+}
+
+@phdthesis{israel1998,
+	author = {Israel, Michael},
+	school = {University of California, San Diego},
+	title = {{The rhetoric of grammar: Scalar reasoning and polarity sensitivity}},
+	year = {1998}
+}
+
+@article{fauconnier1975,
+	author = {Fauconnier, Gilles},
+	journal = {Linguistic inquiry},
+	pages = {353--375},
+	title = {{Pragmatic scales and logical structure}},
+	year = {1975}
+}
+
+@article{israel2001,
+	author = {Israel, Michael},
+	journal = {Journal of Semantics},
+	number = {4},
+	pages = {297--331},
+	title = {{Minimizers, maximizers and the rhetoric of scalar reasoning}},
+	volume = {18},
+	year = {2001}
+}
+
+@book{kennedy:1999,
+	author = {Kennedy, Christopher},
+	publisher = {Routledge},
+	title = {{Projecting the adjective: The syntax and semantics of gradability and comparison}},
+	year = {1999}
+}
+
+@article{schwegler:1996,
+	author = {Schwegler, Armin},
+	journal = {Hispanic Linguistics},
+	pages = {247--315},
+	title = {{La doble negaci{'o}n dominicana y la g{'e}nesis del espa{~n}ol caribe{~n}o}},
+	volume = {8},
+	year = {1996}
+}
+
+@misc{hurford:2007,
+	author = {Hurford, James},
+	publisher = {Oxford: Oxford University Press},
+	title = {{The Origins of Meaning}},
+	year = {2007}
+}
+
+@inproceedings{Danescu+:2013,
+	author = {Danescu-Niculescu-Mizil, Cristian and Sudhof, Moritz and Jurafsky, Dan and Leskovec, Jure and Potts, Christopher},
+	booktitle = {{Proceedings of ACL}},
+	title = {{A computational approach to politeness with application to social factors}},
+	year = {2013}
+}
+
+@article{harsanyi:1967,
+	author = {Harsanyi, John C},
+	journal = {Management Science},
+	number = {3},
+	pages = {159--182},
+	title = {{Games with Incomplete Information Played by ``Bayesian'' Players, I--III: Part I. The Basic Model}},
+	volume = {14},
+	year = {1967}
+}
+
+@article{posch:1999,
+	author = {Posch, Martin},
+	journal = {Journal of theoretical biology},
+	number = {2},
+	pages = {183--195},
+	title = {{Win--Stay, Lose--Shift Strategies for Repeated Games---Memory Length, Aspiration Levels and Noise}},
+	volume = {198},
+	year = {1999}
+}
+
+@article{posch-etal:1999,
+	author = {Posch, Martin and Pichler, Alexander and Sigmund, Karl},
+	journal = {Proceedings of the Royal Society of London. Series B: Biological Sciences},
+	number = {1427},
+	pages = {1427--1435},
+	publisher = {The Royal Society},
+	title = {{The efficiency of adapting aspiration levels}},
+	volume = {266},
+	year = {1999}
+}
+
+@article{karandikar-etal:1998,
+	author = {Karandikar, Rajeeva and Mookherjee, Dilip and Ray, Debraj and Vega-Redondo, Fernando},
+	journal = {journal of economic theory},
+	number = {2},
+	pages = {292--331},
+	title = {{Evolving aspirations and cooperation}},
+	volume = {80},
+	year = {1998}
+}
+
+@book{eckardt2006,
+	author = {Eckardt, Regine},
+	publisher = {Oxford University Press},
+	title = {{Meaning change in grammaticalization: an enquiry into semantic reanalysis}},
+	year = {2006}
+}
+
+@article{apesteguia-etal:2007imitation,
+	author = {Apesteguia, Jose and Huck, Steffen and Oechssler, J{"o}rg},
+	journal = {Journal of Economic Theory},
+	number = {1},
+	pages = {217--235},
+	title = {{Imitation---theory and experimental evidence}},
+	volume = {136},
+	year = {2007}
+}
+
+@article{altavilla-etal:2006social,
+	author = {Altavilla, Carlo and Luini, Luigi and Sbriglia, Patrizia},
+	journal = {Journal of Economic Behavior \& Organization},
+	number = {4},
+	pages = {632--652},
+	title = {{Social learning in market games}},
+	volume = {61},
+	year = {2006}
+}
+
+@article{huck-etal:2005glad,
+	author = {Huck, Steffen and Normann, Hans-Theo and Oechssler, J{"o}rg},
+	journal = {Physica D: Nonlinear Phenomena},
+	number = {1},
+	pages = {133--138},
+	title = {{GLAD: a simple adaptive strategy that yields cooperation in dilemma games}},
+	volume = {200},
+	year = {2005}
+}
+
+@article{oechssler:2002,
+	author = {Oechssler, J{\"o}rg},
+	journal = {Journal of Economic Behavior \& Organization},
+	number = {3},
+	pages = {405--409},
+	title = {{Cooperation as a result of learning with aspiration levels}},
+	volume = {49},
+	year = {2002}
+}
+
+@article{palomino-vega-redondo1999,
+	author = {Palomino, Frederic and Vega-Redondo, Fernando},
+	journal = {International Journal of Game Theory},
+	number = {4},
+	pages = {465--488},
+	title = {{Convergence of aspirations and (partial) cooperation in the prisoner's dilemma}},
+	volume = {28},
+	year = {1999}
+}
+
+@article{dixon:2000joneses,
+	author = {Dixon, Huw David},
+	journal = {Journal of Economic Behavior \& Organization},
+	number = {2},
+	pages = {223--238},
+	title = {{Keeping up with the Joneses: competition and the evolution of collusion}},
+	volume = {43},
+	year = {2000}
+}
+
+@article{cho-matsui:2005learning,
+	author = {Cho, In-Koo and Matsui, Akihiko},
+	journal = {Journal of Economic Theory},
+	number = {2},
+	pages = {171--201},
+	title = {{Learning aspiration in repeated games}},
+	volume = {124},
+	year = {2005}
+}
+
+@article{platkowski:2009enhanced,
+	author = {Platkowski, Tadeusz},
+	journal = {Applied Mathematics Letters},
+	number = {8},
+	pages = {1161--1165},
+	title = {{Enhanced cooperation in prisoner{rq}s dilemma with aspiration}},
+	volume = {22},
+	year = {2009}
+}
+
+@article{krifka1995polarity,
+	author = {Krifka, Manfred},
+	journal = {Linguistic analysis},
+	number = {3-4},
+	pages = {209--257},
+	title = {{The semantics and pragmatics of polarity items}},
+	volume = {25},
+	year = {1995}
+}
+
+@article{yang2000internal,
+	author = {Yang, Charles},
+	journal = {Language variation and change},
+	number = {03},
+	pages = {231--250},
+	publisher = {Cambridge Univ Press},
+	title = {{Internal and external forces in language change}},
+	volume = {12},
+	year = {2000}
+}
+
+@article{detges-waltereit2002,
+	author = {Detges, Ulrich and Waltereit, Richard},
+	journal = {Zeitschrift f{"u}r Sprachwissenschaft},
+	number = {2},
+	pages = {151--195},
+	title = {{Grammaticalization vs. reanalysis: A semantic-pragmatic account of functional change in grammar}},
+	volume = {21},
+	year = {2002}
+}
+
+@article{ahern-clark2015,
+	author = {Ahern, Christopher and Clark, Robin},
+	journal = {Semantics and Pragmatics},
+	title = {{Conflict, Cheap Talk, and Jespersen's Cycle}},
+	year = {Under Revision}
+}
+
+@inproceedings{ahern-clark2014,
+	author = {Ahern, Christopher and Clark, Robin},
+	booktitle = {{he Evolution of Language: Proceedings of The Tenth International Conference on the Evolution of Language}},
+	editor = {Cartmill, Erica},
+	pages = {25--32},
+	publisher = {World Scientific},
+	title = {{Diachronic processes in language as signaling under conflicting interests}},
+	year = {2014}
+}
+
+@article{ahern-clark2014,
+	author = {Ahern, Christopher and Clark, Robin},
+	journal = {Semantics and Pragmatics},
+	title = {{Conflict, Cheap Talk, and Jespersen's Cycle}},
+	year = {2014}
+}
+
+@article{kadmon-landman1993any,
+	author = {Kadmon, Nirit and Landman, Fred},
+	journal = {Linguistics and philosophy},
+	number = {4},
+	pages = {353--422},
+	title = {{Any}},
+	volume = {16},
+	year = {1993}
+}
+
+@incollection{vanderAuwera2009,
+	author = {{van der Auwera}, Johan},
+	booktitle = {{Cyclical Change}},
+	editor = {{van Gelderen}, Elly},
+	publisher = {John Benjamins Publishing Company},
+	title = {{The Jespersen Cycles}},
+	year = {2009}
+}
+
+@phdthesis{ladusaw1979,
+	author = {Ladusaw, William},
+	school = {University of Texas at Austin},
+	title = {{Polarity sensitivity as inherent scope relations}},
+	year = {1979}
+}
+
+@phdthesis{hirschberg1985,
+	author = {Hirschberg, Julia},
+	school = {University of Pennsylvania},
+	title = {{A Theory of Scalar Implicature}},
+	year = {1985}
+}
+
+@book{ycoe,
+	editor = {Taylor, Ann and Warner, Anthony and Pintzuk, Susan and Beths, Franks},
+	school = {University of Pennsylvania},
+	title = {{York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)}},
+	year = {2003},
+	url = {http://www-users.york.ac.uk/~lang22/YcoeHome1.htm}
+}
+
+@book{ppcme2,
+	editor = {Kroch, Anthony and Taylor, Ann},
+	school = {University of Pennsylvania},
+	title = {{Penn-Helsinki Parsed Corpus of Middle English Second Edition (PPCME2)}},
+	year = {2000}
+}
+
+@book{ppceme,
+	editor = {Kroch, Anthony and Santorini, Beatrice and Delfs, Lauren},
+	school = {University of Pennsylvania},
+	title = {{Penn-Helsinki Parsed Corpus of Early Modern English (PPCEME)}},
+	year = {2000}
+}
+
+@book{pyccle,
+	editor = {Ecay, Aaron},
+	school = {University of Pennsylvania,  University of York},
+	title = {{The Penn-York Computer-annotated Corpus of a Large amount of English based on the TCP (PYCCLE-TCP)}},
+	year = {2015},
+	url = { https://github.com/uoy-linguistics/pyccle.}
+}
+
+
+
+@book{mcvf,
+	editor = {Martineau, France and Hirschbuhler, Paul and Kroch, Anthony and Morin, Yves Charles},
+	school = {University of Ottowa},
+	title = {{Mod{'e}liser le changement : les voies du franc{c}ais}},
+	year = {2010}
+}
+
+@article{gale-binmore-samuelson1995,
+	author = {Gale, John and Binmore, Kenneth G and Samuelson, Larry},
+	journal = {Games and Economic Behavior},
+	number = {1},
+	pages = {56--90},
+	publisher = {Elsevier},
+	title = {{Learning to be imperfect: The ultimatum game}},
+	volume = {8},
+	year = {1995}
+}
+
+@book{sandholm2010,
+	author = {Sandholm, William H},
+	publisher = {MIT press},
+	title = {{Population games and evolutionary dynamics}},
+	year = {2010}
+}
+
+@book{thorndike1911,
+	author = {Thorndike, Edward L.},
+	location = {New York},
+	publisher = {Macmillan},
+	title = {{Animal intelligence: Experimental studies}},
+	year = {1911}
+}
+
+@article{akin1980,
+	author = {Akin, Ethan},
+	journal = {Mathematical Biosciences},
+	number = {3},
+	pages = {239--250},
+	title = {{Domination or equilibrium}},
+	volume = {50},
+	year = {1980}
+}
+
+@article{dekel-scotchmer1992,
+	author = {Dekel, Eddie and Scotchmer, Suzanne},
+	journal = {Journal of Economic Theory},
+	number = {2},
+	pages = {392--406},
+	title = {{On the evolution of optimizing behavior}},
+	volume = {57},
+	year = {1992}
+}
+
+@article{gigerenzer-selten2001a,
+	author = {Gigerenzer, Gerd and Selten, Reinhard and others},
+	journal = {Bounded rationality: The adaptive toolbox},
+	pages = {1--12},
+	title = {{Rethinking rationality}},
+	year = {2001}
+}
+
+@article{wright1921,
+	author = {Wright, Sewall},
+	journal = {Genetics},
+	number = {2},
+	pages = {167},
+	publisher = {Genetics Society of America},
+	title = {{Systems of mating. V. General considerations}},
+	volume = {6},
+	year = {1921}
+}
+
+@book{maynard-smith-szathmary1995,
+	author = {{Maynard Smith}, John and Szathmary, E{\"o}rs},
+	publisher = {Oxford University Press},
+	title = {{The major transitions in evolution}},
+	year = {1995}
+}
+
+@book{skyrms2014,
+	address = {Oxford, UK},
+	author = {Skyrms, Brian},
+	comment = {},
+	note = {},
+	publisher = {Oxford University Press},
+	title = {{Social Dynamics}},
+	year = {2014}
+}
+
+@article{feder-etal2014,
+	author = {Feder, Alison F and Kryazhimskiy, Sergey and Plotkin, Joshua B},
+	journal = {Genetics},
+	number = {2},
+	pages = {509--522},
+	publisher = {Genetics Soc America},
+	title = {{Identifying signatures of selection in genetic time series}},
+	volume = {196},
+	year = {2014}
+}
+
+@inproceedings{lakoff1971,
+	author = {Lakoff, Robin},
+	booktitle = {{Proceedings of the 7th meeting of the Chicago Linguistics Society}},
+	editor = {Ed.},
+	pages = {149--162},
+	publisher = {Chicago Linguistics Society},
+	school = {University of Chicago},
+	title = {{Passive resistance}},
+	year = {1971}
+}
+
+@article{abrams-strogatz2003,
+	author = {Abrams, Daniel M and Strogatz, Steven H},
+	journal = {Nature},
+	number = {6951},
+	pages = {900--900},
+	publisher = {Nature Publishing Group},
+	title = {{Modelling the dynamics of language death}},
+	volume = {424},
+	year = {2003}
+}
+
+@article{kroch1989,
+	author = {Kroch, Anthony S},
+	journal = {Language variation and change},
+	number = {03},
+	pages = {199--244},
+	publisher = {Cambridge Univ Press},
+	title = {{Reflexes of grammar in patterns of language change}},
+	volume = {1},
+	year = {1989}
+}
+
+@article{New1
+}
+
+@book{willis-etal2013,
+	booktitle = {{Volume I: Case Studies}},
+	editor = {Willis, David and Lucas, Christopher and Breitbarth, Anne},
+	publisher = {Oxford University Press},
+	title = {{The history of negation in the languages of Europe and the Mediterranean}},
+	year = {2013}
+}
+
+@article{hansen2009,
+  title={The grammaticalization of negative reinforcers in Old and Middle French: a discourse-functional approach},
+  author={Hansen, Maj-Britt Mosegaard},
+  journal={Current trends in diachronic semantics and pragmatics},
+  pages={227--251},
+  year={2009}
+}
+
+@article{hansen-visconti2009,
+  title={On the diachrony of" reinforced" negation in French and Italian},
+  author={Hansen, Maj-Britt Mosegaard and Visconti, Jacqueline},
+  journal={Grammaticalization and pragmatics: Facts, approaches, theoretical issues},
+  pages={137--171},
+  year={2009}
+}
+
+@article{hansen-visconti2012,
+	author = {Hansen, Maj-Britt Mosegaard and Visconti, Jacqueline},
+	journal = {Folia Linguistica},
+	month = {October},
+	number = {2},
+	title = {{The evolution of negation in French and Italian: Similarities and differences}},
+	volume = {46},
+	year = {2012}
+}
+
+@article{martineau1994,
+	author = {Martineau, France},
+	journal = {Journal of French Language Studies},
+	number = {01},
+	pages = {55--73},
+	publisher = {Cambridge Univ Press},
+	title = {{Movement of negative adverbs in French infinitival clauses}},
+	volume = {4},
+	year = {1994}
+}
+

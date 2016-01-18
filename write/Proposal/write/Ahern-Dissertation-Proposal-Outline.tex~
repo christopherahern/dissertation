@@ -1,0 +1,173 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amsthm,amsfonts, amssymb,graphicx}
+\usepackage{multirow}
+\usepackage{sectsty}
+\usepackage{pstricks}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,chains,matrix,positioning,scopes}
+\usepackage{subfigure}
+\usepackage{linguex}
+\usepackage[english,greek]{betababel}
+\usepackage{natbib}
+\usepackage[only, llbracket,rrbracket]{stmaryrd}
+% \usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\newcommand{\sem}[1]{\ensuremath{\{ #1 \} }}
+\newcommand{\pair}[1]{\ensuremath{\langle #1 \rangle}}
+\newcommand{\la}{\ensuremath{\lambda}}
+\newcommand{\inter}[1]{\ensuremath{\llbracket#1\rrbracket}}
+
+\theoremstyle{definition} \newtheorem{definition}{Definition} 
+
+
+\bibliographystyle{mcbride}
+
+\begin{document}
+
+\title{Cycles and stability in linguistic signaling}
+% \subtitle{test}
+\author{Christopher Ahern}
+% \date{$\;\;\;\;$}
+
+\maketitle
+
+
+\section{Cycles}
+\label{Cycles}
+
+\subsection{Jespersen's Cycle}
+Broad cross-linguistic change in the expression of sentential negation \cite{vanGelderen2008negative}. In French, it's most widely cited form:
+
+\ex. ne $\longrightarrow$ ne...(pas) $\longrightarrow$ ne...pas  $\longrightarrow$ (ne)...pas $\longrightarrow$ pas\\
+
+\begin{enumerate}
+ \item  preverbal negation
+  \item optional embracing negation
+  \item obligatory embracing negation
+  \item optional preverbal negation
+  \item postverbal negation
+\end{enumerate}
+
+\subsection{Motivations}
+\subsubsection{Emphasis}
+The cycle is motivated by the distinction between plain and emphatic negation. 
+\begin{itemize}
+ \item Start off with distinct forms of plain and emphatic negation
+  \item Emphatic negation is overused and ceases to convey emphasis
+  \item ``To emphasize everything is to emphasize nothing'' \citep{kiparsky-condoravdi:2006}
+\end{itemize}
+What is emphatic negation? \cite{eckardt2006}, drawing on a variation of \cite{krifka1995polarity}.
+\begin{itemize}
+ \item Emphatic negation is the result of emphatic focus of an NPI in the scope of negation.
+  \item Focus evokes alternatives \citep{rooth1992focus}
+  \item NPIs denote minimal quantitites
+  \item Ann did not drink $[$ a single drop $]_f \longrightarrow$ $\{$ 'Ann did not drink a glassful of anything', 'Anna did not drink a barrelful of anything'...$\}$
+  \item Scalar implicature (technically, presupposition) arises that this is the most `striking' among the salient alternatives.
+\end{itemize}
+
+\subsubsection{Information Structure}
+The cycle is not necessarily motivated by the distinction between plain and emphatic negation, but the different forms of negation are sensitive to information structural constraints (Catalan, Italian, Brazilian Portuguese)\citep{schwenter2005,schwenter2006}. 
+
+
+\ex. \label{bp} \a. A Cl\'audia \emph{n\~ao} veio a festa. \hfill (\textsc{Neg1})\\
+           \b. A Cl\'audia \emph{n\~ao} veio a festa \emph{n\~ao}. \hfill (\textsc{Neg2})\\
+	   \b. A Cl\'audia veio a festa \emph{n\~ao}. \hfill (\textsc{Neg3})\\
+	    `Cl\'audia didn't come to the party.'\\
+
+\textsc{Neg2} cannot appear discourse new (by implication, nor can \textsc{Neg3}):
+\exg. Voc\^e n\~ao viu esse programma (\#n\~ao)!\\
+      you neg saw that program (neg) \\
+      \label{tv} `You didn't watch that program!'\\
+
+\textsc{Neg2} can be used with activated propositions, as can \textsc{Neg1}:
+\ex. \label{tvdial}\a. Voc\^e  viu esse programma?\\
+      you saw that program \\
+      `Did you watch that show?'
+     \b. N\~ao vi (n\~ao).\\
+      neg saw neg\\
+       `I didn't watch it.'
+
+\textsc{Neg2} can be used with inferrable propositions, but \textsc{Neg3} cannot:
+\ex.  \a. Voc\^e  gostou da palestra da Maria?\\
+      you liked of.the talk of.the Maria \\
+      `Did you like Maria's talk?'
+     \b. Eu (n\~ao) gostei n\~ao.\\
+      I (neg) liked neg\\
+      \label{d-old} `I didn't like it.'
+     \b. Eu \#(n\~ao) fui n\~ao.\\
+      I (neg) went neg\\
+       \label{inf} `I didn't go.'
+
+\begin{table}[ht]
+    \begin{center}
+    \begin{tabular}{@{}cccc@{}}
+      \hline
+       &\textsc{discourse new} & \textsc{inferable} & \textsc{discourse old} \\
+      \hline
+      (\textsc{Neg1}) \textsc{n V} & \checkmark & \checkmark &  \checkmark \\
+      (\textsc{Neg2}) \textsc{n V n} & \# & \checkmark & \checkmark \\
+      (\textsc{Neg3}) \textsc{V n} & \# & \# & \checkmark \\
+      \hline
+    \end{tabular}
+    \end{center}
+\caption{Discourse-Status Constraints on Forms of Negation}
+\label{discourse}
+  \end{table}
+
+
+\begin{itemize}
+ \item Different forms signal different discourse functions
+ \item Change requires a loosening of the constraints
+ \item This seems to be happening in Brazilian Portuguese \citep{schwenter2005}
+\end{itemize}
+
+
+
+\subsection{Testing}
+\subsubsection{Outline}
+Both motivations can be thought of in terms of the model.
+\begin{itemize}
+     \item Types form a scale
+     \item Least salient alternative is low type, most salient alternative is high type
+     \item Discourse new is low type, inferrable is middle type, activated/discourse old is high type
+     \item Prior probability for different types can be estimated
+     \item Incentive to ``exaggerate'' type, or just failure to track interlocutor's mental state
+\end{itemize}
+
+\subsection{Operationalizing}
+
+\begin{itemize}
+     \item Track occurrences of `pas' as part of emphatic negation versus as NPI in general, and as `step' over time.
+     \item Does `ne...pas' cease to be emphatic  at some point? How can we tell structurally? or otherwise?
+\end{itemize}
+
+\begin{itemize}
+     \item Compare sentences with negation to previous (\cite{wallage2013} for Middle English)
+     \item This is a subjective measure, don't have ye olde native speaker intuitions or cultural knowledge
+     \item Indirect measure: referring expressions that respond to discourse status \citep{gundel-etal1993}
+\end{itemize}
+
+\subsection{Questions/Concerns}
+
+\begin{itemize}
+     \item What is the nature of the type spaces according to the two models? Are they discrete or continuous? What is the probability distribution over types?
+     \item Is it reasonable to assume a conflict? What is the interpretation for each model?
+     \item Do we have enough data to test the different predictions of the two analyses?
+     \item What are the implications for acquisition?
+     \item What do they have to say about (relative) stability? (compare Middle English to Middle French)
+\end{itemize}
+
+
+
+%\bibliographystyle{}
+\bibliography{ahern}
+
+\appendix
+
+\section{Technical Appendix}
+\label{Technical Appendix}
+
+
+
+\end{document}

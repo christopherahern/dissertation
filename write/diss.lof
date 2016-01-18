@@ -1,0 +1,62 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The process of language acquisition}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The process of language use}}{3}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The iterated process of language change through acquisition and use}}{4}{figure.1.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The formal Jespersen cycle}}{9}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The realization of the formal cycle in English and French}}{10}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Timeline of negation in the history of English}}{13}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Timeline of negation in the history of French}}{15}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The functional Jespersen cycle}}{17}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The functional Jespersen cycle in more detail}}{18}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The realization of the functional cycle in English and French}}{19}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Pragmatic use as the cause of the first transition}}{28}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Syntactic acquisition as the cause of the first transition}}{29}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Pragmatic use as the cause of the second transition}}{30}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Syntactic acquisition as the cause of the second transition}}{30}{figure.2.11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Phase diagram of replicator dynamics for matching pennies}}{55}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Lewis signagling game with two states, two messages, and twos actions. }}{57}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sender and Receiver strategies for signaling game}}{59}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Signaling game in behavioral space}}{62}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Solution trajectories for behavioral replicator dynamics for common interest signaling}}{64}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Solution trajectories for behavioral replicator dynamics for conflicting interest signaling}}{65}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Average Kullback-Leibler Divergence for signals under conflicting interests}}{67}{figure.3.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Beta distribution for various parameter values of $\alpha $ and $\beta $, including the uniform distribution $\mathcal {B}(1,1)$, and the empirical distribution $\mathcal {B}(1,2)$.}}{86}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Equilibrium solution for two messages for values of bias}}{88}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Proportion of $m_2$ under the discrete-time replicator dynamics for varying amounts of speaker bias}}{92}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Proportion of \textit {\color {red} ne}, \textit {\color {blue} ne...not}, and \textit {\color {green} not} in Negative Declaratives}}{93}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Proportion of \textit {\color {blue} ne...not} and \textit {\color {green} not} versus \textit {\color {red} ne} over time}}{94}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Predicted probability of \textit {\color {blue} ne...not} over time for fitted model of functional cycle.}}{96}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The emphatic form over time as given by the conditional probability of states given \textit {\color {blue} ne...not}, where dashed line indicates prior probability distribution.}}{97}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The push-chain of the functional cycle given by the conditional probability of states given form at various points in time, where dashed line indicates prior probability.}}{98}{figure.4.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Two partially incompatible grammars}}{109}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Probability of $G_2$ over time for various individual trajectories and expected motion of trajectories, where $L=\frac {1}{2}G_1 + \frac {1}{2}G_2$, $\alpha _1 = .1, \alpha _2 = .5, \gamma =.1$}}{110}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Distribution over $p_2$ for population of learners and fitted normal distribution}}{112}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Proportion of $G_2$ over time for various ratios of evidence $s > 0$}}{115}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Solution to acquisition dynamics and logistic model (dashed) from same starting point with $s=.4$}}{116}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Two totally incompatible grammars}}{117}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The structure of the Negative Phrase}}{118}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Stage one of the formal cycle according to morphological analysis}}{118}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Sentential structure at stage one of the formal cycle according to morphological analysis}}{119}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Stage two of the formal cycle according to morphological analysis}}{119}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Sentential structure at stage two of the formal cycle according to morphological analysis}}{120}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Stage three of the formal cycle according to morphological analysis}}{120}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Sentential structure at stage three of the formal cycle according to morphological analysis}}{120}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Proportion of $G_{not}$ over time for the first transition of the formal cycle, $\mathaccentV {hat}05E{s} = 0.10291529$}}{124}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Proportion of $G_\varnothing $ over time for the first transition of the formal cycle, $\mathaccentV {hat}05E{s} = 0.34128455$}}{125}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Proportion of \emph {\leavevmode {\color {red}ne}}, \emph {\leavevmode {\color {blue}ne...not}}, and \emph {\leavevmode {\color {green}not}} predicted by the fitted parameters of the acquisition dynamics}}{126}{figure.5.16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Proportion of forms over time in simulation of Moran model for $N=100$ and $s=0$}}{135}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Proportion of forms over time in simulation of Moran model for $N=100$ and $s=.1$}}{136}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Proportion of forms of negation in Negative Declaratives}}{140}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Proportion of \textit {\color {blue} ne...not} and \textit {\color {green} not} versus \textit {\color {red} ne} over time}}{140}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Proportion of \textit {\color {green} not} versus \textit {\color {red} ne} and \textit {\color {blue} ne...not} over time}}{141}{figure.6.5}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

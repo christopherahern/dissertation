@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Ahern-chapter6.aux
+The style file: mcbride.bst
+Database file #1: ahern.bib
+Repeated entry---line 1121 of file ahern.bib
+ : @book{jager2008
+ :                ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty journal in darwin1859
+Warning--can't use both volume and number fields in moran1958
+You've used 19 entries,
+            3317 wiz_defined-function locations,
+            793 strings with 8072 characters,
+and the built_in function-call counts, 11191 in all, are:
+= -- 856
+> -- 261
+< -- 28
++ -- 97
+- -- 73
+* -- 1263
+:= -- 1576
+add.period$ -- 78
+call.type$ -- 19
+change.case$ -- 147
+chr.to.int$ -- 18
+cite$ -- 21
+duplicate$ -- 894
+empty$ -- 956
+format.name$ -- 135
+if$ -- 2146
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 156
+newline$ -- 109
+num.names$ -- 77
+pop$ -- 177
+preamble$ -- 1
+purify$ -- 100
+quote$ -- 0
+skip$ -- 299
+stack$ -- 0
+substring$ -- 475
+swap$ -- 718
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 153
+warning$ -- 2
+while$ -- 83
+width$ -- 0
+write$ -- 260
+(There was 1 error message)

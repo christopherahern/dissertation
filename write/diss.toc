@@ -1,0 +1,50 @@
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{\textlatin {iv}}{chapter*.1}
+\contentsline {chapter}{Abstract}{\textlatin {v}}{chapter*.1}
+\contentsline {chapter}{Contents}{\textlatin {vii}}{chapter*.2}
+\contentsline {chapter}{List of Tables}{\textlatin {x}}{chapter*.3}
+\contentsline {chapter}{List of Figures}{\textlatin {xi}}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Jespersen's Cycles}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}The formal cycle}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}The functional cycle}{16}{section.2.2}
+\contentsline {section}{\numberline {2.3}Causes of the cycles}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}A pull-chain scenario}{24}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}A push-chain scenario}{26}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Explaining the cycles}{27}{section.2.4}
+\contentsline {part}{\textlatin {I}\hspace {1em}The Functional Cycle}{32}{part.1}
+\contentsline {chapter}{\numberline {3}Evolutionary Game Theory}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}The role of rationality}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}A typology of games}{38}{section.3.2}
+\contentsline {section}{\numberline {3.3}Equilibria as solution concepts}{42}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Nash Equilbria}{43}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Evolutionarily Stable Strategies}{46}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Evolutionary game dynamics}{49}{section.3.4}
+\contentsline {section}{\numberline {3.5}Signaling games}{55}{section.3.5}
+\contentsline {section}{\numberline {3.6}The behavioral dynamics of signaling}{61}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}The simplest signaling game}{62}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Signaling under common interests}{63}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Signaling under conflicting interests}{65}{subsection.3.6.3}
+\contentsline {chapter}{\numberline {4}Cycles}{68}{chapter.4}
+\contentsline {section}{\numberline {4.1}Emphasis as activation}{70}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experimental evidence regarding activation}{73}{section.4.2}
+\contentsline {section}{\numberline {4.3}A signaling game model of emphasis}{77}{section.4.3}
+\contentsline {section}{\numberline {4.4}Equilibria of the signaling game}{83}{section.4.4}
+\contentsline {section}{\numberline {4.5}The dynamics of the signaling game}{89}{section.4.5}
+\contentsline {section}{\numberline {4.6}Modeling the functional cycle}{92}{section.4.6}
+\contentsline {part}{\textlatin {II}\hspace {1em}The Formal Cycle}{103}{part.2}
+\contentsline {chapter}{\numberline {5}Stability}{104}{chapter.5}
+\contentsline {section}{\numberline {5.1}A model of acquisition}{106}{section.5.1}
+\contentsline {section}{\numberline {5.2}The dynamics of acquisition}{111}{section.5.2}
+\contentsline {section}{\numberline {5.3}The syntactic structures of the formal cycle}{117}{section.5.3}
+\contentsline {section}{\numberline {5.4}Modeling the formal cycle}{121}{section.5.4}
+\contentsline {chapter}{\numberline {6}Chance}{129}{chapter.6}
+\contentsline {section}{\numberline {6.1}Genetic drift}{131}{section.6.1}
+\contentsline {section}{\numberline {6.2}The dynamics of drift}{131}{section.6.2}
+\contentsline {section}{\numberline {6.3}Modeling the formal cycle}{137}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{147}{chapter.7}
+\contentsline {chapter}{\numberline {A}Equilibrium analysis}{149}{appendix.A}
+\contentsline {chapter}{\numberline {B}Dynamic analysis}{150}{appendix.B}
+\contentsline {chapter}{\numberline {C}Acquisition analysis}{151}{appendix.C}
+\contentsline {chapter}{\numberline {D}Drift analysis}{152}{appendix.D}
+\contentsline {chapter}{Bibliography}{153}{appendix*.10}

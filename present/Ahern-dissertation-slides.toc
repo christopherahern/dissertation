@@ -1,0 +1,15 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.36pt}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Language change}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Jespersen's cycles}{21}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{The functional cycle}{83}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{The formal cycle}{124}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Thanks}{156}{1}{5}

@@ -1,0 +1,48 @@
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{\textlatin {iv}}{chapter*.1}
+\contentsline {chapter}{Abstract}{\textlatin {v}}{chapter*.1}
+\contentsline {chapter}{Contents}{\textlatin {vii}}{chapter*.2}
+\contentsline {chapter}{List of Figures}{1}{chapter*.3}
+\contentsline {chapter}{List of Tables}{4}{chapter*.4}
+\contentsline {part}{\textlatin {I}\hspace {1em}Introduction}{5}{part.1}
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}
+\contentsline {chapter}{\numberline {2}Jespersen's Cycles}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Formal Cycle}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Functional Cycle}{21}{section.2.2}
+\contentsline {section}{\numberline {2.3}Causes of the cycles}{28}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Pull-Chain}{29}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Push-chain}{31}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Explanations}{32}{section.2.4}
+\contentsline {part}{\textlatin {II}\hspace {1em}Cycles}{37}{part.2}
+\contentsline {chapter}{\numberline {3}Evolutionary Game Theory}{38}{chapter.3}
+\contentsline {section}{\numberline {3.1}Games}{43}{section.3.1}
+\contentsline {section}{\numberline {3.2}Equilibria}{47}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Nash Equilbria}{48}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Evolutionarily Stable Strategies}{50}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Dynamics}{54}{section.3.3}
+\contentsline {section}{\numberline {3.4}Signaling}{60}{section.3.4}
+\contentsline {section}{\numberline {3.5}Behavioral dynamics}{66}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}The Simplest Signaling Game}{66}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Common Interests}{68}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Conflicting Interests}{69}{subsection.3.5.3}
+\contentsline {chapter}{\numberline {4}Cycles}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Emphasis}{75}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experimental evidence}{78}{section.4.2}
+\contentsline {section}{\numberline {4.3}Signaling}{82}{section.4.3}
+\contentsline {section}{\numberline {4.4}Equilibria}{88}{section.4.4}
+\contentsline {section}{\numberline {4.5}Dynamics}{95}{section.4.5}
+\contentsline {section}{\numberline {4.6}Modeling}{97}{section.4.6}
+\contentsline {part}{\textlatin {III}\hspace {1em}Stability}{109}{part.3}
+\contentsline {chapter}{\numberline {5}Stability}{110}{chapter.5}
+\contentsline {section}{\numberline {5.1}Acquisition}{112}{section.5.1}
+\contentsline {section}{\numberline {5.2}Dynamics}{117}{section.5.2}
+\contentsline {section}{\numberline {5.3}Syntactic Structure}{123}{section.5.3}
+\contentsline {section}{\numberline {5.4}Modeling}{127}{section.5.4}
+\contentsline {chapter}{\numberline {6}Chance}{135}{chapter.6}
+\contentsline {section}{\numberline {6.1}Drift}{137}{section.6.1}
+\contentsline {section}{\numberline {6.2}Dynamics}{137}{section.6.2}
+\contentsline {section}{\numberline {6.3}Modeling}{143}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{153}{chapter.7}
+\contentsline {chapter}{\numberline {A}Equilibria}{156}{appendix.A}
+\contentsline {chapter}{\numberline {B}Dynamics}{157}{appendix.B}
+\contentsline {chapter}{Bibliography}{158}{appendix*.10}

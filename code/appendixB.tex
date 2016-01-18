@@ -1,0 +1,999 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass{article}
+
+    
+    
+    \usepackage{graphicx} % Used to insert images
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{color} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    
+
+    
+    
+    \definecolor{orange}{cmyk}{0,0.4,0.8,0.2}
+    \definecolor{darkorange}{rgb}{.71,0.21,0.01}
+    \definecolor{darkgreen}{rgb}{.12,.54,.11}
+    \definecolor{myteal}{rgb}{.26, .44, .56}
+    \definecolor{gray}{gray}{0.45}
+    \definecolor{lightgray}{gray}{.95}
+    \definecolor{mediumgray}{gray}{.8}
+    \definecolor{inputbackground}{rgb}{.95, .95, .85}
+    \definecolor{outputbackground}{rgb}{.95, .95, .95}
+    \definecolor{traceback}{rgb}{1, .95, .95}
+    % ansi colors
+    \definecolor{red}{rgb}{.6,0,0}
+    \definecolor{green}{rgb}{0,.65,0}
+    \definecolor{brown}{rgb}{0.6,0.6,0}
+    \definecolor{blue}{rgb}{0,.145,.698}
+    \definecolor{purple}{rgb}{.698,.145,.698}
+    \definecolor{cyan}{rgb}{0,.698,.698}
+    \definecolor{lightgray}{gray}{0.5}
+    
+    % bright ansi colors
+    \definecolor{darkgray}{gray}{0.25}
+    \definecolor{lightred}{rgb}{1.0,0.39,0.28}
+    \definecolor{lightgreen}{rgb}{0.48,0.99,0.0}
+    \definecolor{lightblue}{rgb}{0.53,0.81,0.92}
+    \definecolor{lightpurple}{rgb}{0.87,0.63,0.87}
+    \definecolor{lightcyan}{rgb}{0.5,1.0,0.83}
+    
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{appendixB}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=blue,
+      linkcolor=darkorange,
+      citecolor=darkgreen,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \section{Introduction}\label{introduction}
+
+    Here we define the discrete-time replicator dynamic for signaling games
+with arbitrarily many states, messages, and actions. The formulation
+provided here treats individual states as independent sender populations
+and individual messages as independent receiver populations, instead of
+considering the set of all potential sender strategies as a population
+and the set of all potential receiver strategies as a population
+(cf.~Hofbauer and Huttegger 2015).
+
+By ``devolving'' populations in this manner we dramatically reduce the
+dimensions of the system, while also yielding results that are arguably
+more transparent. Importantly, it also allows for a fairly
+straightforward implementation in algebraic terms which is quick to
+compute.
+
+    \subsection{Definitions}\label{definitions}
+
+    We start off by defining the components necessary for our analysis. Once
+we have defined these components we can simulate the game dynamics.
+
+    \textbf{First}, we define the payoff matrices for senders and receivers,
+which depend solely on the utility functions of senders and receivers
+respectively.
+
+$\textbf{A}$ is an $n \times n$ matrix such that
+$\textbf{A}_{ij} = U_S(t_i, a_j)$:
+
+\begin{equation}
+\textbf{A} =
+ \begin{pmatrix}
+  U_S(t_1, a_1) & \cdots & U_S(t_1, a_j) & \cdots & U_S(t_1, a_n) \\
+  \vdots            & \ddots & \vdots           &           & \vdots \\
+  U_S(t_i, a_1) & \cdots & U_S(t_i, a_j) & \cdots & U_S(t_i, a_n) \\  
+  \vdots            &  & \vdots           &   \ddots        & \vdots \\
+  U_S(t_n, a_1) & \cdots & U_S(t_n, a_j)  & \cdots & U_S(t_n, a_n) \\
+ \end{pmatrix}
+\end{equation}
+
+$\textbf{B}$ is an $n \times n$ matrix such that
+$\textbf{B}_{ij} = U_R(t_i, a_j)$:
+
+\begin{equation}
+\textbf{B} =
+ \begin{pmatrix}
+  U_R(t_1, a_1) & \cdots & U_R(t_1, a_j) & \cdots & U_R(t_1, a_n) \\
+  \vdots            & \ddots & \vdots           &           & \vdots \\
+  U_R(t_i, a_1) & \cdots & U_R(t_i, a_j) & \cdots & U_R(t_i, a_n) \\  
+  \vdots            &  & \vdots           &   \ddots        & \vdots \\
+  U_R(t_n, a_1) & \cdots & U_R(t_n, a_j)  & \cdots & U_R(t_n, a_n) \\
+ \end{pmatrix}
+\end{equation}
+
+    In this case we'll use the standard utility function for a 2x2 Lewis
+Signaling Game. Senders and receivers both prefer that the state and
+action correspond in some prespecified way. For example, the
+correspondence is usally taken as a bijection between states and
+actions.
+
+$U_S(t_i,a_j) = U_R(t_i, a_j) = \left\{     \begin{array}{ll}         1  & \mbox{if } i = j \\         0 & \mbox{else}     \end{array} \right. $
+
+We'll define this as a special case of a modified version of the
+quadratic loss function used by Crawford and Sobel (1982).
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{c}{\PYZsh{} Import numpy}
+        \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k+kn}{as} \PY{n+nn}{np}
+        \PY{c}{\PYZsh{} Define the utility functions}
+        \PY{k}{def} \PY{n+nf}{U\PYZus{}S}\PY{p}{(}\PY{n}{state}\PY{p}{,} \PY{n}{action}\PY{p}{,} \PY{n}{b}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{n}{action} \PY{o}{\PYZhy{}} \PY{n}{state} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{state}\PY{p}{)}\PY{o}{*}\PY{n}{b}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+            \PY{c}{\PYZsh{}return 1 \PYZhy{} abs(action \PYZhy{} state \PYZhy{} (1\PYZhy{}state)*b)}
+        \PY{k}{def} \PY{n+nf}{U\PYZus{}R}\PY{p}{(}\PY{n}{state}\PY{p}{,} \PY{n}{action}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{n}{action} \PY{o}{\PYZhy{}} \PY{n}{state}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+        \PY{c}{\PYZsh{} Define functions to map integers to interval [0,1]}
+        \PY{k}{def} \PY{n+nf}{t}\PY{p}{(}\PY{n}{i}\PY{p}{,} \PY{n}{n}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{n}{i}\PY{o}{/}\PY{n+nb}{float}\PY{p}{(}\PY{n}{n}\PY{p}{)}
+        \PY{k}{def} \PY{n+nf}{a}\PY{p}{(}\PY{n}{i}\PY{p}{,} \PY{n}{n}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{n}{i}\PY{o}{/}\PY{n+nb}{float}\PY{p}{(}\PY{n}{n}\PY{p}{)}
+        \PY{c}{\PYZsh{} Create payoff matrices }
+        \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Sender payoff matrix}\PY{l+s}{\PYZdq{}}
+        \PY{n}{A} \PY{o}{=}  \PY{n}{np}\PY{o}{.}\PY{n}{matrix}\PY{p}{(}\PY{p}{[}\PY{p}{[}\PY{n}{U\PYZus{}S}\PY{p}{(}\PY{n}{t}\PY{p}{(}\PY{n}{i}\PY{p}{,} \PY{l+m+mi}{2}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,} \PY{n}{a}\PY{p}{(}\PY{n}{j}\PY{p}{,}\PY{l+m+mi}{2}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{)} \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{]} \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{]}\PY{p}{)}
+        \PY{k}{print} \PY{n}{A}
+        \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Receiver payoff matrix}\PY{l+s}{\PYZdq{}}
+        \PY{n}{B} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{matrix}\PY{p}{(}\PY{p}{[}\PY{p}{[}\PY{n}{U\PYZus{}R}\PY{p}{(}\PY{n}{t}\PY{p}{(}\PY{n}{i}\PY{p}{,} \PY{l+m+mi}{2}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,} \PY{n}{a}\PY{p}{(}\PY{n}{j}\PY{p}{,}\PY{l+m+mi}{2}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)} \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{]} \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{]}\PY{p}{)}
+        \PY{k}{print} \PY{n}{B}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Sender payoff matrix
+[[ 1.  0.]
+ [ 0.  1.]]
+Receiver payoff matrix
+[[ 1.  0.]
+ [ 0.  1.]]
+    \end{Verbatim}
+
+    \textbf{Second}, we define the sender and receiver populations.
+
+$\textbf{X}$ is a stochastic population matrix such that the proportion
+of the population in $x_i$ using $m_j$ is $x_{ij}$, with
+$\sum_j x_{ij} = 1$.
+
+\begin{equation}
+\textbf{X} =
+ \begin{pmatrix}
+  x_{11} &  x_{12} & x_{13} \\
+  \vdots        & \vdots & \vdots \\
+  x_{i1} &  x_{i2} & x_{i3} \\
+  \vdots    & \vdots    & \vdots \\
+  x_{n1} &  x_{n2} & x_{n3} \\
+ \end{pmatrix}
+\end{equation}
+
+Intuitively, each row corresponds to a given state. Each element in the
+row corresponds to the proportion of use in that population. Each row
+sums to one because the proportion using the various signals must sum to
+one.
+
+$\textbf{Y}$ is a population matrix such that the proportion of the
+population in $y_i$ responding with action $a_j$ is $y_{ij}$, with
+$\sum_j y_{ij} = 1$.
+
+\begin{equation}
+\textbf{Y} =
+ \begin{pmatrix}
+  y_{11} & \cdots & y_{1j}  & \cdots & y_{1n} \\
+  y_{21} & \cdots & y_{2j}  & \cdots & y_{2n} \\
+  y_{31} & \cdots & y_{3j}  & \cdots & y_{3n} \\
+ \end{pmatrix}
+\end{equation}
+
+Again, intuitively, each row corresponds to a given message. Each
+element in the row corresponds to the proportion of different responses
+to the message. Each row sums to one because the proportion using the
+various responses must sum to one.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{c}{\PYZsh{} Import random and set seed}
+        \PY{k+kn}{import} \PY{n+nn}{random}
+        \PY{n}{random}\PY{o}{.}\PY{n}{seed}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}
+        \PY{c}{\PYZsh{} Create initial sender matrix}
+        \PY{n}{X} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{rand}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
+        \PY{c}{\PYZsh{} Row\PYZhy{}normalize the sender matrix}
+        \PY{n}{X} \PY{o}{/}\PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{newaxis}\PY{p}{]}
+        \PY{k}{print} \PY{n}{X}
+        \PY{c}{\PYZsh{} Create initial receiver matrix}
+        \PY{n}{Y} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{rand}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
+        \PY{c}{\PYZsh{} Row\PYZhy{}normalize the receiver matrix}
+        \PY{n}{Y} \PY{o}{/}\PY{o}{=} \PY{n}{Y}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{newaxis}\PY{p}{]}
+        \PY{k}{print} \PY{n}{Y}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+[[ 0.4433709   0.5566291 ]
+ [ 0.21282727  0.78717273]]
+[[ 0.71254386  0.28745614]
+ [ 0.78187104  0.21812896]]
+    \end{Verbatim}
+
+    $\textbf{P}$ is a stochastic matrix such that
+$\forall i \textbf{P}_i = P(t_1),...,P(t_n)$. That is, $\textbf{P}$ is
+just $n$ rows of the prior probability distribution over states.
+
+\begin{equation}
+\textbf{P} =
+ \begin{pmatrix}
+  P(t_1) & \cdots & P(t_i)  & \cdots & P(t_n) \\
+  \vdots &  & \vdots  & & \vdots  \\
+  P(t_1) & \cdots & P(t_i)  & \cdots & P(t_n) \\
+ \end{pmatrix}
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Probability matix}\PY{l+s}{\PYZdq{}}
+        \PY{n}{P} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{matrix}\PY{p}{(}\PY{p}{[}\PY{o}{.}\PY{l+m+mi}{5}\PY{p}{]} \PY{o}{*} \PY{l+m+mi}{4}\PY{p}{)}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+        \PY{c}{\PYZsh{}P = np.matrix([[.75, .25], [.75, .25]])}
+        \PY{k}{print} \PY{n}{P}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Probability matix
+[[ 0.5  0.5]
+ [ 0.5  0.5]]
+    \end{Verbatim}
+
+    For what follows we'll consider the uniform distribution over states,
+noting that this is a special case. We can generate a
+\href{http://en.wikipedia.org/wiki/Beta-binomial_distribution}{beta-binomial
+distribution} over a finite number of states with the following.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}4}]:} \PY{k+kn}{from} \PY{n+nn}{scipy.special} \PY{k+kn}{import} \PY{n}{beta} \PY{k}{as} \PY{n}{beta\PYZus{}func}
+        \PY{k+kn}{from} \PY{n+nn}{scipy.misc} \PY{k+kn}{import} \PY{n}{comb}
+        \PY{k}{def} \PY{n+nf}{beta\PYZus{}binomial}\PY{p}{(}\PY{n}{n}\PY{p}{,} \PY{n}{alpha}\PY{p}{,} \PY{n}{beta}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{p}{[}\PY{n}{comb}\PY{p}{(}\PY{n}{n}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,}\PY{n}{k}\PY{p}{)} \PY{o}{*} \PY{n}{beta\PYZus{}func}\PY{p}{(}\PY{n}{k}\PY{o}{+}\PY{n}{alpha}\PY{p}{,} \PY{n}{n}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{k}\PY{o}{+}\PY{n}{beta}\PY{p}{)} \PY{o}{/} \PY{n}{beta\PYZus{}func}\PY{p}{(}\PY{n}{alpha}\PY{p}{,}\PY{n}{beta}\PY{p}{)} \PY{k}{for} \PY{n}{k} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{n}\PY{p}{)}\PY{p}{]}
+        
+        \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Probability matix}\PY{l+s}{\PYZdq{}}
+        \PY{k}{print} \PY{n}{np}\PY{o}{.}\PY{n}{matrix}\PY{p}{(}\PY{p}{(}\PY{n}{beta\PYZus{}binomial}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)} \PY{o}{*} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+        \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Another probability matix with uneven weights}\PY{l+s}{\PYZdq{}}
+        \PY{k}{print} \PY{n}{np}\PY{o}{.}\PY{n}{matrix}\PY{p}{(}\PY{p}{(}\PY{n}{beta\PYZus{}binomial}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)} \PY{o}{*} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Probability matix
+[[ 0.5  0.5]
+ [ 0.5  0.5]]
+Another probability matix with uneven weights
+[[ 0.33333333  0.66666667]
+ [ 0.33333333  0.66666667]]
+    \end{Verbatim}
+
+    We can extend this to arbitrarily many states and generate more complex
+prior distributions. For example, if we have five states, then we can
+visualize the probabilities for different parametrizations. This
+includes the uniform distribution as a special case: it's the flat black
+line at one fifth, which is indeed flat despite the optical illusion.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}5}]:} \PY{o}{\PYZpc{}} \PY{n}{matplotlib} \PY{n}{inline}
+        \PY{k+kn}{from} \PY{n+nn}{matplotlib} \PY{k+kn}{import} \PY{n}{pyplot} \PY{k}{as} \PY{n}{plt}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}6}]:} \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{)}\PY{p}{:}
+            \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{)}\PY{p}{:}
+                \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{beta\PYZus{}binomial}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{,} \PY{n}{j}\PY{p}{,} \PY{n}{i}\PY{p}{)}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{axis}\PY{p}{(}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+/home/cahern-adm/anaconda/lib/python2.7/site-packages/IPython/kernel/\_\_main\_\_.py:4: RuntimeWarning: invalid value encountered in double\_scalars
+    \end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{appendixB_files/appendixB_15_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \subsection{Senders}\label{senders}
+
+    \textbf{Third}, now that we have defined these two components, we can
+define the expected utility of different strategies and the
+discrete-time replicator dynamic. But first we'll remind ourselves of
+the initial state of the sender and receiver populations.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}7}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Sender matrix}\PY{l+s}{\PYZdq{}}
+        \PY{k}{print} \PY{n}{X}
+        \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Receiver matrix}\PY{l+s}{\PYZdq{}}
+        \PY{k}{print} \PY{n}{Y}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Sender matrix
+[[ 0.4433709   0.5566291 ]
+ [ 0.21282727  0.78717273]]
+Receiver matrix
+[[ 0.71254386  0.28745614]
+ [ 0.78187104  0.21812896]]
+    \end{Verbatim}
+
+    The expected utility of sending message $m_j$ in state $t_i$, where
+$\textbf{Y}^T$ is the transpose of $\textbf{Y}$:
+
+\begin{equation}
+    E [ x_{ij} ] = (\textbf{A}\textbf{Y}^T)_{ij}
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}8}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Sender expected utility}\PY{l+s}{\PYZdq{}}
+        \PY{k}{print} \PY{n}{A} \PY{o}{*} \PY{n}{Y}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Sender expected utility
+[[ 0.71254386  0.78187104]
+ [ 0.28745614  0.21812896]]
+    \end{Verbatim}
+
+    Intuitively, we can read these expected utilities off the receiver
+matrix. In fact, the resulting expected utilities are just
+$\textbf{Y}^T$. This, however, is particular to the utility functions of
+the Lewis signaling game. For any $b > 0$ this does not hold.
+
+    The average expected utility in a sender population $x_i$:
+
+\begin{equation}
+    E [ x_{i} ] = (\textbf{X}(\textbf{A}\textbf{Y}^T)^T)_{ii}
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}9}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Average sender expected utility}\PY{l+s}{\PYZdq{}}
+        \PY{k}{print} \PY{p}{(}\PY{n}{X} \PY{o}{*} \PY{p}{(}\PY{n}{A} \PY{o}{*} \PY{n}{Y}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Average sender expected utility
+[[ 0.75113339  0.23288368]]
+    \end{Verbatim}
+
+    Note that this average makes sense when we look at the expected
+utilities of sending different messages in the different populations.
+That is, it is always somewhere in between the two values, which means
+things are working as they should.
+
+    Let $\mathbf{\hat{X}}$ be the sender expected utility matrix normalized
+by the average expected utilities such that:
+
+\begin{equation}
+    \mathbf{\hat{X}}_{ij} = \frac{(\textbf{A}\textbf{Y}^T)_{ij}}{(\textbf{X}(\textbf{A}\textbf{Y}^T)^T)_{ii}}
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}10}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Discrete\PYZhy{}time replicator dynamic scaling factors}\PY{l+s}{\PYZdq{}}
+         \PY{n}{X\PYZus{}hat} \PY{o}{=} \PY{n}{A} \PY{o}{*} \PY{n}{Y}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{/} \PY{p}{(}\PY{p}{(}\PY{n}{X} \PY{o}{*} \PY{p}{(}\PY{n}{A} \PY{o}{*} \PY{n}{Y}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}
+         \PY{k}{print} \PY{n}{X\PYZus{}hat}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Discrete-time replicator dynamic scaling factors
+[[ 0.94862494  1.04092169]
+ [ 1.23433355  0.93664342]]
+    \end{Verbatim}
+
+    For both sender and receiver populations, under the discrete-time
+replicator dynamics strategies grow in proportion to the amount by which
+they exceed the average payoff in the population. The discrete-time
+replicator dynamic for message $m_j$ in state $t_i$:
+
+\begin{equation}
+     x_{ij}' = x_{ij}\frac{E[x_{ij}]}{E[x_i]}
+\end{equation}
+
+The sender populations at the next point in time are then given by the
+following, where $\otimes$ indicates the element-wise Hadamard product:
+
+\begin{equation}
+    \mathbf{X}' = \mathbf{X} \otimes \mathbf{\hat{X}}
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}11}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Current sender populations state}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{X}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Next sender populations state}\PY{l+s}{\PYZdq{}}
+         \PY{n}{X\PYZus{}next} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{multiply}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{X\PYZus{}hat}\PY{p}{)}
+         \PY{k}{print} \PY{n}{X\PYZus{}next}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Check that sender populations sum to one}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{X\PYZus{}next}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Current sender populations state
+[[ 0.4433709   0.5566291 ]
+ [ 0.21282727  0.78717273]]
+Next sender populations state
+[[ 0.42059269  0.57940731]
+ [ 0.26269984  0.73730016]]
+Check that sender populations sum to one
+[[ 1.]
+ [ 1.]]
+    \end{Verbatim}
+
+    Now that we have defined the discrete-time replicator dynamics for the
+sender populations, we can do the same for the receiver populations with
+a few additions. Let $\textbf{C}$ be the conditional probability of a
+state given a message. That is, $\textbf{C}_{ij} = P(t_i | m_j)$, where
+$\otimes$ indicates element-wise Hadamard multiplication and $\oslash$
+indicates the element-wise Hadamard division.
+
+\begin{equation}
+\textbf{C} = (P^T \otimes X) \oslash (PX)
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Sender matrix}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{X}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Conditional probability of t\PYZus{}i given message m\PYZus{}j}\PY{l+s}{\PYZdq{}}
+         \PY{n}{C} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{divide}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{multiply}\PY{p}{(}\PY{n}{P}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{,} \PY{n}{X}\PY{p}{)}\PY{p}{,} \PY{n}{P} \PY{o}{*} \PY{n}{X}\PY{p}{)}
+         \PY{k}{print} \PY{n}{C}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Sender matrix
+[[ 0.4433709   0.5566291 ]
+ [ 0.21282727  0.78717273]]
+Conditional probability of t\_i given message m\_j
+[[ 0.67566616  0.41421963]
+ [ 0.32433384  0.58578037]]
+    \end{Verbatim}
+
+    The expected utility of receiver responding to message $m_i$ with action
+$a_j$:
+
+\begin{equation}
+    E [ y_{ij} ] = (\textbf{B}^T\textbf{C})_{ji}
+\end{equation}
+
+Since the resulting matrix is $n \times m$, we swap the indices to get
+the appropriate value. Each column corresponds to a receiver population,
+and each row corresponds to a response action.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Receiver expected utility}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{p}{(}\PY{n}{B}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{*} \PY{n}{C}\PY{p}{)}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Receiver expected utility of responding to m\PYZus{}i with a\PYZus{}j}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{p}{(}\PY{n}{B}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{*} \PY{n}{C}\PY{p}{)}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Receiver expected utility
+[[ 0.67566616  0.41421963]
+ [ 0.32433384  0.58578037]]
+Receiver expected utility of responding to m\_i with a\_j
+[[ 0.67566616  0.32433384]
+ [ 0.41421963  0.58578037]]
+    \end{Verbatim}
+
+    The average expected utility in a receiver population $y_i$:
+
+\begin{equation}
+    E [ y_{i} ] = (Y(\textbf{B}^T\textbf{C})_{ji})_{ii}
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}14}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Average receiver expected utility}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{p}{(}\PY{n}{Y} \PY{o}{*} \PY{p}{(}\PY{n}{B}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{*} \PY{n}{C}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Average receiver expected utility
+[[ 0.57467353  0.451642  ]]
+    \end{Verbatim}
+
+    Let $\mathbf{\hat{Y}}$ be the population normalized matrix for receiver
+expected utilities such that:
+
+\begin{equation}
+    \mathbf{\hat{Y}}_{ji} = \frac{(\textbf{B}^T\textbf{C})_{ji}}{(\textbf{Y}(\textbf{B}^T\textbf{C})_{ji})_{ii}}
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Discrete\PYZhy{}time replicator dynamic scaling factors}\PY{l+s}{\PYZdq{}}
+         \PY{n}{Y\PYZus{}hat} \PY{o}{=} \PY{p}{(}\PY{n}{B}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{*} \PY{n}{C}\PY{p}{)} \PY{o}{/} \PY{p}{(}\PY{n}{Y} \PY{o}{*} \PY{p}{(}\PY{n}{B}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{*} \PY{n}{C}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}
+         \PY{k}{print} \PY{n}{Y\PYZus{}hat}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Discrete-time replicator dynamic scaling factors
+[[ 1.17573914  0.5643793 ]
+ [ 0.91714153  1.29700153]]
+    \end{Verbatim}
+
+    The discrete-time replicator dynamic for action $a_j$ in response to
+message $m_i$:
+
+\begin{equation}
+     y_{ij}' = y_{ij}\frac{E[y_{ij}]}{E[y_i]}
+\end{equation}
+
+The receiver populations at the next point in time are then given by the
+following:
+
+\begin{equation}
+    \mathbf{Y}' = \mathbf{Y} \otimes \mathbf{\hat{Y}}^T
+\end{equation}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}16}]:} \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Current receiver populations state}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{Y}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Next receiver populations state}\PY{l+s}{\PYZdq{}}
+         \PY{n}{Y\PYZus{}next} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{multiply}\PY{p}{(}\PY{n}{Y}\PY{p}{,} \PY{n}{Y\PYZus{}hat}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+         \PY{k}{print} \PY{n}{Y\PYZus{}next}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Check that sender populations sum to one}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{Y\PYZus{}next}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Current receiver populations state
+[[ 0.71254386  0.28745614]
+ [ 0.78187104  0.21812896]]
+Next receiver populations state
+[[ 0.83776571  0.16223429]
+ [ 0.7170864   0.2829136 ]]
+Check that sender populations sum to one
+[[ 1.]
+ [ 1.]]
+    \end{Verbatim}
+
+    \subsection{Simulations}\label{simulations}
+
+    Now that we have defined the components of the discrete-time replicator
+dynamics and how to calculate the state of the populations at the next
+point in time, we can calculate the game dynamics from an initial state.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}17}]:} \PY{k}{def} \PY{n+nf}{discrete\PYZus{}time\PYZus{}replicator\PYZus{}dynamics}\PY{p}{(}\PY{n}{n\PYZus{}steps}\PY{p}{,} \PY{n}{X}\PY{p}{,} \PY{n}{Y}\PY{p}{,} \PY{n}{A}\PY{p}{,} \PY{n}{B}\PY{p}{,} \PY{n}{P}\PY{p}{)}\PY{p}{:}
+             \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}Calculate the discrete\PYZhy{}time replicator dynamics for\PYZdq{}\PYZdq{}\PYZdq{}}
+             \PY{c}{\PYZsh{} Get the number of states, signals, and actions}
+             \PY{n}{X\PYZus{}nrow} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+             \PY{n}{X\PYZus{}ncol} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}
+             \PY{n}{Y\PYZus{}nrow} \PY{o}{=} \PY{n}{Y}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{c}{\PYZsh{} Same as X\PYZus{}ncol}
+             \PY{n}{Y\PYZus{}ncol} \PY{o}{=} \PY{n}{Y}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{c}{\PYZsh{} Often, but not necessarily, the same as X\PYZus{}nrow}
+             \PY{c}{\PYZsh{} Create empty arrays to hold the population states over time}
+             \PY{n}{X\PYZus{}t} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{shape}\PY{o}{=}\PY{p}{(}\PY{n}{n\PYZus{}steps}\PY{p}{,} \PY{n}{X\PYZus{}nrow}\PY{o}{*}\PY{n}{X\PYZus{}ncol}\PY{p}{)}\PY{p}{,} \PY{n}{dtype}\PY{o}{=}\PY{n+nb}{float}\PY{p}{)}
+             \PY{n}{Y\PYZus{}t} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{empty}\PY{p}{(}\PY{n}{shape}\PY{o}{=}\PY{p}{(}\PY{n}{n\PYZus{}steps}\PY{p}{,} \PY{n}{X\PYZus{}nrow}\PY{o}{*}\PY{n}{X\PYZus{}ncol}\PY{p}{)}\PY{p}{,} \PY{n}{dtype}\PY{o}{=}\PY{n+nb}{float}\PY{p}{)}
+             \PY{c}{\PYZsh{} Set the initial state}
+             \PY{n}{X\PYZus{}t}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{p}{:}\PY{p}{]} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{ravel}\PY{p}{(}\PY{p}{)}
+             \PY{n}{Y\PYZus{}t}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{p}{:}\PY{p}{]} \PY{o}{=} \PY{n}{Y}\PY{o}{.}\PY{n}{ravel}\PY{p}{(}\PY{p}{)}
+             \PY{c}{\PYZsh{} Iterate forward over (n\PYZhy{}1) steps}
+             \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{n}{n\PYZus{}steps}\PY{p}{)}\PY{p}{:}
+                 \PY{c}{\PYZsh{} Get the previous state}
+                 \PY{n}{X\PYZus{}prev} \PY{o}{=} \PY{n}{X\PYZus{}t}\PY{p}{[}\PY{n}{i}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,}\PY{p}{:}\PY{p}{]}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{n}{X\PYZus{}nrow}\PY{p}{,} \PY{n}{X\PYZus{}ncol}\PY{p}{)}
+                 \PY{n}{Y\PYZus{}prev} \PY{o}{=} \PY{n}{Y\PYZus{}t}\PY{p}{[}\PY{n}{i}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,}\PY{p}{:}\PY{p}{]}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{n}{Y\PYZus{}nrow}\PY{p}{,} \PY{n}{Y\PYZus{}ncol}\PY{p}{)}
+                 \PY{c}{\PYZsh{} Calculate the scaling factors}
+                 \PY{n}{X\PYZus{}hat} \PY{o}{=} \PY{n}{A} \PY{o}{*} \PY{n}{Y\PYZus{}prev}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{/} \PY{p}{(}\PY{p}{(}\PY{n}{X\PYZus{}prev} \PY{o}{*} \PY{p}{(}\PY{n}{A} \PY{o}{*} \PY{n}{Y\PYZus{}prev}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}
+                 \PY{n}{C} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{divide}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{multiply}\PY{p}{(}\PY{n}{P}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{,} \PY{n}{X\PYZus{}prev}\PY{p}{)}\PY{p}{,} \PY{n}{P} \PY{o}{*} \PY{n}{X\PYZus{}prev}\PY{p}{)}
+                 \PY{n}{Y\PYZus{}hat} \PY{o}{=} \PY{p}{(}\PY{n}{B}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{*} \PY{n}{C}\PY{p}{)} \PY{o}{/} \PY{p}{(}\PY{n}{Y\PYZus{}prev} \PY{o}{*} \PY{p}{(}\PY{n}{B}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)} \PY{o}{*} \PY{n}{C}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}
+                 \PY{c}{\PYZsh{}if i == 1:}
+                 \PY{c}{\PYZsh{}    print X\PYZus{}hat}
+                 \PY{c}{\PYZsh{}    print Y\PYZus{}hat}
+                 \PY{c}{\PYZsh{} Calculate next states}
+                 \PY{n}{X\PYZus{}t}\PY{p}{[}\PY{n}{i}\PY{p}{,}\PY{p}{:}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{multiply}\PY{p}{(}\PY{n}{X\PYZus{}prev}\PY{p}{,} \PY{n}{X\PYZus{}hat}\PY{p}{)}\PY{o}{.}\PY{n}{ravel}\PY{p}{(}\PY{p}{)}
+                 \PY{n}{Y\PYZus{}t}\PY{p}{[}\PY{n}{i}\PY{p}{,}\PY{p}{:}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{multiply}\PY{p}{(}\PY{n}{Y\PYZus{}prev}\PY{p}{,} \PY{n}{Y\PYZus{}hat}\PY{o}{.}\PY{n}{transpose}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{ravel}\PY{p}{(}\PY{p}{)}
+             \PY{k}{return} \PY{n}{X\PYZus{}t}\PY{p}{,} \PY{n}{Y\PYZus{}t}
+\end{Verbatim}
+
+    We can verify that this simulation matches our calculations above for a
+single step of the game dynamics. They do, which suggests we're doing
+everything correctly. We can then move on to iterating over a larger
+number of time steps and plotting the results.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}18}]:} \PY{n}{X\PYZus{}hist}\PY{p}{,} \PY{n}{Y\PYZus{}hist} \PY{o}{=} \PY{n}{discrete\PYZus{}time\PYZus{}replicator\PYZus{}dynamics}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{n}{X}\PY{p}{,} \PY{n}{Y}\PY{p}{,} \PY{n}{A}\PY{p}{,} \PY{n}{B}\PY{p}{,} \PY{n}{P}\PY{p}{)}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Initial sender populations state}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Next sender populations state}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Initial receiver populations state}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+         \PY{k}{print} \PY{l+s}{\PYZdq{}}\PY{l+s}{Next receiver populations state}\PY{l+s}{\PYZdq{}}
+         \PY{k}{print} \PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Initial sender populations state
+[[ 0.4433709   0.5566291 ]
+ [ 0.21282727  0.78717273]]
+Next sender populations state
+[[ 0.42059269  0.57940731]
+ [ 0.26269984  0.73730016]]
+Initial receiver populations state
+[[ 0.71254386  0.28745614]
+ [ 0.78187104  0.21812896]]
+Next receiver populations state
+[[ 0.83776571  0.16223429]
+ [ 0.7170864   0.2829136 ]]
+    \end{Verbatim}
+
+    We should note that this is pretty quick. It takes about two seconds to
+step through 10,000 steps of the simplest non-trivial signaling game.
+This will obviously change as we increase the size of the matrices, but
+is a good sign that everything is set up well.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}19}]:} \PY{k+kn}{import} \PY{n+nn}{timeit}
+         \PY{n}{start} \PY{o}{=} \PY{n}{timeit}\PY{o}{.}\PY{n}{default\PYZus{}timer}\PY{p}{(}\PY{p}{)}
+         \PY{n}{X\PYZus{}hist}\PY{p}{,} \PY{n}{Y\PYZus{}hist} \PY{o}{=} \PY{n}{discrete\PYZus{}time\PYZus{}replicator\PYZus{}dynamics}\PY{p}{(}\PY{l+m+mi}{10000}\PY{p}{,} \PY{n}{X}\PY{p}{,} \PY{n}{Y}\PY{p}{,} \PY{n}{A}\PY{p}{,} \PY{n}{B}\PY{p}{,} \PY{n}{P}\PY{p}{)}
+         \PY{n}{stop} \PY{o}{=} \PY{n}{timeit}\PY{o}{.}\PY{n}{default\PYZus{}timer}\PY{p}{(}\PY{p}{)}
+         \PY{k}{print} \PY{n}{stop} \PY{o}{\PYZhy{}} \PY{n}{start} 
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+1.82154607773
+    \end{Verbatim}
+
+    Now that we've established that the populations are updating as they
+should, we can move our attention to the long-term behavior of the
+system. We'll start by running a bit longer and examining the end state.
+From analytic results, we know that when states are equiprobable that
+the signaling equilibria are the only asymptotically stable states. This
+means that the populations should always evolve to one of two signaling
+systems. We can look at this visually by plotting the proportion in the
+sender and receiver populations. A signaling system results when all
+sender and receiver populations converge to one or zero.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}20}]:} \PY{c}{\PYZsh{} Generate random starting states}
+         \PY{n}{X} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{rand}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
+         \PY{n}{X} \PY{o}{/}\PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{newaxis}\PY{p}{]}
+         \PY{n}{Y} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{rand}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
+         \PY{n}{Y} \PY{o}{/}\PY{o}{=} \PY{n}{Y}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{newaxis}\PY{p}{]}
+         \PY{c}{\PYZsh{} Iterate under discrete\PYZhy{}time replicator dynamics}
+         \PY{n}{X\PYZus{}hist}\PY{p}{,} \PY{n}{Y\PYZus{}hist} \PY{o}{=} \PY{n}{discrete\PYZus{}time\PYZus{}replicator\PYZus{}dynamics}\PY{p}{(}\PY{l+m+mi}{20}\PY{p}{,} \PY{n}{X}\PY{p}{,} \PY{n}{Y}\PY{p}{,} \PY{n}{A}\PY{p}{,} \PY{n}{B}\PY{p}{,} \PY{n}{P}\PY{p}{)}
+         \PY{c}{\PYZsh{} Sender plots}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}0 sending m\PYZus{}0}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}1 sending m\PYZus{}1}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Proportion of senders}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+         \PY{c}{\PYZsh{} Receiver plots}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}0 sending m\PYZus{}0}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}1 sending m\PYZus{}1}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Proportion of receivers}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{appendixB_files/appendixB_47_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{appendixB_files/appendixB_47_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    With simulations of signaling under the discrete-time replicator
+dynamics in place, we might consider how they compare to the
+continuous-time replicator dynamics.
+
+    \subsection{Comparison with continous-time replicator
+dynamics}\label{comparison-with-continous-time-replicator-dynamics}
+
+    The continuous replicator dynamic for message $m_j$ in state $t_i$:
+
+\begin{equation}
+    \dot{x}_{ij} = x_{ij}(E[x_{ij}] - E[x_i])
+\end{equation}
+
+From above, we know that this can be expressed as:
+
+\begin{equation}
+    \dot{x}_{ij} = x_{ij}((\textbf{A}\textbf{Y}^T)_{ij} - (\textbf{X}(\textbf{A}\textbf{Y}^T)^T)_{ii})
+\end{equation}
+
+Likewise the replicator dynamic for action $a_j$ in response to message
+$m_i$:
+
+\begin{equation}
+    \dot{y}_{ij} = y_{ij}(E[y_{ij}] - E[y_i])
+\end{equation}
+
+Or, alternatively:
+
+\begin{equation}
+    \dot{y}_{ij} = y_{ij}( (\textbf{B}^T\textbf{C})_{ji} - (\textbf{Y}(\textbf{B}^T\textbf{C}))_{ii})
+\end{equation}
+
+    We won't get into the details of translating the matrix notation into a
+function to integrate.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}21}]:} \PY{k+kn}{from} \PY{n+nn}{scipy.integrate} \PY{k+kn}{import} \PY{n}{odeint}
+         \PY{c}{\PYZsh{} Signaling system to integrate over}
+         \PY{k}{def} \PY{n+nf}{signaling}\PY{p}{(}\PY{n}{p\PYZus{}vec}\PY{p}{,} \PY{n}{t}\PY{p}{,} \PY{n}{param}\PY{p}{)}\PY{p}{:}
+             \PY{c}{\PYZsh{} Unpack the position vector}
+             \PY{n}{p0}\PY{p}{,} \PY{n}{p1}\PY{p}{,} \PY{n}{q0}\PY{p}{,} \PY{n}{q1} \PY{o}{=} \PY{n}{p\PYZus{}vec}
+             \PY{c}{\PYZsh{} Unpack the parametera}
+             \PY{n}{a} \PY{o}{=} \PY{n}{param}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{c}{\PYZsh{} probability distribution P(t\PYZus{}0) = P(t\PYZus{}1) = a}
+             \PY{c}{\PYZsh{} Construct system of ODEs}
+             \PY{n}{p0\PYZus{}diff} \PY{o}{=} \PY{n}{p0}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{p0}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{n}{q0} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{n}{q1}\PY{p}{)}\PY{p}{)}
+             \PY{n}{p1\PYZus{}diff} \PY{o}{=} \PY{n}{p1}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{p1}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{n}{q1} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{n}{q0}\PY{p}{)}\PY{p}{)}
+             \PY{n}{q0\PYZus{}diff} \PY{o}{=} \PY{n}{q0}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{q0}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{n}{a}\PY{o}{*}\PY{n}{p0} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{p1}\PY{p}{)}\PY{p}{)}
+             \PY{n}{q1\PYZus{}diff} \PY{o}{=} \PY{n}{q1}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{q1}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a}\PY{p}{)}\PY{o}{*}\PY{n}{p1} \PY{o}{\PYZhy{}} \PY{n}{a}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{p0}\PY{p}{)}\PY{p}{)}
+             \PY{c}{\PYZsh{} Return system of ODEs}
+             \PY{k}{return} \PY{p}{[}\PY{n}{p0\PYZus{}diff}\PY{p}{,} \PY{n}{p1\PYZus{}diff}\PY{p}{,} \PY{n}{q0\PYZus{}diff}\PY{p}{,} \PY{n}{q1\PYZus{}diff}\PY{p}{]}
+\end{Verbatim}
+
+    We can compare the solution trajectories of the discrete- and
+continuous-time replicator dynamics. There are several things to note: *
+The shape of both are generally the same, the discrete-time isn't always
+``smooth'' * The discrete-time dynamic looks like a condensed version of
+the continuous-time dynamics * The two kinds of dynamics sometimes yield
+different solutions
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}22}]:} \PY{c}{\PYZsh{} Create random initial states}
+         \PY{n}{X} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{rand}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
+         \PY{n}{X} \PY{o}{/}\PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{newaxis}\PY{p}{]}
+         \PY{n}{Y} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{rand}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
+         \PY{n}{Y} \PY{o}{/}\PY{o}{=} \PY{n}{Y}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{newaxis}\PY{p}{]}
+         \PY{c}{\PYZsh{} Iterate discrete\PYZhy{}time replicator dynamics}
+         \PY{n}{X\PYZus{}hist}\PY{p}{,} \PY{n}{Y\PYZus{}hist} \PY{o}{=} \PY{n}{discrete\PYZus{}time\PYZus{}replicator\PYZus{}dynamics}\PY{p}{(}\PY{l+m+mi}{20}\PY{p}{,} \PY{n}{X}\PY{p}{,} \PY{n}{Y}\PY{p}{,} \PY{n}{A}\PY{p}{,} \PY{n}{B}\PY{p}{,} \PY{n}{P}\PY{p}{)}
+         \PY{c}{\PYZsh{} Format initial state}
+         \PY{n}{p0\PYZus{}vec} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)} \PY{o}{+} \PY{n}{Y}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{params} \PY{o}{=} \PY{p}{[}\PY{n}{P}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]}
+         \PY{n}{t\PYZus{}output} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{n}{num}\PY{o}{=}\PY{l+m+mi}{20}\PY{p}{)}
+         \PY{c}{\PYZsh{} Integrate continuous\PYZhy{}time replicator dynamics}
+         \PY{n}{p\PYZus{}vec\PYZus{}result} \PY{o}{=} \PY{n}{odeint}\PY{p}{(}\PY{n}{signaling}\PY{p}{,} \PY{n}{p0\PYZus{}vec}\PY{p}{,} \PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{args}\PY{o}{=}\PY{p}{(}\PY{n}{params}\PY{p}{,}\PY{p}{)}\PY{p}{)}
+         \PY{c}{\PYZsh{} Sender comparison}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}0 sending m\PYZus{}0}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}1 sending m\PYZus{}1}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Proportion of senders}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+         \PY{c}{\PYZsh{} Receiver comparison}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}0 sending m\PYZus{}0}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}1 sending m\PYZus{}1}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Proportion of receivers}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{appendixB_files/appendixB_54_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{appendixB_files/appendixB_54_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    Let's look at a particular starting condition that yields different
+solution trajectories. It looks like the scaling factors for the
+discrete-time dynamics is rather large. That is, there's a really big
+jump at the first iteration. This may be enough to affect the rest of
+the iterations; perhaps the discretization is sufficient that it derails
+the rest. One way to look at this would be to simulate random starting
+points and to see when they trajectories diverge if the total movement
+in the first step exceeds some threshold.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}23}]:} \PY{n}{X} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{p}{[} \PY{l+m+mf}{0.73162521}\PY{p}{,}  \PY{l+m+mf}{0.26837479}\PY{p}{]}\PY{p}{,} \PY{p}{[} \PY{l+m+mf}{0.27700021}\PY{p}{,}  \PY{l+m+mf}{0.72299979}\PY{p}{]}\PY{p}{]}\PY{p}{)}
+         \PY{n}{Y} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{p}{[} \PY{l+m+mf}{0.58517496}\PY{p}{,}  \PY{l+m+mf}{0.41482504}\PY{p}{]}\PY{p}{,} \PY{p}{[} \PY{l+m+mf}{0.89572339}\PY{p}{,}  \PY{l+m+mf}{0.10427661}\PY{p}{]}\PY{p}{]}\PY{p}{)}
+         \PY{c}{\PYZsh{}}
+         \PY{n}{X\PYZus{}hist}\PY{p}{,} \PY{n}{Y\PYZus{}hist} \PY{o}{=} \PY{n}{discrete\PYZus{}time\PYZus{}replicator\PYZus{}dynamics}\PY{p}{(}\PY{l+m+mi}{20}\PY{p}{,} \PY{n}{X}\PY{p}{,} \PY{n}{Y}\PY{p}{,} \PY{n}{A}\PY{p}{,} \PY{n}{B}\PY{p}{,} \PY{n}{P}\PY{p}{)}
+         \PY{c}{\PYZsh{} Format initial state}
+         \PY{n}{p0\PYZus{}vec} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)} \PY{o}{+} \PY{n}{Y}\PY{o}{.}\PY{n}{diagonal}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{params} \PY{o}{=} \PY{p}{[}\PY{n}{P}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]}
+         \PY{n}{t\PYZus{}output} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{)}
+         \PY{c}{\PYZsh{} Integrate continuous\PYZhy{}time replicator dynamics}
+         \PY{n}{p\PYZus{}vec\PYZus{}result} \PY{o}{=} \PY{n}{odeint}\PY{p}{(}\PY{n}{signaling}\PY{p}{,} \PY{n}{p0\PYZus{}vec}\PY{p}{,} \PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{args}\PY{o}{=}\PY{p}{(}\PY{n}{params}\PY{p}{,}\PY{p}{)}\PY{p}{)}
+         \PY{c}{\PYZsh{} Sender comparison}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}0 sending m\PYZus{}0}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{X\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}1 sending m\PYZus{}1}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Proportion of senders}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+         \PY{c}{\PYZsh{} Receiver comparison}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}0 sending m\PYZus{}0}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{Y\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Proportion of t\PYZus{}1 sending m\PYZus{}1}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{t\PYZus{}output}\PY{p}{,} \PY{n}{p\PYZus{}vec\PYZus{}result}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{g\PYZhy{}.}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Proportion of receivers}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{appendixB_files/appendixB_56_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{appendixB_files/appendixB_56_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}

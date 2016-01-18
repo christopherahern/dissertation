@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: diss.aux
+A level-1 auxiliary file: Acknowledgements.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
+A level-1 auxiliary file: chapter7.aux
+A level-1 auxiliary file: AppendixA.aux
+A level-1 auxiliary file: AppendixB.aux
+A level-1 auxiliary file: AppendixC.aux
+A level-1 auxiliary file: AppendixD.aux
+The style file: mcbride.bst
+Database file #1: diss.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing publisher in altmann-etal1983
+Warning--missing publisher in grice1989
+`booktitle' is a missing field, not a string, for entry jones2015
+while executing---line 1671 of file mcbride.bst
+Warning--empty booktitle in jones2015
+Warning--missing publisher in ppcme2
+Warning--can't use both volume and number fields in moran1958
+Warning--missing publisher in thompson1998
+You've used 169 entries,
+            3317 wiz_defined-function locations,
+            1532 strings with 25447 characters,
+and the built_in function-call counts, 102561 in all, are:
+= -- 7707
+> -- 2749
+< -- 242
++ -- 1005
+- -- 782
+* -- 11802
+:= -- 14315
+add.period$ -- 694
+call.type$ -- 169
+change.case$ -- 1339
+chr.to.int$ -- 165
+cite$ -- 175
+duplicate$ -- 8161
+empty$ -- 8733
+format.name$ -- 1473
+if$ -- 19730
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 1377
+newline$ -- 856
+num.names$ -- 694
+pop$ -- 1642
+preamble$ -- 1
+purify$ -- 925
+quote$ -- 0
+skip$ -- 2770
+stack$ -- 0
+substring$ -- 4178
+swap$ -- 6558
+text.length$ -- 91
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1323
+warning$ -- 6
+while$ -- 727
+width$ -- 0
+write$ -- 2166
+(There was 1 error message)

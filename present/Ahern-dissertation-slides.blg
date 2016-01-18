@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Ahern-dissertation-slides.aux
+The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 12089 items from 5000.
+Database file #1: Ahern-dissertation-slides-blx.bib
+Database file #2: ../write/diss.bib
+Biblatex version: 3.0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 51 entries,
+            6047 wiz_defined-function locations,
+            1431 strings with 14796 characters,
+and the built_in function-call counts, 164789 in all, are:
+= -- 7268
+> -- 5228
+< -- 1880
++ -- 1681
+- -- 1578
+* -- 11041
+:= -- 9173
+add.period$ -- 0
+call.type$ -- 51
+change.case$ -- 1188
+chr.to.int$ -- 35
+cite$ -- 100
+duplicate$ -- 18523
+empty$ -- 17588
+format.name$ -- 2872
+if$ -- 38509
+int.to.chr$ -- 0
+int.to.str$ -- 148
+missing$ -- 0
+newline$ -- 1163
+num.names$ -- 2816
+pop$ -- 16004
+preamble$ -- 1
+purify$ -- 1274
+quote$ -- 0
+skip$ -- 10397
+stack$ -- 0
+substring$ -- 4762
+swap$ -- 6177
+text.length$ -- 1290
+text.prefix$ -- 50
+top$ -- 1
+type$ -- 1924
+warning$ -- 0
+while$ -- 956
+width$ -- 0
+write$ -- 1111

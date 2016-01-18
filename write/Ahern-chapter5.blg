@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Ahern-chapter5.aux
+The style file: mcbride.bst
+Database file #1: ahern.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing publisher in altmann-etal1983
+You've used 52 entries,
+            3317 wiz_defined-function locations,
+            964 strings with 12139 characters,
+and the built_in function-call counts, 33112 in all, are:
+= -- 2479
+> -- 927
+< -- 76
++ -- 340
+- -- 266
+* -- 3859
+:= -- 4570
+add.period$ -- 217
+call.type$ -- 52
+change.case$ -- 426
+chr.to.int$ -- 52
+cite$ -- 53
+duplicate$ -- 2617
+empty$ -- 2785
+format.name$ -- 493
+if$ -- 6364
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 442
+newline$ -- 274
+num.names$ -- 217
+pop$ -- 513
+preamble$ -- 1
+purify$ -- 289
+quote$ -- 0
+skip$ -- 889
+stack$ -- 0
+substring$ -- 1390
+swap$ -- 2152
+text.length$ -- 31
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 414
+warning$ -- 1
+while$ -- 238
+width$ -- 0
+write$ -- 683
+(There was 1 warning)

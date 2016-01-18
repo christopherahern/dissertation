@@ -1,0 +1,274 @@
+\begin{thebibliography}{34}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Burridge}(1993)}]{burridge1993}
+\bibinfo{author}{\bibnamefont{Burridge}, \bibfnamefont{Kate}}.
+  \bibinfo{year}{1993}.
+\newblock \emph{\bibinfo{title}{Syntactic change in germanic: aspects of
+  language change in germanic with particular reference to middle dutch}},
+  vol.~\bibinfo{volume}{89}.
+\newblock \bibinfo{publisher}{John Benjamins Publishing}.
+
+\bibitem[{\citenamefont{Bybee}(2003)}]{bybee2003}
+\bibinfo{author}{\bibnamefont{Bybee}, \bibfnamefont{Joan}}.
+  \bibinfo{year}{2003}.
+\newblock \emph{\bibinfo{title}{Phonology and language use}},
+  vol.~\bibinfo{volume}{94}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Croft}(1991)}]{croft1991}
+\bibinfo{author}{\bibnamefont{Croft}, \bibfnamefont{William}}.
+  \bibinfo{year}{1991}.
+\newblock \bibinfo{title}{The evolution of negation}.
+\newblock \emph{\bibinfo{journal}{Journal of Linguistics}}
+  \bibinfo{volume}{27}(\bibinfo{number}{01}):\penalty0 \bibinfo{pages}{1--27}.
+
+\bibitem[{\citenamefont{Dahl}(1979)}]{dahl:1979}
+\bibinfo{author}{\bibnamefont{Dahl}, \bibfnamefont{Osten}}.
+  \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{{Typology of Sentence Negation}}.
+\newblock \emph{\bibinfo{journal}{Linguistics}}
+  \bibinfo{volume}{17}(\bibinfo{number}{1-2}):\penalty0
+  \bibinfo{pages}{79--106}.
+
+\bibitem[{\citenamefont{Dahl}(2001)}]{dahl:2001}
+---------. \bibinfo{year}{2001}.
+\newblock \emph{\bibinfo{title}{{Inflationary effects in language and
+  elsewhere}}}, \bibinfo{pages}{471--480}.
+\newblock \bibinfo{address}{Philadelphia}:\@ \bibinfo{publisher}{John Benjamins
+  Publishing Company}.
+
+\bibitem[{\citenamefont{Detges and Waltereit}(2002)}]{detges-waltereit2002}
+\bibinfo{author}{\bibnamefont{Detges}, \bibfnamefont{Ulrich}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Richard}
+  \bibnamefont{Waltereit}}. \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{{Grammaticalization vs. reanalysis: A
+  semantic-pragmatic account of functional change in grammar}}.
+\newblock \emph{\bibinfo{journal}{Zeitschrift f{"u}r Sprachwissenschaft}}
+  \bibinfo{volume}{21}(\bibinfo{number}{2}):\penalty0
+  \bibinfo{pages}{151--195}.
+
+\bibitem[{\citenamefont{Ecay}(2015)}]{ecay2015}
+\bibinfo{author}{\bibnamefont{Ecay}, \bibfnamefont{Aaron}}.
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{A multi-step analysis of the evolution of english
+  do-support}.
+\newblock Ph.D. thesis, \bibinfo{school}{University of Pennsylvania}.
+
+\bibitem[{\citenamefont{Eckardt}(2006)}]{eckardt2006}
+\bibinfo{author}{\bibnamefont{Eckardt}, \bibfnamefont{Regine}}.
+  \bibinfo{year}{2006}.
+\newblock \emph{\bibinfo{title}{{Meaning change in grammaticalization: an
+  enquiry into semantic reanalysis}}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+
+\bibitem[{\citenamefont{Frisch}(1997)}]{frisch1997}
+\bibinfo{author}{\bibnamefont{Frisch}, \bibfnamefont{Stefan}}.
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{The change in negation in Middle English: a NEGP
+  licensing account}}.
+\newblock \emph{\bibinfo{journal}{Lingua}}
+  \bibinfo{volume}{101}(\bibinfo{number}{1}):\penalty0 \bibinfo{pages}{21--64}.
+
+\bibitem[{\citenamefont{Gardiner}(1905)}]{gardiner1904}
+\bibinfo{author}{\bibnamefont{Gardiner}, \bibfnamefont{Alan~H}}.
+  \bibinfo{year}{1905}.
+\newblock \bibinfo{title}{The word}.
+\newblock \emph{\bibinfo{journal}{Zeitschrift f{\"u}r {\"A}gyptische Sprache}}
+  \bibinfo{volume}{41}(\bibinfo{number}{JG}):\penalty0
+  \bibinfo{pages}{130--135}.
+
+\bibitem[{\citenamefont{Giv{\'o}n}(1978)}]{givon1978}
+\bibinfo{author}{\bibnamefont{Giv{\'o}n}, \bibfnamefont{Talmy}}.
+  \bibinfo{year}{1978}.
+\newblock \bibinfo{title}{{Negation in language}}.
+\newblock In \emph{\bibinfo{booktitle}{{Syntax and Semantics, Volume 9:
+  Pragmatics}}}, ed. \bibinfo{editor}{Peter Cole}, \bibinfo{pages}{69--112}.
+  \bibinfo{publisher}{Mouton de Gruyter}.
+
+\bibitem[{\citenamefont{Hansen and Visconti}(2009)}]{hansen-visconti2009}
+\bibinfo{author}{\bibnamefont{Hansen}, \bibfnamefont{Maj-Britt~Mosegaard}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Jacqueline}
+  \bibnamefont{Visconti}}. \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{On the diachrony of" reinforced" negation in french
+  and italian}.
+\newblock \emph{\bibinfo{journal}{Grammaticalization and pragmatics: Facts,
+  approaches, theoretical issues}} \bibinfo{pages}{137--171}.
+
+\bibitem[{\citenamefont{Hansen and Visconti}(2012)}]{hansen-visconti2012}
+---------. \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{The evolution of negation in French and Italian:
+  Similarities and differences}}.
+\newblock \emph{\bibinfo{journal}{Folia Linguistica}}
+  \bibinfo{volume}{46}(\bibinfo{number}{2}).
+
+\bibitem[{\citenamefont{Hopper and Traugott}(2003)}]{hopper-traugottt2003}
+\bibinfo{author}{\bibnamefont{Hopper}, \bibfnamefont{Paul~J}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Elizabeth~Closs}
+  \bibnamefont{Traugott}}. \bibinfo{year}{2003}.
+\newblock \emph{\bibinfo{title}{{Grammaticalization}}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Horn}(1989)}]{horn:1989}
+\bibinfo{author}{\bibnamefont{Horn}, \bibfnamefont{Laurence~R}}.
+  \bibinfo{year}{1989}.
+\newblock \emph{\bibinfo{title}{{A natural history of negation}}}.
+\newblock \bibinfo{publisher}{University of Chicago Press}.
+
+\bibitem[{\citenamefont{Israel}(2011)}]{israel2011}
+\bibinfo{author}{\bibnamefont{Israel}, \bibfnamefont{Michael}}.
+  \bibinfo{year}{2011}.
+\newblock \emph{\bibinfo{title}{The grammar of polarity: Pragmatics,
+  sensitivity, and the logic of scales}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Jespersen}(1917)}]{jespersen:1917}
+\bibinfo{author}{\bibnamefont{Jespersen}, \bibfnamefont{Otto}}.
+  \bibinfo{year}{1917}.
+\newblock \emph{\bibinfo{title}{{Negation in English and other Languages}}}.
+\newblock \bibinfo{publisher}{Host}.
+
+\bibitem[{\citenamefont{Jones}(2015)}]{jones2015}
+\bibinfo{author}{\bibnamefont{Jones}, \bibfnamefont{Taylor}}.
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Eem neagation in AAVE: A next step in Jespersen's
+  Cycle}}.
+
+\bibitem[{\citenamefont{Kiparsky and
+  Condoravdi}(2006)}]{kiparsky-condoravdi:2006}
+\bibinfo{author}{\bibnamefont{Kiparsky}, \bibfnamefont{Paul}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Cleo}
+  \bibnamefont{Condoravdi}}. \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{Tracking Jespersen's Cycle}}.
+\newblock In \emph{\bibinfo{booktitle}{{ Proceedings of the 2nd International
+  Conference of Modern Greek Dialects and Linguistic Theory}}}, ed.
+  \bibinfo{editor}{Mark Janse}. \bibinfo{publisher}{University of Patras}.
+
+\bibitem[{\citenamefont{Klima}(1964)}]{klima1964}
+\bibinfo{author}{\bibnamefont{Klima}, \bibfnamefont{Edward~S}}.
+  \bibinfo{year}{1964}.
+\newblock \bibinfo{title}{Negation in english}.
+\newblock In \emph{\bibinfo{booktitle}{The structure of language}}, ed.
+  \bibinfo{editor}{Jerry Fodor} and \bibinfo{editor}{Jerrold Katz},
+  \bibinfo{pages}{246--323}. \bibinfo{publisher}{na}.
+
+\bibitem[{\citenamefont{Labov}(1994)}]{Labov:1994}
+\bibinfo{author}{\bibnamefont{Labov}, \bibfnamefont{William}}.
+  \bibinfo{year}{1994}.
+\newblock \emph{\bibinfo{title}{{Principles of Linguistic Change: Internal
+  Factors}}}.
+\newblock \bibinfo{address}{Oxford}:\@ \bibinfo{publisher}{Blackwell}.
+
+\bibitem[{\citenamefont{Labov}(2010)}]{Labov:2010}
+---------. \bibinfo{year}{2010}.
+\newblock \emph{\bibinfo{title}{{Principles of Linguistic Change: Cognitive and
+  Cultural Factors}}}, vol.~\bibinfo{volume}{3}.
+\newblock \bibinfo{address}{Oxford}:\@ \bibinfo{publisher}{Wiley-Blackwell}.
+
+\bibitem[{\citenamefont{Ladusaw}(1993)}]{ladusaw1993}
+\bibinfo{author}{\bibnamefont{Ladusaw}, \bibfnamefont{William~A}}.
+  \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{Negation, indefinites, and the jespersen cycle}.
+\newblock In \emph{\bibinfo{booktitle}{Annual meeting of the berkeley
+  linguistics society}}, vol.~\bibinfo{volume}{19}, \bibinfo{pages}{437--46}.
+
+\bibitem[{\citenamefont{Martineau and Mougeon}(2003)}]{martineau-mougeon2003}
+\bibinfo{author}{\bibnamefont{Martineau}, \bibfnamefont{France}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Raymond}
+  \bibnamefont{Mougeon}}. \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{A sociolinguistic study of the origins of ne deletion
+  in european and quebec french}.
+\newblock \emph{\bibinfo{journal}{Language}}
+  \bibinfo{volume}{79}(\bibinfo{number}{1}):\penalty0
+  \bibinfo{pages}{118--152}.
+
+\bibitem[{\citenamefont{Meillet}(1912)}]{meillet1912}
+\bibinfo{author}{\bibnamefont{Meillet}, \bibfnamefont{Antoine}}.
+  \bibinfo{year}{1912}.
+\newblock \emph{\bibinfo{title}{L'{\'e}volution des formes grammaticales}}.
+\newblock \bibinfo{publisher}{Nicola Zanichelli}.
+
+\bibitem[{\citenamefont{Miestamo}(2005)}]{miestamo2005}
+\bibinfo{author}{\bibnamefont{Miestamo}, \bibfnamefont{Matti}}.
+  \bibinfo{year}{2005}.
+\newblock \emph{\bibinfo{title}{Standard negation: The negation of declarative
+  verbal main clauses in a typological perspective}},
+  vol.~\bibinfo{volume}{31}.
+\newblock \bibinfo{publisher}{Walter de Gruyter}.
+
+\bibitem[{\citenamefont{Payne}(1985)}]{payne1985}
+\bibinfo{author}{\bibnamefont{Payne}, \bibfnamefont{John~R.}}
+  \bibinfo{year}{1985}.
+\newblock \bibinfo{title}{Negation}.
+\newblock In \emph{\bibinfo{booktitle}{Language typology and syntactic
+  description}}, ed. \bibinfo{editor}{Timothy Shopen},
+  \bibinfo{pages}{197--242}. \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Posner}(1985)}]{posner1985}
+\bibinfo{author}{\bibnamefont{Posner}, \bibfnamefont{Rebecca}}.
+  \bibinfo{year}{1985}.
+\newblock \bibinfo{title}{{Post-verbal Negation in Non-Standard French, a
+  Historical and Comparative View}}.
+\newblock \emph{\bibinfo{journal}{Romance Philology}}
+  \bibinfo{volume}{39}(\bibinfo{number}{2}):\penalty0
+  \bibinfo{pages}{170--197}.
+
+\bibitem[{\citenamefont{Schwegler}(1988)}]{schwegler1988}
+\bibinfo{author}{\bibnamefont{Schwegler}, \bibfnamefont{Armin}}.
+  \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{Word-order changes in predicate negation strategies
+  in romance languages}.
+\newblock \emph{\bibinfo{journal}{Diachronica}}
+  \bibinfo{volume}{5}(\bibinfo{number}{1-2}):\penalty0 \bibinfo{pages}{21--58}.
+
+\bibitem[{\citenamefont{Schwegler}(1990)}]{schwegler1990}
+---------. \bibinfo{year}{1990}.
+\newblock \emph{\bibinfo{title}{Analyticity and syntheticity: A diachronic
+  perspective with special reference to romance languages}}.
+\newblock \bibinfo{publisher}{Mouton de Gruyter}.
+
+\bibitem[{\citenamefont{Schwenter}(2005)}]{schwenter2005}
+\bibinfo{author}{\bibnamefont{Schwenter}, \bibfnamefont{Scott~A}}.
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{{The pragmatics of negation in Brazilian
+  Portuguese}}.
+\newblock \emph{\bibinfo{journal}{Lingua}}
+  \bibinfo{volume}{115}(\bibinfo{number}{10}):\penalty0
+  \bibinfo{pages}{1427--1456}.
+
+\bibitem[{\citenamefont{Schwenter}(2006)}]{schwenter2006}
+---------. \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{Fine-tuning Jespersen's cycle}}.
+\newblock In \emph{\bibinfo{booktitle}{{Drawing the boundaries of meaning:
+  Neo-Gricean studies in pragmatics and semantics in honour of Laurence R.
+  Horn}}}, ed. \bibinfo{editor}{Betty~T. Birner} and \bibinfo{editor}{Gregory
+  Ward}, \bibinfo{pages}{327--344}. \bibinfo{publisher}{John Benjamins}.
+
+\bibitem[{\citenamefont{{van der Auwera}}(2009)}]{vanderAuwera2009}
+\bibinfo{author}{\bibnamefont{{van der Auwera}}, \bibfnamefont{Johan}}.
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{The Jespersen Cycles}}.
+\newblock In \emph{\bibinfo{booktitle}{{Cyclical Change}}}, ed.
+  \bibinfo{editor}{Elly {van Gelderen}}. \bibinfo{publisher}{John Benjamins
+  Publishing Company}.
+
+\bibitem[{\citenamefont{{Van Gelderen}}(2008)}]{vanGelderen2008negative}
+\bibinfo{author}{\bibnamefont{{Van Gelderen}}, \bibfnamefont{Elly}}.
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{{Negative cycles}}.
+\newblock \emph{\bibinfo{journal}{Linguistic Typology}}
+  \bibinfo{volume}{12}(\bibinfo{number}{2}):\penalty0
+  \bibinfo{pages}{195--243}.
+
+\end{thebibliography}

@@ -1,0 +1,428 @@
+   
+\chapter{Equilibrium Analysis}
+\label{Equilibrium Analysis}
+
+    
+    \subsection{Definitions}\label{definitions}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{k+kn}{from} \PY{n+nn}{sympy} \PY{k+kn}{import} \PY{o}{*}
+        \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k+kn}{as} \PY{n+nn}{np}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{n}{states} \PY{o}{=} \PY{n}{symbols}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{t0:10}\PY{l+s}{\PYZsq{}}\PY{p}{)} \PY{c}{\PYZsh{} Sufficient for up to ten messages}
+        \PY{n}{messages} \PY{o}{=} \PY{n}{symbols}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{m0:10}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{actions} \PY{o}{=} \PY{n}{symbols}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{a0:10}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{t}\PY{p}{,} \PY{n}{b} \PY{o}{=} \PY{n}{symbols}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{t b}\PY{l+s}{\PYZsq{}}\PY{p}{,} \PY{n}{positive}\PY{o}{=}\PY{n+nb+bp}{True}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{k}{def} \PY{n+nf}{U\PYZus{}S}\PY{p}{(}\PY{n}{state}\PY{p}{,} \PY{n}{action}\PY{p}{,} \PY{n}{bias}\PY{p}{)}\PY{p}{:}
+                \PY{c}{\PYZsh{} return 0 \PYZhy{} (action \PYZhy{} state \PYZhy{} bias)**2 \PYZsh{} Crawford \PYZam{} Sobel 1982}
+                \PY{k}{return}  \PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{n}{action} \PY{o}{\PYZhy{}} \PY{n}{state} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{n}{state}\PY{p}{)}\PY{o}{*}\PY{n}{bias}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+            
+        \PY{k}{def} \PY{n+nf}{U\PYZus{}R}\PY{p}{(}\PY{n}{state}\PY{p}{,} \PY{n}{action}\PY{p}{)}\PY{p}{:}
+            \PY{c}{\PYZsh{} return 0 \PYZhy{} (action \PYZhy{} state \PYZhy{} bias)**2 \PYZsh{} Crawford \PYZam{} Sobel 1982}
+            \PY{k}{return}  \PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{n}{action} \PY{o}{\PYZhy{}} \PY{n}{state}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+\end{Verbatim}
+
+    \subsection{Beta Distribution}\label{beta-distribution}
+
+    \subsection{Visualize}\label{visualize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}23}]:} \PY{k+kn}{from} \PY{n+nn}{scipy.stats} \PY{k+kn}{import} \PY{n}{beta}\PY{p}{,} \PY{n}{uniform}
+         \PY{k+kn}{import} \PY{n+nn}{matplotlib.pyplot} \PY{k+kn}{as} \PY{n+nn}{plt}
+         \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+         \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k+kn}{as} \PY{n+nn}{np}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}24}]:} \PY{c}{\PYZsh{}hfont = \PYZob{}\PYZsq{}fontname\PYZsq{}:\PYZsq{}Helvetica\PYZsq{}\PYZcb{}}
+         \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange} \PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mf}{0.01}\PY{p}{)}
+         \PY{k}{for} \PY{n}{alpha\PYZus{}var} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{)}\PY{p}{:}
+             \PY{k}{for} \PY{n}{beta\PYZus{}var} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{)}\PY{p}{:}
+                     \PY{n}{y} \PY{o}{=} \PY{n}{beta}\PY{o}{.}\PY{n}{pdf}\PY{p}{(}\PY{n}{x}\PY{p}{,}\PY{n}{alpha\PYZus{}var}\PY{p}{,}\PY{n}{beta\PYZus{}var}\PY{p}{)}
+                     \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,}\PY{n}{y}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{k}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{beta}\PY{o}{.}\PY{n}{pdf}\PY{p}{(}\PY{n}{x}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{n}{linewidth}\PY{o}{=}\PY{l+m+mi}{4}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{k}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{beta}\PY{o}{.}\PY{n}{pdf}\PY{p}{(}\PY{n}{x}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,} \PY{n}{linewidth}\PY{o}{=}\PY{l+m+mi}{4}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{k}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Probability}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{fontsize}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)}\PY{c}{\PYZsh{}, **hfont)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{State}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{fontsize}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)}\PY{c}{\PYZsh{}, **hfont)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{beta\PYZhy{}distribution.pdf}\PY{l+s}{\PYZsq{}}\PY{p}{,} \PY{n}{format}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{pdf}\PY{l+s}{\PYZsq{}}\PY{p}{,} \PY{n}{dpi}\PY{o}{=}\PY{l+m+mi}{1000}\PY{p}{,} \PY{n}{fontsize}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)}\PY{c}{\PYZsh{}, **hfont)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{Ahern-Dissertation-AppendixA_files/Ahern-Dissertation-AppendixA_7_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}9}]:} \PY{k+kn}{from} \PY{n+nn}{sympy.stats} \PY{k+kn}{import} \PY{n}{Uniform}\PY{p}{,} \PY{n}{Beta}\PY{p}{,} \PY{n}{density}\PY{p}{,} \PY{n}{E}\PY{p}{,} \PY{n}{sample}\PY{p}{,} \PY{n}{P}
+        \PY{k+kn}{from} \PY{n+nn}{sympy} \PY{k+kn}{import} \PY{n}{symbols}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}10}]:} \PY{k+kn}{from} \PY{n+nn}{sympy} \PY{k+kn}{import} \PY{o}{*}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}11}]:} \PY{k+kn}{from} \PY{n+nn}{sympy} \PY{k+kn}{import} \PY{o}{*}
+         \PY{n}{t}\PY{p}{,} \PY{n}{m}\PY{p}{,} \PY{n}{a}\PY{p}{,} \PY{n}{a\PYZus{}0}\PY{p}{,} \PY{n}{a\PYZus{}1}\PY{p}{,} \PY{n}{m\PYZus{}0}\PY{p}{,} \PY{n}{m\PYZus{}1}\PY{p}{,} \PY{n}{b} \PY{o}{=} \PY{n}{symbols}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{t m a a\PYZus{}0 a\PYZus{}1 m\PYZus{}0 m\PYZus{}1 b}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{t\PYZus{}star} \PY{o}{=} \PY{n}{symbols}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{t\PYZus{}star}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{k+kn}{from} \PY{n+nn}{sympy} \PY{k+kn}{import} \PY{o}{*}
+         \PY{k+kn}{from} \PY{n+nn}{sympy.stats} \PY{k+kn}{import} \PY{n}{Uniform}\PY{p}{,} \PY{n}{density}\PY{p}{,} \PY{n}{Beta}\PY{p}{,} \PY{n}{E}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{n}{X} \PY{o}{=} \PY{n}{Beta}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{x}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}
+         
+         \PY{n}{part1} \PY{o}{=} \PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{\PYZhy{}} \PY{n}{t} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{t}\PY{p}{)}\PY{o}{*}\PY{n}{b}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+         \PY{n}{part2} \PY{o}{=} \PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{\PYZhy{}} \PY{n}{t} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{t}\PY{p}{)}\PY{o}{*}\PY{n}{b}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+         
+         \PY{n}{full\PYZus{}S} \PY{o}{=} \PY{n}{integrate}\PY{p}{(}\PY{n}{part1}\PY{o}{*}\PY{n}{density}\PY{p}{(}\PY{n}{X}\PY{p}{)}\PY{p}{(}\PY{n}{t}\PY{p}{)}\PY{o}{.}\PY{n}{evalf}\PY{p}{(}\PY{p}{)}\PY{p}{,} \PY{p}{(}\PY{n}{t}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{,} \PY{n}{states}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}\PY{p}{)} \PY{o}{+} \PY{n}{integrate}\PY{p}{(}\PY{n}{part2}\PY{o}{*}\PY{n}{density}\PY{p}{(}\PY{n}{X}\PY{p}{)}\PY{p}{(}\PY{n}{t}\PY{p}{)}\PY{o}{.}\PY{n}{evalf}\PY{p}{(}\PY{p}{)}\PY{p}{,} \PY{p}{(}\PY{n}{t}\PY{p}{,} \PY{n}{states}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}
+         \PY{n}{full\PYZus{}R} \PY{o}{=} \PY{n}{full\PYZus{}S}\PY{o}{.}\PY{n}{subs}\PY{p}{(}\PY{n}{b}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}14}]:} \PY{n}{t0\PYZus{}sol} \PY{o}{=} \PY{n}{Eq}\PY{p}{(}\PY{n}{solve}\PY{p}{(}\PY{n}{diff}\PY{p}{(}\PY{n}{full\PYZus{}S}\PY{p}{,} \PY{n}{states}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n}{states}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{states}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
+         \PY{k}{print} \PY{n}{t0\PYZus{}sol}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+0.25*(-a0 - a1 + 4.0*b - sqrt((a0 + a1 - 2.0)**2) - 2.0)/(b - 1.0) == t0
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{n}{a0\PYZus{}sol} \PY{o}{=} \PY{n}{Eq}\PY{p}{(}\PY{n}{solve}\PY{p}{(}\PY{n}{diff}\PY{p}{(}\PY{n}{full\PYZus{}R}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
+         \PY{k}{print} \PY{n}{a0\PYZus{}sol}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+0.333333333333333*t0*(2.0*t0 - 3.0)/(t0 - 2.0) == a0
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}16}]:} \PY{n}{a1\PYZus{}sol} \PY{o}{=} \PY{n}{Eq}\PY{p}{(}\PY{n}{solve}\PY{p}{(}\PY{n}{diff}\PY{p}{(}\PY{n}{full\PYZus{}R}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}
+         \PY{k}{print} \PY{n}{a1\PYZus{}sol}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+0.666666666666667*t0 + 0.333333333333333 == a1
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}17}]:} \PY{n}{result} \PY{o}{=} \PY{n}{solve}\PY{p}{(}\PY{p}{[}\PY{n}{t0\PYZus{}sol}\PY{p}{,} \PY{n}{a0\PYZus{}sol}\PY{p}{,} \PY{n}{a1\PYZus{}sol}\PY{p}{]}\PY{p}{,} \PY{p}{[}\PY{n}{states}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{actions}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+        ---------------------------------------------------------------------------
+
+        KeyboardInterrupt                         Traceback (most recent call last)
+
+        <ipython-input-17-a72a0c0b752b> in <module>()
+    ----> 1 result = solve([t0\_sol, a0\_sol, a1\_sol], [states[0], actions[0], actions[1]])
+    
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/solvers/solvers.pyc in solve(f, *symbols, **flags)
+        909         solution = \_solve(f[0], *symbols, **flags)
+        910     else:
+    --> 911         solution = \_solve\_system(f, symbols, **flags)
+        912 
+        913     \#
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/solvers/solvers.pyc in \_solve\_system(exprs, symbols, **flags)
+       1608                 for s in ok\_syms:
+       1609                     try:
+    -> 1610                         soln = \_solve(eq2, s, **flags)
+       1611                     except NotImplementedError:
+       1612                         continue
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/solvers/solvers.pyc in \_solve(f, *symbols, **flags)
+       1428         \# keep only results if the check is not False
+       1429         result = [r for r in result if isinstance(r, RootOf) or
+    -> 1430                   checksol(f\_num, \{symbol: r\}, **flags) is not False]
+       1431     return result
+       1432 
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/solvers/solvers.pyc in checksol(f, symbol, sol, **flags)
+        204         attempt += 1
+        205         if attempt == 0:
+    --> 206             val = f.subs(sol)
+        207             if isinstance(val, Mul):
+        208                 val = val.as\_independent(Unit)[0]
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in subs(self, *args, **kwargs)
+        890             rv = self
+        891             for old, new in sequence:
+    --> 892                 rv = rv.\_subs(old, new, **kwargs)
+        893                 if not isinstance(rv, Basic):
+        894                     break
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in \_subs(self, old, new, **hints)
+       1004         rv = self.\_eval\_subs(old, new)
+       1005         if rv is None:
+    -> 1006             rv = fallback(self, old, new)
+       1007         return rv
+       1008 
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in fallback(self, old, new)
+        976                 if not hasattr(arg, '\_eval\_subs'):
+        977                     continue
+    --> 978                 arg = arg.\_subs(old, new, **hints)
+        979                 if not \_aresame(arg, args[i]):
+        980                     hit = True
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in \_subs(self, old, new, **hints)
+       1004         rv = self.\_eval\_subs(old, new)
+       1005         if rv is None:
+    -> 1006             rv = fallback(self, old, new)
+       1007         return rv
+       1008 
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in fallback(self, old, new)
+        976                 if not hasattr(arg, '\_eval\_subs'):
+        977                     continue
+    --> 978                 arg = arg.\_subs(old, new, **hints)
+        979                 if not \_aresame(arg, args[i]):
+        980                     hit = True
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in \_subs(self, old, new, **hints)
+       1004         rv = self.\_eval\_subs(old, new)
+       1005         if rv is None:
+    -> 1006             rv = fallback(self, old, new)
+       1007         return rv
+       1008 
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in fallback(self, old, new)
+        976                 if not hasattr(arg, '\_eval\_subs'):
+        977                     continue
+    --> 978                 arg = arg.\_subs(old, new, **hints)
+        979                 if not \_aresame(arg, args[i]):
+        980                     hit = True
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in \_subs(self, old, new, **hints)
+       1004         rv = self.\_eval\_subs(old, new)
+       1005         if rv is None:
+    -> 1006             rv = fallback(self, old, new)
+       1007         return rv
+       1008 
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in fallback(self, old, new)
+        976                 if not hasattr(arg, '\_eval\_subs'):
+        977                     continue
+    --> 978                 arg = arg.\_subs(old, new, **hints)
+        979                 if not \_aresame(arg, args[i]):
+        980                     hit = True
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in \_subs(self, old, new, **hints)
+       1004         rv = self.\_eval\_subs(old, new)
+       1005         if rv is None:
+    -> 1006             rv = fallback(self, old, new)
+       1007         return rv
+       1008 
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in fallback(self, old, new)
+        981                     args[i] = arg
+        982             if hit:
+    --> 983                 rv = self.func(*args)
+        984                 hack2 = hints.get('hack2', False)
+        985                 if hack2 and self.is\_Mul and not rv.is\_Mul:  \# 2-arg hack
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/power.pyc in \_\_new\_\_(cls, b, e, evaluate)
+        192                             return S.Exp1**(c*numer(ex))
+        193 
+    --> 194                 obj = b.\_eval\_power(e)
+        195                 if obj is not None:
+        196                     return obj
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/power.pyc in \_eval\_power(self, other)
+        269                 elif \_half(other):
+        270                     s = C.exp(2*S.Pi*S.ImaginaryUnit*other*C.floor(
+    --> 271                         S.Half - e*C.arg(b)/(2*S.Pi)))
+        272                     if s.is\_real and \_n2(C.sign(s) - s) == 0:
+        273                         s = C.sign(s)
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/function.pyc in \_\_new\_\_(cls, *args, **options)
+        373 
+        374         evaluate = options.get('evaluate', global\_evaluate[0])
+    --> 375         result = super(Function, cls).\_\_new\_\_(cls, *args, **options)
+        376         if not evaluate or not isinstance(result, cls):
+        377             return result
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/function.pyc in \_\_new\_\_(cls, *args, **options)
+        197 
+        198         if evaluate:
+    --> 199             evaluated = cls.eval(*args)
+        200             if evaluated is not None:
+        201                 return evaluated
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/functions/elementary/complexes.pyc in eval(cls, arg)
+        534         else:
+        535             arg\_ = arg
+    --> 536         x, y = re(arg\_), im(arg\_)
+        537         rv = C.atan2(y, x)
+        538         if rv.is\_number and not rv.atoms(AppliedUndef):
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/function.pyc in \_\_new\_\_(cls, *args, **options)
+        373 
+        374         evaluate = options.get('evaluate', global\_evaluate[0])
+    --> 375         result = super(Function, cls).\_\_new\_\_(cls, *args, **options)
+        376         if not evaluate or not isinstance(result, cls):
+        377             return result
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/function.pyc in \_\_new\_\_(cls, *args, **options)
+        197 
+        198         if evaluate:
+    --> 199             evaluated = cls.eval(*args)
+        200             if evaluated is not None:
+        201                 return evaluated
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/functions/elementary/complexes.pyc in eval(cls, arg)
+        154             args = Add.make\_args(arg)
+        155             for term in args:
+    --> 156                 coeff = term.as\_coefficient(S.ImaginaryUnit)
+        157 
+        158                 if coeff is not None:
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/expr.pyc in as\_coefficient(self, expr)
+       1405         """
+       1406 
+    -> 1407         r = self.extract\_multiplicatively(expr)
+       1408         if r and not r.has(expr):
+       1409             return r
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/expr.pyc in extract\_multiplicatively(self, c)
+       1914             args = list(self.args)
+       1915             for i, arg in enumerate(args):
+    -> 1916                 newarg = arg.extract\_multiplicatively(c)
+       1917                 if newarg is not None:
+       1918                     args[i] = newarg
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/expr.pyc in extract\_multiplicatively(self, c)
+       1857             if x is not None:
+       1858                 return x.extract\_multiplicatively(b)
+    -> 1859         quotient = self / c
+       1860         if self.is\_Number:
+       1861             if self is S.Infinity:
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/decorators.pyc in \_\_sympifyit\_wrapper(a, b)
+         75                 if not hasattr(b, '\_op\_priority'):
+         76                     b = sympify(b, strict=True)
+    ---> 77                 return func(a, b)
+         78             except SympifyError:
+         79                 return retval
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/decorators.pyc in binary\_op\_wrapper(self, other)
+        116                     else:
+        117                         return f(self)
+    --> 118             return func(self, other)
+        119         return binary\_op\_wrapper
+        120     return priority\_decorator
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/expr.pyc in \_\_div\_\_(self, other)
+        159     @call\_highest\_priority('\_\_rdiv\_\_')
+        160     def \_\_div\_\_(self, other):
+    --> 161         return Mul(self, Pow(other, S.NegativeOne))
+        162 
+        163     @\_sympifyit('other', NotImplemented)
+
+
+        /home/cahern/anaconda/lib/python2.7/site-packages/sympy/core/basic.pyc in \_\_hash\_\_(self)
+        100             setattr(self, k, v)
+        101 
+    --> 102     def \_\_hash\_\_(self):
+        103         \# hash cannot be cached using cache\_it because infinite recurrence
+        104         \# occurs as hash is needed for setting cache dictionary keys
+
+
+        KeyboardInterrupt: 
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}21}]:} \PY{k}{print} \PY{n}{result}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+[((9.0*b - sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/(6.0*b - 2.0), 0.333333333333333*(-3.0 + 2.0*(9.0*b - sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/(6.0*b - 2.0))*(9.0*b - sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/((-2.0 + (9.0*b - (9.0*b**2 - 18.0*b + 5.0)**0.5 - 3.0)/(6.0*b - 2.0))*(6.0*b - 2.0)), 0.333333333333333 + 0.666666666666667*(9.0*b - sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/(6.0*b - 2.0)), ((9.0*b + sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/(6.0*b - 2.0), 0.333333333333333*(-3.0 + 2.0*(9.0*b + sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/(6.0*b - 2.0))*(9.0*b + sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/((-2.0 + (9.0*b + (9.0*b**2 - 18.0*b + 5.0)**0.5 - 3.0)/(6.0*b - 2.0))*(6.0*b - 2.0)), 0.333333333333333 + 0.666666666666667*(9.0*b + sqrt(9.0*b**2 - 18.0*b + 5.0) - 3.0)/(6.0*b - 2.0))]
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}18}]:} \PY{n}{result} \PY{o}{=} \PY{p}{[}\PY{p}{(}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{,} \PY{l+m+mf}{0.333333333333333}\PY{o}{*}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{3.0} \PY{o}{+} \PY{l+m+mf}{2.0}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{2.0} \PY{o}{+} \PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mf}{0.5} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{p}{,} \PY{l+m+mf}{0.333333333333333} \PY{o}{+} \PY{l+m+mf}{0.666666666666667}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{p}{,} \PY{p}{(}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{,} \PY{l+m+mf}{0.333333333333333}\PY{o}{*}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{3.0} \PY{o}{+} \PY{l+m+mf}{2.0}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{2.0} \PY{o}{+} \PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mf}{0.5} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{p}{,} \PY{l+m+mf}{0.333333333333333} \PY{o}{+} \PY{l+m+mf}{0.666666666666667}\PY{o}{*}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{9.0}\PY{o}{*}\PY{n}{b}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2} \PY{o}{\PYZhy{}} \PY{l+m+mf}{18.0}\PY{o}{*}\PY{n}{b} \PY{o}{+} \PY{l+m+mf}{5.0}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mf}{3.0}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mf}{6.0}\PY{o}{*}\PY{n}{b} \PY{o}{\PYZhy{}} \PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{p}{]}
+\end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}29}]:} \PY{n}{result}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}
+\end{Verbatim}
+\texttt{\color{outcolor}Out[{\color{outcolor}29}]:}
+    
+    
+        \begin{equation*}\adjustbox{max width=\hsize}{$
+        \left ( \frac{1}{6.0 b - 2.0} \left(9.0 b + \sqrt{9.0 b^{2} - 18.0 b + 5.0} - 3.0\right), \quad \frac{0.333333333333333 \left(-3.0 + \frac{1}{6.0 b - 2.0} \left(18.0 b + 2.0 \sqrt{9.0 b^{2} - 18.0 b + 5.0} - 6.0\right)\right) \left(9.0 b + \sqrt{9.0 b^{2} - 18.0 b + 5.0} - 3.0\right)}{\left(-2.0 + \frac{1}{6.0 b - 2.0} \left(9.0 b + \left(9.0 b^{2} - 18.0 b + 5.0\right)^{0.5} - 3.0\right)\right) \left(6.0 b - 2.0\right)}, \quad 0.333333333333333 + \frac{1}{6.0 b - 2.0} \left(6.0 b + 0.666666666666667 \sqrt{9.0 b^{2} - 18.0 b + 5.0} - 2.0\right)\right )
+        $}\end{equation*}
+
+    
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}25}]:} \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{o}{/}\PY{l+m+mf}{6.0}\PY{p}{,} \PY{n}{num}\PY{o}{=}\PY{l+m+mi}{100}\PY{p}{)}
+         
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{p}{[}\PY{n}{result}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{.}\PY{n}{subs}\PY{p}{(}\PY{n}{b}\PY{p}{,} \PY{n}{value}\PY{p}{)}\PY{o}{.}\PY{n}{evalf}\PY{p}{(}\PY{p}{)} \PY{k}{for} \PY{n}{value} \PY{o+ow}{in} \PY{n}{x}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{k}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{p}{[}\PY{n}{result}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{.}\PY{n}{subs}\PY{p}{(}\PY{n}{b}\PY{p}{,} \PY{n}{value}\PY{p}{)}\PY{o}{.}\PY{n}{evalf}\PY{p}{(}\PY{p}{)} \PY{k}{for} \PY{n}{value} \PY{o+ow}{in} \PY{n}{x}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{r}\PY{l+s}{\PYZsq{}}\PY{p}{,} \PY{n}{linestyle}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{\PYZhy{}\PYZhy{}}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{p}{[}\PY{n}{result}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{o}{.}\PY{n}{subs}\PY{p}{(}\PY{n}{b}\PY{p}{,} \PY{n}{value}\PY{p}{)}\PY{o}{.}\PY{n}{evalf}\PY{p}{(}\PY{p}{)} \PY{k}{for} \PY{n}{value} \PY{o+ow}{in} \PY{n}{x}\PY{p}{]}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{,} \PY{n}{linestyle}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{\PYZhy{}\PYZhy{}}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{axhline}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{/}\PY{l+m+mf}{3.0}\PY{p}{,} \PY{l+m+mi}{1}\PY{o}{/}\PY{l+m+mf}{6.0}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{color}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{b}\PY{l+s}{\PYZsq{}}\PY{p}{,} \PY{n}{ls}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{\PYZhy{}\PYZhy{}}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s}{r\PYZdq{}}\PY{l+s}{\PYZdl{}b\PYZdl{}}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{fontsize}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)} \PY{c}{\PYZsh{}, **hfont)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Actions and States}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{fontsize}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)} \PY{c}{\PYZsh{}, **hfont)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{sol2\PYZhy{}beta.pdf}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{format}\PY{o}{=}\PY{l+s}{\PYZsq{}}\PY{l+s}{pdf}\PY{l+s}{\PYZsq{}}\PY{p}{,} \PY{n}{dpi}\PY{o}{=}\PY{l+m+mi}{1000}\PY{p}{,} \PY{n}{fontsize}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{Ahern-Dissertation-AppendixA_files/Ahern-Dissertation-AppendixA_20_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}26}]:} \PY{n}{solve}\PY{p}{(}\PY{n}{result}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{b}\PY{p}{)}
+\end{Verbatim}
+
+            \begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}26}]:} [0.166666666666667]
+\end{Verbatim}
+        
+

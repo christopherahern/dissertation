@@ -1,0 +1,448 @@
+\begin{thebibliography}{52}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Altmann et~al.}(1983)\citenamefont{Altmann, von
+  Buttlar, Rott, and Strauss}}]{altmann-etal1983}
+\bibinfo{author}{\bibnamefont{Altmann}, \bibfnamefont{Gabriel}},
+  \bibinfo{author}{\bibfnamefont{Haro} \bibnamefont{von Buttlar}},
+  \bibinfo{author}{\bibfnamefont{Walter} \bibnamefont{Rott}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Udo} \bibnamefont{Strauss}}.
+  \bibinfo{year}{1983}.
+\newblock \bibinfo{title}{A law of change in language}.
+\newblock In \emph{\bibinfo{booktitle}{Historical linguistics}}, ed.
+  \bibinfo{editor}{Brian Brainard}, \bibinfo{pages}{104--115}.
+
+\bibitem[{\citenamefont{van~der Auwera and
+  Neuckermans}(1997)}]{vanderAuwera-neuckermans2004}
+\bibinfo{author}{\bibnamefont{van~der Auwera}, \bibfnamefont{Johan}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Annemie}
+  \bibnamefont{Neuckermans}}. \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{Jespersen's cycle and the interaction of predicate
+  and quantifier negation}}.
+\newblock In \emph{\bibinfo{booktitle}{{Dialectology meets typology. Dialect
+  grammar from a cross-linguistic perspective}}}, ed. \bibinfo{editor}{Bernd
+  Kortmann}, \bibinfo{pages}{453--478}. \bibinfo{publisher}{Mouton de Gruyter}.
+
+\bibitem[{\citenamefont{Baker}(2008)}]{baker2008}
+\bibinfo{author}{\bibnamefont{Baker}, \bibfnamefont{Mark}}.
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{The macroparameter in a microparametric world}.
+\newblock In \emph{\bibinfo{booktitle}{The limits of syntactic variation}},
+  vol. \bibinfo{volume}{132}, \bibinfo{pages}{351}. \bibinfo{publisher}{John
+  Benjamins Publishing}.
+
+\bibitem[{\citenamefont{Bernini and Ramat}(1996)}]{bernini-ramat1996}
+\bibinfo{author}{\bibnamefont{Bernini}, \bibfnamefont{Giuliano}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Paolo} \bibnamefont{Ramat}}.
+  \bibinfo{year}{1996}.
+\newblock \emph{\bibinfo{title}{{Negative sentences in the languages of Europe:
+  A typological approach}}}.
+\newblock \bibinfo{publisher}{Mouton de Gruyter}.
+
+\bibitem[{\citenamefont{Beukema}(1999)}]{beukema1999}
+\bibinfo{author}{\bibnamefont{Beukema}, \bibfnamefont{Frits}}.
+  \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{{Five ways of saying no: the development of
+  sentential negation in English in a Government and Binding perspective}}.
+\newblock In \emph{\bibinfo{booktitle}{{Negation in the history of English}}},
+  ed. \bibinfo{editor}{Ingrid Tieken-Boon van Ostade},
+  \bibinfo{editor}{Gunnell~Tottie Ostade}, and \bibinfo{editor}{Wim van~der
+  Wurff}, \bibinfo{pages}{9--26}. \bibinfo{publisher}{Mouton de Gruyter}.
+
+\bibitem[{\citenamefont{Bloomfield}(1927)}]{bloomfield1927}
+\bibinfo{author}{\bibnamefont{Bloomfield}, \bibfnamefont{Leonard}}.
+  \bibinfo{year}{1927}.
+\newblock \bibinfo{title}{{Review of Jespersen's, The philosophy of grammar}}.
+\newblock \emph{\bibinfo{journal}{Journal of English and Germanic Philology}}
+  \bibinfo{volume}{26}:\penalty0 \bibinfo{pages}{444--446}.
+
+\bibitem[{\citenamefont{B{\"o}rgers and Sarin}(1997)}]{borgers-sarin1997}
+\bibinfo{author}{\bibnamefont{B{\"o}rgers}, \bibfnamefont{Tilman}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Rajiv} \bibnamefont{Sarin}}.
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{Learning through reinforcement and replicator
+  dynamics}}.
+\newblock \emph{\bibinfo{journal}{Journal of Economic Theory}}
+  \bibinfo{volume}{77}(\bibinfo{number}{1}):\penalty0 \bibinfo{pages}{1--14}.
+
+\bibitem[{\citenamefont{Burridge}(1983)}]{burridge1983}
+\bibinfo{author}{\bibnamefont{Burridge}, \bibfnamefont{Kate}}.
+  \bibinfo{year}{1983}.
+\newblock \bibinfo{title}{{On the development of Dutch negation}}.
+\newblock In \emph{\bibinfo{booktitle}{{Linguistics in the Netherlands 1983}}},
+  ed. \bibinfo{editor}{Hans Bennis} and \bibinfo{editor}{W.U.S. van
+  Lessen~Kloeke}, \bibinfo{pages}{31--40}. \bibinfo{publisher}{Dordrecht:
+  Foris}.
+
+\bibitem[{\citenamefont{Bush and Mosteller}(1955)}]{bush-mosteller1955}
+\bibinfo{author}{\bibnamefont{Bush}, \bibfnamefont{Robert}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Frederick} \bibnamefont{Mosteller}}.
+  \bibinfo{year}{1955}.
+\newblock \emph{\bibinfo{title}{Stochastic models for learning}}.
+\newblock \bibinfo{publisher}{Wiley}.
+
+\bibitem[{\citenamefont{Chomsky}(1981)}]{chomsky1981}
+\bibinfo{author}{\bibnamefont{Chomsky}, \bibfnamefont{Noam}}.
+  \bibinfo{year}{1981}.
+\newblock \emph{\bibinfo{title}{Lectures on government and binding: The pisa
+  lectures}}.
+\newblock \bibinfo{number}{9}, \bibinfo{publisher}{Walter de Gruyter}.
+
+\bibitem[{\citenamefont{Chomsky}(1995)}]{chomsky1995}
+---------. \bibinfo{year}{1995}.
+\newblock \emph{\bibinfo{title}{The minimalist program}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Chomsky and Lasnik}(1993)}]{chomsky-lasnik1993}
+\bibinfo{author}{\bibnamefont{Chomsky}, \bibfnamefont{Noam}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Howard} \bibnamefont{Lasnik}}.
+  \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{The theory of principles and parameters}.
+\newblock In \emph{\bibinfo{booktitle}{Syntax: An international handbook of
+  contemporary research}}, ed. \bibinfo{editor}{Joachim Jacobs},
+  \bibinfo{editor}{Arnim Von~Stechow}, and \bibinfo{editor}{Wolfgang
+  Sternefeld}, \bibinfo{pages}{506--569}. \bibinfo{publisher}{Mouton de
+  Gruyter}.
+
+\bibitem[{\citenamefont{Dahl}(1979)}]{dahl:1979}
+\bibinfo{author}{\bibnamefont{Dahl}, \bibfnamefont{Osten}}.
+  \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{{Typology of Sentence Negation}}.
+\newblock \emph{\bibinfo{journal}{Linguistics}}
+  \bibinfo{volume}{17}(\bibinfo{number}{1-2}):\penalty0
+  \bibinfo{pages}{79--106}.
+
+\bibitem[{\citenamefont{Fodor}(1975)}]{fodor1975}
+\bibinfo{author}{\bibnamefont{Fodor}, \bibfnamefont{Jerry~A}}.
+  \bibinfo{year}{1975}.
+\newblock \emph{\bibinfo{title}{The language of thought}},
+  vol.~\bibinfo{volume}{5}.
+\newblock \bibinfo{publisher}{Harvard University Press}.
+
+\bibitem[{\citenamefont{Frank et~al.}(2009)\citenamefont{Frank, Goodman, and
+  Tenenbaum}}]{frank-etal2009}
+\bibinfo{author}{\bibnamefont{Frank}, \bibfnamefont{Michael~C}},
+  \bibinfo{author}{\bibfnamefont{Noah~D} \bibnamefont{Goodman}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Joshua~B}
+  \bibnamefont{Tenenbaum}}. \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Using speakers' referential intentions to model early
+  cross-situational word learning}.
+\newblock \emph{\bibinfo{journal}{Psychological Science}}
+  \bibinfo{volume}{20}(\bibinfo{number}{5}):\penalty0
+  \bibinfo{pages}{578--585}.
+
+\bibitem[{\citenamefont{Frisch}(1997)}]{frisch1997}
+\bibinfo{author}{\bibnamefont{Frisch}, \bibfnamefont{Stefan}}.
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{The change in negation in Middle English: a NEGP
+  licensing account}}.
+\newblock \emph{\bibinfo{journal}{Lingua}}
+  \bibinfo{volume}{101}(\bibinfo{number}{1}):\penalty0 \bibinfo{pages}{21--64}.
+
+\bibitem[{\citenamefont{Gibson and Wexler}(1994)}]{gibson-wexler1994}
+\bibinfo{author}{\bibnamefont{Gibson}, \bibfnamefont{Edward}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Kenneth}
+  \bibnamefont{Wexler}}. \bibinfo{year}{1994}.
+\newblock \bibinfo{title}{Triggers}.
+\newblock \emph{\bibinfo{journal}{Linguistic Inquiry}}
+  \bibinfo{pages}{407--454}.
+
+\bibitem[{\citenamefont{Haegeman}(1995)}]{haegeman1995}
+\bibinfo{author}{\bibnamefont{Haegeman}, \bibfnamefont{Liliane}}.
+  \bibinfo{year}{1995}.
+\newblock \emph{\bibinfo{title}{The syntax of negation}}.
+\newblock \bibinfo{number}{75}, \bibinfo{publisher}{Cambridge University
+  Press}.
+
+\bibitem[{\citenamefont{Haspelmath}(1997)}]{haspelmath1997}
+\bibinfo{author}{\bibnamefont{Haspelmath}, \bibfnamefont{Martin}}.
+  \bibinfo{year}{1997}.
+\newblock \emph{\bibinfo{title}{{Indefinite pronouns}}}.
+\newblock \bibinfo{publisher}{Clarendon Press}.
+
+\bibitem[{\citenamefont{Hoeksma}(1997)}]{hoeksma1997}
+\bibinfo{author}{\bibnamefont{Hoeksma}, \bibfnamefont{Jacob}}.
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{Negation and negative concord in Middle Dutch}}.
+\newblock In \emph{\bibinfo{booktitle}{{Negation and polarity: Syntax and
+  Semantics}}}, ed. \bibinfo{editor}{Danielle Forget}, \bibinfo{editor}{Paul
+  Hirschbuller}, \bibinfo{editor}{France Martineau}, and
+  \bibinfo{editor}{Maria-Luisa Rivero}, \bibinfo{pages}{139--156}.
+  \bibinfo{publisher}{John Benjamins}.
+
+\bibitem[{\citenamefont{Honda}(2000)}]{honda2000}
+\bibinfo{author}{\bibnamefont{Honda}, \bibfnamefont{Isao}}.
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Negation: a cross-linguistic study}.
+\newblock Ph.D. thesis, \bibinfo{school}{State University of New York at
+  Buffalo}.
+
+\bibitem[{\citenamefont{Horn}(2001)}]{horn2001}
+\bibinfo{author}{\bibnamefont{Horn}, \bibfnamefont{Laurence}}.
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{{Flaubert triggers, squatitive negation, and other
+  quirks of grammar}}.
+\newblock In \emph{\bibinfo{booktitle}{{Perspectives on negation and polarity
+  items}}}, ed. \bibinfo{editor}{Jack Hoeksma}, \bibinfo{editor}{Hotze
+  Rullmann}, \bibinfo{editor}{Victor Sanchez-Valencia}, and
+  \bibinfo{editor}{Ton Van~der Wouden}, \bibinfo{pages}{173--200}.
+  \bibinfo{publisher}{John Benjamins}.
+
+\bibitem[{\citenamefont{Horn}(1989)}]{horn:1989}
+\bibinfo{author}{\bibnamefont{Horn}, \bibfnamefont{Laurence~R}}.
+  \bibinfo{year}{1989}.
+\newblock \emph{\bibinfo{title}{{A natural history of negation}}}.
+\newblock \bibinfo{publisher}{University of Chicago Press}.
+
+\bibitem[{\citenamefont{Hyams and Wexler}(1993)}]{hyams-wexler1993}
+\bibinfo{author}{\bibnamefont{Hyams}, \bibfnamefont{Nina}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Kenneth} \bibnamefont{Wexler}}.
+  \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{On the grammatical basis of null subjects in child
+  language}.
+\newblock \emph{\bibinfo{journal}{Linguistic Inquiry}}
+  \bibinfo{pages}{421--459}.
+
+\bibitem[{\citenamefont{Ingason et~al.}(2013)\citenamefont{Ingason, Legate, and
+  Yang}}]{ingason-etal2013}
+\bibinfo{author}{\bibnamefont{Ingason}, \bibfnamefont{Anton~Karl}},
+  \bibinfo{author}{\bibfnamefont{Julie~Anne} \bibnamefont{Legate}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Charles}
+  \bibnamefont{Yang}}. \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The evolutionary trajectory of the icelandic new
+  passive}.
+\newblock \emph{\bibinfo{journal}{University of Pennsylvania Working Papers in
+  Linguistics}} \bibinfo{volume}{19}(\bibinfo{number}{2}):\penalty0
+  \bibinfo{pages}{11}.
+
+\bibitem[{\citenamefont{J{\"a}ger}(2008)}]{jager2008}
+\bibinfo{author}{\bibnamefont{J{\"a}ger}, \bibfnamefont{Agnes}}.
+  \bibinfo{year}{2008}.
+\newblock \emph{\bibinfo{title}{History of german negation}}.
+\newblock \bibinfo{publisher}{John Benjamins}.
+
+\bibitem[{\citenamefont{Kroch}(1989)}]{kroch1989}
+\bibinfo{author}{\bibnamefont{Kroch}, \bibfnamefont{Anthony~S}}.
+  \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{{Reflexes of grammar in patterns of language
+  change}}.
+\newblock \emph{\bibinfo{journal}{Language variation and change}}
+  \bibinfo{volume}{1}(\bibinfo{number}{03}):\penalty0
+  \bibinfo{pages}{199--244}.
+
+\bibitem[{\citenamefont{Lucas}(2007)}]{lucas2007}
+\bibinfo{author}{\bibnamefont{Lucas}, \bibfnamefont{Christopher}}.
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Jespersen’s cycle in arabic and berber1}.
+\newblock \emph{\bibinfo{journal}{Transactions of the Philological Society}}
+  \bibinfo{volume}{105}(\bibinfo{number}{3}):\penalty0
+  \bibinfo{pages}{398--431}.
+
+\bibitem[{\citenamefont{Mazzon}(2004)}]{mazzon2004}
+\bibinfo{author}{\bibnamefont{Mazzon}, \bibfnamefont{Gabriella}}.
+  \bibinfo{year}{2004}.
+\newblock \emph{\bibinfo{title}{A history of english negation}}.
+\newblock \bibinfo{publisher}{Pearson Longman}.
+
+\bibitem[{\citenamefont{Medina et~al.}(2011)\citenamefont{Medina, Snedeker,
+  Trueswell, and Gleitman}}]{medina-etal2011}
+\bibinfo{author}{\bibnamefont{Medina}, \bibfnamefont{Tamara~Nicole}},
+  \bibinfo{author}{\bibfnamefont{Jesse} \bibnamefont{Snedeker}},
+  \bibinfo{author}{\bibfnamefont{John~C} \bibnamefont{Trueswell}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Lila~R}
+  \bibnamefont{Gleitman}}. \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{How words can and cannot be learned by observation}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{108}(\bibinfo{number}{22}):\penalty0
+  \bibinfo{pages}{9014--9019}.
+
+\bibitem[{\citenamefont{Narendra and Thathachar}(2012)}]{narendra2012}
+\bibinfo{author}{\bibnamefont{Narendra}, \bibfnamefont{Kumpati~S}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Mandayam~AL}
+  \bibnamefont{Thathachar}}. \bibinfo{year}{2012}.
+\newblock \emph{\bibinfo{title}{{Learning automata: an introduction}}}.
+\newblock \bibinfo{publisher}{Dover}.
+
+\bibitem[{\citenamefont{Niyogi}(2006)}]{niyogi2006}
+\bibinfo{author}{\bibnamefont{Niyogi}, \bibfnamefont{Partha}}.
+  \bibinfo{year}{2006}.
+\newblock \emph{\bibinfo{title}{The computational nature of language learning
+  and evolution}}.
+\newblock \bibinfo{publisher}{MIT press Cambridge, MA:}.
+
+\bibitem[{\citenamefont{Pollock}(1989)}]{pollock1989}
+\bibinfo{author}{\bibnamefont{Pollock}, \bibfnamefont{Jean-Yves}}.
+  \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{Verb movement, universal grammar, and the structure
+  of ip}.
+\newblock \emph{\bibinfo{journal}{Linguistic inquiry}}
+  \bibinfo{pages}{365--424}.
+
+\bibitem[{\citenamefont{Quine}(1960)}]{quine1960}
+\bibinfo{author}{\bibnamefont{Quine}, \bibfnamefont{Willard~V}}.
+  \bibinfo{year}{1960}.
+\newblock \emph{\bibinfo{title}{Word and object}}.
+\newblock \bibinfo{publisher}{MIT Press}.
+
+\bibitem[{\citenamefont{Rizzi}(1997)}]{rizzi1997}
+\bibinfo{author}{\bibnamefont{Rizzi}, \bibfnamefont{Luigi}}.
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{The fine structure of the left periphery}.
+\newblock In \emph{\bibinfo{booktitle}{Elements of grammar}},
+  \bibinfo{pages}{281--337}. \bibinfo{publisher}{Springer}.
+
+\bibitem[{\citenamefont{Roberts and Roussou}(2003)}]{roberts-roussou2003}
+\bibinfo{author}{\bibnamefont{Roberts}, \bibfnamefont{Ian}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Anna} \bibnamefont{Roussou}}.
+  \bibinfo{year}{2003}.
+\newblock \emph{\bibinfo{title}{Syntactic change: A minimalist approach to
+  grammaticalization}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+
+\bibitem[{\citenamefont{Sandholm}(2010)}]{sandholm2010}
+\bibinfo{author}{\bibnamefont{Sandholm}, \bibfnamefont{William~H}}.
+  \bibinfo{year}{2010}.
+\newblock \emph{\bibinfo{title}{{Population games and evolutionary dynamics}}}.
+\newblock \bibinfo{publisher}{MIT press}.
+
+\bibitem[{\citenamefont{Schwegler}(1988)}]{schwegler1988}
+\bibinfo{author}{\bibnamefont{Schwegler}, \bibfnamefont{Armin}}.
+  \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{Word-order changes in predicate negation strategies
+  in romance languages}.
+\newblock \emph{\bibinfo{journal}{Diachronica}}
+  \bibinfo{volume}{5}(\bibinfo{number}{1-2}):\penalty0 \bibinfo{pages}{21--58}.
+
+\bibitem[{\citenamefont{Schwegler}(1990)}]{schwegler1990}
+---------. \bibinfo{year}{1990}.
+\newblock \emph{\bibinfo{title}{Analyticity and syntheticity: A diachronic
+  perspective with special reference to romance languages}}.
+\newblock \bibinfo{publisher}{Mouton de Gruyter}.
+
+\bibitem[{\citenamefont{Schwenter}(2005)}]{schwenter2005}
+\bibinfo{author}{\bibnamefont{Schwenter}, \bibfnamefont{Scott~A}}.
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{{The pragmatics of negation in Brazilian
+  Portuguese}}.
+\newblock \emph{\bibinfo{journal}{Lingua}}
+  \bibinfo{volume}{115}(\bibinfo{number}{10}):\penalty0
+  \bibinfo{pages}{1427--1456}.
+
+\bibitem[{\citenamefont{Schwenter}(2006)}]{schwenter2006}
+---------. \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{Fine-tuning Jespersen's cycle}}.
+\newblock In \emph{\bibinfo{booktitle}{{Drawing the boundaries of meaning:
+  Neo-Gricean studies in pragmatics and semantics in honour of Laurence R.
+  Horn}}}, ed. \bibinfo{editor}{Betty~T. Birner} and \bibinfo{editor}{Gregory
+  Ward}, \bibinfo{pages}{327--344}. \bibinfo{publisher}{John Benjamins}.
+
+\bibitem[{\citenamefont{Smith et~al.}(2011)\citenamefont{Smith, Smith, and
+  Blythe}}]{smith-etal2011}
+\bibinfo{author}{\bibnamefont{Smith}, \bibfnamefont{Kenny}},
+  \bibinfo{author}{\bibfnamefont{Andrew~DM} \bibnamefont{Smith}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Richard~A}
+  \bibnamefont{Blythe}}. \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Cross-situational learning: An experimental study of
+  word-learning mechanisms}.
+\newblock \emph{\bibinfo{journal}{Cognitive Science}}
+  \bibinfo{volume}{35}(\bibinfo{number}{3}):\penalty0
+  \bibinfo{pages}{480--498}.
+
+\bibitem[{\citenamefont{Smith and Yu}(2008)}]{smith-yu2008}
+\bibinfo{author}{\bibnamefont{Smith}, \bibfnamefont{Linda}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Chen} \bibnamefont{Yu}}. \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Infants rapidly learn word-referent mappings via
+  cross-situational statistics}.
+\newblock \emph{\bibinfo{journal}{Cognition}}
+  \bibinfo{volume}{106}(\bibinfo{number}{3}):\penalty0
+  \bibinfo{pages}{1558--1568}.
+
+\bibitem[{\citenamefont{Stevens et~al.}(2013)\citenamefont{Stevens, Trueswell,
+  Yang, and Gleitman}}]{stevens-etal2013}
+\bibinfo{author}{\bibnamefont{Stevens}, \bibfnamefont{Jon}},
+  \bibinfo{author}{\bibfnamefont{John} \bibnamefont{Trueswell}},
+  \bibinfo{author}{\bibfnamefont{Charles} \bibnamefont{Yang}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Lila}
+  \bibnamefont{Gleitman}}. \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The pursuit of word meanings}.
+
+\bibitem[{\citenamefont{Trueswell et~al.}(2013)\citenamefont{Trueswell, Medina,
+  Hafri, and Gleitman}}]{trueswell-etal2013}
+\bibinfo{author}{\bibnamefont{Trueswell}, \bibfnamefont{John~C}},
+  \bibinfo{author}{\bibfnamefont{Tamara~Nicol} \bibnamefont{Medina}},
+  \bibinfo{author}{\bibfnamefont{Alon} \bibnamefont{Hafri}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Lila~R} \bibnamefont{Gleitman}}.
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Propose but verify: Fast mapping meets
+  cross-situational word learning}.
+\newblock \emph{\bibinfo{journal}{Cognitive psychology}}
+  \bibinfo{volume}{66}(\bibinfo{number}{1}):\penalty0
+  \bibinfo{pages}{126--156}.
+
+\bibitem[{\citenamefont{Wallage}(2008)}]{wallage2008}
+\bibinfo{author}{\bibnamefont{Wallage}, \bibfnamefont{Phillip}}.
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{{Jespersen's cycle in Middle English: parametric
+  variation and grammatical competition}}.
+\newblock \emph{\bibinfo{journal}{Lingua}}
+  \bibinfo{volume}{118}(\bibinfo{number}{5}):\penalty0
+  \bibinfo{pages}{643--674}.
+
+\bibitem[{\citenamefont{Willis}(2005)}]{willis2005}
+\bibinfo{author}{\bibnamefont{Willis}, \bibfnamefont{David}}.
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{{A minimalist approach to Jespersen’s Cycle in
+  Welsh}}.
+\newblock In \emph{\bibinfo{booktitle}{{Grammatical Change: Origins, Nature,
+  Outcomes}}}, ed. \bibinfo{editor}{Dianne Jonas}, \bibinfo{editor}{John
+  Whitman}, and \bibinfo{editor}{Andrew Garrett}, \bibinfo{pages}{93--119}.
+  \bibinfo{publisher}{Oxford University Press}.
+
+\bibitem[{\citenamefont{Yang}(2000)}]{yang2000internal}
+\bibinfo{author}{\bibnamefont{Yang}, \bibfnamefont{Charles}}.
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{{Internal and external forces in language change}}.
+\newblock \emph{\bibinfo{journal}{Language variation and change}}
+  \bibinfo{volume}{12}(\bibinfo{number}{03}):\penalty0
+  \bibinfo{pages}{231--250}.
+
+\bibitem[{\citenamefont{Yang}(2002)}]{yang2002}
+---------. \bibinfo{year}{2002}.
+\newblock \emph{\bibinfo{title}{Knowledge and learning in natural language}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+
+\bibitem[{\citenamefont{Yu and Smith}(2007)}]{yu-smith2007}
+\bibinfo{author}{\bibnamefont{Yu}, \bibfnamefont{Chen}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Linda~B} \bibnamefont{Smith}}.
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Rapid word learning under uncertainty via
+  cross-situational statistics}.
+\newblock \emph{\bibinfo{journal}{Psychological Science}}
+  \bibinfo{volume}{18}(\bibinfo{number}{5}):\penalty0
+  \bibinfo{pages}{414--420}.
+
+\bibitem[{\citenamefont{Zanuttini}(1997)}]{zanuttini1997}
+\bibinfo{author}{\bibnamefont{Zanuttini}, \bibfnamefont{Raffaella}}.
+  \bibinfo{year}{1997}.
+\newblock \emph{\bibinfo{title}{Negation and clausal structure}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+
+\bibitem[{\citenamefont{Zeijlstra}(2004)}]{zeijlstra2004}
+\bibinfo{author}{\bibnamefont{Zeijlstra}, \bibfnamefont{Hedde}}.
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Sentential negation and negative concord}.
+\newblock Ph.D. thesis, \bibinfo{school}{Netherlands Graduate School of
+  Linguistics}.
+
+\end{thebibliography}

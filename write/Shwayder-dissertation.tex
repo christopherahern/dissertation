@@ -1,0 +1,459 @@
+\documentclass[11pt]{report} 
+\usepackage{subfiles} %for chapters in different documents
+\usepackage{xr} %for crossreferences between documents
+\usepackage{rotating}
+\usepackage{colortbl, pstricks}  %for grayed cells
+\usepackage{tikz} %for diagrams
+\usetikzlibrary{decorations.markings,shapes,snakes,calc}
+\usepackage[papersize={8.5 in, 11 in}, nohead, includeheadfoot, left=1.5 in, right = 1 in, vmargin= 1 in]{geometry}
+%\usepackage[colorlinks=true]{hyperref}
+\usepackage{enumerate} %for redefinable enum labels
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[doublespacing]{setspace}
+\usepackage{xltxtra}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{tikz-qtree}
+\usepackage{gb4e}
+\usepackage{natbib}
+\usepackage{arcs}
+\usepackage{dingbat} % for thumbs down
+\usepackage{pifont} %for hand dingbats
+\usepackage{arydshln} %for dashed lines
+\usepackage{savesym} % to prevent \hbar duplication error 1/3
+\savesymbol{hbar}    % to prevent \hbar duplication error 2/3
+\usepackage{fourier} %for bomb, omega  ** also screws with font if removed? **
+\restoresymbol{fr}{hbar} % to prevent \hbar duplication error 3/3
+\usepackage{bbding} %for flower and checkmark
+\usepackage{upgreek} %for upsigma
+\usepackage{wasysym}
+\usepackage{stmaryrd}
+\usepackage[normalem]{ulem} %for strikeout \sout
+\usepackage{wrapfig}
+\usepackage{subfig}
+\usepackage{footnote} 
+\usepackage{times}
+\usepackage{mathbbol}
+\usepackage{tipa} 
+\usepackage{vowel}
+\usepackage{slashbox} %for diagonally split tabular cell
+\usepackage{xspace} %for special spacing in user defined macros (\nil)
+\usepackage{sectsty} %for redefining section headers easily
+%\usepackage[parfill]{parskip} %makes paragraphs a new line with no indent
+
+\usepackage{titlesec}
+%\usepackage[compact]{titlesec} %for compact vertical white space
+				%{before}{above}{after}
+%\titlespacing*{\section}{0pt}{4pt}{12pt}    % changes spacing around section headers
+%\titlespacing*{\subsection}{0pt}{0pt}{12pt}   % the * removes indentation afterwards
+%\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+%\titleformat{\section}[runin]{\normalfont\fontseries{b}\selectfont\filright}{\thesection}{4pt}{} %makes compact title with immediate text (no line break)
+
+\titleformat{\paragraph}[hang]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1em}
+
+%\titleformat{\section}[runin]{\normalfont\fontseries{b}\selectfont\filright}{}{0pt}{}[:]
+%makes compact title with immediate text (no line break), and no section number
+
+%\titleformat{\subsection}[runin]{\normalfont\fontshape{it}\selectfont\filright}{}{0pt}{}[:]
+%makes compact subsection title with immediate text (no line break), and no section number
+
+
+\setcounter{secnumdepth}{4} %number \paragraph commands
+
+
+\bibpunct[, ]{(}{)}{;}{a}{}{,}
+\bibliographystyle{apalike}
+
+\DeclareRobustCommand{\VAN}[3]{#2}
+\newcommand{\posscite}[1]{\citeauthor{#1}'s (\citeyear{#1})} 
+\newcommand{\citepos}{\posscite}
+\newcommand{\citeposs}{\posscite}
+
+\synctex=1
+
+\let\ipa\textipa
+\makesavenoteenv{tabular} %allow footnotes inside tables
+
+\newcommand{\subsubsubsection}{\paragraph}
+
+%%% OT dingbats
+\newcommand{\hand}{\ding{43}}
+\newcommand{\blackhand}{\ding{42}}
+\newcommand{\grey}{\cellcolor[gray]{.8}}
+\newcommand{\flower}{\SixFlowerPetalDotted}
+%%%
+
+\newcommand{\Env}{$\big/$}%Defines the /  (the `phonological environment' line)
+
+
+\newcommand{\morph}[1]{\textsc{#1}}
+\newcommand{\con}[1]{\mbox{\textsc{#1}}}
+\newcommand{\cst}[1]{\mbox{\textsc{#1}}}
+\newcommand{\textbox}[1]{\fbox{\parbox{\textwidth}{#1}}}
+\newcommand{\wbox}[1]{\fbox{\parbox{\widthof{#1}}{#1}}}
+\newcommand{\indentbox}[1]{\begin{itemize}\item {#1}\end{itemize}}
+			
+\newcommand{\C}[1]{$\mathbb{C}$\textsubscript{#1}}
+\newcommand{\concat}{\unskip\raisebox{.4em}{\smash{\scalebox{.7}{$\frown$}}}}
+\newcommand{\cat}{\concat}
+\newcommand{\longconcat}{\hspace*{-4pt}\underarc{\phantom{i}...\phantom{i}}\hspace*{-2pt}}
+\newcommand{\farconcat}{\longconcat}
+\newcommand{\subcat}{$\oplus$}
+\newcommand{\length}{\textlengthmark}
+\newcommand{\?}{\textglotstop}
+
+\newcommand{\ul}{\underline}
+\newcommand{\ol}[1]{$\overline{\textrm{#1}}$}
+
+\newcommand{\ehat}{\^{e}}
+
+\newcommand{\wbanana}{\tipaUpperaccent[1ex]{\rightmoon}{w}}
+
+\newcommand{\acv}[1]{\tipaupperaccent[.2ex]{1}{#1}}
+
+\newcommand{\nil}{{$\emptyset$\xspace}}
+
+\newcommand{\sembrack}[1]{$\llbracket${\morph{#1}}$\rrbracket$}
+
+\definecolor{darkgreen}{rgb}{0,.4,0}
+
+\newcommand{\darrow}{$\leftrightarrow$}
+\newcommand{\arrow}{$\rightarrow$}
+\newcommand{\larrow}{$\leftarrow$}
+\newcommand{\uscore}{\rule{.2cm}{0.4pt}{ }}
+
+\newcommand{\prule}[4]{/{#1}/ {\arrow} [{#2}] {\Env} {#3} {\uscore} {#4}}
+\newcommand{\pruleNB}[4]{{#1} {\arrow} {#2} {\Env} {#3} {\uscore} {#4}}
+
+\newcommand{\VIrule}[2]{{#1} {\darrow} {#2}}
+\newcommand{\VIconditionalrule}[4]{{#1} {\darrow} {#2} {\Env} {#3} {\uscore} {#4}}
+
+\newcommand{\rt}[1]{$\sqrt{\textsc{\textrm{#1}}}$}
+\newcommand{\ort}[1]{$\sqrt[o]{\textrm{#1}}$}
+\newcommand{\0}{\textsuperscript{$\circ$}}
+\newcommand{\ayin}{\textrevglotstop}
+\newcommand{\hcr}{\textcrh}
+\newcommand{\crh}{\textcrh}
+\newcommand{\ltn}{\textltailn}
+
+\newcommand{\subdot}[1]{\tipaloweraccent[.1ex]{10}{#1}}
+\newcommand{\barinodot}{\ipabar{\i}{.57ex}{0.85}{}{}}
+
+
+\newcommand{\perens}[1]{(\ref{#1})}
+\newcommand{\pref}{\perens}
+\renewcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\bul}{$\bullet$\hspace*{3pt}}
+\newcommand{\ind}{\phantom{$\bullet$}\hspace*{3pt}}
+\newcommand{\bbox}[1]{$\bullet$\hspace*{3pt}{\parbox[t][][t]{\textwidth-\widthof{$\bullet$\hspace*{3pt}}}{#1\vspace*{2pt}}}}
+\newcommand{\tbox}[1]{$\blacktriangleright$\hspace*{3pt}{\parbox[t][][t]{\textwidth-\widthof{$\blacktriangleright$\hspace*{3pt}}}{#1\vspace*{2pt}}}}
+
+\renewcommand{^}[1]  %text superscript
+   {\textsuperscript{#1}}
+\renewcommand{_}[1]  %text subscript
+   {\textsubscript{#1}}
+
+\newcommand{\mbrack}[1]{{[}~#1~{]}\textsubscript{\tiny M}}
+\newcommand{\phibrack}[1]{{(}~#1~{)}\textsubscript{$\phi$}}
+\newcommand{\wbrack}[1]{{(}~#1~{)}\textsubscript{\w}}
+\newcommand{\prwbrack}[1]{\pr{(}~#1~\pr{{)}\textsubscript{\w}}}
+%\newcommand{\pbwbrack}[1]{\pb{(}~#1~\pb{{)}\textsubscript{\w}}}
+\newcommand{\pbwbrack}[1]{\textbf{(}~#1~\textbf{{)}\textsubscript{\w}}}
+
+\newcommand{\phiword}{$\phi$-Word}
+\newcommand{\phiwords}{$\phi$-Words}
+\let\mathphi\phi
+\renewcommand{\phi}{\ensuremath{\mathphi}}
+\newcommand{\w}{\textomega}
+\newcommand{\phantomwbrack}[1]{\phantom{(}~#1~\phantom{{)}\textsubscript{\w}}}
+
+%%vietnamese
+\newcommand{\uhorn}{\tipaUpperaccent[-0.5ex]{\hspace*{2pt} \rotatebox[origin=r]{90}{\ipa{\textrthook}}}{u}\hspace*{1pt}}
+\newcommand{\ohorn}{\tipaUpperaccent[-0.5ex]{\hspace*{2.2pt} \rotatebox[origin=r]{90}{\ipa{\textrthook}}}{o}\hspace*{1pt}}
+\newcommand{\glot}[1]{\tipaUpperaccent{\super{\tiny\textraiseglotstop}}{#1}}
+\newcommand{\crd}{\ipa{\textcrd}}
+%%%
+
+%%% Two Accent combination for some vietnamese combos that tipa doesn't handle gracefully
+%%% stolen from covington.sty, but that screws with \gll
+\def\twoacc[#1|#2]{\leavevmode{\setbox1=\hbox{{#1{}}}%
+                     \setbox2=\hbox{{#2{}}}%
+                     \dimen0=\ifdim\wd1>\wd2\wd1\else\wd2\fi%
+                     \dimen1=\ht2\advance\dimen1by-0.8ex%
+                     \setbox1=\hbox to1\dimen0{\hss#1\hss}%
+                     \rlap{\raise1\dimen1\box1}%
+                     \hbox to1\dimen0{\hss#2\hss}}}%
+%%%
+
+%%%Kashaya
+\newcommand{\glottal}[1]    %nice looking glottalization marks!
+   {\ifthenelse{\equal{#1}{q}}{\tipaUpperaccent[0ex]{ '\hspace{.5pt}}{#1}}%
+   {\ifthenelse{\equal{#1}{p}}{\tipaUpperaccent[0ex]{ '}{#1}}%
+   {\ifthenelse{\equal{#1}{k}}{\tipaUpperaccent[-.45ex]{ '\hspace{.7pt}}{#1}}%
+   {\ifthenelse{\equal{#1}{t}}{\tipaUpperaccent[-.2ex]{ '\hspace{.5pt}}{#1}}%
+   {\ifthenelse{\equal{#1}{l}}{\tipaUpperaccent[-.2ex]{ '\hspace{.5pt}}{#1}}%
+   {\ifthenelse{\equal{#1}{m}}{\tipaUpperaccent[0ex]{ '\hspace{1pt}}{#1}}%
+   {\ifthenelse{\equal{#1}{w}}{\tipaUpperaccent[0ex]{\hspace{.3pt} '\hspace{0pt}}{#1}}%
+   {\tipaUpperaccent[.1ex]{ '\hspace{1pt}}{#1}}}}}}}}}
+\renewcommand{\,}{\glottal}
+%%%
+
+
+
+%pennblue and penn red commands from slides, ignore them here
+\newcommand{\pr}[1]{#1}
+\newcommand{\pb}[1]{#1}
+
+\newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
+
+\makeatletter  %feature bundles
+% this code from Nathan Sanders. Puts a comma delimited list into square brackets
+\newcommand{\fbun}[1]
+   {\ensuremath{\left[\begin{array}{c}
+      \@for\xx:=#1\do {\textrm{\xx}\\}
+      \\ [-2.75ex]
+      \end{array}\right]}}
+\makeatother
+%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+% Hack for: Print bibliography for each chapter when compiling individual chapters
+% but not when compiling the document as a whole
+\def\chapterbibliography{\bibliographystyle{apalike}\bibliography{../Dissertation.bib}}
+% After \begin{document}
+%% \def\chapterbibliography{}
+%%%%%%%%%%%%%%%%
+% Chapteronly
+\newcommand\chapteronly[1]{#1}
+%%%%%%%%%%%%%%%%%%%%
+
+%\setmainfont[Mapping=tex-text]{Times New Roman} %Doesn't work with small caps
+
+
+\DeclareGraphicsExtensions{.jpg,.pdf}
+\graphicspath{{pdfs/}{../Japanese/}}
+
+%\sectionfont{\normalsize} %Normal size headers
+\frenchspacing
+\hyphenpenalty = 1000
+
+\doublespacing
+
+
+%\setcounter{secnumdepth}{5} %sets \paragraph (subsubsubsection) to have a number
+%\let\oldparagraph\paragraph
+%\renewcommand{\paragraph}[1]{\oldparagraph{#1} ~\\ \vspace*{-2\parskip} }
+
+\title{Words and Subwords: Phonology in a Piece-Based Syntactic Morphology}
+\author{Kobey Shwayder}
+\date{Doctoral Dissertation --- Draft --- \today}
+
+
+% Defining variables to be used throughout the document for personalization
+\def\mytitle{WORDS AND SUBWORDS:\\PHONOLOGY IN A PIECE-BASED SYNTACTIC MORPHOLOGY} % Make sure this is in all caps
+\def\myauthor{Kobey Shwayder}
+\def\myauthorfull{Kobey Adam Ergas Shwayder}
+\def\mysupervisorname{David Embick}
+\def\mysupervisortitle{Professor of Linguistics}
+\newlength{\superlen}   % a "scratch" length
+\settowidth{\superlen}{\mysupervisorname, \mysupervisortitle} % Width of signature line for supervisor
+\def\gradchairname{Eugene Buckley}
+\def\gradchairtitle{Associate Professor of Linguistics}
+\newlength{\chairlen}   % a "scratch" length
+\settowidth{\chairlen}{\gradchairname, \gradchairtitle} % Width of signature line for supervisor
+\newlength{\maxlen}
+\setlength{\maxlen}{\maxof{\superlen}{\chairlen}}
+\def\mydepartment{Linguistics}
+\def\myyear{2015}
+\def\signatures{32 pt} % Space to accommodate the signatures, you can fiddle with this as you like
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%
+% Code to not print individual chapter bibs
+\def\chapterbibliography{}
+%%%%%%%%%%%%%%%%
+%code to ignore \chapteronly
+\renewcommand\chapteronly[1]{}
+%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{roman}
+  
+\begin{titlepage}
+\thispagestyle{empty} % No page numbers on title page, as per Manual page 8
+\begin{center}
+
+
+\mytitle
+
+\vspace*{24pt} 
+
+\myfullauthor
+
+\vspace*{24pt} 
+
+A DISSERTATION
+
+in 
+
+\mydepartment 
+
+\vspace*{0.75in} 
+
+Presented to the Faculties of the University of Pennsylvania
+in Partial \\ Fulfillment of the Requirements for the
+Degree of Doctor of Philosophy
+
+\myyear
+
+\end{center}
+
+\vfill % Here to make sure the page is filled
+
+\begin{flushleft}
+
+Supervisor of Dissertation\\[\signatures] % Space for signature, you can fiddle with this as you like
+
+\renewcommand{\tabcolsep}{0 pt}
+\begin{table}[h]
+\begin{tabularx}{\maxlen}{l}
+\toprule
+\mysupervisorname, \mysupervisortitle\\ %Space between advisor and graduate chair, you can fiddle with this as you like
+\end{tabularx}
+\end{table}
+
+Graduate Group Chairperson\\[\signatures] % Space for signature, you can fiddle with this as you likee
+
+\begin{table}[h]
+\begin{tabularx}{\maxlen}{l}
+\toprule
+\gradchairname, \gradchairtitle\\ %Space between advisor and graduate chair, you can fiddle with this as you like
+\end{tabularx}
+\end{table}
+\singlespacing
+
+Dissertation Committee: % No signature necessary
+
+Eugene Buckley, Associate Professor of Linguistics
+
+Rolf Noyer, Associate Professor of Linguistics
+
+\end{flushleft}
+
+\end{titlepage}
+
+\clearpage
+\thispagestyle{empty}
+\topskip0pt
+\vspace*{\fill}
+\noindent WORDS AND SUBWORDS: \\ PHONOLOGY IN A PIECE-BASED SYNTACTIC MORPHOLOGY
+
+\vspace*{\baselineskip}
+
+\noindent COPYRIGHT
+
+\vspace*{\baselineskip}
+
+\noindent 2015 
+
+\vspace*{\baselineskip}
+
+\noindent Kobey Adam Ergas Shwayder
+
+
+
+\vspace*{\fill}
+
+\clearpage
+\setcounter{page}{3}
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\vspace*{\baselineskip}
+
+
+\noindent Many thanks to my advisor, David Embick, for questioning simplifications, simplifying explanations, and explaining questions.\\
+
+
+\noindent Thanks also to the other members of my committee, Eugene Buckley and Rolf Noyer, for feedback and advice on this and other projects. \\
+
+\noindent Thanks to my colleagues in the linguistics department at Penn for creating an enjoyable environment.  A special thanks to my cohort-mates and regular F-MART attendees. \\
+
+\noindent Thanks to everyone at Temple University Yongmudo Hapkido: Robert Brown, Sandy Hashima, Huy Tran, and all the students. \\
+
+\noindent Thanks to Avery Schwenk, Colin Phillips, and Carolyn Orson. %an encouraging and supporting source of encouragement and support. 
+\\
+
+\noindent And special thanks, as always, to Mindy Snitow. \\
+
+
+\clearpage
+
+\begin{center}
+\chapter*{ABSTRACT}
+\addcontentsline{toc}{chapter}{Abstract}
+\vspace*{\baselineskip}
+WORDS AND SUBWORDS: \\ PHONOLOGY IN A PIECE-BASED SYNTACTIC MORPHOLOGY \\
+\vspace*{\baselineskip}
+Kobey Adam Ergas Shwayder \\
+\vspace*{\baselineskip}
+David Embick \\
+\vspace*{\baselineskip}
+\end{center}
+
+The goal of this dissertation is to take generalizations made in a variety of phonological and morphological theories and account for them in a piece-based syntactic theory of morphology.
+The theories discussed are Cyclic phonology, Lexical Phonology (and Stratal Optimality Theory), Prosodic Hierarchy Theories, and Syntactic Spell-Out Only theories.  Phonological and morphological generalizations from these theories include the cyclic/non-cyclic distinction of phonological blocks and morphemes, ``grammatical'' words and phonological words (their equivalence and apparent mismatches), incorporation of clitics into word level phonology, morpheme-sensitive phonological processes, and the relationship between syntactic spell-out phases and phonological domains.
+
+I present a framework within the theory of Distributed Morphology (Halle and Marantz 1993, \emph{et seq.}) in which I account for these generalizations in several ways.  I relate as much phonological structure to morphosyntactic structure as possible.  However, there are several phonological phenomena which cannot be accounted for by syntactic structure alone.  To account for these phenomena, I propose that the syntax feeds information in chunks to PF (cyclic spell-out) but that the morphology and phonology may operate on that information, creating mismatches between syntactic structure and phonological domains.
+
+For the cyclic/non-cyclic distinction of phonology, there are mismatches between syntactic spell-out domains and phonological interactions at the subword level. I propose a ``phonocyclic buffer'' into which phonologically cyclic exponents are added and over which the cyclic phonology is calculated.  This is illustrated with data from yer lowering and yer deletion in Slovak and Polish, English stress and derivational affixes, and Spanish depalatalization.
+
+For the relationship between ``grammatical'' words and phonological/prosodic words, I propose an interface function relating morphosyntactic words (M-Words; non-minimal complex heads of the syntax) and phonological words.  The basic relationship is illustrated with data from English voicing assimilation and German devoicing.  I argue against two types of apparent mismatches between M-Words and phonological words, such as those proposed for Japanese ``Aoyagi'' prefixes, Vietnamese interleaving word order, Plains Cree polysynthetic verbs, and Spanish compounds.  I find some of these apparent mismatches can be handled elsewhere in the phonological system, while others are examples of complex syntactic structure (but not of mismatches between syntactic and phonological structure).  I also present an operation which can create phonological words out of non-M-Word configurations, dubbed Stray Terminal Grouping.  This is illustrated with data from Bilua, Standard English, and African American Vernacular English.
+
+Regarding the behavior of clitics (independent syntactic pieces which are phonological dependent on a host), I find that their behavior is not predetermined or memorized, but is dependent on the morphosyntactic context in which they are derived.  I show cases from Turkish, Maltese, and Makassarese in which morphemes variably behave like clitics or affixes depending on their context.  I argue that this variable behavior may be determined either by syntactic operations or morphological operations.
+
+Finally, I investigate two types of morpheme-sensitive phonological processes, morpheme/morpheme readjustments and morphophonological rules, illustrated with data from Slavic derived imperfect raising, German umlaut, and Kashaya decrement and palatalization.  I argue that these processes are underlyingly phonological in nature, but are activated by morphological diacritics.  This activation can happen during two different stages of linearization; Morpheme/morpheme readjustments occur at the level of subword concatenation while morphophonological rules occur at the level of subword chaining.  This division accounts for the difference in locality conditions between the two types of processes.
+
+The conclusion of this dissertation is that we can account for these phonological generalizations in a piece-based syntactic framework, but not by syntax alone.  Rather, it must be a combination of syntactic, morphological, and phonological operations which combine to create the phonological output.
+
+
+
+
+
+
+
+
+
+\clearpage
+\tableofcontents
+\addcontentsline{toc}{chapter}{Contents}
+
+
+\clearpage
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\break
+
+
+\pagenumbering{arabic}
+
+\subfile{../Chapter1/Chapter1.tex}
+\subfile{../ChapterSubwords/ChapterSubwords.tex}
+\subfile{../ChapterWords/ChapterWords.tex}
+\subfile{../ChapterCliticAffix/ChapterCliticAffix.tex}
+\subfile{../ChapterMorphSpec/ChapterMorphSpec.tex}
+\subfile{../ChapterConclusion/ChapterConclusion.tex}
+
+
+
+%\setlength{\bibsep}{2pt}
+%\singlespacing
+\bibliography{../Dissertation.bib}
+
+
+\end{document}
