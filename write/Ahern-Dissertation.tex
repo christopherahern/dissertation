@@ -1,0 +1,161 @@
+\documentclass[12pt]{upenndiss}
+
+%bibliography
+\usepackage{natbib}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+% phonological examples
+
+
+% fonts
+%\usepackage{mathspec}
+%\setmainfont[Mapping=tex-text]{Linux Libertine}
+%\setmathfont(Digits,Greek,Latin){Linux Libertine}
+%\usepackage{microtype}
+%\usepackage{coptic}
+
+\usepackage{setspace}
+
+% tables and figures
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{multirow}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\usepackage{multirow,sectsty}
+\usepackage{subfigure,graphicx}
+\graphicspath{{../images/}}
+
+% Add packages and definitions you want to use here:
+
+\usepackage[papersize={8.5 in, 11 in}, nohead, includeheadfoot, left=1.5 in, right = 1 in, vmargin= 1 in]{geometry}
+
+\usepackage{times}
+
+\usepackage{amsmath,amsthm,amsfonts, amssymb}
+\theoremstyle{definition} \newtheorem{definition}{Definition} 
+
+\usepackage{linguex}
+\usepackage[english,greek]{betababel}
+
+\usepackage{tikz-qtree}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,chains,matrix,positioning,scopes}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+\usepackage{tipa}
+\usepackage[normalem]{ulem}
+
+
+\usepackage{epigraph}
+\usepackage{hyperref}
+
+
+
+% titles
+\title{Cycles and stability in linguistic signaling}
+\author{Christopher Andrew Ahern}
+\supervisor{Robin Clark}
+
+\copyrighttrue
+\department{Linguistics}
+
+% Abstract
+\abstractfile{Abstract} 
+% Acknowledgement
+\acknowledgementsfile{Acknowledgements}
+
+% Dedication
+\dedication{
+%\textgreek{Panta chorei kai ouden menei kai dis es ton auton potamon ouk an embaies}\\
+Everything changes and nothing remains still...you cannot step into the same stream twice.\\--Heraclitus, as quoted in Plato's \emph{Cratylus} \\
+
+Why do you go away? So that you can come back. So that you can see the place you came from with new eyes and extra colors...Coming back to where you started is not the same as never leaving.\\ --Terry Pratchett %, \emph{A Hat Full of Sky}\\
+
+}
+
+
+
+\begin{document}
+
+\thispagestyle{empty}\enlargethispage{\the\footskip}%
+\null\vskip.1in%
+\begin{center}
+        {\setstretch{2.5} \MakeUppercase{Cycles and Stability in Linguistic Signaling}\par }%
+        \vskip.3in
+        Christopher Andrew Ahern
+        \vskip .3in
+        A DISSERTATION \\[.1in]
+        in \\[.1in]
+        Linguistics
+        \vfill
+Presented to the Faculties of the University of Pennsylvania in Partial \\
+Fulfillment of the Requirements for the Degree of Doctor of Philosophy
+\\[0.3in]
+        2016
+  \end{center}
+  
+  \parbox[t]{12cm}{\parindent=0pt Supervisor of Dissertation \vskip 0.5in
+  \par \hrule width 7cm \vskip .1in Robin Clark, Professor of  Linguistics}
+  
+  \vskip 0.3in
+  
+  \parbox[t]{12cm}{\parindent=0pt Graduate Group Chairperson \vskip 0.5in
+  \par \hrule width 7cm \vskip .1in Rolf Noyer, Associate Professor of Linguistics}
+
+  \vskip 0.3in
+  
+  \parbox[t]{12cm}{\parindent=0pt Dissertation committee 
+  \vskip -.1in
+  Mark Liberman, Professor of Linguistics
+  \vskip -.1in
+  Florian Schwarz, Assistant Professor of Linguistics}
+
+
+
+\newpage 
+
+
+\FrontMatter
+
+% {\addcontentsline{toc}{chapter}{\listtablename}\listoftables}
+
+%%%%%%%%%
+%\part{Introduction}
+% Introduction
+ \include{chapter1}
+% Jespersen's Cycle
+\include{chapter2}
+
+%%%%%%%%%
+\part{The Functional Cycle}
+% Evolutionary Game Theory
+\include{chapter3}
+% Cycles
+\include{chapter4}
+
+%%%%%%%%%
+\part{The Formal Cycle}
+% Learning Theory
+\include{chapter5}
+% Stability
+\include{chapter6}
+
+
+% Conclusion
+\include{chapter7}
+
+\appendix
+
+\include{AppendixA}
+\include{AppendixB}
+\include{AppendixC}
+\include{AppendixD}
+
+% Bibliography
+\bibliographystyle{mcbride}
+\bibliography{diss}
+
+\end{document}

@@ -1,9 +1,0 @@
--Flocking vs. Segregation
--
-
-1. Introduction
-2. Evolutionary Game Theory, Agent-based modeling (Evaluating models: How can you tell you have a good model)
-3. Honest Signaling
-4. Incrementation
-5. Jespersen's Cycle
-6. Conclusion
